@@ -4260,12 +4260,12 @@ sig.transaction.failed.no.retry.18,"The communicator remains courteous, wishing 
 sig.transaction.failed.no.retry.19,"The contact offers a reassuring smile and a sincere farewell, letting you know there are no hard feelings before ending the transmission.",,
 sig.transaction.received,You received: {0},,{0} will be an item or list of items. There may be new lines there if it's a list
 sig.transaction.request,They ask for: {0},,{0} will be an item or list of items. There may be new lines there if it's a list
-sig.transaction.will.receive,You will receive: {0},,
-sig.transaction.fulfilled.title,Signal: Request Fulfilled,,
-sig.transaction.failed.title,Signal: Request Not Fulfilled,,
-sig.transaction.fulfilled,You have fulfilled the request.,,
-sig.transaction.failed,You have failed to fulfill the request.,,
-sig.transaction.rejected,You have rejected the request.,,
+sig.transaction.will.receive,受取金額: {0},,
+sig.transaction.fulfilled.title,応答: 要求は全て受け入れられたようだ,,
+sig.transaction.failed.title,応答: 要求の一部が受け入れられたようだ,,
+sig.transaction.fulfilled,すべての要求を満たした。,,
+sig.transaction.failed,要求をすべて満たすことはできなかった。,,
+sig.transaction.rejected,要求を拒否した,,
 sig.ask.obj.clear.reward.0,"The contact reaches out, explaining they accidentally used their last <b>{0}</b> as fuel for their anti-gravity boots. In return for your help in providing more, they promise <b>{1}</b>.",,"{0} is a material type, like Uranium, {1} is a $100000 or some reward item name."
 sig.ask.obj.clear.reward.1,The contact needs <b>{0}</b> after a teleportation mishap. They hint that you wouldn't want to miss the <b>{1}</b> reward.,,
 sig.ask.obj.clear.reward.2,"A voice complains that an alien creature consumed their entire supply of <b>{0}</b> while they slept. To replenish their stock, they assure you that your contribution will be compensated with <b>{1}</b>.",,
@@ -4282,14 +4282,14 @@ sig.ask.obj.clear.reward.12,"A mysterious contact shares an urgent need for <b>{
 sig.ask.obj.clear.reward.13,The contact lost their <b>{0}</b> in an asteroid field. They mention that the <b>{1}</b> reward is too good to pass up.,,
 sig.ask.obj.clear.reward.14,"The contact reaches out cryptically, conveying the importance of acquiring <b>{0}</b>. They commit to providing <b>{1}</b> in return for your assistance.",,
 sig.transaction.failed.lack.items,You don't have the requested items.,,
-objects.devices.centrifuge,Centrifuge,,
-objects.devices.centrifuge.desc,"A versatile enrichment device employs a high-speed, powerful centrifuge to separate isotopes or elements based on their atomic mass, enabling the production of enriched heavy metals or radioactive substances for various applications.",,
-obj.materials.enricheduranium,Enriched Uranium,,
-obj.materials.enricheduranium.desc,"Enriched uranium contains a higher proportion of the fissile isotope U-235, obtained via isotope separation, enabling sustained chain reactions for nuclear reactor applications.",,
-refine,Refine,,
-refining.now,Refining {0},,
-obj.materials.nuclearcell,Nuclear Cell,,
-obj.materials.nuclearcell.desc,"A compact nuclear battery cell utilizes the energy generated from radioactive decay, converting it into electrical power through processes such as thermophotovoltaic or thermoelectric conversion. ",,
+objects.devices.centrifuge,遠心分離機,,
+objects.devices.centrifuge.desc,"汎用性が高い濃縮装置だ。高速で強力な遠心分離機により、同位体や元素を質量の違いを用いて分離できる。濃縮された重金属や放射性物質を製造し、さまざまな用途で利用できるようにしてくれる。",,
+obj.materials.enricheduranium,濃縮ウラン,,
+obj.materials.enricheduranium.desc,"濃縮ウランは、同位体分離によって得られた核分裂を起こしやすい放射性同位体であるU-235の割合が高められている。原子炉で使用される核分裂連鎖反応を持続させることができる。",,
+refine,精製,,
+refining.now,精製中 {0},,
+obj.materials.nuclearcell,原子力電池,,
+obj.materials.nuclearcell.desc,"小型の原子力電池は、放射性物質の崩壊によって発生するエネルギーを利用している。エネルギーは光電変換や熱電変換などでにより電力として取り出される。",,
 sig.extortion.0,The contact warns that not providing <b>{0}</b> may lead to consequences you'll regret.,,
 sig.extortion.1,The voice threatens that refusing to give <b>{0}</b> could result in a dire outcome.,,
 sig.extortion.2,A raspy voice cautions that denying their request for <b>{0}</b> could lead to regret and despair.,,
@@ -4309,21 +4309,21 @@ sig.extortion.refused.1,The voice warns you that your defiance will only make th
 sig.extortion.refused.2,"The raiders, angered by your refusal, threaten that they'll make you pay for your insolence.",,
 sig.extortion.refused.3,"The contact assures you that your resistance will have dire consequences, and they will not forget your defiance.",,
 sig.extortion.refused.4,"The pirates ominously state that your refusal won't go unpunished, and they'll come for you when you least expect it.",,
-show.roof,Display Outer Hull,,
+show.roof,外部船体を表示,,
 show.roof.tip,"If an area does not have an outer hull, it means that it is not fully enclosed - there is a missing floor or wall piece somewhere. Areas that have an outer hull are not guaranteed to be fully airtight or insulated, double check Airtightness and Insulation overlays to find potential leaks.",,
 hold.button.for.more.info,Hold {0} for more info,,"{0} is going to be an image with a key, like CTRL"
-ui.auto.pack,Auto compact UI,,
+ui.auto.pack,自動的にUIを縮小,,
 ui.auto.pack.tip,"If auto compact is enabled, some UI list elements may be grouped to reduce the list length. You may have to restart the game to apply changes to this setting.",,
-situation.BlackHoleJumps,Black Hole Jumps,,
+situation.BlackHoleJumps,ブラックホールによる空間跳躍,,
 sys.locked.by.research,Research <b>{0}</b> to unlock this functionality.,,{0} is technology name
 mining.auto.unlocked,You can now build the equipment required for automating mining operations. <b>{0}</b> overlay is activated.,,
-verb.mine,Mine,,as in mine the iron ore deposit
+verb.mine,採掘,,as in mine the iron ore deposit
 compatible.items,Compatible Items,,"Items could be anything, fuel, clothing, equipment, devices"
 compatible.item,Compatible Item,,singular version of compatible.items
 details.unknown,Details unknown,,displayed in the list when there is no details about some event
 obj.upgrades.shuttledrillupgrade,Shuttle Drill Upgrade,,
 obj.upgrades.shuttledrillupgrade.desc,Adds extra mining rate to the mining expeditions. Stackable.,,
-mining.power,Mining Power,,Will be next to a numeric value that shows the device mining power
+mining.power,採掘能力,,Will be next to a numeric value that shows the device mining power
 exp.require.all.crew.info,"If this option is active, the expedition will not start if any of the crew members fail to reach the shuttle.",,
 exp.require.all.crew,Require All Crew,,
 obj.upgrades.thrusterupgrade,Thruster Upgrade,,
@@ -4345,3 +4345,26 @@ stasis.prevent.wake.ups,Prevent Malfunctions,,
 stasis.prevent.wake.ups.tip,Consume additional electricity to prevent pod malfunctions that cause colonist wake-ups. Full effect is achieved when cryo-stability is at least <b>{0}</b>.,,{0} will be a percentage number like 90%
 label.use.as.room.name,Use as Room Name,,
 label.always.show,Always Show,,
+tool.connect,Connect,,
+tool.connect.desc,Click and drag to connect and disconnect devices. Works on electricity grid and teleporter links.,,
+overlay.tip.Electricity,Electricity,,
+objects.devices.gpumodule,GPU Module ({0}Thz),,
+objects.devices.gpumodule.desc,"A more efficient dedicated graphics processing unit with high bandwidth memory throughput, perfect for mining digital currencies.",,
+objects.devices.gpumodulemini,GPU Module ({0}Thz),,
+objects.devices.gpumodulemini.desc,"A dedicated graphics processing unit with high bandwidth memory throughput, perfect for mining digital currencies.",,
+fuel.burn.rate,Fuel burn rate,,
+fuel.burn.rate.h,{0:0.###}/h,,
+fuel.burn.rate.tip,Burn rate: {0:0.###}/h,,
+currency.mine.rate.h,{0}/h,,"h is for hours; {0} will be currency amount, like $100"
+currency.mine.gpu.tip,Current GPU capacity: <b>{0}Thz</b>. Add more GPU modules to increase the mining rate.,,
+gpu.module.builtin,Built-in GPU Module,,
+research.advancedgpu,Advanced GPU,,
+missing.mods.warning,{0} Missing Mods!,,{0} is the number of mods
+missing.mods.load.warning,"This save file depends on missing, broken or obsolete mods and may fail to load correctly. You may be able to switch to an older branch in Steam Betas to continue playing this save file with all mods. A backup was made here:<br><br><b>{0}</b><br><br>List of unavailable mods:{1}",,
+link.display.teleporters,Teleporters,,plural noun
+object.in.safe.area,Object in Safe Area,,
+try.auto.connect,Try Auto Connect,,
+try.auto.connect.tip,"This will attempt to crawl the electricity grid for any disconnected or unreachable devices and automatically connect them if possible. If it did not completely auto-connect everything on one attempt, you can try this action multiple times. <b>Warning: May take a while for very large grids.</b>",,
+cpu.cap.would.be.reached,You cannot connect another Ship Computer. The current limit is <b>{0}</b>. This limit can be increased through research.,,
+auto.connect.progress,Auto connected <b>{0}</b> devices. Please wait.,,
+restrict.clock.on.disasters,Limit Clock Speed During Disasters,,
