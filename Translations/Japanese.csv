@@ -4638,7 +4638,7 @@ tutorial.of.type,{0} チュートリアル,,{0} will be Beginner or Intermedia o
 end.tutorial,End Tutorial,,label on a button that ends the tutorial
 verb.back,Back,,
 tutorial.completed,チュートリアル完遂,,
-tutorial.completed.info,チュートリアルを完遂しました。引き続き、気の向くままにゲームをお楽しみください。,,
+tutorial.completed.info,チュートリアルを完遂しました。では、思う存分ゲームをお楽しみください。,,
 tut.basic.controls.name,UIと操作,,
 tut.basic.controls.desc,このチュートリアルではStardeusのユーザーインターフェースについて概要をお伝えし、最も重要なツールの使い方をお教えします。,2023-08-16,
 tut.basic.controls.step.intro,ようこそ、Stardeusへ！,,
@@ -4987,11 +4987,11 @@ tut.adv.controls.select.modes.4,"Hold {0} then press {1}, drag a rectangle round
 tut.adv.controls.select.modes.5,When a <b>Being</b> is selected:<br><br>Hold {0} and hover any <b>Location</b> to see if the being can reach it and what path would be taken.<br><br>Hold {0} and press {1} when hovering a <b>Location</b> to force a <b>Managed Worker</b> to go there immediately.<br><br>Hold {0} and hover a <b>Pending Task</b> to see if the being could perform the task.<br><br>Hold {0} and press {1} when hovering a <b>Pending Task</b> to order a <b>Managed Worker</b> to take the task.,,
 tut.adv.controls.select.modes.6,"When multiple <b>Devices</b> are selected, <b>{0}</b> and <b>{1}</b> will be applied to the contents of the selection.",,
 tut.adv.controls.outro,This is the end of this tutorial. You can find more tips and tricks in <b>Codex</b> > <b>Tips</b>.,,
-tut.completed.never,Not completed yet,,
-tut.completed.date,Completed on {0},,{0} is date 
-tut.completed.outdated.tip,You have completed an old version of this tutorial on {0}. It is recommended to take this tutorial again.,,
-tut.not.completed.warning,You have completed {0} out of {1} tutorials.,,
-tut.prod.title,Resource Production,,
+tut.completed.never,まだ完了していません,,
+tut.completed.date,{0}に完了しました,,{0} is date
+tut.completed.outdated.tip,こちらのチュートリアルは旧バージョンで {0} に完了しています。もう一度このチュートリアルを受けるのをオススメします。,,
+tut.not.completed.warning,{1}個のチュートリアルのうち、{0}個を完了済。,,
+tut.prod.title,資源の生産,,
 tut.prod.desc,This tutorial will show you how to establish resource production pipelines and acquire the materials you need.,,
 tut.prod.intro,"The goal of this tutorial is to finish the construction of the <b>Nuclear Reactor</b>. We lack the materials required for construction, but we have all the ingredients and facilities to produce them.",,
 tut.prod.outro,"You now know how to establish production pipelines. Here's a recap:<br><br>1. Identify what resources you lack.<br><br>2. Examine the <b>Codex</b> entries of the lacking materials to find out their ingredients and devices required to produce them. If <b>Codex</b> doesn't mention how to produce the material, it can only be acquired through mining expeditions, trade, or special means.<br><br>3. If the ingredients are missing, repeat the steps above.<br><br>4. Unlock the required equipment through <b>Research</b>, then build it.<br><br>5. Acquire the ingredients.<br><br>6. Configure the equipment to produce the require materials.<br><br>7. Repeat the process until all required materials are acquired.<br><br>Finish the construction of the <b>Nuclear Reactor</b> to complete this tutorial. You have all the required raw materials and devices on your ship.",,
@@ -4999,7 +4999,7 @@ tut.prod.ident.title,Identifying Material Deficit,,
 tut.prod.ident.1,This is the <b>Nuclear Reactor</b> we are trying to build. It is displaying a material deficit icon. Hover the reactor to get a tooltip with details.,,
 tut.prod.ident.2,"Whenever a deficit is triggered, a <b>{0}</b> notification will be displayed in the <b>Events Panel</b>. Click the notification to see the list of devices that have a deficit.",,
 tut.prod.ident.3,"To build the <b>Nuclear Reactor</b> we need the following materials: {0}<br><b>{1}</b> is the first item in the list that is blocking the construction task.<br><br>After we produce enough <b>{1}</b>, the next missing item in the list will trigger a new deficit.<br><br>It is easier to deal with one deficit at a time, so let's focus on producing <b>{1}</b>.",,
-tut.prod.codex.title,Looking Up Codex Entries,,
+tut.prod.codex.title,コーデックスエントリーの検索,,
 tut.prod.codex.1,"If you don't know how to produce <b>{0}</b>, examine the <b>{0}</b> entry in <b>Codex</b> > <b>Materials</b>.<br><br>Alternatively, hover any UI element with <b>{0}</b> in the list of materials and hold <b>{1}</b> to see a <b>Codex Entry</b> in the tooltip.",,
 tut.prod.codex.2,The <b>Codex Entry</b> states that <b>{0}</b> is produced by smelting <b>{1}</b> in a <b>{2}</b>.<br><br>We will configure a <b>{2}</b> to produce <b>{0}</b>.,,
 tut.prod.wanted.amt,"We will need at least <b>{0}</b> of <b>{1}</b>. With current configuration, the <b>{2}</b> would stop producing <b>{1}</b> after we have <b>{3}</b> items in our <b>Inventory</b>. This will not be enough.<br><br>Increase the <b>{4}</b> to at least <b>{0}</b> to continue.",,{0} is number {1} is Lead Plate {2} is Furnace {3} is number {4} is Wanted Amount
@@ -5010,7 +5010,7 @@ tut.prod.acquire.4,You can use the <b>Shuttle</b> to launch manual mining expedi
 tut.prod.acquire.5,"When <b>{0}</b> is unlocked, you can build <b>Cargo Copters</b> and <b>Autodrill Rigs</b> to automate the mining operations.<br><br>You can try to deploy a <b>Autodrill Rig</b> to a nearby resource deposit right now.",,
 tut.prod.acquire.6,"If you can't find a resource in space, you can use a <b>Communicator</b> to hail a <b>Merchant</b> that may have the resource you are looking for.<br><br>Note that humans may be required for using the <b>Communicator</b>.",,
 tut.prod.acquire.7,"Some resources can be captured using a <b>Particle Collector</b>, however it's a slow and often energy intensive process.<br><br>Tip: <b>Particle Collectors</b> are more efficient during a <b>Dust Storm</b>.",,
-tut.prod.acquire.title,How To Acquire Resources,,
+tut.prod.acquire.title,資源の入手方法,,
 probe.warning.above.star.system,Enter a <b>Star System</b> to launch the probe.,,
 probe.warning.below.star.system,Exit the <b>{0}</b> to launch the probe.,,{0} is Planet
 tut.prod.water.1,"While the <b>{0}</b> is producing <b>{1}</b>, let's go ahead and utilize the other devices to produce the materials we will need.",,{0} is Furnace {1} is Lead Plate
@@ -5020,11 +5020,11 @@ tut.prod.water.4,"We have some <b>{0}</b>, but not <b>{1}</b>. The <b>Codex Entr
 tut.prod.water.5,"Finally, we found a required item we can produce. We have some <b>{0}</b> and a <b>{1}</b>.<br><br>Let's configure the <b>{1}</b> to process <b>{0}</b> into <b>{2}</b>.",,{0} is Biowaste {1} is Recycler {2} is Water
 tut.prod.what.to.produce,Identifying What To Produce Next,,
 tut.prod.enriched.uranium.1,We will soon have all the ingredients required for producing <b>{0}</b>. Let's configure the <b>{1}</b> to produce it.,,{0} is Enriched Uranium {1} is Centrifuge
-tool.spawn_human,Spawn Human,,
-storage.capsule.contained,Storage Capsule contained {0},,{0} is a list of contents
+tool.spawn_human,人間を生成,,
+storage.capsule.contained,貨物カプセルには {0} が入っていた,,{0} is a list of contents
 exp.found.resource,<b>{0}</b> found a resource deposit: <b>{1}</b>,,{0} is shuttle name {1} is deposit type
-energy.renewable,Renewable Energy,,
-energy.renewable.desc,Electricity produced by solar panels or other devices that do not consume any materials.,,
+energy.renewable,再生可能エネルギー,,
+energy.renewable.desc,太陽光パネルや、その他デバイスによって資源の消費なしで発電された電力です。,,
 trap.ready,トラップ準備完了,,
 trap.charging,トラップ準備中,,
 trap.unpowered,トラップへの電力供給なし,,
@@ -5033,7 +5033,7 @@ structure.floors.trapfloor.desc,敵対的な生命体が踏み込むと、トゲ
 research.security.trapfloor,トラップ埋設床,,
 crafter.batch.size,製造単位,,
 crafter.batch.size.tip,You can increase the Batch Size to load more ingredients and produce more output. Larger batches will take longer to produce.,,
-retrieve.resource.miner,Retrieve Resource Miner,,
+retrieve.resource.miner,資源採集ユニットを回収,,
 copter.mission.stage.retrieve.miner,Retrieving Mining Equipment,,
 device.produced,{0} has produced {1} at {2},,{0} is device name {1} is product name {2} is location
 verb.extract,抽出,,
@@ -5045,12 +5045,12 @@ deposit.verb.extract,Extracting {0} ({1:0.##}/day @ {2}),,{0} is resource name {
 deposit.shuttle.verb.mine,"Mining {0} ({1:0}/d, {2})",,{0} is resource name {1} is number {2} is storage like 100/120
 deposit.shuttle.verb.collect,"Collecting {0} ({1:0}/d, {2})",,{0} is resource name {1} is number {2} is storage like 100/120
 deposit.shuttle.verb.extract,"Extracting {0} ({1:0}/d, {2})",,{0} is resource name {1} is number {2} is storage like 100/120
-mining.depth.max,Maximum mining depth,,
+mining.depth.max,最大採掘深度,,
 resource.deposit.possible,Possible Resource Deposit,,
-operate.fail.deficit,Failed operating {0} at {1} due to electricity deficit: {2},,
-noun.note,Note,,
+operate.fail.deficit,{1}にある{0}の操作に失敗。電力不足: {2},,
+noun.note,メモ,,
 adjective.tired,疲労,,
-exp.crew.tired,Some members of your crew are too tired to be sent on an expedition.,,
+exp.crew.tired,探査クルーの何人かが、探査に出るには疲れすぎているようです。,,
 noun.permissions,権限,,
 nav.perm.walking,歩行,,
 nav.perm.flying,飛行,,
@@ -5107,14 +5107,14 @@ noun.direct.order,Direct Order,,
 goal.state.interupted.direct.order,Interrupted. Another task was forced: {0}.,,
 goal.assigned.worker.busy,Assigned worker is busy with another task: {0}.,,
 goal.worker.incapable,Assigned worker in incapable of performing the task.,,
-goal.worker.preassigned,Pre-assigned.,,
+goal.worker.preassigned,事前割当済み,,
 tractor.beam.auto.projectile,自動的に飛来物を照準,,
 tractor.beam.auto.projectile.desc,"When enabled, this Tractor Beam will automatically start pulling any incoming projectile towards the selected Tractor Beam Target.",,
 tractor.beam.auto.pulling,Auto-targeting {0} at {1} to be pulled towards {2},,{0} is object name {1} and {2} is coordinates
 tractor.beam.success,"Trajectory successfully changed for {0}, it should land at {1}",,{0} is object name {1} is coordinate
-stats.base,Base Stats,,
-stats.being,Being Stats,,
-stats.full.title,Full Stats,,
+stats.base,基本値,,
+stats.being,生命体固有,,
+stats.full.title,総合値,,
 stat.value.base,基本値: {0},,
 stat.value.effective,影響値: {0},,
 stat.no.modifiers,影響なし,,
