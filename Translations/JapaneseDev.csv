@@ -1,0 +1,185 @@
+Key  (PURPLE means not ready for translation yet),Translation,Version,Comment (context for translators)
+randomize.starting.sector,ランダム,,label for button that select a random starting sector in the starmap
+randomize.starting.sector.tip,ランダムなセクターで開始,,
+space.object.Sector,セクター,,
+space.object.Region,宙域,,
+noun.map.view,星間マップ,,label for buttons that can switch the map view mode
+noun.hyperjump,Hyperjump,,label for hyperjump details
+exit.hyperspace,ハイパースペース離脱,,
+noun.hyperspace,ハイパースペース,,
+enter.hyperspace,ハイパースペースに入る,,
+verb.hyperjump,ハイパージャンプ,,action verb on a button that executes a hyperjump
+unable.to.hyperjump,ハイパージャンプ不可,,
+hyperjump.tip.expedition,進行中の<b>シャトルの探査</b>から帰還するのをお待ちください。,,
+hyperjump.tip.copter,<b>輸送機</b>が作業を完了するまでお待ちください。,,
+noun.custom.location,任意の座標,,
+noun.current.destination,現在の移動目標,,
+enter.region,宙域に進入,,
+enter.sector,セクターに進入,,
+obj.materials.phasium,フェージウム,,
+obj.materials.phasium.desc,"紫色の光を放っている希少なサーメットクリスタルだ。物理的な強靭さとエーテル的なエネルギーをあわせ持っている。",,
+market.group.name.Hyperfuel,ハイパーフューエル,,
+obj.materials.fusioncell,融合セル,,
+obj.materials.fusioncell.desc,"フェージウムから製造される小型のパワーユニットだ。放出するエネルギーをハイパージャンプの燃料として利用する。",,
+noun.hyperdrive,ハイパードライブ,,
+hyperspace.missing.engine,ハイパースペース用のエンジンが無効です。,,
+hyperspace.not.charged,Hyperspace-capable engine is not charged.,,
+noun.hyperjump.charge,Hyperjump Charge,,Label for hyperdrive engine readiness percentage
+hyperjumps.available,Available Jumps,,Label for the number of available hyperjumps
+quest.step.use.hyperjump.relay,Use Hyperjump Relay,,
+quest.step.use.hyperjump.relay.tip,"Click the <b>{0}</b> in the Starmap, then select <b>{1}</b>.",,{0} is Hyperjump Relay name {1} is the menu option name you have to select to use it
+space.object.HyperjumpRelay,Hyperjump Relay,,
+space.object.info.HyperjumpRelay,"A massive space structure that generates a powerful energy field, allowing ships with insufficient engines to perform long-range hyperjumps.",,
+,,,
+quest.ProvideRepairStation,Provide Repair Station,,
+quest.ProvideRepairStation.desc,Damaged workers can get repaired in a <b>Repair Station</b>. It would be wise to have one available.,,
+quest.StartAnExpedition,Start an Expedition,,
+quest.StartAnExpedition.desc,There are some ore deposits nearby. Use a <b>Shuttle</b> to launch an <b>Expedition</b>.,,
+quest.PerformHyperjump,Perform a Hyperspace Jump,,
+quest.PerformHyperjump.desc,We can't stay in this sector forever. Perform a short range <b>Hyperjump</b> to explore the current space region.,,
+quest.PerformHyperjump.fusiondrive.tip,Performing a short range <b>Hyperjump</b> requires a <b>Fusion Drive</b> fueled by <b>Fusion Cell</b>.,,
+quest.TradeWithSpaceStation,Trade with a Space Station,,
+quest.TradeWithSpaceStation.desc,Trade is essential for acquiring needed materials and resources. Find a <b>Space Station</b> and execute a trade.,,
+quest.VisitAnotherRegion,Visit Another Space Region,,
+quest.VisitAnotherRegion.desc,It's time to explore the rest of the Universe. Find a <b>Hyperjump Relay</b> and perform a long range <b>Hyperjump</b>.,,
+quest.step.execute.trade.tip,"Open <b>Starmap</b>, then click the <b>Space Station</b>, select the <b>Trade</b> option and exchange some goods.",,
+obj.materials.aerolith,エアロリス,,
+obj.materials.terranite,テラナイト,,
+obj.materials.edenium,エデニウム,,
+obj.materials.hydronium,ハイドロニウム,,
+obj.materials.aerolith.desc,A rare mineral that generates breathable atmosphere by catalyzing gas reactions.,,
+obj.materials.terranite.desc,An rare amber-like crystal that reshapes the terrain around itself by manipulating geological forces.,,
+obj.materials.edenium.desc,"A rare sparkling crystal that releases concentrated nutrients, dramatically accelerating plant growth when applied to soil.",,
+obj.materials.hydronium.desc,"A rare mineral that catalyzes the conversion of oxygen into water, facilitating the synthesis of H₂O from atmospheric oxygen.",,
+scenario.NoRobots,ロボットなし,,
+scenario.NoRobots.tooltip,Operate a small ship with human-only crew. A difficult start recommended for experienced players.,,
+objects.devices.storage,収納庫 ({0}),2024-09-18,
+space.effect.star,警告：恒星に接近中,,
+space.effect.star.desc,"We are near a <b>Star</b>. Solar panel output is increased by <b>{0}</b>, but the ship will be accumulating heat (~<b>{1}</b> per hour).",,{0} is percentage; {1} is degrees celsius or farenheit
+obj.plants.artilleryfungus,Artillery Fungus,,
+obj.plants.artilleryfungus.desc,"A spore-launching organism that rapidly propels its sticky spores toward any nearby surface, mimicking a bio-weapon capable of covering entire areas over time.",,
+space.effect.alien.lifeform,Warning: Life Form Detected,,
+space.effect.alien.lifeform.desc,Sensors have detected the presence of an alien lifeform in this sector. Caution is advised.,,
+,,,
+research.economy.onlineshop,オンライン取引,,
+online.shop.unlocked,<b>{0}</b> is now available. You can now order items to be delivered to your ship at a premium cost.,,{0} is Online Shop
+adj.available,Available,,
+create.shop.order,Create Shop Order,,
+capsule.delivery,Capsule Delivery,,
+capsule.delivery.tip,The goods will be delivered to your ship in a <b>{0}</b>.,,{0} is Storage Capsule translation
+exit.hyperspace.first,This action is not allowed during a Hyperjump. Exit Hyperspace first.,,
+shop.orders.pending.delivery,Pending Delivery,,
+shop.orders.delivered,Delivered,,plural
+shop.orders.delivery.failed,Delivery Failed,,
+shop.order.wrong.location.tip,You have left the delivery location. Return to the original location or the order delivery will fail!,,
+shop.order.wrong.location,Wrong location!,,
+shop.order.delivered,Delivered,,singular
+shop.order.lost,Lost,,
+shop.order.estimated.delivery,Estimated delivery in: {0},,{0} is time
+noun.price,Price,,
+difficult.start.region.warning,Warning. The selected space region is difficult and may not have easy access to resources required for early game. Are you sure you want to start here?,,
+quest.ProvideEntertainment,Provide Entertainment,,
+quest.ProvideEntertainment.desc,Human colonists need entertainment to maintain their mental health. Let's provide some facilities for that.,,
+story.wreck_empty_ship.intro.6,We can use this <b>Shuttle</b> for mining expeditions. It would allow us to establish a resource-processing pipeline and produce essential materials for rebuilding our ship.,2024-10-04,
+noun.multiple.items,{0} items,,{0} will be a number above 1
+craft.order.new,New Order,,label for a button that creates a new order for a device to produce something
+craft.order.settings,Order Settings,,label for crafting order settings
+explosion.at,Explosion at {0},,{0} is position coordinate
+tut.prod.online.shop,You can also order some raw materials at the <b>Online Shop</b> in the <b>Wallet</b> overlay.,,
+space.object.info.Asteroid,A lifeless asteroid floating in space.,,
+quest.available,Quest Available,,
+quest.click.to.accept,Click to accept this quest,,
+noun.strength,Strength,,
+available.quests,Available Quests,,
+research.required.generic,<b>{0}</b> research is required to enable this functionality,,{0} is research node name. for example Stock Market
+cryostability.unstable.warning,This Stasis Array is dangerously unstable. Colonists will wake up with severe physical and mental damage. <b>Connect this Stasis Array to electricity ASAP.</b>,,
+quest.MakeStasisAreaSurvivable,Make Stasis Area Survivable,,
+quest.MakeStasisAreaSurvivable.desc,Colonists will require oxygen and warmth to survive after waking up from stasis. We must oxygenate and heat the rooms where the Stasis Arrays are located.,,
+quest.step.heat.area,Warm up area with {0},,{0} is device name
+quest.step.heat.area.tip,Consult the Heat overlay to monitor the temperature increase around {0}. Build more Heaters if necessary. This step will be completed when the average room temperature reaches {1}.,,{0} is device name {1} is temperature value
+quest.step.oxygenate.area,Oxygenate area with {0},,{0} is device name
+quest.step.oxygenate.area.tip,Consult the Oxygen overlay to monitor the increase in oxygen levels around {0}. Build more Oxygen Pumps if necessary. This step will be completed when the average oxygen level in the room reaches {1}.,,{0} is device name {1} is oxygen value
+quest.step.dispose.corpses,Process the dead bodies,,
+quest.step.dispose.corpses.tip,Select the dead bodies and use the <b>{0}</b> action in the UI to order their processing. This step will be completed once all dead bodies are disposed of.<br><br>The fastest way to select multiple dead bodies is by using the being group widgets in the top right.,,{0} will be button name saying Dispose
+quest.DisposeOfDeadBodies,Dispose of Dead Bodies,,
+quest.DisposeOfDeadBodies.desc,"We must process the dead bodies to acquire <b>Protein</b> for feeding the surviving colonists. Additionally, some of the fallen colonists may be infected with <b>Alien Parasites</b>. The bodies of these colonists should be processed as a top priority. You can check if a dead colonist is infected by examining their <b>Conditions</b> in the UI.",,
+scan.hyperspace.warning,Scanning is not available in Hyperspace.,,
+space.object.info.Region,A large group of adjacent Sectors.,,
+space.object.AsteroidZone,Asteroid Field,,
+space.object.info.AsteroidZone,"A region of drifting rocks and debris, scattered with resources for mining.",,
+space.object.info.Sector,Unexplored space sector,,
+quest.BuildRadar,Build a Radar,,
+quest.BuildRadar.desc,<b>Radar</b> scans adjacent space sectors and can search for specific resource deposits. It's highly recommended to have one.,,
+space.object.info.SpaceEvent,This space sector might hold something of interest. Visit to discover what awaits.,,
+objects.devices.tradeportal,Trade Portal,,
+objects.devices.tradeportal.desc,A matter-transfer device designed for trading with ships and space stations.,,
+trade.portal.not.available,Trade Portal is not available,,
+trade.portal.required,Trade Portal is required for this trade,,
+no.trade.portal,No Trade Portal,,
+trade.portal.ready,Trade Portal Ready,,
+space.object.TradeZone,Trade Zone,,
+space.object.info.TradeZone,A cluster of Space Stations interested in exchanging goods.,,
+noun.hyperjump.short,Short-range Hyperjump,,
+noun.hyperjump.long,Long-range Hyperjump,,
+goal.EnsureShipCPUVentilation.desc,"The <b>Ship Computer</b> produces heat. You can replace sections of the floor with <b>Frames</b> that have ventilation holes, or build additional <b>Heat Sinks</b>.",2024-10-16,
+quest.EstablishProduction,Establish Production,,
+quest.EstablishProduction.desc,"We will eventually run out of materials; therefore, we must establish ways to produce them.",,
+quest.EstablishSmelting,Establish Smelting,,
+quest.EstablishSmelting.desc,The ores we mine during expeditions must be smelted into plates and ingots. Let’s set up this process.,,
+placement.tip.ports,The work spot and input/output ports must remain unobstructed.,,
+goal.GetMoreResource.desc,We're running low on <b>{0}</b>. Use the <b>Codex</b> to identify the ingredients and produce more. Some materials can be acquired through mining expeditions or purchased from the <b>Online Shop</b> or at <b>Space Stations</b>.,2024-10-17,
+click.to.enlarge,Click to enlarge,,
+evt.cooking.incident,Cooking Accident,,
+evt.cooking.incident.desc,{0} had an accident while cooking {1} at {2}.,,{0} is being name; {1} is meal name; {2} is cooking station
+fight.ongoing,Fight!,,
+fight.lost,lost the fight against {0},,{0} is the opponent name
+fight.between,{0} has started a fight with {1},,{0} and {1} are names
+fight.with,Fight with {0},,{0} is the opponent name
+evt.device.malfunction,Device malfunction: {0},,{0} is the device name
+evt.device.malfunction.desc,{0} experienced a critical malfunction. A fuse upgrade would have reduced the severity of the side effects.,,{0} is the device name
+evt.blown.fuse,{0}のヒューズが飛んだ,,
+evt.blown.fuse.desc,Significant device damage was avoided due to the installed fuse. Replace the fuse if possible.,,
+obj.upgrades.fuseupgrade,ヒューズ,,
+obj.upgrades.fuseupgrade.desc,A consumable fuse that prevents side effects from device malfunctions.,,
+blown.fuse,ヒューズが飛んだ,,
+verb.hacked,ハッキングされた,,
+evt.hacked,{0} is being hacked!,,{0} will be a robot or device name
+cond.Hacked.desc,"This robot is currently being hacked. Once the process is complete, it may turn hostile.",,
+cond.Hacked,ハッキングされている,,as in 'hacking in progress' or 'currently being hacked'
+noun.cause,原因,,as in 'cause of death'
+disease.immunity,{0} Immunity,,{0} is the disease name
+alien.bacteria.detected,Alien Bacteria Detected,,
+noun.developing.conditions,Developing Conditions,,"Conditions that have not yet developed, but are in progress"
+status.strong,Strong,,Example: strong immunity
+status.full,Full,,Example: full immunity
+status.permanent,Permanent,,Example: permanent immunity
+status.innate,Innate,,Example: innate immunity
+active.conditions,Active Conditions,,
+telescope.found.planet,"The telescope has detected a potentially habitable planet in {0} Region, {1} Sector. We should set our course there when possible.<br><br>Terraforming may be necessary to make the planet safe for human colonists. I suggest prioritizing research on Terraforming technology.",2024-10-29,
+must.open.first,Must open first,,For requiring to open a storage capsule before performing another action
+cond.Preoccupied,Preoccupied,,
+cond.Preoccupied.desc,This being is preoccupied with something important and will temporarily ignore your orders.,,
+space.object.Space,Empty Space,,
+region.no.hyperjump.relay,"This region does not have a <b>{0}</b>. To reach it, you need an engine that enables long-range hyperjumps (<b>{1}</b>).",,
+space.object.info.Space,このセクターにはなにも存在しないようだ,,
+stat.ImmunityGainRate,免疫獲得速度,,
+stat.ImmunityLossRate,免疫喪失速度,,
+enter.hyperspace.first,Enter Hyperspace first!,,warning for trying to move in hyperspace while not in it
+hyperdrive.not.running,ハイパードライブ停止中,,
+hyperdrives.running,Hyperdrives Running,,label next to number of hyperdrives that are currently running (working)
+hyperdrives.charge.hyperspace.tip,Hyperdrives can only recharge outside of Hyperspace.,,
+hyperdrives.not.running.tip,"Once you enter Hyperspace, at least one hyperdrive must start running before you can perform a jump.",,
+region.name,{0} 宙域,,{0} is some name
+sector.name,{0} セクター,,{0} is some name
+sleep.deprivation,Sleep deprivation,,
+developing.condition,Developing {0} ({1}),,"{0} is the condition name, {1} is percentage. example: Developing depression (23%)"
+cond.Depression.desc,Depression develops when the Fun need isn't satisfied for extended periods. Build entertainment facilities and add decorations to prevent this.,,
+effect.magnetic.storm,磁気嵐,,
+effect.magnetic.storm.desc,This sector has a permanent Magnetic Storm. Some electrical devices will experience intermittent issues.,,
+effect.dust.storm.desc,This sector has a permanent Dust Storm. Solar panel output will be reduced.,,
+obj.materials.fusioncellheavy,Heavy Fusion Cell,,
+obj.materials.fusioncellheavy.desc,"A high-power version of the Fusion Cell, suitable for long-range hyperjumps.",,
+preparing.for.hyperjump,ハイパージャンプ準備中,,
+entered.hyperspace,ハイパースペースに進入,,
+left.hyperspace,ハイパースペース離脱,,as in exited hyperspace
+enter.hyperspace.failed,ハイパースペース進入に失敗,,
