@@ -7374,54 +7374,54 @@ objects.cosmetics.chess.chessknightw,White Knight,,
 objects.cosmetics.chess.chessknightb,Black Knight,,
 objects.cosmetics.chess.chessbishopw,White Bishop,,
 objects.cosmetics.chess.chessbishopb,Black Bishop,,
-structure.floors.floormarble01,Marble Floor,,
+structure.floors.floormarble01,大理石の床,,
 structure.floors.floormarble01.desc,A fancy polished interior floor.,,
-ev.raid.map.edge.title,Incoming Raiders!,,
+ev.raid.map.edge.title,襲撃を受けている！,,
 ev.raid.map.edge.desc,Raiders are approaching our ship!,,
-obj.containers.hullpiercer,Hullpiercer,,
-obj.containers.hullpiercer.desc,A high-velocity boarding pod designed to punch through a ship's hull for rapid entry.,,
+obj.containers.hullpiercer,ハルピアサー,,
+obj.containers.hullpiercer.desc,高速で突っ込んでくる乗り込み可能なポッドだ。船体をぶち抜いて迅速に侵入するために設計されている。,,
 act.feeding.patient,Feeding a patient,,
 feed.patient,Feed a patient,,
-incoming.object,Incoming {0}!,,"{0} can be a meteor, breach capsule, some other flying object targeting the ship"
+incoming.object,{0}が飛来中！,,"{0} can be a meteor, breach capsule, some other flying object targeting the ship"
 persona.bio,"{0} {1}, {2}",,"{0} is species, {1} is sex {2} is age. Example: Human Female, 37y"
 persona.bio.sexless,"{0}, {1}",,"{0} is species, {1} is age. Example: Robot, 37y"
-sex.orientation.straight,Straight,,
-sex.orientation.gay,Gay,,
-sex.orientation.lesbian,Lesbian,,
-sex.orientation.asexual,Asexual,,
-sex.orientation.bisexual,Bisexual,,
-flag.Flying,Flying,,"adjective, as in ""a flying robot"""
-modifier.NoQuestRewards,Disable Quest Rewards,,
-modifier.NoQuestRewards.desc,Completing main quests normally grants small rewards. Disabling them adds extra challenge.,,
-had.spacewalk,Had a spacewalk,,
-trait.sociopath,Sociopath,,
-trait.sociopath.about,"Lacks empathy, disregards others' rights, and manipulates without remorse.",,
-trait.antisocial,Antisocial,,
-trait.antisocial.about,Avoids social interaction and prefers solitude over company.,,
-trait.open_eyed_sleeper,Open-eyed Sleeper,,
-trait.open_eyed_sleeper.about,This person sleeps with their eyes open.,,
+sex.orientation.straight,異性愛者,,
+sex.orientation.gay,ゲイ,,
+sex.orientation.lesbian,レズビアン,,
+sex.orientation.asexual,無性愛者,,
+sex.orientation.bisexual,両性愛者,,
+flag.Flying,飛行中,,"adjective, as in ""a flying robot"""
+modifier.NoQuestRewards,クエストの報酬を無効化,,
+modifier.NoQuestRewards.desc,メインクエストをクリアすると通常は小さな報酬が得られます。それらを無効にすることでプレイが挑戦的な内容になります。,,
+had.spacewalk,宇宙遊泳をした,,
+trait.sociopath,人たらし,,
+trait.sociopath.about,"他人に対して共感や権利の尊重をしない。そして、良心の呵責なく他人を操ることができる",,
+trait.antisocial,孤独,,
+trait.antisocial.about,他人と交流したり、群れてすごすことを避けようとする,,
+trait.open_eyed_sleeper,目を開けたまま寝る,,
+trait.open_eyed_sleeper.about,この人物は、眠るときに目を開けたままにする。,,
 trait.gigolo,Gigolo,,"a young man paid or financially supported by a woman, typically an older woman, to be her escort or lover."
-trait.high.libido,High libido,,Libido refers to an individual's sex drive or sexual desire
-trait.charismatic,Charismatic,,for describing charismatic character (not external looks)
-trait.beautiful,Beautiful,,describes a good looking woman
-trait.handsome,Handsome,,describes a good looking man
-trait.ugly,Ugly,,
+trait.high.libido,スケベ,,Libido refers to an individual's sex drive or sexual desire
+trait.charismatic,カリスマ,,for describing charismatic character (not external looks)
+trait.beautiful,美人,,describes a good looking woman
+trait.handsome,ハンサム,,describes a good looking man
+trait.ugly,器量が悪い,,
 trait.optimist,Optimist,,
 trait.pessimist,Pessimist,,
-trait.fast,Fast,,As in fast walker
-trait.slow,Slow,,As in slow walker
-trait.lazy,Lazy,,
-trait.workaholic,Workaholic,,
-trait.astrophobe,Astrophobe,,
-trait.astrophobe.about,Astrophobes are afraid of spacewalks.,,
-trait.astrophile,Astrophile,,
-trait.astrophile.about,Astrophiles enjoy spacewalks.,,
-trait.dog_person,Dog Person,,someone who likes dogs more than cats
-trait.cat_person,Cat Person,,someone who likes cats more than dogs
-trait.shadow_dweller,Shadow Dweller,,
-trait.shadow_dweller.about,Enjoys being in the dark.,,
-trait.coffee_addict,Coffee Addict,,
-role.Babysitter,Babysitter,,
+trait.fast,俊足,,As in fast walker
+trait.slow,鈍足,,As in slow walker
+trait.lazy,怠惰,,
+trait.workaholic,仕事中毒,,
+trait.astrophobe,宇宙恐怖症者,,
+trait.astrophobe.about,宇宙恐怖症は、宇宙遊泳が苦手だ。,,
+trait.astrophile,宇宙大好き,,
+trait.astrophile.about,宇宙大好きなので、宇宙遊泳を楽しめる。,,
+trait.dog_person,犬系,,someone who likes dogs more than cats
+trait.cat_person,猫系,,someone who likes cats more than dogs
+trait.shadow_dweller,影に潜みし者,,
+trait.shadow_dweller.about,暗いところですごすのが好き,,
+trait.coffee_addict,コーヒー中毒,,
+role.Babysitter,保育士,,
 role.Delinquent,Delinquent,,"(typically of a young person) tending to commit crime, particularly minor crime."
 role.Gamer,Gamer,,
 role.GraffitiArtist,Graffiti Artist,,
@@ -7527,28 +7527,28 @@ gpu.bonus,GPU Bonus,,"example use: ""GPU Bonus: 1Thz > +10% mining depth"""
 disk.bonus,Disk Bonus,,"example use: ""Disk Bonus: 1EB > +10% mining depth"""
 codex.m.electricity.computerresourcesbonus,Computer Resources Bonus,,
 codex.m.electricity.computerresourcesbonus.desc,"Computer resources such as <b>CPU</b>, <b>Memory</b>, <b>GPU</b>, and <b>Disk</b> can add stat bonuses to devices on the same electrical grid. Check tooltips for details.",,
-noun.industrial.equipment,Industrial Equipment,,"generic term for all devices that are meant for producing something, factory machines, etc"
-adj.noisy,Noisy,,
-sleep.eff.industrial.noisy,Slept in a noisy industrial area,,
-sleep.eff.industrial,Slept in an industrial area,,
-sleep.eff.dorm,Slept in a dormitory,,
-sleep.eff.own.room,Slept in personal quarters,,
-sleep.eff.room.too.large,Overly large sleeping quarters,,
-sleep.eff.room.too.small,Cramped sleeping quarters,,
-sleep.eff.cozy.room,Cozy sleeping quarters,,
-sleep.eff.outdoors,Slept in an area exposed to open space,,
-hint.hyperspace_exit,"Hyperspace travel is instant, but you must manually exit it each time. Use the {0} button in the {1} to do so.",,"{0} is ""Exit Hyperspace"" button label, {1} is Starmap"
-select.filtered,Select Filtered,,for selecting all elements in a list after filtering them
-deselect.filtered,Deselect Filtered,,
-deselect.all,Deselect All,,
-noun.toll,Toll,,a price of passing a checkpoint
-verb.pay,Pay,,
-noun.discount,Discount,,
-noun.region.discount,Regional Discount,,
-noun.faction.tax,Faction Tax,,
-noun.final.price,Final Price,,
+noun.industrial.equipment,工業用装備,,"generic term for all devices that are meant for producing something, factory machines, etc"
+adj.noisy,うるさい,,
+sleep.eff.industrial.noisy,やかましい工業エリアで寝た,,
+sleep.eff.industrial,工業エリアで寝た,,
+sleep.eff.dorm,共同寝室で寝た,,
+sleep.eff.own.room,個室で寝た,,
+sleep.eff.room.too.large,広すぎる寝室で寝た,,
+sleep.eff.room.too.small,狭すぎる寝室で寝た,,
+sleep.eff.cozy.room,快適な寝室で寝た,,
+sleep.eff.outdoors,船外の宇宙空間で寝た,,
+hint.hyperspace_exit,"ハイパースペースへの突入は瞬時に行われますが、ワープアウトは毎回手動で行う必要があります。実施する場合は{1}の{0}ボタンを使用してください。",,"{0} is ""Exit Hyperspace"" button label, {1} is Starmap"
+select.filtered,フィルター対象を選択,,for selecting all elements in a list after filtering them
+deselect.filtered,フィルター対象の選択解除,,
+deselect.all,すべて選択解除,,
+noun.toll,Toll,,通行料
+verb.pay,支払い,,
+noun.discount,調整額,,
+noun.region.discount,宙域調整額,,
+noun.faction.tax,保有勢力による徴税,,
+noun.final.price,最終額,,
 paid.toll,Paid Toll,,notification that player has just paid a toll
-noun.tax,Tax,,
+noun.tax,課税額,,
 update.on.steam.workshop,Update on Steam Workshop,,
 mat.amounts.may.vary,Material amounts may vary,,
 cant.assign,Can't Assign,,must be as short as possible. A small label trying to assign a task that we cannot assign for some reason
@@ -7562,16 +7562,16 @@ verb.warp,Warp,,verb - to travel in space using the warp drive
 exit.hyperspace.to.recharge,We had to exit hyperspace to recharge the drives. Reenter hyperspace once the drives are ready?,,
 hyperdrives.exhausted,Hyperdrives Exhausted,,
 hyperspace.warped.back,The hyperdrive failsafe warped the ship back to its anchored position,,
-hyperjump.failed,Hyperjump Failed,,
-hyperjump.completed,Hyperjump Completed,,
-next.stop,Next stop,,"next destination in travel. example: ""Next stop: London"""
+hyperjump.failed,ハイパージャンプ失敗,,
+hyperjump.completed,ハイパージャンプ完了,,
+next.stop,次の経由ポイント,,"next destination in travel. example: ""Next stop: London"""
 verb.stay,Stay,,
-verb.reenter,Reenter,,
-visit.waypoints,Visit Waypoints,,
+verb.reenter,再突入,,
+visit.waypoints,経由地でワープアウト,,
 visit.waypoints.tip,Exit hyperspace at each waypoint and wait for manual resume during hyperjumps,,
-noun.queue,Queue,,
+noun.queue,キュー,,
 status.on.hold,On Hold,,"when some operation is paused, waiting for player to resume it"
-leaving.hyperspace,Leaving Hyperspace,,
+leaving.hyperspace,ハイパースペースを離脱中,,
 arrived.at,Arrived at {0},,{0} is location name
 noun.warp.target,Warp Target,,target of warp drive hyperjump
 part.quality.threshold,Part Quality Threshold,,
