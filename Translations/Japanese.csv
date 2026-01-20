@@ -6346,6 +6346,7 @@ developing.condition,{0}を発症中({1}),,"{0} is the condition name, {1} is pe
 cond.Depression.desc,娯楽の欲求が満たされない期間が長い場合、うつ病を発症します。娯楽施設を建造し、装飾を追加することで防ぎましょう。,,
 effect.magnetic.storm,磁気嵐,,
 effect.magnetic.storm.desc,このセクターでは磁気嵐が常に発生しているようです。一部の電子機器が頻繁に不具合を起こす可能性があります。,,
+ev.magnetic.storm.desc,There is an ongoing magnetic storm. Some electrical devices will experience intermittent issues.,,
 effect.dust.storm.desc,このセクターではダストストームが常に発生しているようです。ソーラーパネルの出力が低下中。,,
 obj.materials.fusioncellheavy,ヘヴィフュージョンセル,,
 obj.materials.fusioncellheavy.desc,"ハイパワータイプのフュージョンセルだ。長距離ハイパージャンプに適した",,
@@ -6382,7 +6383,6 @@ tut.spacetravel.step3_8,隣接する<b>セクター</b>間の<b>短距離ハイ�
 tut.spacetravel.step3_9,"<b>ハイパードライブ</b>がチャージされていれば、このボタンで<b>ハイパースペースへの突入</b>を<b>開始</b>します。<br><br>まだ<b>フュージョンセル</b>がありませんが、<b>ステーション</b>で購入することもできます。",,
 tut.spacetravel.step3_10,我々の船が<b>ステーションに到達する</b>のを待ちましょう。,,
 tut.spacetravel.step4.title,フュージョンセルの入手,,
-tut.spacetravel.step4_1,"<b>ステーション</b>との<b>取引</b>の準備が整いました。<b>星間マップ</b>で強調表示された<b>ステーション</b>にカーソルを合わせて{0}で実効可能なアクションを表示し、<b>取引</b>を選択しましょう。",,
 tut.spacetravel.step4_2,"現在、<b>ステーション</b>と取引中です。続行するには、<b>フュージョンセルを5つ</b>購入しましょう。<br><br><b>フュージョンセル</b>を探して必要な量を<b>5</b>に設定したら、<b>取引実行</b>ボタンを押して取引内容を確定してください。",,
 tut.spacetravel.step4_3,"<b>フュージョンセル</b>は<b>フェイジウム</b>から生産することも可能です。奥の手として、割高ではありますが<b>オンラインショップ</b>にて購入することもできます。<br><br><b>オンラインショップ</b>で注文したアイテムは、<b>貨物カプセル</b>の投下によって、現在位置に届けられます。この機能は<b>研究</b>でアンロックできます: {0}。",,
 tut.spacetravel.step4_4,"それでは、ドローンたちが<b>ハイパードライブ</b>に<b>フュージョンセル</b>を装填するのを待ちましょう。エンジンに燃料が供給され、充電が完了すれば、<b>ハイパースペース</b>に突入する準備が整います。<br><br><b>フルチャージ</b>までには<b>数時間</b>かかりますが、ゲームスピードを上げて進行を早めることができます。",,
@@ -6510,7 +6510,6 @@ codex.m.environment.islands.desc,"<b>セクション</b>は、あなたの船の
 codex.m.resources.miningplanets.desc,"資源を獲得する効率的な方法の一つは、<b>採掘探査</b>です。<b>宇宙航行</b>が出来るようになったら<b>{0}</b>オーバーレイを使って<b>資源鉱床</b>を探し、その後<b>{1}</b>オーバーレイを使用して<b>探査へ発進</b>します。<br><br><b>レーダー</b>は近くの資源鉱床を<b>検出</b>するのに非常に便利で、周囲の特定の資源タイプを<b>スキャン</b>することができます。<br><br><b>輸送機</b>や<b>自動採集プラットフォーム</b>を使うことで、採掘作業を<b>自動化</b>することができます。",2024-11-22,
 codex.m.spacetravel.enginetypes.desc,"それぞれの<b>エンジン</b>によって用途が異なります。<b>スラスター</b>は現在の<b>セクター</b>内での移動を可能に。<b>核融合エンジン</b>は隣接する<b>セクター</b>への<b>短距離ハイパージャンプ</b>を可能に。隣接する<b>宙域</b>間の<b>長距離ハイパージャンプ</b>には<b>FTLドライブ</b>が必要です。<br><br>正確にはエンジンではありませんが、<b>ヴォイドリッパー</b>はすべての銀河の中心にある<b>ブラックホール</b>を通り抜けることができます。<br><br><b>精密スラスター</b>は、ローカルマップ内の船のセクションを移動するためだけに制限されており、<b>難破船</b>への接近や、<b>小惑星</b>を回避するのに有用です。<br><br>使用可能なエンジンや船の航行能力を確認するには、<b>{0}</b>オーバーレイを確認してください。",2024-11-22,
 input.ToggleDirectControl,ショートカット: 直接指示の切り替え,,
-codex.m.whattodo.quests.desc,<b>{0}</b>オーバーレイで進行可能なクエストを確認しましょう。クエストが完了すると次のクエストがアンロックされます。,,
 goal.ConnectStasis,コールドスリープへの接続,,
 goal.ConnectStasis.desc,<b>未接続のコールドスリープ</b>が少なくとも1つはあるはずです。<b>コールドスリープ</b>を接続して<b>冷凍睡眠システムの安定度</b>を保つようにしてください。<b>凍睡眠システムの安定度</b>が低いと、中に収容されている入植者たちに有害となる影響があるかもしれません。,,
 tut.basic.controls.step.overlay.tasks,"<b>作業一覧</b>オーバーレイは、現在の作業タスクの割り当て状況を表示します。保留中、進行中、または失敗したタスクをの確認や調整ができます。",2024-11-23,
@@ -6577,6 +6576,1028 @@ modifier.ResearchCost.desc,研究ノードの解除に必要なデートイド�
 scan.target.deep,深部スキャン,,
 scan.target.deep.desc,"現在のセクターを深部までスキャンし、長距離スキャンで見逃していた可能性のある資源を検出します。",,
 noun.list,一覧,,
+ai.alignment.info.1,"The alignment of biological beings can change over time. Care for your colonists well, and their trust in you will grow.",,
+ai.alignment.info.2,"Certain conditions, implants, and equipment can affect AI alignment.",,
+system.scan.extended,Extended Scanning,,
+system.scan.extended.desc,Enables scanning the universe for rare resources.,,
+share.ship,Share Ship,,for sharing the ship in steam workshop
+noun.ship,Ship,,as in space ship (but has to be short)
+noun.ships,Ships,,plural of ship
+game.template.mode,This save file is loaded in <b>Template</b> mode. You can explore in read-only mode or start a new game using this ship.,,
+game.template.new,Start a new game using this ship.,,
+more.actions,More Actions,,
+download.ships,Download Ships,,
+mod.unsubscribe,Unsubscribe,,
+verb.keep,Keep,,
+verb.regenerate,Regenerate,,
+situation.SectorDifficulty,Sector Difficulty,,
+modifier.MiningOutput,Mining Output,,
+modifier.MiningOutput.desc,Adjusts output of mining deposits.,,
+eject.from.storage.first,Eject this being from storage first.,,Shown when player tries to replace a body part on a being that is in storage (in morgue or mechuary).
+modifier.BasicTech,Basic Tech,,
+modifier.BasicTech.desc,"Basic technologies like toilets, showers, small heaters, and oxygen pumps are unlocked by default. However, you can lock them or randomize their unlocking for an added challenge.",,
+goal.AcceptQuest,Accept a Quest,,
+goal.AcceptQuest.desc,"You haven't accepted any quests, but some are available. Check the Event list or the Quests overlay to find them.",,
+hold.to.lock.tooltip,Hold {0} to lock this tooltip,,{0} is a shortcut key name. Locking the tooltip will keep it frozen in place so that you can click links inside the tooltip
+noun.weapon.power,Weapon Power,,Version 0.13 translations start here
+noun.shields,Shields,,
+noun.weapons,Weapons,,
+noun.weapon.power.short,Power,,As in Strength of Weapon Power
+noun.flux,Flux,,A sci-fi term. can be accumulated during ship combat and has to be vented.
+noun.flux.desc,Flux is a buildup of heat energy during combat. It rises when firing weapons or blocking attacks with shields. Too much Flux disables key systems.,,
+noun.evade,Evade,,"Label next to ship evasion percentage. Evasion determines how likely the ship will dodge incoming attacks. Must be short, hence Evade and not Evasion"
+noun.evade.desc,Evade determines how likely the ship will dodge incoming attacks. Smaller ships have higher evade value than larger ships.,,
+ship.does.not.meet.requirements,Your ship does not meet the requirements.,,Displayed as a warning tooltip near options where ship class or tag cannot bet switched into due to not fulfilled requirements
+flux.capacity,Flux Capacity,,
+flux.capacity.short,Cap,,should be no more than 3-4 letters. short for capacity.
+flux.overload.desc,Flux has overloaded! Forced venting is activated.,,
+flux.soft,Soft Flux,,
+flux.soft.short,Soft,,no more than 3-4 letters
+flux.hard,Hard Flux,,
+flux.hard.short,Hard,,no more than 3-4 letters
+flux.accumulated,Accumulated Flux,,
+vent.rate,Vent Rate,,
+flux.overload,Flux Overload,,defines a state when a device is overloaded
+verb.vent.flux,Vent Flux,,For toggling venting of the ship heat (flux)
+flux.venting,Venting Flux,,
+noun.hull.points,Hull Points,,"like Hit Points (HP) but for ships, so Hull Points"
+noun.hull.points.short,HP,,
+our.ship,Our Ship,,label above ship combat UI controls for our ship
+ship.configuration,Ship Configuration,,
+noun.engines,Engines,,plural of Engine. for space ship engines.
+space.object.Ship,Space Ship,,
+noun.ship.class,Ship Class,,"as in ship class in navy (fighter, cruser, battleship)"
+ship.class.spacestation,Space Station,,special ship class for space stations
+ship.class.unclassified,Unclassified,,for space ships that don't fit any class requirements
+ship.class.corvette,Corvette,,second smallest ship class
+ship.class.fighter,Fighter,,smallest ship class in game
+ship.class.cruiser,Cruiser,,
+ship.class.battlecruiser,Battlecruiser,,
+ship.class.destroyer,Destroyer,,
+ship.class.dreadnought,Dreadnought,,second biggest ship class
+ship.class.titan,Titan,,biggest ship class in game
+ship.class.carrier,Carrier,,
+ship.class.frigate,Frigate,,
+ship.class.battleship,Battleship,,
+noun.ship.tag,Ship Tag,,"a 2-3 letter tag before the ship name (like USS, HMS, etc)"
+ship.tag.nss,NSS,,acronym is always constructed from the description: Navy Star Ship -> NSS
+ship.tag.nss.desc,Navy Star Ship,,standard military vessels
+ship.tag.bcv,BCV,,
+ship.tag.bcv.desc,Battle Command Vessel,,capital warships
+ship.tag.ars,ARS,,
+ship.tag.ars.desc,Automated Response Ship,,AI controlled defense ships
+ship.tag.css,CSS,,
+ship.tag.css.desc,Corporate Starship,,capitalist ships
+ship.tag.tcv,TCV,,
+ship.tag.tcv.desc,Trade & Cargo Vessel,,"merchants, transport"
+ship.tag.lcv,LCV,,
+ship.tag.lcv.desc,Luxury Commerce Vessel,,high-end capitalist ships
+ship.tag.esv,ESV,,
+ship.tag.esv.desc,Exploration & Survey Vessel,,deep space research
+ship.tag.fsv,FSV,,
+ship.tag.fsv.desc,Frontier Star Vessel,,independent adventurers
+ship.tag.imv,IMV,,
+ship.tag.imv.desc,Industrial Mining Vessel,,resource extraction ships
+ship.tag.inf,INF,,
+ship.tag.inf.desc,Infected Network Frame,,virus-corrupted ships
+ship.tag.ltv,LTV,,
+ship.tag.ltv.desc,Logistics Transport Vessel,,cargo haulters and carriers
+ship.tag.tav,TAV,,
+ship.tag.tav.desc,Tactical Assault Vessel,,big offensive ships
+ship.tag.scs,SCS,,
+ship.tag.scs.desc,Supercapital Ship,,titan class ships
+ship.tag.lfs,LFS,,
+ship.tag.lfs.desc,Light Fighter Ship,,small fighters
+ship.tag.srs,SRS,,
+ship.tag.srs.desc,Strike Recon Ship,,hit and run tactical ships
+ship.tag.msv,MSV,,
+ship.tag.msv.desc,Multi-Role Support Vessel,,verstaile small crafts
+ship.tag.usv,USV,,
+ship.tag.usv.desc,Unmarked Space Vessel,,
+ship.tag.fss,FSS,,
+ship.tag.fss.desc,Frontier Space Station,,
+ship.tag.iss,ISS,,
+ship.tag.iss.desc,Independent Space Station,,
+ship.tag.uss,USS,,
+ship.tag.uss.desc,United Space Station,,
+ship.tag.rss,RSS,,
+ship.tag.rss.desc,Rogue Space Station,,
+codex.ship.classes,Ship Classes,,header for list of ship classes
+codex.ship.tags,Ship Tags,,header for list of ship tags
+in.hyperspace,In Hyperspace,,label for ships that are currently in hyperspace
+verb.hail,Hail,,initiate communications with another space ship
+verb.insult,Insult,,As in say something bad to insult a person
+verb.trading.with,Trading with {0},,{0} will be traders name
+verb.approaching,Approaching {0},,{0} will be object name
+verb.end.call,End Call,,for ending telecommunications between ships
+incoming.transmission,Incoming Transmission,,when other ships hail your ship
+ship.hailing.you,{0} is hailing you.,,{0} will be the ship name
+verb.offer.gift,Offer Gift,,action button label for offering a gift to another spaceship
+verb.surrender,Surrender,,for surrendering during combat
+verb.ask.fuel,Ask for Fuel,,action button label for asking another space ship to give you fuel
+verb.extort,Extort,,label for asking other ship for money or items by threatening them
+noun.gift.package,Gift Package,,"when we get a gift, we have to chose from a few packages, this is a button label. it will have #1, #2 in the end of it"
+noun.fuel.package,Fuel Package,,"when we aks for fuel, we have a choice from several fuel packages. this label will have #1, #2, etc in the end "
+noun.ransom,Ransom,,extortion ransom label
+noun.combat,Combat,,mostly used for ship to ship combat
+noun.end.of.combat,End of combat,,"as in 'if you surrender, the consequence will be: End of combat'"
+relationship.with,Relationship with {0},,{0} is a name
+chance.accept,Accept Chance,,"when you want to give a gift to someone, this will show up like 'Accept Chance: 10%'. This is the chance of the receiver to accept a gift"
+noun.value,Value,,monetary value of something
+consequence.accept,On Accept,,a label for consequence of accepting a gift
+consequence.reject,On Reject,,a label for consequence of rejecting a gift
+consequence.take,On Take,,a label for consequence of taking a package
+offer.this.package,Offer this package,,label on a button that offers this gift package. the recipient may not agree to take it.
+take.this.package,Take this package,,label on a button that selects a gift package player wants to take (one from a list)
+,,,
+ship.chat.trade_req.neutral.casual.01,"Hey, would you like to trade?",,
+ship.chat.trade_req.neutral.casual.02,"We're in need of some new goods, want to trade?",,
+ship.chat.trade_req.neutral.casual.03,Would you like to trade? We'll offer you a special price today!,,
+ship.chat.trade_req.neutral.polite.01,"Our vessel would like to trade with yours, if possible.",,
+ship.chat.trade_req.neutral.polite.02,We would like to initiate a trade with you.,,
+ship.chat.trade_req.neutral.polite.03,The captain is requesting a trade with your ship. Please respond.,,
+ship.chat.trade_req.neutral.rude.01,I've heard you've got the good stuff. Show it to me.,,
+ship.chat.trade_req.neutral.rude.02,Show us what you've got.,,
+ship.chat.trade_req.neutral.rude.03,"Better give us good prices, you punk.",,
+ship.chat.trade_res.positive.casual.01,We're always happy to trade with you!,,
+ship.chat.trade_res.positive.casual.02,"Sure thing, give us a moment.",,
+ship.chat.trade_res.positive.casual.03,"Take a look at our goods, We'll offer you a special price today!",,
+ship.chat.trade_res.positive.polite.01,"Please hold, we will prepare our trade inventory.",,
+ship.chat.trade_res.positive.polite.02,"Affirmative, initiating trade.",,
+ship.chat.trade_res.positive.polite.03,Trade request granted. Please hold.,,
+ship.chat.trade_res.positive.rude.01,You better have enough Starcreds.,,
+ship.chat.trade_res.positive.rude.02,We hope you have some kidneys to sell.,,
+ship.chat.trade_res.positive.rude.03,"If you won't buy anything, We'll mess you up.",,
+,,,
+ship.chat.gift_req.neutral.casual.01,"Hey, we've got some extra supplies. Figured you could use ’em.",,
+ship.chat.gift_req.neutral.casual.02,"You look like you've had a rough trip. Here, take this.",,
+ship.chat.gift_req.neutral.casual.03,A little gift from us to you. Don't spend it all in one place!,,
+ship.chat.gift_req.neutral.polite.01,We would like to send you a small token of gratitude.,,
+ship.chat.gift_req.neutral.polite.02,We are sending you a gift on behalf of our faction.,,
+ship.chat.gift_req.neutral.polite.03,The captain has personally prepared a gift package for your vessel.,,
+ship.chat.gift_req.neutral.rude.01,A special gift just for you - our leftover scrap. Catch!,,
+ship.chat.gift_req.neutral.rude.02,Consider this a charity donation. You look like you need it.,,
+ship.chat.gift_req.neutral.rude.03,Take this and try not to embarrass yourself out here.,,
+ship.chat.gift_res.positive.casual.01,"Thank you, you're the best!",,
+ship.chat.gift_res.positive.casual.02,I appreciate this a lot!,,
+ship.chat.gift_res.positive.casual.03,Thank you so much!,,
+ship.chat.gift_res.positive.polite.01,We appreciate your offering.,,
+ship.chat.gift_res.positive.polite.02,We express our gratitude on behalf of our faction.,,
+ship.chat.gift_res.positive.polite.03,The captain is happy to accept your gift.,,
+ship.chat.gift_res.positive.rude.01,Is this the best you can do?,,
+ship.chat.gift_res.positive.rude.02,"Not as much as I expected, but it'll do.",,
+ship.chat.gift_res.positive.rude.03,"Is that it? Well, thanks, I guess.",,
+,,,
+ship.chat.extort_res.positive.casual.01,"Huh? Well, I guess I'll agree.",,
+ship.chat.extort_res.positive.casual.02,I didn't expect this from you. But I guess I have no choice.,,
+ship.chat.extort_res.positive.casual.03,I will remember this...,,
+ship.chat.extort_res.positive.polite.01,"We condemn this action, but we will submit this time.",,
+ship.chat.extort_res.positive.polite.02,This will hurt our faction relationships.,,
+ship.chat.extort_res.positive.polite.03,"The captain dislikes your request, but agrees to submit.",,
+ship.chat.extort_res.positive.rude.01,"Do you know who I am? I'll give in this time, but you're as good as dead.",,
+ship.chat.extort_res.positive.rude.02,"OK, but my friends will mess you up later.",,
+ship.chat.extort_res.positive.rude.03,"How dare you! You'll regret this soon, you bastard.",,
+,,,
+ship.chat.extort_res.negative.casual.01,"Buddy, I've seen asteroids more threatening than you.",,
+ship.chat.extort_res.negative.casual.02,You must be new at this. Try someone who actually cares.,,
+ship.chat.extort_res.negative.casual.03,Extortion? That’s cute. Let me know how that works out for you.,,
+ship.chat.extort_res.negative.casual.04,"You're joking, right? That’s adorable.",,
+ship.chat.extort_res.negative.casual.05,Are you sure you're in the right profession? Try comedy.,,
+ship.chat.extort_res.negative.casual.06,"We were gonna pay, but then we decided… nah.",,
+ship.chat.extort_res.negative.polite.01,Your request has been noted and will be ignored accordingly.,,
+ship.chat.extort_res.negative.polite.02,We regret to inform you that we do not negotiate under duress.,,
+ship.chat.extort_res.negative.polite.03,Your proposal has been reviewed and deemed unacceptable.,,
+ship.chat.extort_res.negative.rude.01,Big talk for someone in missile range.,,
+ship.chat.extort_res.negative.rude.02,Did you hit your head on the airlock this morning?,,
+ship.chat.extort_res.negative.rude.03,"I'd laugh, but I don't want to waste the oxygen.",,
+ship.chat.extort_res.negative.rude.04,You're about five guns short of making this convincing.,,
+ship.chat.extort_res.negative.rude.05,"Listen, junior, go practice on someone smaller.",,
+ship.chat.extort_res.negative.rude.06,Try again when your ship isn't held together with duct tape.,,
+,,,
+ship.chat.fuel_req.neutral.casual.01,"Hey, could you spare some fuel for me?",,
+ship.chat.fuel_req.neutral.casual.02,"I'm almost out of fuel, would you mind giving me some?",,
+ship.chat.fuel_req.neutral.casual.03,Got some extra fuel you could share?,,
+ship.chat.fuel_req.neutral.polite.01,We humbly ask for some fuel.,,
+ship.chat.fuel_req.neutral.polite.02,Would you mind giving us some fuel?,,
+ship.chat.fuel_req.neutral.polite.03,Captain is asking you to share some of your fuel with us.,,
+ship.chat.fuel_req.neutral.rude.01,"I'm sure you have some extra fuel for us, right?",,
+ship.chat.fuel_req.neutral.rude.02,"I would never ask, but I have no choice. Give me some fuel!",,
+ship.chat.fuel_req.neutral.rude.03,"You've definitely got more fuel than you need, give me some!",,
+,,,
+ship.chat.extort_req.neutral.casual.01,"Give me what I want, or things are gonna get ugly fast.",,
+ship.chat.extort_req.neutral.casual.02,"I'm not asking nicely anymore. Give me my cut, or suffer the consequences.",,
+ship.chat.extort_req.neutral.casual.03,"You've got seconds to decide - give me what I want, or I take it all.",,
+ship.chat.extort_req.neutral.polite.01,We expect payment for your freedom. Make it quick.,,
+ship.chat.extort_req.neutral.polite.02,"We'll need a small ransom for your safe return. Pay up, or things get complicated.",,
+ship.chat.extort_req.neutral.polite.03,"A ransom is the price for peace - pay it, or prepare for the alternative.",,
+ship.chat.extort_req.neutral.rude.01,"You keep the ship, I'll take a little of your cargo. Fair trade, right?",,
+ship.chat.extort_req.neutral.rude.02,"A small donation to our fund, and you'll be free to go.",,
+ship.chat.extort_req.neutral.rude.03,"Pay up, or I'll be taking your ship apart piece by piece.",,
+ship.chat.extort_req.neutral.rude.04,"What’s it gonna be? Pay me, or get blasted into the void.",,
+ship.chat.extort_req.neutral.rude.05,"You can keep your ship - if you can afford it, that is.",,
+ship.chat.extort_req.neutral.rude.06,"You're not gonna need all that, right? Hand it over!",,
+,,,
+ship.chat.combat_engage.neutral.casual.01,I hope you're ready for battle!,,
+ship.chat.combat_engage.neutral.casual.02,I always wanted to try out that new weapon I installed recently.,,
+ship.chat.combat_engage.neutral.casual.03,Are you ready for a fight?,,
+ship.chat.combat_engage.neutral.polite.01,We are engaging in combat with you.,,
+ship.chat.combat_engage.neutral.polite.02,Prepare battle stations.,,
+ship.chat.combat_engage.neutral.polite.03,Captain speaking. You are officially under attack.,,
+ship.chat.combat_engage.neutral.rude.01,"Hand over your cargo, or hand over your life!",,
+ship.chat.combat_engage.neutral.rude.02,"Bad luck, mate. Today, you're my payday.",,
+ship.chat.combat_engage.neutral.rude.03,I was getting bored. Thanks for showing up!,,
+ship.chat.combat_engage.neutral.rude.04,I smell profit... and fear. Mostly fear.,,
+ship.chat.combat_engage.neutral.rude.05,Hope you weren't attached to that hull!,,
+ship.chat.combat_engage.neutral.rude.06,No distress calls. No witnesses. No mercy.,,
+,,,
+ship.chat.hail_req.neutral.casual.01,How can I be of assistance?,,
+ship.chat.hail_req.neutral.casual.02,I hear you loud and clear!,,
+ship.chat.hail_req.neutral.casual.03,"Captain speaking, nice to hear from you!",,
+ship.chat.hail_req.neutral.polite.01,Transmission received. Please state your business.,,
+ship.chat.hail_req.neutral.polite.02,Captain is on the line. State your business.,,
+ship.chat.hail_req.neutral.polite.03,Connection established. We are listening.,,
+ship.chat.hail_req.neutral.rude.01,What do you want?,,
+ship.chat.hail_req.neutral.rude.02,"State your business, or get the hell out.",,
+ship.chat.hail_req.neutral.rude.03,Now who the hell are you?,,
+,,,
+ship.chat.surrender_req.neutral.casual.01,We surrender! Happy now? Can we go?,,
+ship.chat.surrender_req.neutral.casual.02,"Whoa, whoa! Can we maybe talk this out instead?",,
+ship.chat.surrender_req.neutral.casual.03,"Alright, fine, you're tougher. Just don't blow us up, yeah?",,
+ship.chat.surrender_req.neutral.polite.01,"We are prepared to comply fully. Please, show restraint.",,
+ship.chat.surrender_req.neutral.polite.02,This is a formal plea for a peaceful resolution.,,
+ship.chat.surrender_req.neutral.polite.03,We seek only to avoid further conflict. Mercy is requested.,,
+ship.chat.surrender_req.neutral.rude.01,"Okay, you win! Can we keep our limbs and maybe just half our dignity?",,
+ship.chat.surrender_req.neutral.rude.02,"Look, we surrender! Also, our aim is terrible anyway.",,
+ship.chat.surrender_req.neutral.rude.03,"If you let us live, we promise to rob someone else next time!",,
+,,,
+ship.chat.busy.casual.01,"Sorry, I'm a little busy right now.",,
+ship.chat.busy.casual.02,I'm a little busy at the moment.,,
+ship.chat.busy.casual.03,"Sorry, my hands are full right now.",,
+ship.chat.busy.polite.01,"Apologies, we cannot respond right now.",,
+ship.chat.busy.polite.02,Captain is currently busy. Please try again later.,,
+ship.chat.busy.polite.03,"Transmission received, however we currently cannot respond.",,
+ship.chat.busy.rude.01,Can't you see I'm busy?,,
+ship.chat.busy.rude.02,Buzz off. I'm busy.,,
+ship.chat.busy.rude.03,Bother me again while I'm busy and I'll send a Breach Capsule.,,
+,,,
+ship.chat.negative.casual.01,"Sorry, I'll have to decline this time.",,
+ship.chat.negative.casual.02,"I can't, sorry.",,
+ship.chat.negative.casual.03,I'll have to say no this time.,,
+ship.chat.negative.polite.01,Negative.,,
+ship.chat.negative.polite.02,Captain does not approve this.,,
+ship.chat.negative.polite.03,We cannot do that.,,
+ship.chat.negative.rude.01,Hell no! Get out of my face.,,
+ship.chat.negative.rude.02,Are you kidding me? No!,,
+ship.chat.negative.rude.03,I'll never agree to this!,,
+,,,
+ship.chat.positive.casual.01,"Sure thing, let's do this!",,
+ship.chat.positive.casual.02,Anytime!,,
+ship.chat.positive.casual.03,Of course!,,
+ship.chat.positive.polite.01,Affirmative.,,
+ship.chat.positive.polite.02,Captain agrees to this.,,
+ship.chat.positive.polite.03,Positive.,,
+ship.chat.positive.rude.01,I'll agree this time.,,
+ship.chat.positive.rude.02,"Sure, hurry up before I change my mind.",,
+ship.chat.positive.rude.03,"Yeah, whatever.",,
+,,,
+ship.chat.outlaw.casual.01,"You know there are loadout restrictions, right?",,
+ship.chat.outlaw.casual.02,Did you even glance at the rules before slapping that junk on your ship?,,
+ship.chat.outlaw.casual.03,"Not to be a buzzkill, but I think you're breaking a few rules here.",,
+ship.chat.outlaw.polite.01,Please be informed that your ship is violating the class limits. ,,
+ship.chat.outlaw.polite.02,"Apologies, but we believe your loadout may not meet the current regulations.",,
+ship.chat.outlaw.polite.03,Your ship's configuration seems to be outside standard guidelines.,,
+ship.chat.outlaw.rude.01,"That loadout is a joke, right? Because it sure isn't legal.",,
+ship.chat.outlaw.rude.02,I've seen smugglers with less suspicious setups than that.,,
+ship.chat.outlaw.rude.03,Did you build that thing in a scrapyard? Because it sure isn't regulation.,,
+,,,
+ship.chat.too.far.negative.casual.01,"Uh, slight problem - we can't exactly move right now. Mind coming to us?",,
+ship.chat.too.far.negative.casual.02,"We're stranded, so unless you've got a tow cable, you'll need to come here.",,
+ship.chat.too.far.negative.casual.03,"Unless you want us to paddle over, you'll have to make the trip.",,
+ship.chat.too.far.negative.polite.01,The captain advises that we are unable to navigate at this moment. Please proceed to our location if possible.,,
+ship.chat.too.far.negative.polite.02,"We apologize for the inconvenience, but we are unable to make the approach. Kindly adjust your course to meet us.",,
+ship.chat.too.far.negative.polite.03,Our vessel is currently without operational engines. We would be grateful if you could come to us instead,,
+ship.chat.too.far.negative.rude.01,"Our thrusters are on vacation. Be a dear and bring yourself closer, won’t ya?",,
+ship.chat.too.far.negative.rude.02,"Yeah, so our engines are gone. If you wanna get robbed today, you're gonna have to fly to us.",,
+ship.chat.too.far.negative.rude.03,"No engines on our side, so if you don't come here, we're both wasting our time.",,
+,,,
+space.object.ShipHyperTrail,Hyperjump Trail,,
+space.object.info.ShipHyperTrail,"When a ship enters hyperspace, it leaves a trail that gradually fades over time. The trail can indicate where the ship jumped.",,
+ship.hypertrail.hot,The ship is in hyperspace but hasn't left this sector yet.,,
+objects.devices.shieldemitter,Shield Emitter,,
+objects.devices.shieldemitter.desc,Projects an energy barrier that absorbs or deflects energy and low caliber weapon attacks.,,
+,,,
+overlay.tip.ShipCombat,Ship Combat Controls,,
+objects.devices.shreddercannon,Shredder Cannon,,
+objects.devices.shreddercannon.desc,A ballistic weapon that fires high-velocity projectiles in rapid succession.,,
+objects.devices.heavylaser,Heavy Laser,,
+objects.devices.heavylaser.desc,A high-powered energy weapon that fires concentrated beams.,,
+research.shipcombat.pointdefense,Point Defense Weapons,,
+research.shipcombat.weaponsballistic,Ballistic Weapons,,
+research.shipcombat.weaponslaser,Laser Weapons,,
+research.shipcombat.weaponsmissile,Missile Weapons,,
+objects.devices.rocketpod,Rocket Pod,,
+objects.devices.rocketpod.desc,A launcher that fires shield-piercing rockets for precision strikes.,,
+obj.materials.rocket,Rocket,,
+obj.materials.rocket.desc,A highly explosive shield-piercing rocket.,,
+objects.devices.interceptorturret,Interceptor Turret,,
+objects.devices.interceptorturret.desc,A point defense turret that intercepts incoming missiles.,,
+not.available.during.ship.combat,Not available during ship combat,,
+state.disabled,Disabled,,
+state.windup,Winding Up,,
+state.no.ammo,No Ammo,,
+noun.weapon.type,Weapon Type,,
+weapon.type.balistic,Ballistic,,
+weapon.type.missile,Missile,,
+weapon.type.laser,Laser,,
+weapon.type.pointdefense,Point Defense,,
+weapon.type.plasma,Plasma,,
+noun.hyperdrives,Hyperdrives,,plural of Hyperdrive
+noun.ship.hull,Ship Hull,,
+noun.weapon.settings,Weapon Settings,,
+adj.default,Default,,
+adj.custom,Custom,,
+open.default.settings,Open Default Settings,,
+weapon.mode.target,Target Mode,,"how weapon selects a target (auto, manual, etc)"
+weapon.mode.fire,Fire Mode,,"how weapon shots (auto, manual, etc)"
+autofire.flux.threshold,Autofire Flux Threshold,,
+autofire.flux.threshold.desc,"When weapons fire, they generate Flux. Weapons will not autofire if doing so would exceed this threshold.",,
+auto.target.priorities,Auto Target Priorities,,
+research.shipcombat.weaponsplasma,Plasma Weapons,,
+objects.devices.gaussstriker,Gauss Striker,,
+objects.devices.gaussstriker.desc,"A devastating plasma weapon that unleashes high-velocity energy blasts, capable of annihilating any target.",,
+paste.config,Paste Config,,
+noun.stats,Stats,,
+stat.charge.time,Charge Time,,
+stat.charge.time.weapons.desc,Time required for the weapon to recharge between shots.,,
+stat.charge.time.desc,Time required for the device to become ready for use.,,
+stat.windup.time,Windup Time,,
+stat.windup.time.desc,Time required for the device to become ready after a period of inactivity.,,
+ammo.capacity,Ammo Capacity,,
+stat.accuracy,Accuracy,,
+stat.shield.penetrate.chance,Shield Penetration Chance,,
+stat.shield.penetrate.chance.desc,Chance for the shot to penetrate {0}.,,{0} is Shields
+stat.flux.per.shot.hard,Hard Flux Per Shot,,
+stat.flux.per.shot.soft,Soft Flux Per Shot,,
+stat.flux.per.shot.desc,Amount of {0} generated when the weapon fires.,,{0} is Hard Flux or Soft Flux
+stat.flux.per.hit.hard,Hard Flux Per Shield Hit,,
+stat.flux.per.hit.soft,Soft Flux Per Shield Hit,,
+stat.flux.per.hit.desc,Amount of {0} generated when the shot hits {1}.,,"{0} is Hard Flux or Soft Flux, {1} is Shields"
+targeted.by,Targeted By,,
+target.with.all.weapons,Target With All Weapons,,
+target.with.weapon,Target With Weapon,,
+current.target,Current Target,,
+not.targeted,Not Targeted,,
+noun.ship.weapon,Ship Weapon,,
+noun.ship.weapons,Ship Weapons,,Plural of Ship Weapon
+noun.combat.mode,Combat Mode,,
+too.much.flux,Too Much Flux,,
+noun.thrusters,Thrusters,,plural of Thruster - a small engine
+noun.flux.vent.settings,Flux Vent Settings,,
+auto.vent.flux,Auto Vent Flux,,label for setting: automatically vent flux
+tolerated.flux.hard,Tolerated Hard Flux,,
+tolerated.flux.hard.desc,Flux will start venting if it Hard Flux exceeds this value.,,
+tolerated.flux,Tolerated Flux,,
+tolerated.flux.desc,Flux will start venting if it exceeds this value.,,
+auto.vent.flux.stop.hard,Vent Stop Hard Flux Threshold,,
+auto.vent.flux.stop.hard.desc,Flux will stop venting when Hard Flux drops below this value.,,
+auto.vent.flux.stop.total,Vent Stop Flux Threshold,,
+auto.vent.flux.stop.total.desc,Flux will stop venting when it drops below this value.,,
+value.too.low,Too Low,,warning label when a numeric value is too low
+toggle.compact.ui,Toggle Compact UI,,
+noun.class.points,Class Points,,device points for ship class
+class.points.desc,"Each ship class has a maximum number of legally allowed Class Points. Each combat device (weapon, shield, thruster) consumes a certain amount of Class Points. Exceeding the limit results in negative consequences.",,
+class.points.exceeded.player,Our ship Class Points are over limit! There will be consequences.,,
+class.points.exceeded.npc,This ship loadout is exceeding the Class Points limit.,,
+class.points.exceeded.info,Max allowed for {0}: {1}. Current: {2}.,,"{0} is ship class name, {1} and {2} are numbers"
+ship.class.base.evade,Base Evasion,,
+ship.evade.thruster.bonus,Thruster Bonus,,
+ship.violates.class.limit,Ship Violates Class Limit,,
+noun.ship.class.limit,Ship Class Limit,,
+ship.class.limit.future.violation.tip,Building this device will result in violating Ship Class Limit!,,
+trade.refused,Trade Refused,,when player wants to trade but the trader doesn't like the player
+noun.law.enforcement,Law Enforcement,,
+noun.law.enforcement.officer,Law Enforcement Officer,,
+noun.outlaw,Outlaw,,as in someone who is hunted by the police
+state.in.combat,In Combat,,
+ev.pirate.attack.title,Pirate Ship Approaching,,
+ev.pirate.attack.desc,Warning. A pirate vessel is approaching our ship!,,
+ev.police.raid.title,Law Enforcement Raid,,
+ev.police.raid.desc,Warning. Law Enforcement Officers are approaching our ship!,,
+choose.ship.class,Choose a compatible Ship Class,,
+incompatible.ship.class.tip,You current ship class ({0}) is not compatible with your ship configuration. You have to choose a new Ship Class now.,,
+select.this.ship.class,Select This Ship Class,,
+adj.incompatible,Incompatible,,for example when ship class is incompatible with your ship configuration. adjective. button label so should be short.
+noun.derelict,Derelict,,
+quest.MakeShipCombatReady,Make Ship Combat Ready,,
+quest.MakeShipCombatReady.desc,We need to defend ourselves against hostile ships. Let's build weapons and shields to stand a chance.,,
+quest.MakeShipCombatReady.shredder.cannon.tip,A couple of Shredder Cannons will give us enough firepower to defend against small ships and occasional meteoroids.,,
+quest.MakeShipCombatReady.shield.emitter.tip,"We need at least one Shield Emitter for a functioning shield. Without it, we wouldn't last long, even against lightly armed enemies.",,
+noun.ship.combat,Ship Combat,,
+noun.minimum,Minimum,,
+pronoun.any,Any,,Example: Ship size: Any
+noun.base.capacity,Base Capacity,,base flux capacity
+noun.class.bonus,Class Bonus,,ship class bonus
+noun.size.bonus,Size Bonus,,ship size bonus
+noun.capacitor.bonus,Capacitor Bonus,,bonus from flux capacitors
+noun.flux.bonus,Flux Bonus,,
+noun.flux.capacitor,Flux Capacitor,,a device that increases flux capacity
+noun.flux.capacitor.desc,Increases the ship's Flux Capacity.,,
+noun.flux.capacitors,Flux Capacitors,,plural of flux capacitor
+research.spacetravel.warpdrive,Warp Drive,,
+research.spacetravel.warpdrivealien,Alien Warp Drive,,
+objects.devices.warpdrive,Horizon Warp Drive,,
+objects.devices.warpdrive.desc,"A long-range warp drive based on alien technology that can teleport to any region, regardless of distance.",,
+objects.devices.warpdrivemini,Local Warp Drive,,
+objects.devices.warpdrivemini.desc,A short-range warp drive designed for quick jumps within the current region. Ideal for tactical repositioning or rapid escapes.,,
+ship.combat.ongoing,Ship Combat In Progress,,
+ship.combat.ended,Ship Combat Ended,,
+warps.available,Warps Available,,warp is like a hyperjump but between distant places in space
+tut.ship.combat.desc,Learn how ship combat works.,,"This tutorial uses a codex linking system, that's why lots of terms are set as variables, the game replaces them with links to codex"
+tut.ship.combat.intro,This tutorial teaches you how to use ship weapons and fight other ships.,,
+tut.ship.combat.step.class.1,Every ship has a {0} that defines allowed loadout limits.,,"{0} will be ""Ship Class"" with link to codex"
+tut.ship.combat.step.class.2,"If your ship no longer meets the class requirements, you must choose a new {0}.",,"{0} will be ""Ship Class"" with link to codex"
+tut.ship.combat.step.class.3,You can switch between compatible ship classes in {0}.,,"{0} will be ""Ship Combat Controls > Configure > Ship Class"""
+tut.ship.combat.step.class.points.1,Loadout limits are defined by {0}. Larger ships have higher-tier ship classes that allow more {0}.,,"{0} will be ""Class Points"" with link to codex"
+tut.ship.combat.step.class.points.2,Every <b>Ship Device</b> used in combat costs some {0}.,,"{0} will be ""Class Points"""
+tut.ship.combat.step.class.points.3,Exceeding the allowed {0} for your {1} is illegal and results in {2} status.,,"{0} will be ""Class Points"", {1} will be ""Ship Class"", {2} is ""Outlaw"""
+tut.ship.combat.step.class.points.4,"This ship is a {0} class, allowing up to {1} {2}, but its current loadout is worth {3} {2}, making it an {4}.",,"{0} is class name like Cruiser, {2} is ""Class Points"", {1} and {3} are numbers (points), {4} is ""Outlaw"""
+tut.ship.combat.step.class.points.5,A notification will inform you when you violate the {0} limit.,,"{0} is ""Class Points"""
+tut.ship.combat.step.class.points.6,"Being an {0} has drawbacks. Most traders will avoid you, and {1} officers will hunt you.",,"{0} is ""Outlaw"", {1} is ""Law Enforcement"""
+tut.ship.combat.step.devices.title,Ship Combat Devices,,
+tut.ship.combat.step.devices.1,Let's review all ship devices involved in combat.,,
+tut.ship.combat.step.devices.shield.1,{0} are the most important defense mechanisms at your disposal. At least one {1} is required for a functioning shield.,,"{0} will be Shields, {1} is Shield Emitter"
+tut.ship.combat.step.devices.shield.2,{0} can protect your ship from incoming projectiles. Absorbing hits with {0} generates {1}.,,"{0} will be Shields, {1} is Hard Flux"
+tut.ship.combat.step.devices.capacitor.1,{0} increase the number of hits your {1} can absorb. {2} mechanics will be explained in more detail later in this tutorial.,,"{0} is Flux Capacitors, {1} is shields, {2} is Flux"
+tut.ship.combat.step.devices.engines.1,"Each {0} adds some {1}, making your ship harder to hit. {1} depends on your {2} and size, and is limited to {3}.",,"{0} is Thruster, {1} is Evade, {2} is Ship Class, {3} is percentage like 50%"
+tut.ship.combat.step.devices.engines.2,{0} must gain additional charge to perform a hyperjump while engaged in combat.,,{0} is Hyperdrives
+tut.ship.combat.step.devices.weapons.1,"There are several types of {0}, each with its own strengths and weaknesses.",,{0} is Ship Weapon
+tut.ship.combat.step.devices.weapons.ballistic.1,"{0} are small caliber guns that are stopped by the {1}. They generate {2} upon impact with the {1}, and can cause significant damage for unshielded ships.",,"{0} is Ballistic Weapons, {1} is Shields, {2} is Hard Flux"
+tut.ship.combat.step.devices.weapons.ballistic.2,"{0} are also effective at shooting down slow-moving projectiles, such as {1}.",,"{0} is Ballistic Weapons, {1} is Meteoroid"
+tut.ship.combat.step.devices.weapons.laser.1,{0} are more powerful than {1} but recharge slowly.,,"{0} is Laser Weapons, {1} is Ballistic Weapons"
+tut.ship.combat.step.devices.weapons.missile.1,{0} are extremely dangerous because they ignore {1} and deal significant damage. Their main drawback is the need for expensive ammo.,,"{0} is Missile Weapons, {1} is Shields."
+tut.ship.combat.step.devices.weapons.point.defense.1,"{0} cannot attack other ships, but can be used to shoot down incoming projectiles of {1}. They also work great against non-ship threats such as {2}.",,"{0} is Point Defense, {1} is Missile Weapons, {2} is Breach Capsule"
+tut.ship.combat.step.devices.weapons.plasma.1,{0} are ultimate weapons that can overwhelm the {1} and deal massive damage.,,"{0} is Plasma Weapons, {1} is Shields"
+tut.ship.combat.step.ui.1,A pirate ship is attacking. We'll now learn to control weapons in real combat.,,
+tut.ship.combat.step.ui.2,This is your {0}. You can toggle it on and off by clicking {1} overlay icon.,,"{0} is Ship Combat Controls, {1} is also Ship Combat Controls but with link to overlay icon"
+tut.ship.combat.step.ui.3,The left side of {0} contains your ship’s controls.,,{0} is Ship Combat Controls
+tut.ship.combat.step.ui.4,The right side displays information about your enemy.,,
+tut.ship.combat.step.ui.5,Clicking the ship name focuses the camera on the selected ship.,,
+tut.ship.combat.step.ui.6,"Before continuing, unpause the clock and let our ship exchange some hits with the enemy.",,
+tut.ship.combat.step.flux.1,We've accumulated some {0}. This is a good time to explain how it works.,,{0} is Flux
+tut.ship.combat.step.flux.types.1,There are two types of {0}:,,{0} is Flux
+tut.ship.combat.step.flux.types.2,{0} is generated when you fire your weapons. It vents automatically over time.,,{0} is Soft Flux
+tut.ship.combat.step.flux.types.3,{0} is generated by absorbing enemy hits with your {1}. It does not vent automatically.,,{0} is Hard Flux. {1} is Shields
+tut.ship.combat.step.flux.types.4,Some weapons generate {0} for your ship when fired. Check individual weapon stats for more details.,,{0} - Hard Flux
+tut.ship.combat.step.flux.capacity.1,{0} consists of {1} + {2}. The amount you can accumulate is limited by your {3}.,,"{0} - Accumulated Flux, {1} - Hard Flux, {2} - Soft Flux. {3} - Flux Capacity"
+tut.ship.combat.step.flux.capacity.2,Hover over the {0} UI element to see more details about how your {1} is calculated.,,"{0} - Flux, {1} - Flux Capacity"
+tut.ship.combat.step.flux.capacity.3,Upgrade your {0} or build {1} to increase your ship's {2}.,,"{0} - Ship Class. {1} - Flux Capacitors, {2} - Flux Capacity"
+tut.ship.combat.step.flux.overload.1,"If {0} exceeds your {1}, a {2} will happen.",,"{0} - Accumulated Flux, {1} - Flux Capacity, {2} - Flux Overload."
+tut.ship.combat.step.flux.overload.2,{0} will disable your {1} and force venting until all {2} is purged.,,"{0} - Flux Overload, {1} - Shields, {2} - Flux"
+tut.ship.combat.step.flux.venting.1,"You can vent {0} manually. This type of venting will also disable your {1}, but you can stop the process at any time.",,"{0} is Flux, {1} - Shields"
+tut.ship.combat.step.flux.venting.2,You can also set automatic venting thresholds in your ship's combat settings.,,
+tut.ship.combat.step.config.1,Press the {0} button to open the <b>Ship Configuration</b>.,,{0} - Configure
+tut.ship.combat.step.config.2,"This is your <b>Ship Configuration</b>. It allows you to change your {0}, adjust {1} settings, and modify weapon targeting behavior.",,"{0} - ship class, {1} - Flux"
+tut.ship.combat.end,"This covers the basics of {0}. Explore the {1} and {2} UI to learn more.<br><br>Now, put your knowledge into practice and defeat the enemy ship.",,"{0} - Ship Combat. {1} - Codex, {2} - Ship Combat Controls"
+law.enforcement.desc,"Most factions have dedicated <b>Law Enforcement Officers</b> who maintain order and hunt down {0} ships. Unless you're an {0} yourself, you can relax around them.",,{0} is Outlaw
+noun.weapon.class.points,Weapon Class Points,,
+noun.offensiveness,Offensiveness,,
+noun.offensiveness.allowed,Allowed Offensiveness,,
+noun.offensiveness.current,Current Offensiveness,,
+compatible.ship.classes,Compatible Ship Classes,,
+compatible.factions,Compatible Factions,,
+obj.ammo.interceptordart,Interceptor Darts,,"Plural, because it's a stack of several darts"
+obj.ammo.interceptordart.desc,"A compact, self-guided missile designed for short-range defense, capable of intercepting moving targets with precision.",,
+obj.ammo.missile,Missile,,
+obj.ammo.missile.desc,A highly explosive missile that deals massive damage and easily penetrates shields.,,
+tut.spacetravel.step4_1,"<b>ステーション</b>との<b>取引</b>の準備が整いました。<b>星間マップ</b>で強調表示された<b>ステーション</b>にカーソルを合わせて{0}で実効可能なアクションを表示し、<b>取引</b>を選択しましょう。",,
+find.resource,Find {0},,"{0} is resource name, like ""Dark Matter"""
+unlock.scanning.tip,"We're lacking {0}. Unlock {1} to enable scanning for this resource type, then use the {2} function in the {3} to locate a deposit.",,"{0} is resource name, like ""Dark Matter"", {1} is research technology name, {2} is Scanning, {3} is Starmap"
+warped.to.location,Warped to {0},,"{0} is location name. Warped to as in ""teleported to"" in space"
+scan.strength.limit.tip,"Your potential {0} is now {1}, but the maximum is limited to {2}. Additional scanning devices won't improve scanning speed.",,"{0} is Scan Strength, {1} and {2} is a number"
+noun.scan.strength,Scan Strength,,
+ship.entered.sector,Ship entered this sector,,Notification about another ship hyperjumping into player's location
+ship.left.sector,Ship left this sector,,Notification about another ship hyperjumping away from player's location
+ship.destroyed,Ship destroyed,,
+obj.upgrades.winchrangeupgrade,Winch Range Upgrade,,
+obj.upgrades.winchrangeupgrade.desc,"Extends the range of the winch hook, allowing you to reel in derelict ships from any distance.",,
+waiting.for.operator,Waiting for operator,,waiting for someone to operate the device
+no.worker.capable,No one is capable of performing this task,,
+noun.operator.bonus,Operator Bonus,,"when someone is communicating with another ship, operator with good social skills can give bonus in negotiation outcomes. This will be displayed as: Operator Bonus: +15%"
+noun.risk,Risk,,Will display something like Risk: 20%
+deep.scan.not.found,Unable to find more resource deposits in this location.,,
+adj.done,Done,,"as in ""the job is done"""
+tut.basic.controls.step.overlay.shipcombat,This overlay manages ship combat situations.,,
+auto.rebuild.priority,Auto Rebuild Priority,,
+auto.rebuild.priority.tip,"When an object is destroyed, and it has been unlocked through research, an automatic rebuild task will be created. You can set the default priority for these tasks here.",,
+auto.repair.priority,Auto Repair Priority,,
+auto.repair.priority.tip,"When an object is damaged and {0} is unlocked through research, an automatic repair task will be created. You can set the default priority for these tasks here.",,{0} is Auto Repair
+body.part.procedure.priority,Body Part Procedure Priority,,
+body.part.procedure.priority.tip,Changes the default priority for body part removal and installation tasks.,,
+upgrade.available,Upgrade Available,,
+ship.class.upgrade.available.desc,Your ship's configuration qualifies for higher {0}. You can change your {0} in {1} > {2}.,,"{0} is Ship Class, {1} is Ship Combat Controls. {2} is Configure"
+noun.return.beacon,Return Beacon,,
+noun.return.beacon.desc,A beacon that marks a location in space. Deploy it to create fast-travel points across the universe.,,
+object.deployed,{0} deployed,,{0} is object name
+object.already.exists,{0} already exists,,{0} is object name (like Return Beacon)
+noun.return.beacons,Return Beacons,,plural of Return Beacon
+overlay.tip.Notes,Notes,,
+tut.basic.controls.step.overlay.notes,You can keep notes in this scratchpad.,,
+structure.floors.floorwood01,Wooden Floor,,
+structure.floors.floorwood01.desc,A standard steel floor plate decorated with wooden panels.,,
+bodypart.Implant.FirewallChip,Firewall Chip,,
+bodypart.Implant.FirewallChip.desc,Protects against hacking and improves resistance to energy attacks.,,
+crawler.combat.alert,Crawler Combat Alert,,
+crawler.combat.alert.desc,"If disabled, fighting against crawlers will not produce combat alerts or change the music.",,
+universe.seed,Universe Seed,,"Seed is a random number used as a starting point to generate something, in this case a universe"
+tut.adv.controls.select.modes.2_new,"Press {1}, drag a rectangle around an area, and release {1} to select all <b>Beings</b> in the area. Hold {0} and use {1} on a <b>Being</b> to add or remove it from the selection.",,"{0} is Shift button icon, {1} is left mouse button icon"
+skip.colonist.choice,Skip Colonist Choice,,
+skip.colonist.choice.desc,Auto-select a colonist when one needs to be awakened from stasis.,,
+drag.to.resize,Drag to resize,,tooltip for the UI resize handle button
+menu.lights,Lights,,label for build menu containing lights
+menu.lights.desc,Lights sources,,
+situation.ShipSize,Ship Size,,
+situation.ShipClassPoints,Ship Class Points,,
+situation.CombatStrength,Combat Strength,,
+situation.NumShipCombats,Ship Combat Encounters,,
 telemetry.tip,"ゲームのパフォーマンスを向上させ、体験をより良質なものにするため、私たちは正当な権利に基づいてゲームプレイデータを収集します",,
 telemetry,テレメトリー,,noun
 share.telemetry,ゲームのテレメトリを共有する,,label for a checkbox that enables telemetry sharing
+direct.control.combat.tip,{0} drafts beings for combat and prevents them from doing any work.,,{0} is the button name (either Direct Control or Control)
+ev.photon.storm,Photon Storm,,
+ev.photon.storm.desc,A harmless phenomenon that boosts solar panel output.,,
+event.ended,Ended: {0},,"{0} will be event name, for example Ended: Photon Storm"
+event.ongoing,Ongoing: {0},,"{0} will be event name, for example Ongoing: Photon Storm"
+noun.employee.otm,Employee Of The Month,,Awared to the hardest worker every month
+noun.license.fee,License Fee,,label for price of buying some license
+noun.requirement,Requirement,,"usage example: ""Requirement: <some condition>"""
+noun.requirements,Requirements,,plural of requirement
+must.own,Must Own,,a label for requirement to own something
+verb.copy,Copy,,
+verb.paste,Paste,,
+adj.identical,Identical,,when two items are identical
+opinion.good,Good,,as in opinion about someone: good (START OF v014 translations)
+opinion.bad,Bad,,as in opinion about someone: bad
+verb.hates,Hates,,toward another person
+noun.attraction,Attraction,,sexual attraction
+noun.friend,Friend,,
+noun.lover,Lover,,
+noun.friendship,Friendship,,as in friendship level (will be expressed as percentage)
+noun.party,Party,,as in birthday party
+noun.party.custom,{0} party!,,"{0} will be something like Birthday or Wedding, or even Birthday / Wedding"
+party.desc,{0} are throwing a party!,,{0} will be replaced by a comma separated list of names
+party.custom.desc,{0} are throwing a {1} party!,,"{0} will be replaced by a comma separated list of names, {1} will be Birthday or Wedding or Birthday / Wedding"
+noun.birthday,Birthday,,
+noun.wedding,Wedding,,
+list.and,{0} and {1},,"Used for listing names. {0} will be list of comma separated names, {1} will be the last name. Example: ""Jack, Jill and James"". Will be combined with translation above to make something like ""Jack, Jill and James are throwing a party"""
+flag.Biological,Biological,,
+flag.Humanoid,Humanoid,,
+flag.Robotic,Robotic,,
+flag.Wild,Wild,,
+flag.Pet,Pet,,
+flag.Animal,Animal,,
+ability.DumbLabor,Dumb Labor,,
+ability.SkilledLabor,Skilled Labor,,
+ability.Intelligence,Intelligence,,
+bodypart.Core.DumbCore,Dumb Core,,
+bodypart.Core.LiteCore,Lite Core,,
+bodypart.Core.DumbCore.desc,A chip that contains the memories of a robot. Only capable of dumb labor.,,
+bodypart.Core.LiteCore.desc,A chip that contains the memories of a robot. Only capable of simple problem solving.,,
+modifier.NoDrama,Disable Drama,,
+modifier.NoDrama.desc,Disables most social interactions and colony drama events,,
+adj.positive,Positive,,"Adjective, as in ""positive opinion"""
+adj.negative,Negative,,"Adjective, as in ""negative opinion"""
+noun.good.karma,Good Karma,,
+noun.bad.karma,Bad Karma,,
+opinion.about,Opinion about {0},,{0} will be person's name
+noun.social.affinity,Social Affinity,,described in noun.social.affinity.desc (translation below)
+noun.social.affinity.desc,A one-sided feeling of liking or connection toward another person.,,
+developing.love,Developing love,,"as in ""Jack is developing love toward Jane"""
+developing.friendship,Developing friendship,,"as in ""Jack is developing friendship toward Jane"""
+developing.hate,Developing hate,,"as in ""Jack is developing hate toward Jane"""
+strength.love,Love strength,,
+strength.friendship,Friendship strength,,
+strength.hate,Hate strength,,
+status.friends,Friends,,"as in ""Jack and Jane are friends"""
+status.nemesis,Nemesis,,"as in ""Jack considers Jane a nemesis"" (arch-enemy)"
+status.crush,Crush,,"as in ""Jack has a crush for Jane"""
+status.lovers,Lovers,,"as in ""Jack and Jane are lovers"""
+status.spouse,Spouse,,"as in ""Jack is Jane's spouse"" (married)"
+status.master,Master,,Master of a pet or slave
+interactions.with,Interactions with {0},,{0} will be person's name
+status.unfamiliar,Unfamiliar,,"as in ""Jack is unfamiliar with Jane"""
+status.acquaintance,Acquaintance,,"as in ""Jack considers Jane an acquaintance"""
+relationship.strength.0,Faint,,
+relationship.strength.1,Weak,,
+relationship.strength.2,Moderate,,
+relationship.strength.3,Strong,,
+relationship.strength.4,Profound,,
+time.spent.together,Time spent together,,label for time counter for two beings spending time together
+noun.social.interactions,Social Interactions,,label for a list of social interactions that happened between people
+interaction.danced.with,{0} danced with {1} ,,{0} and {1} will be names of people who danced together at a jukebox
+status.lovers.announce,{0} and {1} have become lovers!,,{0} and {1} are names
+status.friends.announce,{0} and {1} have become friends!,,
+status.pet.announce,{0} has become {1}'s pet!,,
+status.nemesis.announce,{0} has declared {1} a nemesis!,,
+status.spouse.announce,{0} and {1} just got married!,,
+date.with,Date with {0},,{0} is other being name. date as in romantic meeting.
+verb.dating,Dating,,"as in ""going out on a date"""
+noun.date,Date,,romantic date between two people (or pets)
+date.desc,{0} and {1} are going on a date!,,{0} and {1} are names
+date.cut.short,{0} cut the date short,,{0} is name. this is used when someone leaves their date in the middle of dating
+noun.libido,Libido,,Libido refers to an individual's sex drive or sexual desire
+date.outcome.good,Had a good date with {0},,{0} is name. date - romantic date.
+date.outcome.bad,Had a bad date with {0},,{0} is name. date - romantic date.
+date.good.desc,{0} and {1} went on a date and had a great time,,{0} and {1} are names
+date.bad.desc,{0} and {1} went on a date that didn't go well,,{0} and {1} are names
+date.good.title,Enjoyable date,,
+date.bad.title,Disastrous date,,
+chatting.with,Chatting with {0},,{0} is a name
+bodypart.Implant.ConversationModule,Conversation Module,,
+bodypart.Implant.ConversationModule.desc,Enables vocalization and hearing. Useless if the mind cannot form words.,,
+ability.Vocalize,Vocalize,,ability to speak or emit sounds (for animals)
+ability.Hear,Hear,,ability to hear sounds
+social.chat.good,Pleasant conversation,,
+social.chat.bad,Argument,,
+social.chat.good.desc,{0} and {1} had a pleasant conversation,,{0} and {1} are names
+social.chat.bad.desc,{0} and {1} had an argument,,{0} and {1} are names
+social.chat.meal.good,Shared a pleasant meal,,
+social.chat.meal.bad,Argument over a meal,,
+social.chat.meal.good.desc,{0} and {1} shared a meal and enjoyed each other's company,,{0} and {1} are names
+social.chat.meal.bad.desc,{0} and {1} had a tense conversation over a meal,,{0} and {1} are names
+social.chat.drink.good,Shared a pleasant drink,,
+social.chat.drink.bad,Argument over drinks,,
+social.chat.drink.good.desc,{0} and {1} had a drink together and got along well,,{0} and {1} are names
+social.chat.drink.bad.desc,{0} and {1} had a heated exchange while sharing a drink,,{0} and {1} are names
+something.happened.with.name,with {0},,"{0} is name. example use: ""Had an argument (with John)"""
+social.chat.workout.good,Shared workout,,
+social.chat.workout.bad,Workout conflict,,
+social.chat.workout.good.desc,{0} and {1} enjoyed working out together,,{0} and {1} are names
+social.chat.workout.bad.desc,{0} and {1} had a disagreement during a workout,,{0} and {1} are names
+social.chat.gaming.good,Fun gaming session,,
+social.chat.gaming.bad,Gaming dispute,,
+social.chat.gaming.good.desc,{0} and {1} had fun playing a game together,,{0} and {1} are names
+social.chat.gaming.bad.desc,{0} and {1} got into an argument while gaming ,,{0} and {1} are names
+social.chat.dance.good,Enjoyable dance,,
+social.chat.dance.bad,Awkward dance,,
+social.chat.dance.good.desc,{0} and {1} shared a fun and graceful dance,,{0} and {1} are names
+social.chat.dance.bad.desc,"{0} and {1} danced together, but it didn't go smoothly",,{0} and {1} are names
+social.exp.saved.falling.title,Saved from a pitfall  ,,
+social.exp.saved.falling.desc,"While on a mining expedition, {0} saved {1} from falling into a deep shaft just in time.",,{0} and {1} are names
+social.exp.fist.fight.title,Shuttle brawl,,
+social.exp.fist.fight.desc,"While on an expedition, {0} got into a fist fight with {1}.",,{0} and {1} are names
+social.exp.mining.bond.title,Formed a stronger bond,,
+social.exp.mining.bond.desc,"While working side by side on a mining expedition, {0} and {1} formed a strong sense of comradery.",,{0} and {1} are names
+social.exp.mining.loot.title,Found valuable loot,,
+social.exp.mining.loot.desc,"While on a mining expedition, {0} and {1} discovered something valuable.",,{0} and {1} are names
+pranking.someone,Playing a prank on {0},,{0} is the name of the prank target
+prank.desc,{0} pulled a prank on {1},,{0} and {1} are names
+prank.outcome.good,{1} was pranked by {0} and couldn't stop laughing,,{0} and {1} are names
+prank.outcome.bad,{1} was pranked by {0} and didn't take it well,,{0} and {1} are names
+verb.pranking,Playing a prank,,
+got.pranked.by,Got pranked by {0},,{0} is name
+pranked.someone,Pulled a prank on {0},,{0} is name
+made.love.with,Made love with {0},,{0} is name
+make.love.good.desc,{0} and {1} made love and it brought them closer,,{0} and {1} are names
+make.love.bad.desc,"{0} and {1} made love, but it was awkward and left them feeling disconnected",,{0} and {1} are names
+make.love.title,Intimate moment between lovers,,
+make.love.desc,{0} and {1} are about to share a moment of passion!,,{0} and {1} are names
+make.love.with,Making love with {0},,{0} is name
+verb.making.love,Making love,,
+act.stabbed.kitchen.knife,{0} stabbed {1} with a kitchen knife,,{0} and {1} are names
+act.stabbed.fork,{0} stabbed {1} with a fork,,{0} and {1} are names
+act.stabbed.pencil,{0} stabbed {1} with a pencil,,{0} and {1} are names
+act.stabbed.scissors,{0} stabbed {1} with a pair of scissors,,{0} and {1} are names
+noun.stabbing,Stabbing,,
+stabbed.someone,Stabbed {0},,{0} is name
+stabbed.by.someone,Stabbed by {0},,{0} is name
+act.stalking.someone,Stalking {0},,{0} is name
+stalking.title,{0} was stalking {1},,{0} and {1} are names
+stalking.outcome.caught.liked,"{0} was caught stalking {1}, but {1} didn't seem to mind",,{0} and {1} are names
+stalking.outcome.caught.hated,"{0} was caught stalking {1}, and {1} was disturbed by it",,{0} and {1} are names
+stalking.outcome.not.caught,{0} stalked {1} without being noticed,,{0} and {1} are names
+noun.stalking,Stalking,,a fact of stalking happening (noun)
+verb.stalking,Stalking,,a verb
+stalked.someone,Stalked {0},,{0} is name
+stalking.got.caught,Caught while stalking,,
+stalking.caught.stalker,Caught someone stalking,,
+trait.stalker,Stalker,,
+ashes.of,Ashes of {0},,"{0} is name, ashes as in ashes after cremating a dead person"
+obj.materials.ashes,Ashes,,
+obj.materials.ashes.desc,"Fine, grayish powder left after burning organic matter.",,
+objects.furniture.urn,Urn,,
+objects.furniture.urn.desc,A container used to hold the ashes of a cremated body.,,
+act.mourning.someone,Mourning {0},,{0} is name of a dead being (human or pet).
+verb.mourning,Mourning,,mourning a dead being
+mourned.someone,Mourned {0},,{0} is name
+ev.mourned.title,{0} mourned {1},,{0} and {1} are names
+ev.mourned.fail.desc,{0} was unable to visit the remains of {1},,{0} and {1} are names
+ev.mourned.ok.desc,{0} spent a moment of silence near the remains of {1},,{0} and {1} are names
+objects.devices.arcadecabinet,Arcade Cabinet,,
+objects.devices.arcadecabinet.desc,"A coin-operated gaming machine with a screen, controls, and built-in games.",,
+act.gaming,Gaming,,
+played.video.game,Played a video game,,
+act.having.fun,Having fun,,
+played.video.game.with,{0} played a video game with {1},,{0} and {1} are names
+evt.organ.failure.title,Organ failure,,
+evt.organ.failure.desc,{0} suffered a {1} failure.,,"{0} is name, {1} is organ name. ex: John suffered a heart failure"
+evt.component.failure.title,Component failure,,
+evt.component.failure.desc,{0} experienced a failure in the {1} component.,,"{0} is name, {1} is component name. ex: Robot sustained a battery component failure"
+menu.entertainment,Fun,,"noun, must be short"
+menu.entertainment.desc,Devices for colonist recreation and amusement,,
+verb.forget,Forget,,"as in ""forget this ever happened"" or ""forget john"""
+no.burial.ceremony,No burial ceremony,,
+no.burial.ceremony.tip,{0}'s ashes were ignored and dishonored,,{0} is name
+forget.ashes.tip,Forgetting the ashes will dishonor the deceased and repurpose them as raw material.,,
+colonist.upset.warning,This action may upset the colonists.,,
+death.euthanized.by,Euthanized by {0},,{0} is name
+death.blood.loss,Lost too much blood,,
+death.combat.raiders,Fell in combat against raiders from the {0} faction,,{0} is name
+time.of.death,Time of death,,
+death.crawlers.burst,{0} alien crawlers burst from the abdomen,,"{0} is number, greater than 1"
+verb.hacking,Hacking,,
+death.abandoned.in.space,Left to die in space,,
+death.disposed.at,Disposed of at the {0} by {1},,"{0} is the device name, {1} is name of the person who disposed. Example: Disposed of at the Nutrient Extractor by John"
+inflicted.by,Inflicted by {0},,{0} is name. This is for labeling who inflicted a wound.
+death.by.body.part.removal.bio,Organ removal by {0} (removed {1}),,"{0} is name, {1} is organ name (for humans)"
+death.by.body.part.removal.robo,Component removal by {0} (removed {1}),,"{0} is name, {1} is part name (for robots)"
+death.fatal.attack,{0} delivered a fatal blow to the {1},,{0} is name {1} is body part / organ name
+act.petted.pet,{0} petted {1},,"{0} is name of a human, {1} is name of a pet"
+cond.Inspired,Inspired,,adjective
+ev.inspired.desc,{0} was hit by a wave of inspiration!,,{0} is name
+state.increasing,Increasing,,
+state.decreasing,Decreasing,,
+ev.comet.shower,Comet Shower,,
+ev.comet.shower.desc,A mesmerizing comet shower unfolds in the distance. Colonists are eager to watch it.,,
+ev.wedding.title,Wedding!,,
+married.someone,Married {0},,{0} is the spouse name
+obj.equipment.hats.jesterhat,Jester's Hat,,
+obj.equipment.hats.jesterhat.desc,"Perfect for jesters, clowns, or bold fashion choices.",,
+ev.soft.surge.storm,Soft Surge Storm,,
+ev.soft.surge.storm.desc,"A space phenomenon that harmonizes electrical currents, causing all devices to consume less energy.",,
+ev.psychic.storm,Psychic Storm,,
+ev.psychic.storm.desc,A bioelectric particle storm that gradually unravels the minds of living beings.,,
+noun.pain.mild,Mild pain,,
+noun.pain.moderate,Moderate pain,,
+noun.pain.severe,Severe pain,,
+noun.pain.excruciating,Excruciating pain,,
+chance.scar,Chance to leave a scar,,
+scar.info,A {0} scar caused by a {1} wound inflicted by {2},,"{0} is severity level (severe, moderate, etc), {1} is damage type (sharp, piercing), {2} is name of attacker. Example:  A Severe scar from a Slashing wound Inflicted by John"
+noun.scar,Scar,,
+noun.scars,Scars,,
+caused.by,Caused by {0},,{0} is name of a person who caused something
+verb.past.formed,Formed,,label for something that was formed some time ago
+scar.short.info,{0} scar from {1},,"{0} is severity level (severe, moderate, etc), {1} is name of attacker. Example: Severe scar from John"
+scar.random.source.generic.1,old battle,,
+scar.random.source.generic.2,bar brawl,,
+scar.random.source.generic.3,torture,,
+scar.random.source.generic.4,pirates,,
+scar.random.source.generic.5,self harm,,
+scar.random.source.generic.6,an accident,,
+scar.random.source.generic.7,an old job,,
+scar.random.source.generic.8,a cat,,
+scar.random.source.generic.9,a shuttle accident,,
+scar.random.source.human.1,a friend,,
+scar.random.source.human.2,their best friend,,
+scar.random.source.human.3,a former lover,,
+scar.random.source.human.4,a cleaning incident,,
+scar.random.source.human.5,a failed guitar lesson,,
+objects.cosmetics.chess.piece.desc,An oversized chess piece.,,
+objects.cosmetics.chess.chesspawnw,White Pawn,,
+objects.cosmetics.chess.chesspawnb,Black Pawn,,
+objects.cosmetics.chess.chesskingw,White King,,
+objects.cosmetics.chess.chesskingb,Black King,,
+objects.cosmetics.chess.chessqueenw,White Queen,,
+objects.cosmetics.chess.chessqueenb,Black Queen,,
+objects.cosmetics.chess.chessrookw,White Rook,,
+objects.cosmetics.chess.chessrookb,Black Rook,,
+objects.cosmetics.chess.chessknightw,White Knight,,
+objects.cosmetics.chess.chessknightb,Black Knight,,
+objects.cosmetics.chess.chessbishopw,White Bishop,,
+objects.cosmetics.chess.chessbishopb,Black Bishop,,
+structure.floors.floormarble01,Marble Floor,,
+structure.floors.floormarble01.desc,A fancy polished interior floor.,,
+ev.raid.map.edge.title,Incoming Raiders!,,
+ev.raid.map.edge.desc,Raiders are approaching our ship!,,
+obj.containers.hullpiercer,Hullpiercer,,
+obj.containers.hullpiercer.desc,A high-velocity boarding pod designed to punch through a ship's hull for rapid entry.,,
+act.feeding.patient,Feeding a patient,,
+feed.patient,Feed a patient,,
+incoming.object,Incoming {0}!,,"{0} can be a meteor, breach capsule, some other flying object targeting the ship"
+persona.bio,"{0} {1}, {2}",,"{0} is species, {1} is sex {2} is age. Example: Human Female, 37y"
+persona.bio.sexless,"{0}, {1}",,"{0} is species, {1} is age. Example: Robot, 37y"
+sex.orientation.straight,Straight,,
+sex.orientation.gay,Gay,,
+sex.orientation.lesbian,Lesbian,,
+sex.orientation.asexual,Asexual,,
+sex.orientation.bisexual,Bisexual,,
+flag.Flying,Flying,,"adjective, as in ""a flying robot"""
+modifier.NoQuestRewards,Disable Quest Rewards,,
+modifier.NoQuestRewards.desc,Completing main quests normally grants small rewards. Disabling them adds extra challenge.,,
+had.spacewalk,Had a spacewalk,,
+trait.sociopath,Sociopath,,
+trait.sociopath.about,"Lacks empathy, disregards others' rights, and manipulates without remorse.",,
+trait.antisocial,Antisocial,,
+trait.antisocial.about,Avoids social interaction and prefers solitude over company.,,
+trait.open_eyed_sleeper,Open-eyed Sleeper,,
+trait.open_eyed_sleeper.about,This person sleeps with their eyes open.,,
+trait.gigolo,Gigolo,,"a young man paid or financially supported by a woman, typically an older woman, to be her escort or lover."
+trait.high.libido,High libido,,Libido refers to an individual's sex drive or sexual desire
+trait.charismatic,Charismatic,,for describing charismatic character (not external looks)
+trait.beautiful,Beautiful,,describes a good looking woman
+trait.handsome,Handsome,,describes a good looking man
+trait.ugly,Ugly,,
+trait.optimist,Optimist,,
+trait.pessimist,Pessimist,,
+trait.fast,Fast,,As in fast walker
+trait.slow,Slow,,As in slow walker
+trait.lazy,Lazy,,
+trait.workaholic,Workaholic,,
+trait.astrophobe,Astrophobe,,
+trait.astrophobe.about,Astrophobes are afraid of spacewalks.,,
+trait.astrophile,Astrophile,,
+trait.astrophile.about,Astrophiles enjoy spacewalks.,,
+trait.dog_person,Dog Person,,someone who likes dogs more than cats
+trait.cat_person,Cat Person,,someone who likes cats more than dogs
+trait.shadow_dweller,Shadow Dweller,,
+trait.shadow_dweller.about,Enjoys being in the dark.,,
+trait.coffee_addict,Coffee Addict,,
+role.Babysitter,Babysitter,,
+role.Delinquent,Delinquent,,"(typically of a young person) tending to commit crime, particularly minor crime."
+role.Gamer,Gamer,,
+role.GraffitiArtist,Graffiti Artist,,
+role.LittleShit,Little Shit,,a term some people call annoying kids
+role.NeighborhoodMenace,Neighborhood Menace,,
+role.Otaku,Otaku,,(in Japan) a young person who is obsessed with computers or particular aspects of popular culture to the detriment of their social skills.
+role.PaperBoy,Paper Boy,,
+role.SweatshopWorker,Sweatshop Worker,,
+role.FighterPilot,Fighter Pilot,,
+role.FlatEarther,Flat Earther,,"a believer of the ""Flat Earth"" movement"
+role.Mechanic,Mechanic,,
+role.SpaceportValet,Spaceport Valet,,somone who drives spaceships into parking spots
+role.Seaman,Seaman,,
+role.ProjectManager,Project Manager,,
+role.DrillingEngineer,Drilling Engineer,,
+role.Roughneck,Roughneck,,"An oil rig job type. They assist the driller, carrying out the manual operation of the systems and equipment required for the specific process, which involves hard effort. While the drilling operations, a member of the teamwork is present in the shaker room, assisting the shakerman. Roughnecks are also in charge of cleaning, scraping and wirebrusing floor areas, chipping rust, painting and any other general maintenance tasks."
+role.Storekeeper,Storekeeper,,
+role.CivilEngineer,Civil Engineer,,
+role.CommsOperator,Comms Operator,,Comms short for Communications
+role.Busboy,Busboy,,"a restaurant industry worker who clears tables, takes dirty dishes to the dishwasher, and assists waitstaff"
+role.Busgirl,Busgirl,,like busboy but for females
+role.Cook,Cook,,Restraurant staff
+role.HeadChef,Head Chef,,Restraurant staff
+role.Waiter,Waiter,,Restraurant staff
+role.Waitress,Waitress,,Restraurant staff
+role.Photographer,Photographer,,
+role.Handyman,Handyman,,
+role.CarCrashSurvivor,Car Crash Survivor,,
+role.UnwantedChild,Unwanted Child,,
+role.BugCollector,Bug Collector,,
+role.TreeHouseOwner,Tree House Owner,,
+role.Veterinarian,Veterinarian,,
+role.Pilot,Pilot,,
+role.Trapper,Trapper,,
+role.Hitman,Hitman,,
+role.BotWhiz,Bot Whiz,,a child who likes tinkering with robots
+role.GoKartRacer,Go-Kart Racer,,
+role.TaxiDriver,Taxi Driver,,
+role.Herbalist,Herbalist,,
+role.Priest,Priest,,
+role.Landlord,Landlord,,
+role.Beautician,Beautician,,
+role.MarineBiologist,Marine Biologist,,
+role.FieldSurveyor,Field Surveyor,,
+role.Alpinist,Alpinist,,
+role.ArmsDealer,Arms Dealer,,
+role.Survivalist,Survivalist,,
+role.Astronomer,Astronomer,,
+role.Librarian,Librarian,,
+role.Farmer,Farmer,,
+role.Chemist,Chemist,,
+role.GuideDog,Guide Dog,,
+role.ServiceAnimal,Service Animal,,
+role.PoliceOfficer,Police Officer,,
+role.Maid,Maid,,
+explosion.strength,Explosion strength,,how powerful the explosion would be if an object exploded
+adj.ongoing,Ongoing,,adjective
+obj.equipment.hats.baseballcap01,Baseball Cap,,
+obj.equipment.hats.baseballcap01.desc,A simple baseball cap,,
+avoiding.someone,Avoiding {0},,{0} is name
+noun.chase,Chase,,noun
+chasing.desc,{0} chased {1},,{0} and {1} are names
+chase.outcome.good,{1} was chased by {0} and had a ton of fun,,{0} and {1} are names
+chase.outcome.bad,{1} was chased by {0} and hated it,,{0} and {1} are names
+verb.chasing,Chasing,,
+got.chased.by,Got chased by {0},,{0} is name
+chased.someone,Chased {0},,{0} is name
+verb.running.away,Running away,,
+device.lootable.only,"This item cannot be built. It can only be acquired through other means, such as finding it on derelict ships.",,
+feedback.cool_stuff,Cool Stuff,,
+feedback.cool_stuff.tip,"If you want to share a nice ship design, an interesting moment or a beautiful screenshot, choose this category.",,
+ev.injured.raider.joined.colony,An injured raider has surrendered,,
+ev.injured.raider.joined.colony.desc,"An injured raider, {0} from the {1} faction, is asking for forgiveness and has sworn allegiance to your colony.",,"{0} is name, {1} is faction name"
+at.quality,at {0} quality,,"{0} is percentage. This is for stat modifier of an item at given item quality. Example: ""Damage at 98% quality: 55"""
+immersive.icons,Immersive Icons,,
+immersive.icons.tip,"When enabled, status icons on devices will be affected by environmental light. Otherwise, they remain bright even in darkness. This makes the game harder but more immersive.",,
+feedback.graphics,Graphics,,
+feedback.graphics.tip,"For reporting visual bugs and glitches in rendering, particle systems, UI, and other graphics.",,
+fog.of.war.warning,Warning: {0} is enabled. Unlit parts of your ship will be invisible.,,"{0} is translated settings menu path, such as ""Settings > Video > Abient Light > Fog Of War"""
+disable.device.animations,Disable Device Animations,,
+disable.device.animations.tip,Disabling device animations can improve graphics performance on low-end devices.,,
+act.confessing.love,Confessing love to {0},,{0} is name
+confessed.love.title,{0} confessed love to {1},,{0} and {1} are names
+confess.love.outcome.accepted,{0} confessed love to {1} and the feelings were mutual,,{0} and {1} are names
+confess.love.outcome.rejected,{0} confessed love to {1} and was rejected,,{0} and {1} are names
+confess.love.outcome.ignored,{0} confessed love to {1} but didn't receive an answer,,{0} and {1} are names
+verb.confessing.love,Confessing love,,a verb
+confessed.love.to.someone,Confessed love to {0},,{0} is name
+confessed.love.accepted,Love confession accepted,,
+confessed.love.rejected,Love confession rejected,,
+confessed.love.ignored,Unanswered love confession,,
+received.love.confession,Received a love confession ,,
+noun.love.confession,Love Confession,,
+verb.receiving.love.confession,Receiving a love confession,,
+scar.love.confession.rejection,{0} rejecting a love confession,,"{0} is name. example use in scar description: ""A scar on the heart infliced by Charlie rejecting a love confession"""
+adj.unreachable,Unreachable,,
+disable.all.particles,Disable All Visual Effects,,
+disable.all.particles.tip,"This disables all but critically important visual effects.
+<br><br><b>WARNING!</b> Many key visuals, including weapon shots, will be invisible.",,
+cpu.bonus,CPU Bonus,,"example use: ""CPU Bonus: 1Thz > +10% mining depth"""
+memory.bonus,Memory Bonus,,"example use: ""Memory Bonus: 1Eb > +10% mining depth"""
+gpu.bonus,GPU Bonus,,"example use: ""GPU Bonus: 1Thz > +10% mining depth"""
+disk.bonus,Disk Bonus,,"example use: ""Disk Bonus: 1EB > +10% mining depth"""
+codex.m.electricity.computerresourcesbonus,Computer Resources Bonus,,
+codex.m.electricity.computerresourcesbonus.desc,"Computer resources such as <b>CPU</b>, <b>Memory</b>, <b>GPU</b>, and <b>Disk</b> can add stat bonuses to devices on the same electrical grid. Check tooltips for details.",,
+noun.industrial.equipment,Industrial Equipment,,"generic term for all devices that are meant for producing something, factory machines, etc"
+adj.noisy,Noisy,,
+sleep.eff.industrial.noisy,Slept in a noisy industrial area,,
+sleep.eff.industrial,Slept in an industrial area,,
+sleep.eff.dorm,Slept in a dormitory,,
+sleep.eff.own.room,Slept in personal quarters,,
+sleep.eff.room.too.large,Overly large sleeping quarters,,
+sleep.eff.room.too.small,Cramped sleeping quarters,,
+sleep.eff.cozy.room,Cozy sleeping quarters,,
+sleep.eff.outdoors,Slept in an area exposed to open space,,
+hint.hyperspace_exit,"Hyperspace travel is instant, but you must manually exit it each time. Use the {0} button in the {1} to do so.",,"{0} is ""Exit Hyperspace"" button label, {1} is Starmap"
+select.filtered,Select Filtered,,for selecting all elements in a list after filtering them
+deselect.filtered,Deselect Filtered,,
+deselect.all,Deselect All,,
+noun.toll,Toll,,a price of passing a checkpoint
+verb.pay,Pay,,
+noun.discount,Discount,,
+noun.region.discount,Regional Discount,,
+noun.faction.tax,Faction Tax,,
+noun.final.price,Final Price,,
+paid.toll,Paid Toll,,notification that player has just paid a toll
+noun.tax,Tax,,
+update.on.steam.workshop,Update on Steam Workshop,,
+mat.amounts.may.vary,Material amounts may vary,,
+cant.assign,Can't Assign,,must be as short as possible. A small label trying to assign a task that we cannot assign for some reason
+worker.could.not.reach.the.device,Worker could not reach the device,,
+last.month,Last Month,,example use: Time worked (Last Month): 12h
+this.month,This Month,,example use: Time worked (This Month): 12h
+being.risking.life.for.food,{0} is risking death in vacuum to grab {1} from sheer starvation,,"{0} is name, {1} is name of the meal"
+noun.death.care,Death Care,,name of research that unlocks death care related tech
+noun.medical.care,Medical Care,,name of research that unlocks medical care devices
+verb.warp,Warp,,verb - to travel in space using the warp drive
+exit.hyperspace.to.recharge,We had to exit hyperspace to recharge the drives. Reenter hyperspace once the drives are ready?,,
+hyperdrives.exhausted,Hyperdrives Exhausted,,
+hyperspace.warped.back,The hyperdrive failsafe warped the ship back to its anchored position,,
+hyperjump.failed,Hyperjump Failed,,
+hyperjump.completed,Hyperjump Completed,,
+next.stop,Next stop,,"next destination in travel. example: ""Next stop: London"""
+verb.stay,Stay,,
+verb.reenter,Reenter,,
+visit.waypoints,Visit Waypoints,,
+visit.waypoints.tip,Exit hyperspace at each waypoint and wait for manual resume during hyperjumps,,
+noun.queue,Queue,,
+status.on.hold,On Hold,,"when some operation is paused, waiting for player to resume it"
+leaving.hyperspace,Leaving Hyperspace,,
+arrived.at,Arrived at {0},,{0} is location name
+noun.warp.target,Warp Target,,target of warp drive hyperjump
+part.quality.threshold,Part Quality Threshold,,
+part.quality.threshold.tip,"When beings are disposed, body parts with quality above this threshold will be preserved.",,
+codex.m.defenses.tractorbeam.desc_new,"Tractor Beams can influence the trajectory of slow moving projectiles, such as Asteroids, Meteoroids and various Pods and Capsules.<br><br>You have to build and connect a <b>Tractor Beam Target</b> in order to use the Tractor Beam.",,
+codex.m.defenses.tractorbeam.desc2,Multiple Tractor Beams can guide the same projectile towards the same or different target. The force from each Tractor Beam adds up to increase the influence over the trajectory of a projectile.,,
+tut.select.tile.being.warning,"If a being is over an object, the first click selects the being. Click again on the same spot to select the object.",,
+electricity.manage.tutorial.warning,"You haven't completed the {0} tutorial but are trying to use the {1} function. If you know what you're doing, ignore this warning. Otherwise, take the {0} tutorial to learn the fundamentals first!<br><br>You can find the {0} tutorial in {2}.",,"{0} is tutorial name (""Electricity""), {1} is ""Establish Temporary Connection"", {2} is ""Main Menu > Tutorials"". Note that {0} is repeated a few times on purpose."
+basic.tutorials.not.done.warning,You haven't completed the following tutorials: {0}<br><br>These cover the fundamentals and are highly recommended for new players. You can find them in {1}.,,"{0} will be a list of tutorial names. {1} is ""Main Menu > Tutorials"""
+surgical.pending.procedures,Pending Procedures,,label for list of surgical operations for humans or body part replacements for robots.
+fog.of.war.desc,"Fog of War hides unlit areas of your ship, adding an extra layer of challenge.",,
+noun.extra.challenge,Extra Challenge,,
+noun.visuals,Visuals,,
+auto.expand.tips,Auto-Expand Tooltips,,
+auto.expand.tips.desc,"If this setting is disabled, some tooltips will be truncated unless you hold {0}.",,
+bodypart.Body.BodyMindjar,Mindjar Frame,,
+bodypart.Body.BodyMindjar.desc,A mobile bot frame that can accomodate a biological brain.,,
+species.Mindjar,Mindjar,,
+beings.mindjar01,Mindjar,,
+beings.mindjar01.desc,A bot carrying a preserved brain inside a glass jar that controls its mechanical body.,,
+warning.too.close,Too close,,"warning label. for example, when some object is too close to another object that requires minimum distance between them"
+warning.too.far,Too far,,"warning label. for example, when some object is too far from the ship or another object"
+warning.blocked.by,Blocked by {0},,{0} name of the object that blocks something (like construction of another object)
+noun.work.spot,Work Spot,,
+noun.io.port,I/O Port,,"I/O is Input / Output. Usually it's a tech term that either has a specific idiom in your language, or just leave it as I/O, people will understand"
+warning.invalid.location,Invalid Location,,
+warning.replacement.not.allowed,Replacement not allowed,,
+hint.dark.matter.acquisition,You can scan for {0} deposits after unlocking {1} research.,,{0} is Dark Matter {1} is Extended Scanning
+trait.hooker,Hooker,,"A female version of ""Gigolo"" trait"
