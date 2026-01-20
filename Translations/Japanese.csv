@@ -519,7 +519,6 @@ codex.m.electricity.gridredundancy.desc,"パワーグリッドの接続喪失を
 codex.m.electricity.handlingdeficit,電力不足の取り扱い,,
 codex.m.electricity.handlingdeficit.desc,"発電量よりも多くの電力を消費しようとすると、電力不足が発生します。この状況では、<b>電力不足</b>の通知がイベントパネルに表示され、ライトがちらつく事で、この兆候に気づくかもしれません。<br><br>電力不足に対処するには複数の方法があります:<br> - <b>{0}</b> オーバーレイの<b>グリッド詳細</b>を使用して状況を調べます。このセクションには<b>消費者</b>のリストが含まれており、電力不足の原因を特定するのに役立ちます。<br> - 非必須の高出力デバイスを一時的にオフにします。<br> - 発電量を増やすために、より多くの<b>反応炉</b>と<b>ソーラーパネル</b>を建造します。常に余分な発電能力を維持することをお勧めします。<br> - <b>バッテリー</b>に投資し、完全に充電して緊急時の電力予備として使用します。",,
 codex.m.electricity.managingunreachabledevices,グリッド外の機器の管理,,
-codex.m.electricity.managingunreachabledevices.desc,"原則として、<b>船のコンピュータ</b>と同じパワーグリッド上にない機器は制御できません。ただし、ロボット作業員に指示して<b>一時的な接続</b>を確立するよう命じることができます。作業ユニットが接続されている間、デバイスは完全に制御可能になります。また作業ユニットはデバイスが必要とする少量の<b>電力</b>と<b>CPU</b>を供給します。<br><br>一時的な接続を指示するには、グリッド外のデバイスを選択し、情報パネルまたはコンテキストメニューの<b>電力ノード到達不可</b>警告の横にある<b>管理</b>ボタンを選択します。一時的な接続が確立されると、イベントパネルに通知が表示されます。<br><br>一時的な接続を終了するには、<b>解除</b>ボタンをクリックします。",2024-11-22,
 codex.m.electricity.multiplegrids,複数のグリッド,,
 codex.m.electricity.multiplegrids.desc,"複数系統のパワーグリッドを持つことが可能です。しかし、船のコンピュータがグリッドに接続されている場合にのみ、デバイスを制御したり接続状態を変更できます。<br><br>ほとんどの状況下では複数のグリッドを1つに統合するべきです。グリッドの一部をすばやく切断したい場合はスイッチを建造し、それを介して接続の経路制御をすることができます。",,
 codex.m.electricity.productionpriority,発電の優先順位,,
@@ -530,7 +529,6 @@ codex.m.environment.airtightness.desc,"気密性とは構造物が<b>酸素の�
 codex.m.environment.enclosedareas,気密区画,,
 codex.m.environment.enclosedareas.desc,"<b>気密区画</b>とは、無傷な<b>床</b>と<b>隔壁</b>（通気口やドアを含む）で囲まれている範囲のことを指します。区画が損傷した壁や床の亀裂から<b>宇宙空間</b>にさらされると、無酸素化して適切に暖めることはできません。<br><br>一部のデバイスは<b>非気密区画</b>が必要です。そのようなデバイスが気密区画になると、イベントパネルに警告が表示されます。<br><br><b>{0}</b> オーバーレイでどの区画が気密区画であるかを確認できます。",,
 codex.m.environment.fire,火災,,
-codex.m.environment.fire.desc,"高レベルの<b>熱</b>と<b>酸素</b>が組み合わされると、一部のオブジェクトが発火する可能性があります。<br><br><b>放水銃</b>を建造して<b>水</b>を装填しておくことで、自動的に消火することができます。<br><br>近くのすべての<b>酸素ポンプ</b>をオフにし、<b>通気口</b>を解放し、床タイルを分解することは、火災を消火する際に有効です。<br><br>火災には<b>化学的な</b>ものも存在し、<b>酸素</b>がなくても長時間燃え続けることができるため、さらに危険です。<br><br>火災が発生しないように、<b>{0}</b>オーバーレイに気を配りましょう。",2024-11-22,
 codex.m.environment.heat,温度,2023-08-29,
 codex.m.environment.heat.desc,"すべてのタイルは、それぞれに空間的な環境が存在します。あらゆる隣接するタイル間で<b>断熱性</b>のレベルに応じた<b>熱交換</b>が常に行われます。<br><br>タイルのある場所が宇宙空間にさらされると、温度は<b>絶対零度</b>(0Kまたは-273C、または-460F)まで低下します。<br><br>高い温度と酸素が混在すると発火する結果を招きます。<br><br>温度や断熱性を調べるには<b>{0}</b>または<b>{1}</b>オーバーレイを確認するか、{2}を押しながらタイルにカーソルを合わせてみましょう。",2023-08-29,
 codex.m.environment.hullintegrity,船体健全性,,
@@ -538,7 +536,6 @@ codex.m.environment.hullintegrity.desc,"<b>船体の健全性</b>は、<b>床面
 codex.m.environment.insulation,断熱,,
 codex.m.environment.insulation.desc,"断熱性は<b>気密性</b>と非常によく似ていますが、酸素の代わりに<b>熱</b>の移動に関係します。壁の場合、本来は完全に気密されていますが、100%断熱ではありません。持続する<b>熱の発生源</b>がなければ、その場所は段々と熱を失っていきます。<br><br>熱が逃げるのを抑えるには、船の外壁が多層構造になるように<b>隔壁</b>を建造したり、主要な居住区の周囲に断熱材として機能する区画を設けたりしましょう。<br><br>断熱性を調べるには<b>{0}</b>オーバーレイを確認するか、調べたい対象に{1}を押しながらカーソルを乗せてみてください。",2023-08-29,
 codex.m.environment.islands,セクション (島),,
-codex.m.environment.islands.desc,"<b>セクション</b>は、あなたの船の完全に独立している個々のパーツを示しています。船が<b>航行可能</b>であるためには、すべてのセクションが１つに統合されていなければなりません。<br><br>複数のセクションを<b>床面</b>または骨組みでつないで、１つの大きなセクションに統合することができます。<br><br>一方で、<b>ウインチフック</b>と<b>ウインチアンカー</b>、または<b>精密スラスター</b>を使用して船のセクションを移動させることもできます。<br><br>セクションは<b>解体</b>して素材を回収したり、<b>放棄</b>したり、<b>宇宙港</b>で<b>売却</b>することもできます。<br><br>詳しくは、<b>{0}</b>オーバーレイで確認してください。",2024-11-22,Last change removed statement that small sections are ignored
 codex.m.environment.oxygen,酸素,,
 codex.m.environment.oxygen.desc,"酸素は、ほとんどの有機生命体にとって不可欠な気体です。酸素の移動は、<b>気密性</b>レベルに応じて隣接するすべてのタイル間で絶えず行われます。区画が<b>宇宙空間</b>にさらされると酸素は漏洩します。極端な高温と酸素が同時に存在していると発火します。<br><br><br>現在の酸素濃度や気密性を調べるには、<b>{0}</b>または<b>{1}</b>オーバーレイを確認するか、{2}を押しながらタイルにカーソルを合わせてみましょう。",2023-08-29,
 codex.m.inputcontrols,入力と操作,,
@@ -563,14 +560,12 @@ codex.m.resources.deconstruction.desc,"すべての機器と構造物には、�
 codex.m.resources.inventory,アイテム一覧オーバーレイ,,
 codex.m.resources.inventory.desc,<b>{0}</b>オーバーレイは、リアルタイムで素材やアイテムの保有状況を確認するのに使用します。<br><br>各資源の横にある<b>探す</b>ボタンをクリックすると保管されている場所へ切り替えることができます。,2023-08-29,
 codex.m.resources.miningplanets,惑星での採集,,
-codex.m.resources.miningplanets.desc,"資源を獲得する効率的な方法の一つは、<b>採掘探査</b>です。<b>宇宙航行</b>が出来るようになったら<b>{0}</b>オーバーレイを使って<b>資源鉱床</b>を探し、その後<b>{1}</b>オーバーレイを使用して<b>探査へ発進</b>します。<br><br><b>レーダー</b>は近くの資源鉱床を<b>検出</b>するのに非常に便利で、周囲の特定の資源タイプを<b>スキャン</b>することができます。<br><br><b>輸送機</b>や<b>自動採集プラットフォーム</b>を使うことで、採掘作業を<b>自動化</b>することができます。",2024-11-22,
 codex.m.resources.processing,資源の加工,,
 codex.m.resources.processing.desc,"一部の原料は、より洗練された素材へ加工することができ、後で加工素材として、または他の目的に使用することができます。加工は通常、鉱石や原油などの原料に対して必要です。<br><br>処理には原料に適した施設が必要です(例：""溶鉱炉""). さまざまな材料のコーデックスの項目を検索して、互換性のある加工設備の種類を把握します。<br><br>""成分抽出器""で死んだ生き物を処理し、""解体処理器""で壊れたロボットやドローンを処理することができます。<br><br>一部の材料は、処理時に複数の素材または可変素材を生成します。""粉砕機""で岩石を処理すると、さまざまな資源が生成されます。詳細については、各コーデックスの項目を参照してください。",,
 codex.m.resources.trade,資源の取引,,
 codex.m.resources.trade.desc,特定の種類の商人と取引する場合、ほとんどの素材や資源を売買できます。<br><br>証券取引市場で取引される資源は、使用できる物理的な材料を売買することはありません。,,
 codex.m.spacetravel,宇宙航行,,
 codex.m.spacetravel.enginetypes,エンジンの種類,,
-codex.m.spacetravel.enginetypes.desc,"それぞれの<b>エンジン</b>によって用途が異なります。<b>スラスター</b>は現在の<b>セクター</b>内での移動を可能に。<b>核融合エンジン</b>は隣接する<b>セクター</b>への<b>短距離ハイパージャンプ</b>を可能に。隣接する<b>宙域</b>間の<b>長距離ハイパージャンプ</b>には<b>FTLドライブ</b>が必要です。<br><br>正確にはエンジンではありませんが、<b>ヴォイドリッパー</b>はすべての銀河の中心にある<b>ブラックホール</b>を通り抜けることができます。<br><br><b>精密スラスター</b>は、ローカルマップ内の船のセクションを移動するためだけに制限されており、<b>難破船</b>への接近や、<b>小惑星</b>を回避するのに有用です。<br><br>使用可能なエンジンや船の航行能力を確認するには、<b>{0}</b>オーバーレイを確認してください。",2024-11-22,
 codex.m.spacetravel.starmap,星間マップ,2023-08-29,
 codex.m.spacetravel.starmap.desc,"<b>{0}</b>で見ることができる範囲や階層がいくつかあります。<b>星系</b>の表示範囲から始まり、あなたがいる恒星系を表示します。 <br><br>現在の星間マップの<b>外縁部</b>の外へ航行すると、上位のマップ階層に離脱します。<br><br>進入できる深い階層のある天体に船が近づくと、星間マップインターフェースで天体に<b>進入する</b>選択肢が有効になります。<br><br>それぞれの星間マップで航行できるようになるには、さまざまなタイプのエンジンが必要です。詳細についてはマニュアルの<b>エンジンタイプ</b>の項目を参照してください。",2023-08-29,"Removed duplicate ""Enter System"" in last edit"
 codex.m.storyevents,ストーリーイベント,,
@@ -1292,7 +1287,6 @@ gamepad.dead.zone,ゲームパッド操作無効範囲: {0:0.000} - {1:0.000},,
 gamepad.ignore,ゲームパッドを無視,,
 gamepad.ignore.tip,マウスとキーボードだけでプレイする場合、接続されているゲームパッドを無視させることもできます。このオプションを変更すると、ゲームの再起動が必要になる場合があります。,,
 gamepad.rumble,ゲームパッド振動,,
-gameplay.short.stat,現実での日時: {0}<br>セッション経過時間: {1}<br>セーブデータ: {2}<br>ゲーム内の経過時間: {3}<br><br>適度に休憩をとりましょう！,2024-11-30,last change removed color tags
 gather.materials,資源を収集,,
 gathering.materials,資源を収集中,,
 gen.failed,生成失敗,,
@@ -1346,7 +1340,6 @@ goal.EnsureShipCPUVentilation,船のコンピュータの排熱を確保する,,
 goal.ExploreCodex,操作マニュアルを確認する,,
 goal.ExploreCodex.desc,<b><nobr>コーデックス オーバーレイ</nobr></b>を開き、<b><nobr>操作マニュアル</nobr></b>を確認してみましょう。各要素に慣れてきたら学習済みでマークしてください。<br><br>コーデックスには、全ての素材のリストや設計図、その製造コストや加工結果など、より有用なデータが含まれています。,2022-06-13,
 goal.GetMoreResource,{0}をもっと入手,,
-goal.GetMoreResource.desc,<b>{0}</b>が不足中。<b>コーデックス</b>を使用して必要な素材を確認して増産しましょう。いくつかの素材は採掘探査で入手するか、<b>オンラインショップ</b>や<b>ステーション</b>で購入できます。,2024-10-17,
 goal.HailMerchant,交易船を呼び寄せよう,,
 goal.HailMerchant.desc,通信システムを使って、交易船を呼び寄せることができます。交易船の種類も選ぶことができます。さっそく呼び寄せてみましょう。,,
 goal.InstallUpgrade,物質反応炉をアップグレードする,,
@@ -2273,8 +2266,6 @@ objects.devices.converter,分子転換器,,
 objects.devices.converter.desc,素材の分子構造を再構築し、別の種類の資源に変換する。,,
 objects.devices.cookingstation,調理台,,
 objects.devices.cookingstation.desc,手動で調理するためのコンロ付きのミニキッチンだ,,
-objects.devices.cpumodule,CPUモジュール（{0}Thz）,2022-03-31,
-objects.devices.cpumodule.desc,CPUモジュールは、ニューラルネットワークに演算能力を提供し、より多くのデバイスを接続して制御できるようにします。,2023-07-28,
 objects.devices.cpumodulemini,CPUモジュール（{0}Thz）,2022-03-31,
 objects.devices.cpumodulemini.desc,CPUモジュールは、ニューラルネットワークに演算能力を提供し、より多くのデバイスを接続して制御できるようにします。,2023-07-28,
 objects.devices.craftingstation,作業台,,
@@ -2326,7 +2317,6 @@ objects.devices.matterreactormini.desc,素材を燃料にして発電する小�
 objects.devices.memorymodule,メモリモジュール ({0}EB),,
 objects.devices.memorymodule.desc,{0}エクサバイトのメモリ (RAM)。一度に保持できる指示の数を増やすには、メモリサイズの拡張が必要です。,2023-07-31,
 objects.devices.memorymodulemini,メモリモジュール ({0}EB),,
-objects.devices.memorymodulemini.desc,{0}エクサバイトのメモリ（RAM）だ。GPUと組み合わせることで、暗号通貨のマイニングに使用される。,2024-11-19,
 objects.devices.mlbooth,機械学習ブース,,
 objects.devices.mlbooth.desc,機械学習ブースでは作業ユニットのスキルを育成することで、特定の作業における効率を高めることができます。,,
 objects.devices.nuclearreactor,原子核反応炉 ({0}MW),,
@@ -2379,7 +2369,6 @@ objects.devices.stasisarray,コールドスリープ,,
 objects.devices.stasisarray.desc,長期間の宇宙航行の最中に入植者たちを冷凍睡眠させる場所。銀河間を航行する際に老化を防ぐために必要。,,
 objects.devices.stasispod,休眠ポッド,,
 objects.devices.stasispod.desc,休眠ポッドは中に入れた生き物を冷凍睡眠状態にして、長距離の宇宙空間を移動することができる。,,
-objects.devices.storage,収納庫 ({0}),2024-09-18,
 objects.devices.storage.desc,作業ユニットが素材を集め、ここに運ぶと効率的。特定の種類のアイテムを収容するかどうか設定することができる。,,
 objects.devices.switch,スイッチ,,
 objects.devices.switch.desc,シンプルな電気スイッチだ。スイッチを経由すれば、パワーグリッドの接続を変更することなく電流を制御することができる。,,
@@ -3113,7 +3102,6 @@ slept.too.short,寝不足,,
 slog.expedition,{0}を探査,,
 slog.identify,照合済 {0},,
 slog.leave,{0}から離脱中,,
-slog.trade,取引: {0},,{0} will be merchant details
 slog.visit,{0}に接近中,,
 smelt.ore,製錬,,
 smelting.bar,精練中 {0},,
@@ -3323,7 +3311,6 @@ target.oxygen,目標酸素濃度,,
 target.selected,選択中のマーカー,,
 target.temperature,目標温度: {0},,
 tasks,作業,,
-telescope.found.planet,"テレスコープが{0}宙域{1}セクター内に居住可能な惑星を発見。可能であれば、本船の進路をこの惑星にセットしましょう。<br><br>我々の入植者たちが安全に暮らしていける惑星にするには、テラフォーミングの必要があるかもしれません。テラフォーミング関連の研究を集中的に行うことを推奨します。",2024-10-29,
 temp.connect,一時的な接続を提供,,
 temp.connect.established,一時的な接続を確立,,
 temp.range,生育温度 {0}から{1},,
@@ -4928,9 +4915,7 @@ codex.m.ui.toolmenu.desc,<b>ツールメニュー</b>には2つのタイプが�
 quests.list.current,現在のクエスト,,
 toggle.view,表示の切り替え,,
 obj.upgrades.speedupgrade,処理速度アップグレード,,
-obj.upgrades.speedupgrade.desc,"デバイスとロボットの両方にインストール可能。デバイスにインストールすると動作速度が15%増加。ロボットにインストールすると移動速度が15%増加。複数のアップグレードの効果を重ねがけ可能。",,
 obj.upgrades.energyefficiencyupgrade,エネルギー効率アップグレード,,
-obj.upgrades.energyefficiencyupgrade.desc,"デバイスとロボットの両方にインストール可能。デバイスにインストールすると電力消費が15%減少。ロボットにインストールするとバッテリーの持続時間が15%増加。複数のアップグレードの効果を重ねがけ可能。",,
 research.speedupgrade,処理速度アップグレード,,
 quest.step.enter.starmap.layer,<b>{0}</b>に進入してください,,"{0} will be ""System"", ""Galaxy"", etc"
 quest.step.enter.starmap.layer.desc,"<b>Starmap</b>を開き、近くの<b>{0}</b>をクリックして進入するという項目を選択しましょう。",,"{0} will be ""System"", ""Galaxy"", etc"
@@ -5889,6 +5874,7 @@ noun.body.parts,生体部品,,plural of body part / organ
 space.object.name.SpaceStation,ステーション {0},,{0} will be replaced with some name
 space.object.SpaceStation,宇宙ステーション,,
 space.object.info.SpaceStation,こういった辺境の拠点は、ほとんどあらゆるところに存在する。,,
+slog.trade,取引: {0},,{0} will be merchant details
 merchant.inv.refresh.time,あと{0}で在庫を更新,,{0} is time range like 4 days 12 hours
 market.group.name.BlackMarket,闇市場,,
 market.group.name.BodyPart,生体部品,,
@@ -6237,6 +6223,7 @@ obj.materials.edenium.desc,"希少なキラキラした結晶だ。土壌に施�
 obj.materials.hydronium.desc,"希少な鉱物だ。酸素を水へと反応させる触媒として作用する。大気中の酸素を利用してH₂Oの合成を促進させる。",,
 scenario.NoRobots,ロボットなし,,
 scenario.NoRobots.tooltip,人間のクルーだけで機能している小さな船でゲームを開始します。熟練者向けで、難易度も高めです。,,
+objects.devices.storage,収納庫 ({0}),2024-09-18,
 space.effect.star,警告：恒星に接近中,,
 space.effect.star.desc,"<b>恒星</b>に接近中。ソーラーパネル出力が<b>{0}</b>増加しますが、船体温度が上昇中(毎時 約<b>{1}</b>)。",,{0} is percentage; {1} is degrees celsius or farenheit
 obj.plants.artilleryfungus,バリスタケ,,
@@ -6310,6 +6297,7 @@ quest.EstablishProduction.desc,"資材はそのうち尽きてしまいます。
 quest.EstablishSmelting,製錬の開始,,
 quest.EstablishSmelting.desc,探査中に採掘した鉱石は金属板やインゴットに精錬する必要があります。この工程の設定をしていきましょう。,,
 placement.tip.ports,作業場所と、入力/出力場所はふさがないようにしておきましょう。,,
+goal.GetMoreResource.desc,<b>{0}</b>が不足中。<b>コーデックス</b>を使用して必要な素材を確認して増産しましょう。いくつかの素材は採掘探査で入手するか、<b>オンラインショップ</b>や<b>ステーション</b>で購入できます。,2024-10-17,
 click.to.enlarge,クリックして拡大,,
 evt.cooking.incident,調理中の事故,,
 evt.cooking.incident.desc,{2}で{1}を調理していた{0}が事故を起こしてしまった。,,{0} is being name; {1} is meal name; {2} is cooking station
@@ -6337,6 +6325,7 @@ status.full,完全な,,Example: full immunity
 status.permanent,永久的な,,Example: permanent immunity
 status.innate,生まれつきの,,Example: innate immunity
 active.conditions,状態異常を付与,,
+telescope.found.planet,"テレスコープが{0}宙域{1}セクター内に居住可能な惑星を発見。可能であれば、本船の進路をこの惑星にセットしましょう。<br><br>我々の入植者たちが安全に暮らしていける惑星にするには、テラフォーミングの必要があるかもしれません。テラフォーミング関連の研究を集中的に行うことを推奨します。",2024-10-29,
 must.open.first,開封する必要があります,,For requiring to open a storage capsule before performing another action
 cond.Preoccupied,執着,,
 cond.Preoccupied.desc,この生命体は何か重要なことに執着しているようです。しばらくの間、あなたの指示に従いません。,,
@@ -6415,9 +6404,9 @@ tut.spacetravel.step6_5,"リレーを通じて<b>ハイパースペース</b>に
 tut.spacetravel.step6_6,"<b>ハイパージャンプリレー</b>で出来るのは1回の長距離ジャンプのみです。それが完了したら、すぐに<b>ハイパースペース</b>を出ることができますが、どの<b>セクター</b>に到達するかを知っておくのは大事です。<br><br><b>マップ表示</b>を<b>宙域</b>に切り替え、現在の宙域内での<b>位置</b>を確認しましょう。我々の<b>レーダー</b>が現在の<b>セクター</b>と隣接するセクターを表示するはずです。",,
 tut.spacetravel.step6_7,この時点で、隣接する<b>セクター</b>にジャンプするか<b>ハイパースペース</b>を離脱するか選ぶことができます。<br><br>続行するには、<b>ハイパースペース</b>を離脱しましょう。,,
 tut.spacetravel.outro,これで<b>宇宙航行</b>の仕組みを理解できましたね。<b>難易度の高い宙域</b>を探索する際は警戒してください。危険を伴うことがあります！,,
-obj.upgrades.speedupgrade.desc,互換性のある機器にインストールすることで、動作速度が15%向上します。複数のアップグレードの効果を重ねがけできます。,2024-11-15,
+obj.upgrades.speedupgrade.desc,互換性のある機器にインストールすることで、動作速度が15%向上します。複数のアップグレードの効果を重ねがけ可能。,2024-11-15,
 ,,,
-obj.upgrades.energyefficiencyupgrade.desc,互換性のある機器にインストールすることで、電力消費が15%減少します。複数のアップグレードの効果を重ねがけできます。,2024-11-15,
+obj.upgrades.energyefficiencyupgrade.desc,互換性のある機器にインストールすることで、電力消費が15%減少します。複数のアップグレードの効果を重ねがけ可能。,2024-11-15,
 research.security.turretsheavy,重装タレット,,
 objects.devices.miniturret,小型タレット,,
 objects.devices.miniturret.desc,小型の自動タレットだ。船内の防衛用に用いられる。,,
@@ -6470,6 +6459,7 @@ tut.bodyparts.step6_7,<b>交換作業</b>が完了するのを待ちましょう
 tut.bodyparts.step6_8,"<b>ドローン</b>が復活しました！ 他にも損傷した部品があるため、まだ{0}<b>無力化</b>されているかもしれません。しかし、すぐに<b>リペアステーション</b>で修理されるはずです。<b>ドローン</b>が完全に回復するまで待ちましょう。",,
 tut.bodyparts.step6_9,<b>ドローン</b>が完全に修理されて作業の準備が整いました！,,
 tut.bodyparts.outro,これで<b>身体パーツ</b>のチュートリアルは終了です。この知識を活用して、さまざまな身体パーツの<b>組み合わせ</b>や<b>精神移植</b>を<b>実験</b>してみましょう。<br><br>注意: <b>ジュネーブ条約</b>を遵守して<b>戦争犯罪</b>を犯さないようにしてくださいね。,,
+objects.devices.memorymodulemini.desc,{0}エクサバイトのメモリ（RAM）だ。GPUと組み合わせることで、暗号通貨のマイニングに使用される。,2024-11-19,
 combat.goal.attack.turret,タレットを攻撃,,
 combat.objective.survive,生存,,
 noun.leader,リーダー,,
@@ -6514,6 +6504,11 @@ codex.m.basebuilding.relocatingobjects.desc,"デバイスを別の場所に移�
 codex.m.basebuilding.teleporters.desc,"<b>テレポーター</b>は、他のテレポーターへの一方通行の経路を作成できます。<br><br>2つのテレポーターを相互に接続すると双方向の経路を作成することもできます。複数のテレポーターが同じ接続先を持つこともできます。<br><br>テレポーターの消費電力は、有効な接続数に応じて指数関数的に大きく増加します。<br><br><b>警告:</b> テレポーターは経路探索アルゴリズムに対して非常に大きな負荷があり、パフォーマンスへの影響があります。",2024-11-22,Last change removed a paragraph about trade and added a warning about performance.
 codex.m.bigquestions.gameover.desc,最後の<b>船のコンピュータ</b>が破壊されるとゲームは終了します。,2024-11-22,Last change removed everything after the first sentence.
 codex.m.colonists.breakdowns.desc,"入植者の<b>気分</b>がひどい状態に陥ると、<b>精神崩壊</b>が発生することがあります。入植者は錯乱状態になりますが、しばらくすると<b>気分</b>は回復して正常に戻ります。<br><br>稀にですが、精神崩壊があなたのコロニーに深刻な被害をもたらすこともあります。入植者の<b>気分</b>に注意して、精神崩壊を避けるために彼らを幸福に保つようにしてください。<br><br>入植者の気分に影響を与える要素は、情報パネルの<b>気分</b>セクションを展開することで確認できます。",2024-11-22,Last change replaced Mood with Sanity and added a paragraph about examining sanity factors
+codex.m.electricity.managingunreachabledevices.desc,"原則として、<b>船のコンピュータ</b>と同じパワーグリッド上にない機器は制御できません。ただし、ロボット作業員に指示して<b>一時的な接続</b>を確立するよう命じることができます。作業ユニットが接続されている間、デバイスは完全に制御可能になります。また作業ユニットはデバイスが必要とする少量の<b>電力</b>と<b>CPU</b>を供給します。<br><br>一時的な接続を指示するには、グリッド外のデバイスを選択し、情報パネルまたはコンテキストメニューの<b>電力ノード到達不可</b>警告の横にある<b>管理</b>ボタンを選択します。一時的な接続が確立されると、イベントパネルに通知が表示されます。<br><br>一時的な接続を終了するには、<b>解除</b>ボタンをクリックします。",2024-11-22,
+codex.m.environment.fire.desc,"高レベルの<b>熱</b>と<b>酸素</b>が組み合わされると、一部のオブジェクトが発火する可能性があります。<br><br><b>放水銃</b>を建造して<b>水</b>を装填しておくことで、自動的に消火することができます。<br><br>近くのすべての<b>酸素ポンプ</b>をオフにし、<b>通気口</b>を解放し、床タイルを分解することは、火災を消火する際に有効です。<br><br>火災には<b>化学的な</b>ものも存在し、<b>酸素</b>がなくても長時間燃え続けることができるため、さらに危険です。<br><br>火災が発生しないように、<b>{0}</b>オーバーレイに気を配りましょう。",2024-11-22,
+codex.m.environment.islands.desc,"<b>セクション</b>は、あなたの船の完全に独立している個々のパーツを示しています。船が<b>航行可能</b>であるためには、すべてのセクションが１つに統合されていなければなりません。<br><br>複数のセクションを<b>床面</b>または骨組みでつないで、１つの大きなセクションに統合することができます。<br><br>一方で、<b>ウインチフック</b>と<b>ウインチアンカー</b>、または<b>精密スラスター</b>を使用して船のセクションを移動させることもできます。<br><br>セクションは<b>解体</b>して素材を回収したり、<b>放棄</b>したり、<b>宇宙港</b>で<b>売却</b>することもできます。<br><br>詳しくは、<b>{0}</b>オーバーレイで確認してください。",2024-11-22,Last change removed statement that small sections are ignored
+codex.m.resources.miningplanets.desc,"資源を獲得する効率的な方法の一つは、<b>採掘探査</b>です。<b>宇宙航行</b>が出来るようになったら<b>{0}</b>オーバーレイを使って<b>資源鉱床</b>を探し、その後<b>{1}</b>オーバーレイを使用して<b>探査へ発進</b>します。<br><br><b>レーダー</b>は近くの資源鉱床を<b>検出</b>するのに非常に便利で、周囲の特定の資源タイプを<b>スキャン</b>することができます。<br><br><b>輸送機</b>や<b>自動採集プラットフォーム</b>を使うことで、採掘作業を<b>自動化</b>することができます。",2024-11-22,
+codex.m.spacetravel.enginetypes.desc,"それぞれの<b>エンジン</b>によって用途が異なります。<b>スラスター</b>は現在の<b>セクター</b>内での移動を可能に。<b>核融合エンジン</b>は隣接する<b>セクター</b>への<b>短距離ハイパージャンプ</b>を可能に。隣接する<b>宙域</b>間の<b>長距離ハイパージャンプ</b>には<b>FTLドライブ</b>が必要です。<br><br>正確にはエンジンではありませんが、<b>ヴォイドリッパー</b>はすべての銀河の中心にある<b>ブラックホール</b>を通り抜けることができます。<br><br><b>精密スラスター</b>は、ローカルマップ内の船のセクションを移動するためだけに制限されており、<b>難破船</b>への接近や、<b>小惑星</b>を回避するのに有用です。<br><br>使用可能なエンジンや船の航行能力を確認するには、<b>{0}</b>オーバーレイを確認してください。",2024-11-22,
 input.ToggleDirectControl,ショートカット: 直接指示の切り替え,,
 codex.m.whattodo.quests.desc,<b>{0}</b>オーバーレイで進行可能なクエストを確認しましょう。クエストが完了すると次のクエストがアンロックされます。,,
 goal.ConnectStasis,コールドスリープへの接続,,
@@ -6542,6 +6537,7 @@ nanobot.compatible,ナノボット対応可,,for labeling tasks that can be perf
 nanobot.reachable,ナノボット到達可能,,for labeling tasks that are reserved for nanobots
 nanobot.unreachable,ナノボット到達不能,,
 cant.heal,回復不能,,for labeling wounds that cannot heal
+gameplay.short.stat,現実での日時: {0}<br>セッション経過時間: {1}<br>セーブデータ: {2}<br>ゲーム内の経過時間: {3}<br><br>適度に休憩をとりましょう！,2024-11-30,last change removed color tags
 tut.production.last.msg,チュートリアルが終了したら反応炉の建造を完了できます。,,
 input.ToggleHyperspace,ハイパースペース進入/脱出,,
 hyperjump.cancelled,ハイパージャンプ中止,,
