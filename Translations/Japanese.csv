@@ -2824,7 +2824,7 @@ research.resourceprocessing,資源精製,,
 research.resourceprocessingadvanced,高度な加工,,
 research.robot,ロボット,,
 research.robotics,ロボティクス,,
-research.scanning,長距離センサー,,
+research.scanning,スキャンシステム,,
 research.science,科学技術,,
 research.security,セキュリティ,,
 research.securitycontrols,保安制御端末,,
@@ -3805,7 +3805,7 @@ placement.tip.spacing.gap,同じカテゴリの物から少なくとも {0} タ�
 disable.all.mods,全てのMODを無効,,
 enable.all.mods,全てのMODを有効,,
 evt.spawn.derelict.ship.title,レーダーが難破船を探知,,
-evt.spawn.derelict.ship.desc,パッシブレーダーで捜索中に解体可能な難破船の反応を探知しました。位置を示すマーカーを星間マップに追加しました。,,
+evt.spawn.derelict.ship.desc,パッシブレーダーで捜索中にサルベージ可能な難破船の反応を探知しました。位置を示すマーカーを星間マップに追加しました。,,
 space.object.info.ShipDerelict,難破船,,
 space.object.approach,接近する,,
 space.object.approach.fail.expedition.running,"探査中のため、目標物へ向かうことができません。探査隊を呼び戻してリトライしてください。",,
@@ -6578,137 +6578,137 @@ scan.target.deep.desc,"現在のセクターを深部までスキャンし、長
 noun.list,一覧,,
 ai.alignment.info.1,"The alignment of biological beings can change over time. Care for your colonists well, and their trust in you will grow.",,
 ai.alignment.info.2,"Certain conditions, implants, and equipment can affect AI alignment.",,
-system.scan.extended,Extended Scanning,,
-system.scan.extended.desc,Enables scanning the universe for rare resources.,,
-share.ship,Share Ship,,for sharing the ship in steam workshop
-noun.ship,Ship,,as in space ship (but has to be short)
-noun.ships,Ships,,plural of ship
-game.template.mode,This save file is loaded in <b>Template</b> mode. You can explore in read-only mode or start a new game using this ship.,,
-game.template.new,Start a new game using this ship.,,
-more.actions,More Actions,,
-download.ships,Download Ships,,
-mod.unsubscribe,Unsubscribe,,
+system.scan.extended,長距離スキャン,,
+system.scan.extended.desc,宙域全体をスキャンして希少な資源を探せるようになります。,,
+share.ship,船を公開,,for sharing the ship in steam workshop
+noun.ship,船,,as in space ship (but has to be short)
+noun.ships,船,,plural of ship
+game.template.mode,このセーブファイルは<b>テンプレート</b>モードとして読み込まれます。変更不能なモードとして船内を探索するか、この船を使用して新たにゲームを開始することができます。,,
+game.template.new,この船でゲームを開始する。.,,
+more.actions,さらに,,
+download.ships,船をダウンロード,,
+mod.unsubscribe,登録解除,,
 verb.keep,Keep,,
-verb.regenerate,Regenerate,,
-situation.SectorDifficulty,Sector Difficulty,,
-modifier.MiningOutput,Mining Output,,
+verb.regenerate,再生成,,
+situation.SectorDifficulty,セクターの難易度,,
+modifier.MiningOutput,採掘量,,
 modifier.MiningOutput.desc,Adjusts output of mining deposits.,,
 eject.from.storage.first,Eject this being from storage first.,,Shown when player tries to replace a body part on a being that is in storage (in morgue or mechuary).
 modifier.BasicTech,Basic Tech,,
 modifier.BasicTech.desc,"Basic technologies like toilets, showers, small heaters, and oxygen pumps are unlocked by default. However, you can lock them or randomize their unlocking for an added challenge.",,
-goal.AcceptQuest,Accept a Quest,,
+goal.AcceptQuest,クエストの受諾,,
 goal.AcceptQuest.desc,"You haven't accepted any quests, but some are available. Check the Event list or the Quests overlay to find them.",,
 hold.to.lock.tooltip,Hold {0} to lock this tooltip,,{0} is a shortcut key name. Locking the tooltip will keep it frozen in place so that you can click links inside the tooltip
-noun.weapon.power,Weapon Power,,Version 0.13 translations start here
-noun.shields,Shields,,
-noun.weapons,Weapons,,
-noun.weapon.power.short,Power,,As in Strength of Weapon Power
+noun.weapon.power,武装火力,,Version 0.13 translations start here
+noun.shields,シールド,,
+noun.weapons,兵器,,
+noun.weapon.power.short,火力,,As in Strength of Weapon Power
 noun.flux,Flux,,A sci-fi term. can be accumulated during ship combat and has to be vented.
-noun.flux.desc,Flux is a buildup of heat energy during combat. It rises when firing weapons or blocking attacks with shields. Too much Flux disables key systems.,,
-noun.evade,Evade,,"Label next to ship evasion percentage. Evasion determines how likely the ship will dodge incoming attacks. Must be short, hence Evade and not Evasion"
-noun.evade.desc,Evade determines how likely the ship will dodge incoming attacks. Smaller ships have higher evade value than larger ships.,,
-ship.does.not.meet.requirements,Your ship does not meet the requirements.,,Displayed as a warning tooltip near options where ship class or tag cannot bet switched into due to not fulfilled requirements
-flux.capacity,Flux Capacity,,
-flux.capacity.short,Cap,,should be no more than 3-4 letters. short for capacity.
-flux.overload.desc,Flux has overloaded! Forced venting is activated.,,
-flux.soft,Soft Flux,,
-flux.soft.short,Soft,,no more than 3-4 letters
-flux.hard,Hard Flux,,
-flux.hard.short,Hard,,no more than 3-4 letters
-flux.accumulated,Accumulated Flux,,
-vent.rate,Vent Rate,,
-flux.overload,Flux Overload,,defines a state when a device is overloaded
-verb.vent.flux,Vent Flux,,For toggling venting of the ship heat (flux)
-flux.venting,Venting Flux,,
-noun.hull.points,Hull Points,,"like Hit Points (HP) but for ships, so Hull Points"
+noun.flux.desc,フラックスは戦闘中に蓄積する熱エネルギーです。兵装の作動やシールドによる防御によって上昇していきます。蓄積しすぎたフラックスは主要システムの停止へとつながります。,,
+noun.evade,回避,,"Label next to ship evasion percentage. Evasion determines how likely the ship will dodge incoming attacks. Must be short, hence Evade and not Evasion"
+noun.evade.desc,回避とは、飛来する敵の攻撃をどれだけ船が回避しやすいかを示しています。小さい船ほど回避の値が高くなります。,,
+ship.does.not.meet.requirements,船が条件を満たしていません。,,Displayed as a warning tooltip near options where ship class or tag cannot bet switched into due to not fulfilled requirements
+flux.capacity,エネルギー変動の蓄積許容量,,
+flux.capacity.short,共用量,,should be no more than 3-4 letters. short for capacity.
+flux.overload.desc,フラックス オーバーロード発生！ 強制放出が実施されました。,,
+flux.soft,フラックス微増,,
+flux.soft.short,微増,,no more than 3-4 letters
+flux.hard,フラックス急増,,
+flux.hard.short,急増,,no more than 3-4 letters
+flux.accumulated,蓄積フラックス,,
+vent.rate,放出量,,
+flux.overload,フラックス オーバーロード,,defines a state when a device is overloaded
+verb.vent.flux,フラックス放出,,For toggling venting of the ship heat (flux)
+flux.venting,フラックス放出中,,
+noun.hull.points,船体ポイント,,"like Hit Points (HP) but for ships, so Hull Points"
 noun.hull.points.short,HP,,
-our.ship,Our Ship,,label above ship combat UI controls for our ship
-ship.configuration,Ship Configuration,,
-noun.engines,Engines,,plural of Engine. for space ship engines.
-space.object.Ship,Space Ship,,
-noun.ship.class,Ship Class,,"as in ship class in navy (fighter, cruser, battleship)"
-ship.class.spacestation,Space Station,,special ship class for space stations
-ship.class.unclassified,Unclassified,,for space ships that don't fit any class requirements
-ship.class.corvette,Corvette,,second smallest ship class
-ship.class.fighter,Fighter,,smallest ship class in game
-ship.class.cruiser,Cruiser,,
-ship.class.battlecruiser,Battlecruiser,,
-ship.class.destroyer,Destroyer,,
-ship.class.dreadnought,Dreadnought,,second biggest ship class
-ship.class.titan,Titan,,biggest ship class in game
-ship.class.carrier,Carrier,,
-ship.class.frigate,Frigate,,
-ship.class.battleship,Battleship,,
-noun.ship.tag,Ship Tag,,"a 2-3 letter tag before the ship name (like USS, HMS, etc)"
+our.ship,自艦,,label above ship combat UI controls for our ship
+ship.configuration,船の設定,,
+noun.engines,エンジン,,plural of Engine. for space ship engines.
+space.object.Ship,宇宙船,,
+noun.ship.class,艦船クラス,,"as in ship class in navy (fighter, cruser, battleship)"
+ship.class.spacestation,ステーション,,special ship class for space stations
+ship.class.unclassified,未分類宇宙船,,for space ships that don't fit any class requirements
+ship.class.corvette,コルベット,,second smallest ship class
+ship.class.fighter,戦闘艇,,smallest ship class in game
+ship.class.cruiser,巡洋艦,,
+ship.class.battlecruiser,巡洋戦艦,,
+ship.class.destroyer,駆逐艦,,
+ship.class.dreadnought,弩級戦艦,,second biggest ship class
+ship.class.titan,タイタン,,biggest ship class in game
+ship.class.carrier,宇宙空母,,
+ship.class.frigate,フリゲート,,
+ship.class.battleship,宇宙戦艦,,
+noun.ship.tag,艦船種別タグ,,"a 2-3 letter tag before the ship name (like USS, HMS, etc)"
 ship.tag.nss,NSS,,acronym is always constructed from the description: Navy Star Ship -> NSS
-ship.tag.nss.desc,Navy Star Ship,,standard military vessels
+ship.tag.nss.desc,汎用宇宙艦,,standard military vessels
 ship.tag.bcv,BCV,,
-ship.tag.bcv.desc,Battle Command Vessel,,capital warships
+ship.tag.bcv.desc,宇宙艦隊旗艦,,capital warships
 ship.tag.ars,ARS,,
-ship.tag.ars.desc,Automated Response Ship,,AI controlled defense ships
+ship.tag.ars.desc,自律運航船,,AI controlled defense ships
 ship.tag.css,CSS,,
-ship.tag.css.desc,Corporate Starship,,capitalist ships
+ship.tag.css.desc,社用宇宙船,,capitalist ships
 ship.tag.tcv,TCV,,
-ship.tag.tcv.desc,Trade & Cargo Vessel,,"merchants, transport"
+ship.tag.tcv.desc,交易貨物船,,"merchants, transport"
 ship.tag.lcv,LCV,,
-ship.tag.lcv.desc,Luxury Commerce Vessel,,high-end capitalist ships
+ship.tag.lcv.desc,豪華商船,,high-end capitalist ships
 ship.tag.esv,ESV,,
-ship.tag.esv.desc,Exploration & Survey Vessel,,deep space research
+ship.tag.esv.desc,宇宙探査船,,deep space research
 ship.tag.fsv,FSV,,
-ship.tag.fsv.desc,Frontier Star Vessel,,independent adventurers
+ship.tag.fsv.desc,独立開拓船,,independent adventurers
 ship.tag.imv,IMV,,
-ship.tag.imv.desc,Industrial Mining Vessel,,resource extraction ships
+ship.tag.imv.desc,資源採掘用工業船,,resource extraction ships
 ship.tag.inf,INF,,
-ship.tag.inf.desc,Infected Network Frame,,virus-corrupted ships
+ship.tag.inf.desc,侵食された船体システム,,virus-corrupted ships
 ship.tag.ltv,LTV,,
-ship.tag.ltv.desc,Logistics Transport Vessel,,cargo haulters and carriers
+ship.tag.ltv.desc,輸送船,,cargo haulters and carriers
 ship.tag.tav,TAV,,
-ship.tag.tav.desc,Tactical Assault Vessel,,big offensive ships
+ship.tag.tav.desc,戦術強襲艦,,big offensive ships
 ship.tag.scs,SCS,,
-ship.tag.scs.desc,Supercapital Ship,,titan class ships
+ship.tag.scs.desc,超大型主力艦,,titan class ships
 ship.tag.lfs,LFS,,
-ship.tag.lfs.desc,Light Fighter Ship,,small fighters
+ship.tag.lfs.desc,軽装戦闘艇,,small fighters
 ship.tag.srs,SRS,,
-ship.tag.srs.desc,Strike Recon Ship,,hit and run tactical ships
+ship.tag.srs.desc,威力偵察艦,,hit and run tactical ships
 ship.tag.msv,MSV,,
-ship.tag.msv.desc,Multi-Role Support Vessel,,verstaile small crafts
+ship.tag.msv.desc,多用途支援艦,,verstaile small crafts
 ship.tag.usv,USV,,
-ship.tag.usv.desc,Unmarked Space Vessel,,
+ship.tag.usv.desc,未分類宇宙船,,
 ship.tag.fss,FSS,,
-ship.tag.fss.desc,Frontier Space Station,,
+ship.tag.fss.desc,開拓前哨地ステーション,,
 ship.tag.iss,ISS,,
-ship.tag.iss.desc,Independent Space Station,,
+ship.tag.iss.desc,自治領ステーション,,
 ship.tag.uss,USS,,
-ship.tag.uss.desc,United Space Station,,
+ship.tag.uss.desc,連邦ステーション,,
 ship.tag.rss,RSS,,
-ship.tag.rss.desc,Rogue Space Station,,
-codex.ship.classes,Ship Classes,,header for list of ship classes
-codex.ship.tags,Ship Tags,,header for list of ship tags
-in.hyperspace,In Hyperspace,,label for ships that are currently in hyperspace
-verb.hail,Hail,,initiate communications with another space ship
-verb.insult,Insult,,As in say something bad to insult a person
-verb.trading.with,Trading with {0},,{0} will be traders name
-verb.approaching,Approaching {0},,{0} will be object name
-verb.end.call,End Call,,for ending telecommunications between ships
-incoming.transmission,Incoming Transmission,,when other ships hail your ship
-ship.hailing.you,{0} is hailing you.,,{0} will be the ship name
-verb.offer.gift,Offer Gift,,action button label for offering a gift to another spaceship
-verb.surrender,Surrender,,for surrendering during combat
-verb.ask.fuel,Ask for Fuel,,action button label for asking another space ship to give you fuel
-verb.extort,Extort,,label for asking other ship for money or items by threatening them
-noun.gift.package,Gift Package,,"when we get a gift, we have to chose from a few packages, this is a button label. it will have #1, #2 in the end of it"
-noun.fuel.package,Fuel Package,,"when we aks for fuel, we have a choice from several fuel packages. this label will have #1, #2, etc in the end "
-noun.ransom,Ransom,,extortion ransom label
-noun.combat,Combat,,mostly used for ship to ship combat
-noun.end.of.combat,End of combat,,"as in 'if you surrender, the consequence will be: End of combat'"
-relationship.with,Relationship with {0},,{0} is a name
-chance.accept,Accept Chance,,"when you want to give a gift to someone, this will show up like 'Accept Chance: 10%'. This is the chance of the receiver to accept a gift"
-noun.value,Value,,monetary value of something
-consequence.accept,On Accept,,a label for consequence of accepting a gift
-consequence.reject,On Reject,,a label for consequence of rejecting a gift
-consequence.take,On Take,,a label for consequence of taking a package
-offer.this.package,Offer this package,,label on a button that offers this gift package. the recipient may not agree to take it.
-take.this.package,Take this package,,label on a button that selects a gift package player wants to take (one from a list)
+ship.tag.rss.desc,無法地帯ステーション,,
+codex.ship.classes,艦船クラス,,header for list of ship classes
+codex.ship.tags,艦船識別タグ,,header for list of ship tags
+in.hyperspace,ハイパースペース内,,label for ships that are currently in hyperspace
+verb.hail,呼びかける,,initiate communications with another space ship
+verb.insult,侮辱,,As in say something bad to insult a person
+verb.trading.with,{0}と取引中,,{0} will be traders name
+verb.approaching,{0}に接近中,,{0} will be object name
+verb.end.call,通信終了,,for ending telecommunications between ships
+incoming.transmission,通信が入っています,,when other ships hail your ship
+ship.hailing.you,{0}が呼びかけている。,,{0} will be the ship name
+verb.offer.gift,資源提供,,action button label for offering a gift to another spaceship
+verb.surrender,降伏,,for surrendering during combat
+verb.ask.fuel,燃料を要求,,action button label for asking another space ship to give you fuel
+verb.extort,恐喝,,label for asking other ship for money or items by threatening them
+noun.gift.package,贈り物一式,,"when we get a gift, we have to chose from a few packages, this is a button label. it will have #1, #2 in the end of it"
+noun.fuel.package,燃料一式,,"when we aks for fuel, we have a choice from several fuel packages. this label will have #1, #2, etc in the end "
+noun.ransom,金品の要求,,extortion ransom label
+noun.combat,戦闘,,mostly used for ship to ship combat
+noun.end.of.combat,戦闘終了,,"as in 'if you surrender, the consequence will be: End of combat'"
+relationship.with,{0}との関係性,,{0} is a name
+chance.accept,承諾率,,"when you want to give a gift to someone, this will show up like 'Accept Chance: 10%'. This is the chance of the receiver to accept a gift"
+noun.value,数量,,monetary value of something
+consequence.accept,受諾時,,a label for consequence of accepting a gift
+consequence.reject,拒否時,,a label for consequence of rejecting a gift
+consequence.take,受け取り時,,a label for consequence of taking a package
+offer.this.package,この内容で提案,,label on a button that offers this gift package. the recipient may not agree to take it.
+take.this.package,これを受け取る,,label on a button that selects a gift package player wants to take (one from a list)
 ,,,
 ship.chat.trade_req.neutral.casual.01,"Hey, would you like to trade?",,
 ship.chat.trade_req.neutral.casual.02,"We're in need of some new goods, want to trade?",,
