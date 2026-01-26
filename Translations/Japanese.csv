@@ -3351,7 +3351,7 @@ text.too.long.desc,テキストが{0}文字オーバーです。{1}に短縮さ�
 texture.size,テクスチャ品質,,
 thank.you.for.playing,Stardeusをプレイしていただき、感謝を申し上げます,,
 their.valuables,取引相手から購入するアイテム,,
-tier.num,Tier {0},,
+tier.num,ティア {0},,
 tiles.traveled,移動した距離（タイル数）,,
 time.ago,{0} 経過,,
 time.since.damage.received,前回のダメージからの経過時間,,
@@ -6346,7 +6346,7 @@ developing.condition,{0}を発症中({1}),,"{0} is the condition name, {1} is pe
 cond.Depression.desc,娯楽の欲求が満たされない期間が長い場合、うつ病を発症します。娯楽施設を建造し、装飾を追加することで防ぎましょう。,,
 effect.magnetic.storm,磁気嵐,,
 effect.magnetic.storm.desc,このセクターでは磁気嵐が常に発生しているようです。一部の電子機器が頻繁に不具合を起こす可能性があります。,,
-ev.magnetic.storm.desc,There is an ongoing magnetic storm. Some electrical devices will experience intermittent issues.,,
+ev.magnetic.storm.desc,磁気嵐が発生中。電子機器の一部の動作が不安定になっているようだ。,,
 effect.dust.storm.desc,このセクターではダストストームが常に発生しているようです。ソーラーパネルの出力が低下中。,,
 obj.materials.fusioncellheavy,ヘヴィフュージョンセル,,
 obj.materials.fusioncellheavy.desc,"ハイパワータイプのフュージョンセルだ。長距離ハイパージャンプに適した",,
@@ -6576,8 +6576,8 @@ modifier.ResearchCost.desc,研究ノードの解除に必要なデートイド�
 scan.target.deep,深部スキャン,,
 scan.target.deep.desc,"現在のセクターを深部までスキャンし、長距離スキャンで見逃していた可能性のある資源を検出します。",,
 noun.list,一覧,,
-ai.alignment.info.1,"The alignment of biological beings can change over time. Care for your colonists well, and their trust in you will grow.",,
-ai.alignment.info.2,"Certain conditions, implants, and equipment can affect AI alignment.",,
+ai.alignment.info.1,"有機生命体による信頼度は、時間の経過ともに変化します。入植者を大切に扱えば、あなたへの信頼度が高まっていくはずです。",,
+ai.alignment.info.2,"なんらかの状態異常、インプラント、そして装備は、AI信頼度に影響を及ぼすことがあります。",,
 system.scan.extended,長距離スキャン,,
 system.scan.extended.desc,宙域全体をスキャンして希少な資源を探せるようになります。,,
 share.ship,船を公開,,for sharing the ship in steam workshop
@@ -6585,10 +6585,10 @@ noun.ship,船,,as in space ship (but has to be short)
 noun.ships,船,,plural of ship
 game.template.mode,このセーブファイルは<b>テンプレート</b>モードとして読み込まれます。変更不能なモードとして船内を探索するか、この船を使用して新たにゲームを開始することができます。,,
 game.template.new,この船でゲームを開始する。.,,
-more.actions,さらに,,
+more.actions,その他の操作,,
 download.ships,船をダウンロード,,
 mod.unsubscribe,登録解除,,
-verb.keep,Keep,,
+verb.keep,保持,,
 verb.regenerate,再生成,,
 situation.SectorDifficulty,セクターの難易度,,
 modifier.MiningOutput,採掘量,,
@@ -6657,17 +6657,17 @@ ship.tag.esv.desc,宇宙探査船,,deep space research
 ship.tag.fsv,FSV,,
 ship.tag.fsv.desc,独立開拓船,,independent adventurers
 ship.tag.imv,IMV,,
-ship.tag.imv.desc,資源採掘用工業船,,resource extraction ships
+ship.tag.imv.desc,資源採掘船,,resource extraction ships
 ship.tag.inf,INF,,
-ship.tag.inf.desc,侵食された船体システム,,virus-corrupted ships
+ship.tag.inf.desc,侵食された船体構造,,virus-corrupted ships
 ship.tag.ltv,LTV,,
-ship.tag.ltv.desc,輸送船,,cargo haulters and carriers
+ship.tag.ltv.desc,貨物船,,cargo haulters and carriers
 ship.tag.tav,TAV,,
 ship.tag.tav.desc,戦術強襲艦,,big offensive ships
 ship.tag.scs,SCS,,
 ship.tag.scs.desc,超大型主力艦,,titan class ships
 ship.tag.lfs,LFS,,
-ship.tag.lfs.desc,軽装戦闘艇,,small fighters
+ship.tag.lfs.desc,軽戦闘艇,,small fighters
 ship.tag.srs,SRS,,
 ship.tag.srs.desc,威力偵察艦,,hit and run tactical ships
 ship.tag.msv,MSV,,
@@ -7400,14 +7400,14 @@ trait.antisocial,孤独,,
 trait.antisocial.about,他人と交流したり、群れてすごすことを避けようとする,,
 trait.open_eyed_sleeper,目を開けたまま寝る,,
 trait.open_eyed_sleeper.about,この人物は、眠るときに目を開けたままにする。,,
-trait.gigolo,Gigolo,,"a young man paid or financially supported by a woman, typically an older woman, to be her escort or lover."
+trait.gigolo,ヒモ男,,"a young man paid or financially supported by a woman, typically an older woman, to be her escort or lover."
 trait.high.libido,スケベ,,Libido refers to an individual's sex drive or sexual desire
 trait.charismatic,カリスマ,,for describing charismatic character (not external looks)
 trait.beautiful,美人,,describes a good looking woman
 trait.handsome,ハンサム,,describes a good looking man
 trait.ugly,器量が悪い,,
-trait.optimist,Optimist,,
-trait.pessimist,Pessimist,,
+trait.optimist,のんきもの,,
+trait.pessimist,心配性,,
 trait.fast,俊足,,As in fast walker
 trait.slow,鈍足,,As in slow walker
 trait.lazy,怠惰,,
@@ -7423,11 +7423,11 @@ trait.shadow_dweller.about,暗いところですごすのが好き,,
 trait.coffee_addict,コーヒー中毒,,
 role.Babysitter,保育士,,
 role.Delinquent,Delinquent,,"(typically of a young person) tending to commit crime, particularly minor crime."
-role.Gamer,Gamer,,
+role.Gamer,ゲーマー,,
 role.GraffitiArtist,Graffiti Artist,,
 role.LittleShit,Little Shit,,a term some people call annoying kids
 role.NeighborhoodMenace,Neighborhood Menace,,
-role.Otaku,Otaku,,(in Japan) a young person who is obsessed with computers or particular aspects of popular culture to the detriment of their social skills.
+role.Otaku,オタク,,(in Japan) a young person who is obsessed with computers or particular aspects of popular culture to the detriment of their social skills.
 role.PaperBoy,Paper Boy,,
 role.SweatshopWorker,Sweatshop Worker,,
 role.FighterPilot,Fighter Pilot,,
