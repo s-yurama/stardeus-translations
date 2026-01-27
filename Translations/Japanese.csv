@@ -7342,25 +7342,25 @@ noun.pain.severe,Severe pain,,
 noun.pain.excruciating,Excruciating pain,,
 chance.scar,Chance to leave a scar,,
 scar.info,A {0} scar caused by a {1} wound inflicted by {2},,"{0} is severity level (severe, moderate, etc), {1} is damage type (sharp, piercing), {2} is name of attacker. Example:  A Severe scar from a Slashing wound Inflicted by John"
-noun.scar,Scar,,
-noun.scars,Scars,,
+noun.scar,傷痕,,
+noun.scars,傷痕,,
 caused.by,Caused by {0},,{0} is name of a person who caused something
 verb.past.formed,Formed,,label for something that was formed some time ago
-scar.short.info,{0} scar from {1},,"{0} is severity level (severe, moderate, etc), {1} is name of attacker. Example: Severe scar from John"
-scar.random.source.generic.1,old battle,,
-scar.random.source.generic.2,bar brawl,,
-scar.random.source.generic.3,torture,,
-scar.random.source.generic.4,pirates,,
-scar.random.source.generic.5,self harm,,
-scar.random.source.generic.6,an accident,,
-scar.random.source.generic.7,an old job,,
-scar.random.source.generic.8,a cat,,
-scar.random.source.generic.9,a shuttle accident,,
-scar.random.source.human.1,a friend,,
-scar.random.source.human.2,their best friend,,
-scar.random.source.human.3,a former lover,,
-scar.random.source.human.4,a cleaning incident,,
-scar.random.source.human.5,a failed guitar lesson,,
+scar.short.info,{1}による傷痕({0}),,"{0} is severity level (severe, moderate, etc), {1} is name of attacker. Example: Severe scar from John"
+scar.random.source.generic.1,過去の戦闘,,
+scar.random.source.generic.2,酒場での乱闘,,
+scar.random.source.generic.3,拷問,,
+scar.random.source.generic.4,海賊,,
+scar.random.source.generic.5,自傷行為,,
+scar.random.source.generic.6,事故,,
+scar.random.source.generic.7,以前やっていた仕事,,
+scar.random.source.generic.8,ネコ,,
+scar.random.source.generic.9,シャトルの事故,,
+scar.random.source.human.1,友人,,
+scar.random.source.human.2,親友,,
+scar.random.source.human.3,以前の恋人,,
+scar.random.source.human.4,清掃中の事故,,
+scar.random.source.human.5,ギターレッスンでのやらかし,,
 objects.cosmetics.chess.piece.desc,とんでもない大きさのチェスの駒だ。,,
 objects.cosmetics.chess.chesspawnw,ポーン(白),,
 objects.cosmetics.chess.chesspawnb,ポーン(黒),,
@@ -7377,7 +7377,7 @@ objects.cosmetics.chess.chessbishopb,ビショップ(黒),,
 structure.floors.floormarble01,大理石の床,,
 structure.floors.floormarble01.desc,船内用の磨き上げられた上品な床だ。,,
 ev.raid.map.edge.title,襲撃を受けている！,,
-ev.raid.map.edge.desc,Raiders are approaching our ship!,,
+ev.raid.map.edge.desc,襲撃者たちが船に接近中！,,
 obj.containers.hullpiercer,ハルピアサー,,
 obj.containers.hullpiercer.desc,高速で突っ込んでくる乗り込み可能なポッドだ。船体をぶち抜いて迅速に侵入するために設計されている。,,
 act.feeding.patient,Feeding a patient,,
@@ -7595,9 +7595,9 @@ beings.mindjar01.desc,A bot carrying a preserved brain inside a glass jar that c
 warning.too.close,Too close,,"warning label. for example, when some object is too close to another object that requires minimum distance between them"
 warning.too.far,Too far,,"warning label. for example, when some object is too far from the ship or another object"
 warning.blocked.by,Blocked by {0},,{0} name of the object that blocks something (like construction of another object)
-noun.work.spot,Work Spot,,
+noun.work.spot,作業場所,,
 noun.io.port,I/O Port,,"I/O is Input / Output. Usually it's a tech term that either has a specific idiom in your language, or just leave it as I/O, people will understand"
 warning.invalid.location,Invalid Location,,
 warning.replacement.not.allowed,Replacement not allowed,,
 hint.dark.matter.acquisition,You can scan for {0} deposits after unlocking {1} research.,,{0} is Dark Matter {1} is Extended Scanning
-trait.hooker,Hooker,,"A female version of ""Gigolo"" trait"
+trait.hooker,愛人,,"A female version of ""Gigolo"" trait"
