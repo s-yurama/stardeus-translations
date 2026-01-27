@@ -7503,20 +7503,20 @@ feedback.graphics.tip,"For reporting visual bugs and glitches in rendering, part
 fog.of.war.warning,Warning: {0} is enabled. Unlit parts of your ship will be invisible.,,"{0} is translated settings menu path, such as ""Settings > Video > Abient Light > Fog Of War"""
 disable.device.animations,Disable Device Animations,,
 disable.device.animations.tip,Disabling device animations can improve graphics performance on low-end devices.,,
-act.confessing.love,Confessing love to {0},,{0} is name
-confessed.love.title,{0} confessed love to {1},,{0} and {1} are names
-confess.love.outcome.accepted,{0} confessed love to {1} and the feelings were mutual,,{0} and {1} are names
-confess.love.outcome.rejected,{0} confessed love to {1} and was rejected,,{0} and {1} are names
-confess.love.outcome.ignored,{0} confessed love to {1} but didn't receive an answer,,{0} and {1} are names
-verb.confessing.love,Confessing love,,a verb
-confessed.love.to.someone,Confessed love to {0},,{0} is name
-confessed.love.accepted,Love confession accepted,,
-confessed.love.rejected,Love confession rejected,,
-confessed.love.ignored,Unanswered love confession,,
-received.love.confession,Received a love confession ,,
-noun.love.confession,Love Confession,,
-verb.receiving.love.confession,Receiving a love confession,,
-scar.love.confession.rejection,{0} rejecting a love confession,,"{0} is name. example use in scar description: ""A scar on the heart infliced by Charlie rejecting a love confession"""
+act.confessing.love,{0}に愛を告白中,,{0} is name
+confessed.love.title,{0}が{1}に愛の告白をした,,{0} and {1} are names
+confess.love.outcome.accepted,{0}が愛の告白を{1}にして、想いは通じ合った,,{0} and {1} are names
+confess.love.outcome.rejected,{0}が愛の告白を{1}にしたが、拒絶されてしまった,,{0} and {1} are names
+confess.love.outcome.ignored,{0}が愛の告白を{1}にしたが、返事はなかった,,{0} and {1} are names
+verb.confessing.love,愛の告白をする,,
+confessed.love.to.someone,{0}に愛の告白をした,,{0} is name
+confessed.love.accepted,愛の告白を受け入れた,,
+confessed.love.rejected,愛の告白は拒絶された,,
+confessed.love.ignored,愛の告白への返事はなかった,,
+received.love.confession,愛の告白を受けた,,
+noun.love.confession,愛の告白,,
+verb.receiving.love.confession,愛の告白を受けている,,
+scar.love.confession.rejection,{0}に愛の告白を拒まれたことにより,,"{0} is name. example use in scar description: ""A scar on the heart infliced by Charlie rejecting a love confession"""
 adj.unreachable,到達不能,,
 disable.all.particles,Disable All Visual Effects,,
 disable.all.particles.tip,"This disables all but critically important visual effects.
