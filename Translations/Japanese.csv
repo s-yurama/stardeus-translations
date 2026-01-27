@@ -6597,8 +6597,8 @@ eject.from.storage.first,この生命体を,,Shown when player tries to replace 
 modifier.BasicTech,基本テクノロジー,,
 modifier.BasicTech.desc,"トイレ、シャワー、小型ヒーター、酸素ポンプといった基本的なテクノロジーは、ゲームの開始時点でアンロックされています。一方で、これらを独自に未開放に設定したり、アンロックされているものをランダムにすることで、プレイ内容をもっと挑戦的にすることもできます。",,
 goal.AcceptQuest,クエストの受諾,,
-goal.AcceptQuest.desc,"You haven't accepted any quests, but some are available. Check the Event list or the Quests overlay to find them.",,
-hold.to.lock.tooltip,Hold {0} to lock this tooltip,,{0} is a shortcut key name. Locking the tooltip will keep it frozen in place so that you can click links inside the tooltip
+goal.AcceptQuest.desc,"クエストをまだ受注していないようですが、進行可能なものがあります。イベント一覧やクエストのオーバーレイを確認してみましょう。",,
+hold.to.lock.tooltip,{0}を押し続けると、このツールチップを固定します。,,{0} is a shortcut key name. Locking the tooltip will keep it frozen in place so that you can click links inside the tooltip
 noun.weapon.power,武装火力,,Version 0.13 translations start here
 noun.shields,シールド,,
 noun.weapons,兵器,,
