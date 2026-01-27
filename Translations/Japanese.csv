@@ -7471,34 +7471,34 @@ role.ArmsDealer,Arms Dealer,,
 role.Survivalist,Survivalist,,
 role.Astronomer,Astronomer,,
 role.Librarian,Librarian,,
-role.Farmer,Farmer,,
-role.Chemist,Chemist,,
+role.Farmer,農民,,
+role.Chemist,化学者,,
 role.GuideDog,Guide Dog,,
 role.ServiceAnimal,Service Animal,,
-role.PoliceOfficer,Police Officer,,
-role.Maid,Maid,,
-explosion.strength,Explosion strength,,how powerful the explosion would be if an object exploded
-adj.ongoing,Ongoing,,adjective
-obj.equipment.hats.baseballcap01,Baseball Cap,,
-obj.equipment.hats.baseballcap01.desc,A simple baseball cap,,
-avoiding.someone,Avoiding {0},,{0} is name
-noun.chase,Chase,,noun
-chasing.desc,{0} chased {1},,{0} and {1} are names
-chase.outcome.good,{1} was chased by {0} and had a ton of fun,,{0} and {1} are names
-chase.outcome.bad,{1} was chased by {0} and hated it,,{0} and {1} are names
-verb.chasing,Chasing,,
-got.chased.by,Got chased by {0},,{0} is name
-chased.someone,Chased {0},,{0} is name
-verb.running.away,Running away,,
-device.lootable.only,"This item cannot be built. It can only be acquired through other means, such as finding it on derelict ships.",,
-feedback.cool_stuff,Cool Stuff,,
+role.PoliceOfficer,警察官,,
+role.Maid,メイド,,
+explosion.strength,爆発規模,,how powerful the explosion would be if an object exploded
+adj.ongoing,進行中,,adjective
+obj.equipment.hats.baseballcap01,野球帽,,
+obj.equipment.hats.baseballcap01.desc,素朴な野球帽だ,,
+avoiding.someone,{0}を避けている,,{0} is name
+noun.chase,追跡,,noun
+chasing.desc,{0}は{1}を追いかけた,,{0} and {1} are names
+chase.outcome.good,{1}は{0}と追いかけっこをしてごきげんだ,,{0} and {1} are names
+chase.outcome.bad,{1}は{0}に追いかけまわされてウンザリしている it,,{0} and {1} are names
+verb.chasing,追いかけ中,,
+got.chased.by,{0}に追いかけられた,,{0} is name
+chased.someone,{0}を追いかけた,,{0} is name
+verb.running.away,逃走,,
+device.lootable.only,"このアイテムは自作できません。難破船で発見したり、他の手段でのみ入手できます。",,
+feedback.cool_stuff,素晴らしい作品,,
 feedback.cool_stuff.tip,"If you want to share a nice ship design, an interesting moment or a beautiful screenshot, choose this category.",,
-ev.injured.raider.joined.colony,An injured raider has surrendered,,
+ev.injured.raider.joined.colony,負傷した襲撃者が降参,,
 ev.injured.raider.joined.colony.desc,"An injured raider, {0} from the {1} faction, is asking for forgiveness and has sworn allegiance to your colony.",,"{0} is name, {1} is faction name"
 at.quality,at {0} quality,,"{0} is percentage. This is for stat modifier of an item at given item quality. Example: ""Damage at 98% quality: 55"""
 immersive.icons,Immersive Icons,,
 immersive.icons.tip,"When enabled, status icons on devices will be affected by environmental light. Otherwise, they remain bright even in darkness. This makes the game harder but more immersive.",,
-feedback.graphics,Graphics,,
+feedback.graphics,グラフィックス,,
 feedback.graphics.tip,"For reporting visual bugs and glitches in rendering, particle systems, UI, and other graphics.",,
 fog.of.war.warning,Warning: {0} is enabled. Unlit parts of your ship will be invisible.,,"{0} is translated settings menu path, such as ""Settings > Video > Abient Light > Fog Of War"""
 disable.device.animations,Disable Device Animations,,
@@ -7517,14 +7517,14 @@ received.love.confession,Received a love confession ,,
 noun.love.confession,Love Confession,,
 verb.receiving.love.confession,Receiving a love confession,,
 scar.love.confession.rejection,{0} rejecting a love confession,,"{0} is name. example use in scar description: ""A scar on the heart infliced by Charlie rejecting a love confession"""
-adj.unreachable,Unreachable,,
+adj.unreachable,到達不能,,
 disable.all.particles,Disable All Visual Effects,,
 disable.all.particles.tip,"This disables all but critically important visual effects.
 <br><br><b>WARNING!</b> Many key visuals, including weapon shots, will be invisible.",,
-cpu.bonus,CPU Bonus,,"example use: ""CPU Bonus: 1Thz > +10% mining depth"""
-memory.bonus,Memory Bonus,,"example use: ""Memory Bonus: 1Eb > +10% mining depth"""
-gpu.bonus,GPU Bonus,,"example use: ""GPU Bonus: 1Thz > +10% mining depth"""
-disk.bonus,Disk Bonus,,"example use: ""Disk Bonus: 1EB > +10% mining depth"""
+cpu.bonus,CPUによる強化補正,,"example use: ""CPU Bonus: 1Thz > +10% mining depth"""
+memory.bonus,メモリによる強化補正,,"example use: ""Memory Bonus: 1Eb > +10% mining depth"""
+gpu.bonus,GPUによる強化補正,,"example use: ""GPU Bonus: 1Thz > +10% mining depth"""
+disk.bonus,ディスクによる強化補正,,"example use: ""Disk Bonus: 1EB > +10% mining depth"""
 codex.m.electricity.computerresourcesbonus,Computer Resources Bonus,,
 codex.m.electricity.computerresourcesbonus.desc,"Computer resources such as <b>CPU</b>, <b>Memory</b>, <b>GPU</b>, and <b>Disk</b> can add stat bonuses to devices on the same electrical grid. Check tooltips for details.",,
 noun.industrial.equipment,工業用装備,,"generic term for all devices that are meant for producing something, factory machines, etc"
@@ -7565,12 +7565,12 @@ hyperspace.warped.back,ハイパードライブの保護機能が作動して、
 hyperjump.failed,ハイパージャンプ失敗,,
 hyperjump.completed,ハイパージャンプ完了,,
 next.stop,次の経由地点,,"next destination in travel. example: ""Next stop: London"""
-verb.stay,Stay,,
+verb.stay,待機,,
 verb.reenter,再突入,,
 visit.waypoints,経由地点でワープアウト,,
 visit.waypoints.tip,経由地点ごとにハイパースペースから離脱し、ハイパージャンプを手動で実施しなおすようにします。,,
 noun.queue,キュー,,
-status.on.hold,On Hold,,"when some operation is paused, waiting for player to resume it"
+status.on.hold,中断中,,"when some operation is paused, waiting for player to resume it"
 leaving.hyperspace,ハイパースペースを離脱中,,
 arrived.at,{0}に到着した,,{0} is location name
 noun.warp.target,ワープ目標,,target of warp drive hyperjump
