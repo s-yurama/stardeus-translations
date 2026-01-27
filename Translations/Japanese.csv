@@ -7559,16 +7559,16 @@ being.risking.life.for.food,{0} is risking death in vacuum to grab {1} from shee
 noun.death.care,Death Care,,name of research that unlocks death care related tech
 noun.medical.care,Medical Care,,name of research that unlocks medical care devices
 verb.warp,Warp,,verb - to travel in space using the warp drive
-exit.hyperspace.to.recharge,We had to exit hyperspace to recharge the drives. Reenter hyperspace once the drives are ready?,,
-hyperdrives.exhausted,Hyperdrives Exhausted,,
-hyperspace.warped.back,The hyperdrive failsafe warped the ship back to its anchored position,,
+exit.hyperspace.to.recharge,ハイパードライブをチャージするため、ハイパースペースから離脱しました。ハイパードライブの準備でき次第、ハイパースペースへ再突入しますか？,,
+hyperdrives.exhausted,ハイパードライブ使用不能,,
+hyperspace.warped.back,ハイパードライブの保護機能が作動して、船は固有座標へワープバックした。,,
 hyperjump.failed,ハイパージャンプ失敗,,
 hyperjump.completed,ハイパージャンプ完了,,
-next.stop,次の経由ポイント,,"next destination in travel. example: ""Next stop: London"""
+next.stop,次の経由地点,,"next destination in travel. example: ""Next stop: London"""
 verb.stay,Stay,,
 verb.reenter,再突入,,
-visit.waypoints,経由地でワープアウト,,
-visit.waypoints.tip,Exit hyperspace at each waypoint and wait for manual resume during hyperjumps,,
+visit.waypoints,経由地点でワープアウト,,
+visit.waypoints.tip,経由地点ごとにハイパースペースから離脱し、ハイパージャンプを手動で実施しなおすようにします。,,
 noun.queue,キュー,,
 status.on.hold,On Hold,,"when some operation is paused, waiting for player to resume it"
 leaving.hyperspace,ハイパースペースを離脱中,,
