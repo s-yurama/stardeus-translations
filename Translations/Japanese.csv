@@ -6592,10 +6592,10 @@ verb.keep,保持,,
 verb.regenerate,再生成,,
 situation.SectorDifficulty,セクターの難易度,,
 modifier.MiningOutput,採掘量,,
-modifier.MiningOutput.desc,Adjusts output of mining deposits.,,
-eject.from.storage.first,Eject this being from storage first.,,Shown when player tries to replace a body part on a being that is in storage (in morgue or mechuary).
-modifier.BasicTech,Basic Tech,,
-modifier.BasicTech.desc,"Basic technologies like toilets, showers, small heaters, and oxygen pumps are unlocked by default. However, you can lock them or randomize their unlocking for an added challenge.",,
+modifier.MiningOutput.desc,資源鉱床の埋蔵量を調整します。,,
+eject.from.storage.first,この生命体を,,Shown when player tries to replace a body part on a being that is in storage (in morgue or mechuary).
+modifier.BasicTech,基本テクノロジー,,
+modifier.BasicTech.desc,"トイレ、シャワー、小型ヒーター、酸素ポンプといった基本的なテクノロジーは、ゲームの開始時点でアンロックされています。一方で、これらを独自に未開放に設定したり、アンロックされているものをランダムにすることで、プレイ内容をもっと挑戦的にすることもできます。",,
 goal.AcceptQuest,クエストの受諾,,
 goal.AcceptQuest.desc,"You haven't accepted any quests, but some are available. Check the Event list or the Quests overlay to find them.",,
 hold.to.lock.tooltip,Hold {0} to lock this tooltip,,{0} is a shortcut key name. Locking the tooltip will keep it frozen in place so that you can click links inside the tooltip
