@@ -7572,9 +7572,9 @@ visit.waypoints.tip,経由地点ごとにハイパースペースから離脱し
 noun.queue,キュー,,
 status.on.hold,On Hold,,"when some operation is paused, waiting for player to resume it"
 leaving.hyperspace,ハイパースペースを離脱中,,
-arrived.at,Arrived at {0},,{0} is location name
-noun.warp.target,Warp Target,,target of warp drive hyperjump
-part.quality.threshold,Part Quality Threshold,,
+arrived.at,{0}に到着した,,{0} is location name
+noun.warp.target,ワープ目標,,target of warp drive hyperjump
+part.quality.threshold,パーツ品質の閾値,,
 part.quality.threshold.tip,"When beings are disposed, body parts with quality above this threshold will be preserved.",,
 codex.m.defenses.tractorbeam.desc_new,"Tractor Beams can influence the trajectory of slow moving projectiles, such as Asteroids, Meteoroids and various Pods and Capsules.<br><br>You have to build and connect a <b>Tractor Beam Target</b> in order to use the Tractor Beam.",,
 codex.m.defenses.tractorbeam.desc2,Multiple Tractor Beams can guide the same projectile towards the same or different target. The force from each Tractor Beam adds up to increase the influence over the trajectory of a projectile.,,
@@ -7584,20 +7584,20 @@ basic.tutorials.not.done.warning,You haven't completed the following tutorials: 
 surgical.pending.procedures,Pending Procedures,,label for list of surgical operations for humans or body part replacements for robots.
 fog.of.war.desc,"Fog of War hides unlit areas of your ship, adding an extra layer of challenge.",,
 noun.extra.challenge,Extra Challenge,,
-noun.visuals,Visuals,,
+noun.visuals,見た目,,
 auto.expand.tips,Auto-Expand Tooltips,,
 auto.expand.tips.desc,"If this setting is disabled, some tooltips will be truncated unless you hold {0}.",,
-bodypart.Body.BodyMindjar,Mindjar Frame,,
-bodypart.Body.BodyMindjar.desc,A mobile bot frame that can accomodate a biological brain.,,
-species.Mindjar,Mindjar,,
-beings.mindjar01,Mindjar,,
-beings.mindjar01.desc,A bot carrying a preserved brain inside a glass jar that controls its mechanical body.,,
-warning.too.close,Too close,,"warning label. for example, when some object is too close to another object that requires minimum distance between them"
-warning.too.far,Too far,,"warning label. for example, when some object is too far from the ship or another object"
-warning.blocked.by,Blocked by {0},,{0} name of the object that blocks something (like construction of another object)
+bodypart.Body.BodyMindjar,脳殻用フレーム,,
+bodypart.Body.BodyMindjar.desc,自走式ロボットの本体パーツだ。生きた脳みそを収容できるぞ。,,
+species.Mindjar,脳殻,,
+beings.mindjar01,脳殻,,
+beings.mindjar01.desc,ガラス容器に入った脳みそを搭載し、それが機械の体を制御しているロボットだ。,,
+warning.too.close,近すぎます,,"warning label. for example, when some object is too close to another object that requires minimum distance between them"
+warning.too.far,遠すぎます,,"warning label. for example, when some object is too far from the ship or another object"
+warning.blocked.by,{0}によって塞がれている,,{0} name of the object that blocks something (like construction of another object)
 noun.work.spot,作業場所,,
-noun.io.port,I/O Port,,"I/O is Input / Output. Usually it's a tech term that either has a specific idiom in your language, or just leave it as I/O, people will understand"
-warning.invalid.location,Invalid Location,,
-warning.replacement.not.allowed,Replacement not allowed,,
-hint.dark.matter.acquisition,You can scan for {0} deposits after unlocking {1} research.,,{0} is Dark Matter {1} is Extended Scanning
+noun.io.port,出し入れ場所,,"I/O is Input / Output. Usually it's a tech term that either has a specific idiom in your language, or just leave it as I/O, people will understand"
+warning.invalid.location,場所が不正です,,
+warning.replacement.not.allowed,再配置できません,,
+hint.dark.matter.acquisition,{1}の研究をアンロックすると、{0}の鉱床をスキャンで探せるようになります。,,{0} is Dark Matter {1} is Extended Scanning
 trait.hooker,愛人,,"A female version of ""Gigolo"" trait"
