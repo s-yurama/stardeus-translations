@@ -6911,12 +6911,12 @@ weapon.type.missile,ミサイル,,
 weapon.type.laser,レーザー,,
 weapon.type.pointdefense,迎撃,,
 weapon.type.plasma,プラズマ,,
-noun.hyperdrives,Hyperdrives,,plural of Hyperdrive
+noun.hyperdrives,ハイパードライブ,,plural of Hyperdrive
 noun.ship.hull,船体,,
 noun.weapon.settings,兵装設定,,
 adj.default,デフォルト,,
 adj.custom,カスタム,,
-open.default.settings,Open Default Settings,,
+open.default.settings,デフォルトの設定を開く,,
 weapon.mode.target,Target Mode,,"how weapon selects a target (auto, manual, etc)"
 weapon.mode.fire,Fire Mode,,"how weapon shots (auto, manual, etc)"
 autofire.flux.threshold,Autofire Flux Threshold,,
@@ -6973,10 +6973,10 @@ ship.class.base.evade,基本回避,,
 ship.evade.thruster.bonus,スラスターによる補正値,,
 ship.violates.class.limit,船が船体クラスの制限を超過！,,
 noun.ship.class.limit,船体クラスの制限,,
-ship.class.limit.future.violation.tip,Building this device will result in violating Ship Class Limit!,,
+ship.class.limit.future.violation.tip,この機器を建造すると、船体クラスの制限違反になります！,,
 trade.refused,取引は拒絶された,,when player wants to trade but the trader doesn't like the player
-noun.law.enforcement,Law Enforcement,,
-noun.law.enforcement.officer,Law Enforcement Officer,,
+noun.law.enforcement,保安隊,,
+noun.law.enforcement.officer,保安隊員,,
 noun.outlaw,無法者,,as in someone who is hunted by the police
 state.in.combat,戦闘中,,
 ev.pirate.attack.title,Pirate Ship Approaching,,
@@ -6992,8 +6992,8 @@ quest.MakeShipCombatReady,Make Ship Combat Ready,,
 quest.MakeShipCombatReady.desc,We need to defend ourselves against hostile ships. Let's build weapons and shields to stand a chance.,,
 quest.MakeShipCombatReady.shredder.cannon.tip,A couple of Shredder Cannons will give us enough firepower to defend against small ships and occasional meteoroids.,,
 quest.MakeShipCombatReady.shield.emitter.tip,"We need at least one Shield Emitter for a functioning shield. Without it, we wouldn't last long, even against lightly armed enemies.",,
-noun.ship.combat,Ship Combat,,
-noun.minimum,Minimum,,
+noun.ship.combat,対艦戦,,
+noun.minimum,最小,,
 pronoun.any,Any,,Example: Ship size: Any
 noun.base.capacity,Base Capacity,,base flux capacity
 noun.class.bonus,Class Bonus,,ship class bonus
@@ -7060,14 +7060,14 @@ tut.ship.combat.step.config.2,"This is your <b>Ship Configuration</b>. It allows
 tut.ship.combat.end,"This covers the basics of {0}. Explore the {1} and {2} UI to learn more.<br><br>Now, put your knowledge into practice and defeat the enemy ship.",,"{0} - Ship Combat. {1} - Codex, {2} - Ship Combat Controls"
 law.enforcement.desc,"Most factions have dedicated <b>Law Enforcement Officers</b> who maintain order and hunt down {0} ships. Unless you're an {0} yourself, you can relax around them.",,{0} is Outlaw
 noun.weapon.class.points,Weapon Class Points,,
-noun.offensiveness,Offensiveness,,
+noun.offensiveness,火力,,
 noun.offensiveness.allowed,Allowed Offensiveness,,
 noun.offensiveness.current,Current Offensiveness,,
 compatible.ship.classes,Compatible Ship Classes,,
 compatible.factions,Compatible Factions,,
 obj.ammo.interceptordart,Interceptor Darts,,"Plural, because it's a stack of several darts"
 obj.ammo.interceptordart.desc,"A compact, self-guided missile designed for short-range defense, capable of intercepting moving targets with precision.",,
-obj.ammo.missile,Missile,,
+obj.ammo.missile,ミサイル,,
 obj.ammo.missile.desc,A highly explosive missile that deals massive damage and easily penetrates shields.,,
 tut.spacetravel.step4_1,"<b>ステーション</b>との<b>取引</b>の準備が整いました。<b>星間マップ</b>で強調表示された<b>ステーション</b>にカーソルを合わせて{0}で実効可能なアクションを表示し、<b>取引</b>を選択しましょう。",,
 find.resource,Find {0},,"{0} is resource name, like ""Dark Matter"""
@@ -7077,7 +7077,7 @@ scan.strength.limit.tip,"Your potential {0} is now {1}, but the maximum is limit
 noun.scan.strength,Scan Strength,,
 ship.entered.sector,Ship entered this sector,,Notification about another ship hyperjumping into player's location
 ship.left.sector,Ship left this sector,,Notification about another ship hyperjumping away from player's location
-ship.destroyed,Ship destroyed,,
+ship.destroyed,船が破壊された,,
 obj.upgrades.winchrangeupgrade,Winch Range Upgrade,,
 obj.upgrades.winchrangeupgrade.desc,"Extends the range of the winch hook, allowing you to reel in derelict ships from any distance.",,
 waiting.for.operator,Waiting for operator,,waiting for someone to operate the device
@@ -7097,8 +7097,8 @@ upgrade.available,Upgrade Available,,
 ship.class.upgrade.available.desc,Your ship's configuration qualifies for higher {0}. You can change your {0} in {1} > {2}.,,"{0} is Ship Class, {1} is Ship Combat Controls. {2} is Configure"
 noun.return.beacon,帰還ビーコン,,
 noun.return.beacon.desc,A beacon that marks a location in space. Deploy it to create fast-travel points across the universe.,,
-object.deployed,{0} deployed,,{0} is object name
-object.already.exists,{0} already exists,,{0} is object name (like Return Beacon)
+object.deployed,{0}を設置した,,{0} is object name
+object.already.exists,{0}が既に存在します,,{0} is object name (like Return Beacon)
 noun.return.beacons,帰還ビーコン,,plural of Return Beacon
 overlay.tip.Notes,メモ帳,,
 tut.basic.controls.step.overlay.notes,You can keep notes in this scratchpad.,,
@@ -7123,7 +7123,7 @@ telemetry.tip,"ゲームのパフォーマンスを向上させ、体験をよ�
 telemetry,テレメトリー,,noun
 share.telemetry,ゲームのテレメトリを共有する,,label for a checkbox that enables telemetry sharing
 direct.control.combat.tip,{0} drafts beings for combat and prevents them from doing any work.,,{0} is the button name (either Direct Control or Control)
-ev.photon.storm,Photon Storm,,
+ev.photon.storm,光子嵐,,
 ev.photon.storm.desc,A harmless phenomenon that boosts solar panel output.,,
 event.ended,Ended: {0},,"{0} will be event name, for example Ended: Photon Storm"
 event.ongoing,Ongoing: {0},,"{0} will be event name, for example Ongoing: Photon Storm"
@@ -7132,34 +7132,34 @@ noun.license.fee,License Fee,,label for price of buying some license
 noun.requirement,Requirement,,"usage example: ""Requirement: <some condition>"""
 noun.requirements,Requirements,,plural of requirement
 must.own,Must Own,,a label for requirement to own something
-verb.copy,Copy,,
-verb.paste,Paste,,
+verb.copy,コピー,,
+verb.paste,ペースト,,
 adj.identical,Identical,,when two items are identical
 opinion.good,Good,,as in opinion about someone: good (START OF v014 translations)
 opinion.bad,Bad,,as in opinion about someone: bad
 verb.hates,Hates,,toward another person
 noun.attraction,Attraction,,sexual attraction
-noun.friend,Friend,,
-noun.lover,Lover,,
-noun.friendship,Friendship,,as in friendship level (will be expressed as percentage)
-noun.party,Party,,as in birthday party
-noun.party.custom,{0} party!,,"{0} will be something like Birthday or Wedding, or even Birthday / Wedding"
+noun.friend,友人,,
+noun.lover,恋人,,
+noun.friendship,交友関係,,as in friendship level (will be expressed as percentage)
+noun.party,パーティ,,as in birthday party
+noun.party.custom,{0}パーティ！,,"{0} will be something like Birthday or Wedding, or even Birthday / Wedding"
 party.desc,{0} are throwing a party!,,{0} will be replaced by a comma separated list of names
 party.custom.desc,{0} are throwing a {1} party!,,"{0} will be replaced by a comma separated list of names, {1} will be Birthday or Wedding or Birthday / Wedding"
-noun.birthday,Birthday,,
-noun.wedding,Wedding,,
+noun.birthday,お誕生日,,
+noun.wedding,結婚,,
 list.and,{0} and {1},,"Used for listing names. {0} will be list of comma separated names, {1} will be the last name. Example: ""Jack, Jill and James"". Will be combined with translation above to make something like ""Jack, Jill and James are throwing a party"""
-flag.Biological,Biological,,
-flag.Humanoid,Humanoid,,
-flag.Robotic,Robotic,,
-flag.Wild,Wild,,
-flag.Pet,Pet,,
-flag.Animal,Animal,,
-ability.DumbLabor,Dumb Labor,,
-ability.SkilledLabor,Skilled Labor,,
-ability.Intelligence,Intelligence,,
-bodypart.Core.DumbCore,Dumb Core,,
-bodypart.Core.LiteCore,Lite Core,,
+flag.Biological,有機生命体,,
+flag.Humanoid,ヒューマノイド,,
+flag.Robotic,機械生命体,,
+flag.Wild,野生,,
+flag.Pet,ペット,,
+flag.Animal,動物,,
+ability.DumbLabor,単純作業,,
+ability.SkilledLabor,熟練作業,,
+ability.Intelligence,知能,,
+bodypart.Core.DumbCore,単純コア,,
+bodypart.Core.LiteCore,簡易コア,,
 bodypart.Core.DumbCore.desc,A chip that contains the memories of a robot. Only capable of dumb labor.,,
 bodypart.Core.LiteCore.desc,A chip that contains the memories of a robot. Only capable of simple problem solving.,,
 modifier.NoDrama,Disable Drama,,
