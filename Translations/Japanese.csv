@@ -6880,11 +6880,11 @@ ship.chat.too.far.negative.rude.01,"Our thrusters are on vacation. Be a dear and
 ship.chat.too.far.negative.rude.02,"Yeah, so our engines are gone. If you wanna get robbed today, you're gonna have to fly to us.",,
 ship.chat.too.far.negative.rude.03,"No engines on our side, so if you don't come here, we're both wasting our time.",,
 ,,,
-space.object.ShipHyperTrail,ハイパージャンプの痕跡,,
-space.object.info.ShipHyperTrail,"When a ship enters hyperspace, it leaves a trail that gradually fades over time. The trail can indicate where the ship jumped.",,
-ship.hypertrail.hot,The ship is in hyperspace but hasn't left this sector yet.,,
+space.object.ShipHyperTrail,ハイパージャンプ痕跡,,
+space.object.info.ShipHyperTrail,"船がハイパースペースに突入すると、時間がたつと徐々に消えていく痕跡が残ります。この痕跡から、船がどこへジャンプしたのかを知ることができます。",,
+ship.hypertrail.hot,船はハイパースペースに突入したが、まだこのセクターから離脱していないようだ。,,
 objects.devices.shieldemitter,シールド エミッター,,
-objects.devices.shieldemitter.desc,Projects an energy barrier that absorbs or deflects energy and low caliber weapon attacks.,,
+objects.devices.shieldemitter.desc,力場を展開し、エネルギー兵器や実体弾による攻撃を中和したり逸らしてくれる。,,
 ,,,
 overlay.tip.ShipCombat,対艦戦闘制御,,
 objects.devices.shreddercannon,シュレッダーキャノン,,
@@ -7095,12 +7095,12 @@ body.part.procedure.priority,Body Part Procedure Priority,,
 body.part.procedure.priority.tip,Changes the default priority for body part removal and installation tasks.,,
 upgrade.available,Upgrade Available,,
 ship.class.upgrade.available.desc,Your ship's configuration qualifies for higher {0}. You can change your {0} in {1} > {2}.,,"{0} is Ship Class, {1} is Ship Combat Controls. {2} is Configure"
-noun.return.beacon,Return Beacon,,
+noun.return.beacon,帰還ビーコン,,
 noun.return.beacon.desc,A beacon that marks a location in space. Deploy it to create fast-travel points across the universe.,,
 object.deployed,{0} deployed,,{0} is object name
 object.already.exists,{0} already exists,,{0} is object name (like Return Beacon)
-noun.return.beacons,Return Beacons,,plural of Return Beacon
-overlay.tip.Notes,Notes,,
+noun.return.beacons,帰還ビーコン,,plural of Return Beacon
+overlay.tip.Notes,メモ帳,,
 tut.basic.controls.step.overlay.notes,You can keep notes in this scratchpad.,,
 structure.floors.floorwood01,Wooden Floor,,
 structure.floors.floorwood01.desc,A standard steel floor plate decorated with wooden panels.,,
@@ -7110,12 +7110,12 @@ crawler.combat.alert,Crawler Combat Alert,,
 crawler.combat.alert.desc,"If disabled, fighting against crawlers will not produce combat alerts or change the music.",,
 universe.seed,Universe Seed,,"Seed is a random number used as a starting point to generate something, in this case a universe"
 tut.adv.controls.select.modes.2_new,"Press {1}, drag a rectangle around an area, and release {1} to select all <b>Beings</b> in the area. Hold {0} and use {1} on a <b>Being</b> to add or remove it from the selection.",,"{0} is Shift button icon, {1} is left mouse button icon"
-skip.colonist.choice,Skip Colonist Choice,,
-skip.colonist.choice.desc,Auto-select a colonist when one needs to be awakened from stasis.,,
-drag.to.resize,Drag to resize,,tooltip for the UI resize handle button
-menu.lights,Lights,,label for build menu containing lights
-menu.lights.desc,Lights sources,,
-situation.ShipSize,Ship Size,,
+skip.colonist.choice,入植者の選択をスキップ,,
+skip.colonist.choice.desc,コールドスリープから目覚めさせる入植者を選択する必要がある場合に、自動選択するようにします。,,
+drag.to.resize,マウスをドラッグしてサイズ変更,,tooltip for the UI resize handle button
+menu.lights,照明,,label for build menu containing lights
+menu.lights.desc,光源,,
+situation.ShipSize,船のサイズ,,
 situation.ShipClassPoints,Ship Class Points,,
 situation.CombatStrength,Combat Strength,,
 situation.NumShipCombats,Ship Combat Encounters,,
