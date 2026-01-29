@@ -7380,8 +7380,8 @@ ev.raid.map.edge.title,襲撃を受けている！,,
 ev.raid.map.edge.desc,襲撃者たちが船に接近中！,,
 obj.containers.hullpiercer,ハルピアサー,,
 obj.containers.hullpiercer.desc,高速で突っ込んでくる乗り込み可能なポッドだ。船体をぶち抜いて迅速に侵入するために設計されている。,,
-act.feeding.patient,Feeding a patient,,
-feed.patient,Feed a patient,,
+act.feeding.patient,患者に給食中,,
+feed.patient,患者に給食する,,
 incoming.object,{0}が飛来中！,,"{0} can be a meteor, breach capsule, some other flying object targeting the ship"
 persona.bio,"{0} {1}, {2}",,"{0} is species, {1} is sex {2} is age. Example: Human Female, 37y"
 persona.bio.sexless,"{0}, {1}",,"{0} is species, {1} is age. Example: Robot, 37y"
@@ -7422,7 +7422,7 @@ trait.shadow_dweller,影に潜みし者,,
 trait.shadow_dweller.about,暗いところですごすのが好き,,
 trait.coffee_addict,コーヒー中毒,,
 role.Babysitter,保育士,,
-role.Delinquent,Delinquent,,"(typically of a young person) tending to commit crime, particularly minor crime."
+role.Delinquent,ワルガキ,,"(typically of a young person) tending to commit crime, particularly minor crime."
 role.Gamer,ゲーマー,,
 role.GraffitiArtist,Graffiti Artist,,
 role.LittleShit,Little Shit,,a term some people call annoying kids
