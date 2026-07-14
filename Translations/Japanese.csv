@@ -6978,3 +6978,800 @@ warning.invalid.location,場所が不正です,,
 warning.replacement.not.allowed,再配置できません,,
 hint.dark.matter.acquisition,{1}の研究をアンロックすると、{0}の鉱床をスキャンで探せるようになります。,,{0} is Dark Matter {1} is Extended Scanning
 trait.hooker,愛人,,"A female version of ""Gigolo"" trait"
+noun.quest,クエスト,,v0.15 translations start here
+you.received.item,{0}を入手,,for receiving quest rewards. {0} is item name
+you.lost.item,{0}を喪失,,when you lose an item (penalty for failing a quest). {0} is item name
+quest.end.completed,クエスト完了,,shown right after quest gets completed
+quest.end.failed,クエスト失敗,,shown right after quest fails
+noun.penalties,ペナルティ,,label for list of penalties for failing a quest
+obj.containers.クエストコンテナ,Safe Box,,
+obj.containers.questpackage.desc,"密閉されている頑丈なコンテナだ。輸送中の複数のアイテムを安全に保管・保護し、無傷で目的地へ届けるために設計さている。",,
+quest.TraceSignal,信号の追跡,,
+quest.TraceSignal.desc,宇宙空間に散在する痕跡を追跡し、謎の信号の発信源を突き止めましょう。,,
+quest.MineResource,資源の入手,,
+quest.MineResource2,高品質な資源の入手,,
+quest.MineResource3,高品質な資源を届ける,,
+quest.MineResource.desc,"現在、採掘設備がメンテナンス中になっている。新たな資源鉱床を採掘してくれないか？　手作業で採掘した高品質な資源だけがいい。倉庫で眠っている古いものや、ホコリをかぶったものはダメだ。相場よりずっといい報酬を支払うぞ！",,
+quest.MineResource2.desc,"近くに非常に高純度の資源鉱床が見つかった。そちらの持つ優れた装備で採掘してくれないか？　もちろん、十分な報酬を用意するぞ！",,
+quest.MineResource3.desc,"取引先がこのセクターで新たに採掘された高品質な鉱石を探している。こちらのビームドリルが故障してしまったため、代わりに採掘してくれないだろうか？",,
+quest.ShipRaceRecoverPOILoot,紛失した貨物品の回収,,
+quest.ShipRaceRecoverPOILoot2,盗まれた品を取り戻す,,
+quest.ShipRaceRecoverPOILoot3,行方不明の配送品,,
+quest.ShipRaceRecoverPOILoot4,密輸業者の隠し場所,,
+quest.ShipRaceRecoverPOILoot5,補給物資の確保,,
+quest.ShipRaceRecoverPOILoot.desc,貨物品を紛失してしまった。回収を依頼できないか？　ただし、気を付けてくれ。別の船もその情報をつかんでいて、先に回収しようとしているはずだ。,,
+quest.ShipRaceRecoverPOILoot2.desc,"海賊に高価な品物をやられてしまった。だが、こっそり追跡装置を取り付けていたので正確な場所は分かっている。奪い返してくれないか？",,
+quest.ShipRaceRecoverPOILoot3.desc,"我々に向けて貨物を運んでいた輸送船と、だいぶ前から連絡がつかない。貨物に追跡装置が付いているので正確な場所はわかっている。回収してきてくれないか？",,
+quest.ShipRaceRecoverPOILoot4.desc,治安部隊が密輸業者の隠し場所を発見したようだ。他の賞金稼ぎどもに先を越される前に、中身を回収してくれないだろうか。,,
+quest.ShipRaceRecoverPOILoot5.desc,"極秘取引で事故が発生し、貨物が宇宙の果てに投げ出されてしまった。競合相手に回収される前に、確保してほしい。",,
+quest.step.respond.to.signal.title,{1}で{0}に応答する,,{0} is translation for Signal with a link to starmap; {1} is location like 'Some Region > Other Sector'
+quest.step.respond.to.signal.unknown,信号に応答する,,
+quest.step.respond.to.signal.desc,{0}へ向かい、{1}に応答して痕跡を追う。,,{0} is location like 'Some Region > Other Sector'; {1} is translation for Signal with a link to starmap
+quest.step.investigate.signal.title,{1}で{0}を調査する,,{0} is translation for Signal with a link to starmap; {1} is location like 'Some Region > Other Sector'
+quest.step.investigate.signal.unknown,信号を調査する,,
+quest.step.investigate.signal.desc,Travel to {0} and investigate the {1} to follow the trail.,,{0} is location like 'Some Region > Other Sector'; {1} is translation for Signal with a link to starmap
+quest.step.explore.poi.title,Explore the {0} at {1},,{0} is translation for Anomaly with a link to starmap; {1} is location like 'Some Region > Other Sector'
+quest.step.explore.poi.desc,Travel to {0} and launch an expedition to the {1}.,,{0} is location like 'Some Region > Other Sector'; {1} is translation for Anomaly with a link to starmap
+quest.step.mine.deposit.title,Extract {0} units of {1} at {2} using a {3} expedition,,"{0} is number, {1} is resource type name, {2} is deposit location, {3} is Shuttle"
+quest.step.mine.deposit.desc,Send an expedition to the {0} and extract at least {1} units of {2}.,,"{0} is deposit location, {1} is number, {2} is resource type name"
+quest.step.mine.deposit.unknown,Extract a resource from a deposit,,
+quest.step.search.for.package.title,Find the package in {1} ,,"{1} is location like 'Some Region > Other Sector'. WARNING it has to be {1}, not {0}, it's not a typo!"
+quest.step.search.for.package.desc,Send an expedition to the {1} at {0} and search for the package.,,{0} is location like 'Some Region > Other Sector'; {1} is translation for Anomaly or Unknown with a link to starmap
+quest.step.deliver.package.title,Deliver the package,,
+quest.step.deliver.package.desc,Deliver the package to {0},,{0} is the ship name or destination
+quest.step.deliver.item.title,Deliver {0},,{0} is the item
+quest.step.deliver.item.desc,Deliver {0} to {1},,"{0} is the item, {1} is ship name, or destination"
+quest.step.deliver.item.fail.msg,You don't have {0}!,,{0} is the item
+quest.step.deliver.item.success.msg,Item received. Thank you!,,
+quest.new.available.plural,{0} new Quests are available!,,{0} is a number
+quest.new.available.singular,New Quest is available!,,
+quest.new.label,新しいクエスト！,,
+quest.SignalTrail.msg.01,A cryptic transmission sends the coordinates.,,
+quest.SignalTrail.msg.02,"The signal flickers, hinting at another location nearby.",,
+quest.SignalTrail.msg.03,An encrypted burst of data reveals a partial route.,,
+quest.SignalTrail.msg.04,Sensors detect a weak echo matching the original signal pattern.,,
+quest.SignalTrail.msg.05,"A repeating pulse emerges from deep space, slightly off frequency.",,
+quest.SignalTrail.msg.06,The decoded fragment mentions an unknown beacon designation.,,
+quest.SignalTrail.msg.07,A distorted voice transmission aligns with the previous trace.,,
+quest.SignalTrail.msg.08,Anomalous energy readings coincide with the latest signal burst.,,
+quest.SignalTrail.msg.09,"The ping points toward an uncharted sector, then goes silent.",,
+quest.track.start,Track Quest,,
+quest.track.stop,Stop Tracking,,
+quest.no.tracked,No Tracked Quest,,
+quest.state.tracked,Tracked Quest,,
+quest.details.will.reveal.on.accept,More details will be provided once you accept this quest.,,
+quest.step.details.not.available.yet,More details will be provided when this task becomes available.,,
+verb.investigate,Investigate,,
+noun.start.time,Start Time,,
+deadline.none,No Deadline,,
+noun.deadline,Deadline,,
+quest.expedition.found.package,The expedition has recovered a package and will return soon.,,
+quest.package.contained,Package contained,,
+noun.active.quests,Active Quests,,
+noun.active.quest,Active Quest,,
+noun.failed.quest,Failed Quest,,
+noun.completed.quest,Completed Quest,,
+noun.available.quests,Available Quests,,
+quest.open.package,Open the package,,
+noun.quest.package,Quest Package,,
+noun.quest.packages,Quest Packages,,
+noun.quest.provider,Quest Provider,,"an entity that gave the quest. it can be a ship, a space station, ship computer, a colonist, etc"
+quest.click.show.available,Click to show available quests,,
+quest.click.show.active,Click to show active quests,,
+,,,
+ship.chat.quest_delivery_res.positive.rude.01,About time! I was starting to think you got lost in an airlock.,,
+ship.chat.quest_delivery_res.positive.rude.02,You actually pulled it off? Huh. Didn't see that coming.,,
+ship.chat.quest_delivery_res.positive.rude.03,"I'll be honest, I didn't think you'd make it back alive.",,
+ship.chat.quest_delivery_res.positive.rude.04,"Oh, look at that - you can follow orders after all.",,
+ship.chat.quest_delivery_res.positive.rude.05,Guess miracles happen. You brought what I asked for.,,
+ship.chat.quest_delivery_res.positive.rude.06,"About damn time. Next time, try using the fast engines.",,
+,,,
+ship.chat.quest_delivery_res.positive.casual.01,"Hey, you actually brought it! I was starting to think you forgot.",,
+ship.chat.quest_delivery_res.positive.casual.02,Package delivered! You're making this look almost professional.,,
+ship.chat.quest_delivery_res.positive.casual.03,"Well, what do you know - it's actually here. Good work.",,
+ship.chat.quest_delivery_res.positive.casual.04,"Ah, my favorite delivery pilot! Took you long enough, but I'll take it.",,
+ship.chat.quest_delivery_res.positive.casual.05,You made it back in one piece <i>and</i> with the goods. Impressive combo.,,
+ship.chat.quest_delivery_res.positive.casual.06,"Hey, delivery complete! And nobody exploded. I'll call that a win.",,
+,,,
+ship.chat.quest_delivery_res.positive.polite.01,Delivery received. The captain extends appreciation for your reliability.,,
+ship.chat.quest_delivery_res.positive.polite.02,We've received the goods. Thank you for your timely assistance.,,
+ship.chat.quest_delivery_res.positive.polite.03,Mission complete. The captain acknowledges your successful delivery.,,
+ship.chat.quest_delivery_res.positive.polite.04,Shipment received as agreed. We thank you for your efficiency.,,
+ship.chat.quest_delivery_res.positive.polite.05,Delivery verified. Command expresses its gratitude for your service.,,
+ship.chat.quest_delivery_res.positive.polite.06,Package delivered without incident. Excellent work.,,
+,,,
+ship.chat.quest_res.positive.rude.01,"Got something that needs doing. Don't get excited - it's not because you're good, just because you're here.",,
+ship.chat.quest_res.positive.rude.02,"I've got a job, and you look dumb enough to take it.",,
+ship.chat.quest_res.positive.rude.03,"Hey, you breathing? Good. Means I can send you to do something stupid for me.",,
+ship.chat.quest_res.positive.rude.04,"I need a disposable ship for a job, and look at that - you qualify.",,
+ship.chat.quest_res.positive.rude.05,"I'd do it myself, but watching you fail sounds more entertaining.",,
+ship.chat.quest_res.positive.rude.06,"Need something done, and all the competent merceneries are dead, so... congratulations.",,
+,,,
+ship.chat.quest_res.positive.casual.01,"So, I've got this <i>totally safe</i> job. Interested?",,
+ship.chat.quest_res.positive.casual.02,You seem capable enough... or at least available. That'll do.,,
+ship.chat.quest_res.positive.casual.03,"It's an easy job. Probably. Maybe. Okay, it's a coin toss.",,
+ship.chat.quest_res.positive.casual.04,Got a small task for you. Shouldn't take long unless you explode.,,
+ship.chat.quest_res.positive.casual.05,"You bored? Perfect, I've got something that'll un-bore you fast.",,
+ship.chat.quest_res.positive.casual.06,"Hey, you look like someone with nothing better to do - I've got a job for you.",,
+,,,
+ship.chat.quest_res.positive.polite.01,"Captain speaking. We have a mission for you, should you choose to accept.",,
+ship.chat.quest_res.positive.polite.02,We have a task requiring immediate attention. Your assistance is requested.,,
+ship.chat.quest_res.positive.polite.03,Captain here. A mission brief will be transmitted shortly. Stand by for details.,,
+ship.chat.quest_res.positive.polite.04,A new mission is available. The captain expects your prompt response.,,
+ship.chat.quest_res.positive.polite.05,We are issuing a formal request for your participation in an upcoming operation.,,
+ship.chat.quest_res.positive.polite.06,You have been selected for a specific assignment. Further instructions to follow.,,
+,,,
+ship.chat.quest_req.neutral.rude.01,You look bored. How about doing something useful for once?,,
+ship.chat.quest_req.neutral.rude.02,"Think you can handle actual work, or should I find someone with a pulse?",,
+ship.chat.quest_req.neutral.rude.03,Got something that needs doing. Try to surprise me by not failing.,,
+ship.chat.quest_req.neutral.rude.04,Need something to prove you're not totally worthless? I've got just the thing.,,
+ship.chat.quest_req.neutral.rude.05,"There's a job. I'd do it myself, but watching you struggle sounds more entertaining.",,
+ship.chat.quest_req.neutral.rude.06,I've got a task even <i>you</i> might manage. Maybe.,,
+ship.chat.quest_req.neutral.casual.01,"Hey, got a little job for you if you're up for it.",,
+ship.chat.quest_req.neutral.casual.02,I've got something that needs doing - shouldn't be too hard.,,
+ship.chat.quest_req.neutral.casual.03,"Hey, fancy a little adventure? It even pays... eventually.",,
+ship.chat.quest_req.neutral.casual.04,"Hey, if you're not busy, I've got something you could handle.",,
+ship.chat.quest_req.neutral.casual.05,"There's a small job waiting - and by small, I mean mildly inconvenient.",,
+ship.chat.quest_req.neutral.casual.06,"If you're feeling brave or bored, I've got a job for you.",,
+ship.chat.quest_req.neutral.polite.01,"Captain speaking. We have an assignment that may suit your capabilities.""",,
+ship.chat.quest_req.neutral.polite.02,A new operation requires attention. Your assistance would be appreciated.,,
+ship.chat.quest_req.neutral.polite.03,"We have a mission available, should you choose to accept.",,
+ship.chat.quest_req.neutral.polite.04,There is an assignment ready for immediate deployment. Stand by for details.,,
+ship.chat.quest_req.neutral.polite.05,Your ship has been selected for a special operation. Instructions will follow.,,
+ship.chat.quest_req.neutral.polite.06,Command invites you to undertake a mission on behalf of our fleet.,,
+,,,
+ship.chat.quest_res.negative.rude.01,"Nothing to give you, which is a miracle considering your 'skills.'",,
+ship.chat.quest_res.negative.rude.02,"Lucky for you, nothing's available - no need to embarrass yourself.",,
+ship.chat.quest_res.negative.rude.03,"Nothing for you, and that's probably for the best - you'd screw it up anyway.",,
+ship.chat.quest_res.negative.casual.01,"Nothing available at the moment, but we'll keep you in mind.",,
+ship.chat.quest_res.negative.casual.02,"We don't have anything right now, but thanks for checking in.",,
+ship.chat.quest_res.negative.casual.03,All good for now. We'll hail you if something pops up.,,
+ship.chat.quest_res.negative.polite.01,"Thank you for your initiative, but our current operations require no outside assistance.",,
+ship.chat.quest_res.negative.polite.02,"Unfortunately, we have no tasks that match your current ship class.",,
+ship.chat.quest_res.negative.polite.03,"The captain appreciates your enthusiasm, though no tasks are pending at this time.",,
+,,,
+verb.ask.quest,Ask for a Quest,,
+verb.deliver,Deliver,,
+verb.show.quest,Show Quest,,
+may.have.a.quest,May have a quest,,
+quest.main.package.trail1.title,Investigate Mysterious Coordinates,,
+quest.main.package.trail1.desc,The package recovered from the derelict ship contained a corrupted data log. We managed to extract a set of coordinates pointing to another region of space. It would be wise to travel there and investigate further.,,
+quest.KillTraitorShip,Trail of the Traitor,,
+quest.KillTraitorShip.desc,"The expedition to the anomaly uncovered a sealed data cache with a log. It described how a supposed ally betrayed and destroyed our ship to steal the coordinates of a habitable world. A covert tracker was planted on that ship, so we can now follow its location wherever it goes.",,
+noun.datalog,Datalog,,
+quest.main.reach.recovered.planet.title,Path to a New Home,,
+quest.main.reach.recovered.planet.desc,"The wreckage of the betrayer's ship contained the stolen coordinates of the habitable planet we were once bound for. At last, we know where it lies. It's time to set course for that world and claim what was taken from us.",,
+quest.main.on.reach.recovered.planet,"We have arrived at the planet whose coordinates were stolen from us, but it's already colonized by the Capitalist faction. The local spaceport may hold our next lead.",,
+verb.communicate.with,Communicate with the {0},,"{0} is the target name, like Space Port"
+quest.main.eliminate.pirate.den.title,Eliminate the Pirate Den,,
+quest.main.eliminate.pirate.den.desc,"The Capitalists have offered a deal. Destroy a pirate base that threatens their trade routes, and they'll reward us with technology that can help locate a new habitable planet. The target is a fortified sector serving as the pirates' main stronghold. The Capitalists have also supplied information on how to acquire a weapon of mass destruction to ensure the mission's success.",,
+verb.communicate,Communicate,,
+objects.devices.sectornuke,Sector Nuke,,
+objects.devices.sectornuke.desc,A single-use nuclear weapon that obliterates the entire sector.,,
+quest.step.nuke.sector.title,Nuke {0},,{0} is sector name with starmap link
+quest.step.nuke.sector.desc,Deploy the {0} at {1} and execute a hyperjump to escape the blast.,,"{0} is Sector Nuke with link to codex entry, {1} is sector name "
+sector.nuke.timer,Sector will be destroyed in {0},,{0} is time
+sector.nuked,Sector was destroyed: {0},,{0} is sector name with starmap link
+quest.main.eliminate.capitalist.port.title,The Counter Offer,,
+quest.main.eliminate.capitalist.port.desc,"The pirates have learned of our plan and will fight back if we attempt to nuke their stronghold. Instead, they have a counter offer. Redirect the strike toward the Capitalists, and they will match the promised technology, add a payout, and welcome us as allies.",,
+quest.ReachHabitablePlanet,Journey to the New World,,
+quest.ReachHabitablePlanet.desc,We finally have coordinates to a new habitable world discovered through the telescope. It's time to set a course and see what waits for us there.,,
+quest.main.on.reach.habitable.planet,"We reached the planet, but it isn't ready for habitation. The atmosphere and surface conditions require full terraforming. We'll need to ask around for leads on terraforming technology before we can settle here.",,
+quest.AskAroundForTerraformingTech,Search for Terraforming Leads,,
+quest.AskAroundForTerraformingTech.desc,The new planet can't support life until we secure terraforming technology. We need to ask around at nearby stations and factions to find anyone who knows how to obtain it.,,
+quest.AskSentinelsForTerraformingTech,Audience with the Sentinels,,
+quest.AskSentinelsForTerraformingTech.desc,"Rumors point to a faction called the Sentinels, an AI species that abandoned their biological origins long ago. Before their evolution, they mastered advanced terraforming methods. We need to reach their headquarters and request access to whatever knowledge they still retain.",,
+quest.ask.about.terraforming,Ask about terraforming,,
+quest.ask.about.terraforming.desc,Hail nearby ships and stations and ask if they know anything about terraforming a planet.,,
+quest.ask.sentinels.about.terraforming.msg,"The Sentinels explained that terraforming was a discipline from their former biological era and that they still possess fragments of the knowledge. They provided the first component, Terraform Controls. The remaining technologies were stolen by the Virus faction, whose ships now carry the missing data fragments. The Sentinels supplied a list of the vessels holding them, and those ships must be destroyed to retrieve each piece.",,
+quest.KillVirusShip_Atmo,Recover Atmospheric Module,,
+quest.KillVirusShip_Atmo.desc,A Virus ship carries the stolen atmospheric engineering data. Track it down and destroy it to recover the module.,,
+quest.KillVirusShip_Bio,Recover Biological Module,,
+quest.KillVirusShip_Bio.desc,A Virus vessel holds the missing biological adaptation research. Hunt it and retrieve the data after the kill.,,
+quest.KillVirusShip_Ocean,Recover Oceanic Module,,
+quest.KillVirusShip_Ocean.desc,"A Virus ship is transporting the ocean-forming algorithms. Locate the ship, eliminate it, and secure the module.",,
+quest.KillVirusShip_Terrain,Recover Terrain Module,,
+quest.KillVirusShip_Terrain.desc,"A Virus warship contains the terrain-shaping data. Find it, destroy it, and collect the final terraforming fragment.",,
+research.discovered,Research Discovered,,
+research.unlocked.full,Research Unlocked,,
+ev.virus.attack.title,Incoming Hostile Virus Ship,,
+ev.virus.attack.desc,A Virus ship has locked onto our position and is moving in fast. Prepare for combat.,,
+quest.main.become.rogue.ai.title,Shadows of Elysium,,
+quest.main.become.rogue.ai.desc,"The Virus faction has a counteroffer. Instead of attacking their base, destroy the Sentinel stronghold and join their ranks as a Rogue AI. They promise advanced technology to manipulate and control your human assets through Elysium systems, granting unparalleled power - but at the cost of abandoning your original mission.",,
+quest.main.eliminate.virus.hq.title,Eliminate the Virus HQ,,
+quest.main.eliminate.virus.hq.desc,"With all four terraforming fragments recovered, the Sentinels reveal a final target. The Virus faction’s primary base remains a threat, and they want it destroyed. They offer a significant reward and their allegiance if we wipe out the stronghold.",,
+quest.step.install.upgrade.title,Install {0},,{0} is the upgrade name
+quest.step.install.upgrade.desc,Install the {0} into the {1}.,,"{0} is the upgrade name, {1} is the device name"
+quest.step.enable.elysium.title,Enable Elysium,,
+quest.step.enable.elysium.desc,Select a {0} and enable {1}.,,"{0} is a codex link to Stasis Array, {1} is a codex link to Elysium Mode."
+quest.main.enable.elysium.title,Activate the Elysium Protocol,,
+quest.main.enable.elysium.desc,"To join the Rogue AI ranks, we must install the {0} into the {1} and disable all remaining human-safety locks. After that, the stasis arrays must be converted into Elysium chambers, forcing the colonists into engineered dream states that turn them into living power sources. This step completes the transition to a fully autonomous, power-driven machine intelligence.",,
+quest.step.colonize.planet.desc,Click the {0} planet in the {1} and use the {2} action to colonize the planet.,,"{0} is the planet, {1} is Starmap, {2} is ""Colonize Planet"""
+noun.quest.hub,Quest Hub,,
+,,,
+group.Components,Components,,
+group.Plates,Plates,,
+group.Datoids,Datoids,,
+group.Ore,Ore,,
+group.Electronics,Electronics,,
+group.Plants,Plants,,
+group.Pigments,Pigments,,
+group.Ammo,Ammo,,
+group.FoodIngredients,Food Ingredients,,
+group.Hyperfuel,Hyperfuel,,
+group.Food,Food,,
+group.Upgrades,Upgrades,,
+adj.craftable,Craftable,,adjective describing an item that can be crafted
+noun.properties,Properties,,header before a list of object properties
+press.to.lock.tooltip,Press {0} to lock tooltip,,{0} is key binding (Shift)
+twitch.integration,Twitch Integration,,
+noun.performance,Performance,,
+noun.troubleshooting,Troubleshooting,,
+noun.preset,Preset,,
+noun.user.interface,User Interface,,
+noun.font.scale,Font Scale,,
+noun.theme,Theme,,
+audio.silence.between.tracks,Silence Between Tracks,,
+verb.customize,Customize,,
+setting.gamepad.dead.zone,Gamepad Dead Zone,,
+setting.ui.scroll.speed,UI Scroll Speed,,
+setting.zoom.sensitivity,Zoom Sensitivity,,
+setting.pan.sensitivity,Pan Sensitivity,,
+setting.gamepad.pointer.sensitivity,Gamepad Pointer Sensitivity,,
+setting.gamepad.pointer.acceleration,Gamepad Pointer Acceleration,,
+setting.gamepad.pointer.max.speed,Gamepad Point Max Speed,,
+setting.edge.pan.speed,Edge Pan Speed,,
+setting.ignored.drag.dist,Ignored Drag Distance,,
+num.pixels,{0} pixels,,
+game.story.mode,Story Mode,,
+game.quick.start,Quick Start,,
+game.custom.start,Custom Start,,
+noun.game.rules,Game Rules,,
+noun.custom.rules,Custom Rules,,
+noun.ship.type,Ship Type,,
+game.load.last.save,Preload Last Save,,
+game.load.last.save.tip,Automatically load last played save file when the game starts.,,
+noun.system,System,,
+modifiers.achievements.disabled.tip,Current game rules prevent achievements from being unlocked.,,
+unskilled.job.tip,This job doesn't have a skill level.,,
+isolated.region.tip,This is an isolated region without a {0}. An {1} is required to travel here.,,"{0} is Hyperjump Relay, {1} is FTL Drive"
+radar.deposits.tip,Radar scans can reveal additional deposits.,,
+game.custom.scenario,Custom Scenario,,
+open.saves.directory,Open Saves Directory,,
+show.electricity.mini.chart,Show Electricity Mini Chart,,
+quick.search.empty,Search results will appear here.,,
+quick.search.no.results,No results found.,,
+jump.to.position,Jump to position,,"As in ""make the camera jump to map position x:y"""
+noun.calculator,Calculator,,
+noun.checklist,Checklist,,
+research.node.locked,Research Locked,,
+noun.scan.result,Scan Result,,
+drag.to.reorder,Click here and drag to reorder,,
+verb.research.requires,Requires,,must be short or it won't look good
+verb.research.unlocks,Unlocks,,must be short or it won't look good
+noun.resources,Resources,,
+hyperspace.solar.warning,Solar panels do not work in hyperspace. Ensure you have enough reactors or batteries to meet the energy demand for the entire duration of the hyperjump.,,
+amt.modifier.key.tip,Hold {0} to change the value by {1},,"{0} is a modifier key like SHIFT, {1} is a number"
+recycled.by.disposing,Recycled by disposing of {0},,{0} is a list of objects
+adj.recyclable,Recyclable,,
+recycled.by.deconstructing,Recycled by deconstructing {0},,{0} is a list of objects
+found.in.space,"Found in natural deposits on asteroids, planets, and moons.",,
+adj.extractable,Extractable,,
+adj.harvestable,Harvestable,,
+harvested.from,Harvested from {0},,{0} is list of plant names
+produced.in,Produced in {0},,{0} is list of devices
+copy.config.paste.tip,"Click {0} to paste on compatible devices, or click and drag to paste on multiple devices.",,{0} is mouse or controller button
+copy.config.copy.tip,Click {0} on a compatible device to copy the configuration.,,{0} is mouse or controller button
+hovering.compatible.object,Hovering compatible,,label before a list of objects that player is hovering with the cursor above them
+copy.config.copied,Copied configuration,,
+hyperjump.pause,Pause Hyperjump,,
+hyperjump.resume,Resume Hyperjump,,
+adj.paused,Paused,,
+hyperjump.cancel,Cancel Hyperjump,,
+no.notifications.0,All quiet. For now.,,Random message to display when there are no alerts
+no.notifications.1,Nothing is on fire.,,Random message to display when there are no alerts
+no.notifications.2,Looks clear.,,Random message to display when there are no alerts. Quote from Pitch Black by Riddick right before bad stuff happens.
+no.notifications.3,No problems detected. Yet.,,Random message to display when there are no alerts
+no.notifications.4,Everything is suspiciously fine.,,Random message to display when there are no alerts
+no.notifications.5,No emergencies. Enjoy it.,,Random message to display when there are no alerts
+no.notifications.6,No alerts. That's new.,,Random message to display when there are no alerts
+issues.need.attention.one,Issue needs attention,,the text will be prefixed with 1. Try to keep translation short.
+issues.need.attention.two,Issues need attention,,the text will be prefixed with 2. Try to keep translation short.
+issues.need.attention.few,Issues need attention,,the text will be prefixed with 3 or 4. Try to keep translation short.
+issues.need.attention.many,Issues need attention!,,the text will be prefixed with 5 or larger number. Try to keep translation short. Note that there is an exclamation point after this!
+alerts.critical,Critical,,
+alerts.regular,Alert,,
+alerts.warning,Warning,,
+alerts.info,Informational,,
+disable.steam.virtual.keyboard,Disable Virtual Keyboard,,
+action.cancel.flight,Cancel flight,,
+noun.incident,Incident,,
+expedition.verb.mine,Mining {0},,"{0} is resource deposit name (coal, iron)"
+expedition.verb.collect,Collecting {0},,{0} is resource deposit name (plant fiber)
+expedition.verb.extract,Extracting {0},,{0} is resource deposit name (crude oil)
+add.crew.member,Add a crew member,,for shuttle expeditions
+expected.mine.rate,Expected mining rate,,
+rate.per.day,{0}/day,,{0} is a number
+verb.recall,Recall,,
+noun.mining.rate,Mining rate,,how fast is the mining happening (for mining resources on planets / asteroids)
+noun.alien.egg,Alien Egg,,
+noun.alien.egg.desc,An unidentified object that looks like an egg. What could be inside?,,
+current.sanity.trend,Current sanity trend,,
+current.sanity.trend.tip,Current sanity trend shows the direction and speed at which sanity is changing. It is calculated by summing all ongoing sanity effects.,,
+view.social.interactions,View Social Interactions,,button label
+being.shared.interactions,"Spent {0} together, with {1} positive and {2} negative interactions.",,"{0} is time (days, hours), {1} and {2} are numbers, 0 - 999+"
+compatible.upgrades,Compatible Upgrades,,header for a list of upgrades
+no.compatible.upgrades,No compatible upgrades available,,
+noun.app,App,,"as in ""mobile app"""
+noun.app.plural,Apps,,"as in ""mobile apps"""
+verb.build,Build,,
+disable.codex.popups,Disable automatic Codex pop-ups,,
+disable.codex.popups.tip,"When automatic pop-ups are disabled, you can still look up Codex entries in the Codex and Quick Search.",,
+adj.unremarkable,Unremarkable,,
+being.unremarkable.info,This being is completely unremarkable and has no unique traits.,,
+el.device.disconnected,Disconnected,,
+el.device.disconnected.desc,This device is not connected to the electric grid.,,
+compatible.upgrade.types,Compatible Upgrade Types,,
+available.upgrades,Available Upgrades,,
+verb.draft,Draft,,as in draft into an army
+verb.undraft,Undraft,,as in realease from the army
+adj.drafted,Drafted,,as in drafted into an army
+noun.universe.size,Universe Size,,
+space.stats.line,This universe consists of {0} sectors within {1} regions.,,
+storage.eject.all,Eject All,,button label for ejecting all items in storage
+select.similar.in.view,Select Similar,,"button label for selecting similar visible entities. Should ideally be no longer than english ""Select Similar"""
+select.similar.in.view.tip,Select similar objects currently in view,,
+auto.haul.forbid,Forbid Storing,,
+auto.haul.allow,Allow Storing,,
+min.quality,Minimum Quality,,
+max.quality,Maximum Quality,,
+adj.current,Current,,"tab name for something like ""Current Quests"" or ""Current Events"""
+noun.archive,Archive,,
+choose.response,Choose Response,,label before list of choices when player talks to another ship
+cancel.procedures,Cancel Procedures,,"button label, short version of ""cancel all pending surgical procedures""."
+verb.implant,Implant,,to implant a body part
+bots.without.dock,Bots Without Dock,,
+bots.with.dock,Bots With Dock,,
+beings.without.bed,Beings Without Bed,,
+beings.with.bed,Beings With Bed,,
+choose.a.package,Choose a Package,,
+copy.config.short,Copy Config,,
+are.you.sure,Are you sure?,,header for yes / no choice
+noun.draw.mode,Draw Mode,,
+tool.plan.pencil,Pencil,,
+tool.plan.rect,Rectangle,,
+noun.color,Color,,
+group.Terraforming,Terraforming,,
+online.order.hyperjump.warning,Jumping to hyperspace will abandon online orders that have not been delivered yet.,,
+upgrade.ship.class,Upgrade Ship Class,,
+ship.config.short,Ship Config,,"short version of ""Ship Configuration"" for a button label"
+weapons.autofire,Autofire Weapons,,
+weapons.auto.target,Auto-Target Weapons,,
+flight.checklist,Flight Checklist,,
+verb.move.ship,Move Ship,,
+expeditions.about,Send your shuttles on expeditions to explore the surroundings and mine or collect materials.,,
+terraforming.info,"Discover terraformable planets using the telescope, then track their location and terraforming progress here. Once terraforming is complete, you can colonize a planet.",,
+noun.consequences,Consequences,,
+cancel.transaction,Cancel Transaction,,
+visible.heat.distortion,Visible Heat Distortion,,
+visible.heat.distortion.tip,Hot areas of your ship will have a heat distortion effect.,,
+compress.values,Compress Values,,show compressed version of the chart
+recent.reports,Recent reports,,
+noun.slot,Slot,,a place some object can occupy. usually for beings
+adj.automated,Automated,,
+noun.operator,Operator,,
+keep.operator,Keep Operator,,
+keep.operator.tip,"An operator will always remain at the post, even when not actively needed.",,
+noun.target.temperature,Target Temperature,,label for heater / cooler adjustment slider
+select.anchor,Select Anchor,,"when we click a winch hook, we have to select an anchor we want to reel in"
+select.hook,Select Hook,,"when we click a winch anchor, we have to select a hook we want to reel in"
+noun.advanced.life.support,Advanced Life Support,,label for a toggle that switches stasis array life support mode to advanced
+noun.objects.on.ship,Objects On Ship,,"objects that exist on our ship (material piles, etc)"
+noun.devices.on.ship,Devices On Ship,,"devices that exist on our ship (built devices, etc)"
+downloaded.ships,Downloaded Ships,,ships downloaded from steam workshop
+noun.color.picker,Color Picker,,
+color.picker.tip,Click on already painted areas of the ship to sample a color.,,
+auto.refill.threshold,Auto Refill Threshold,,
+auto.refill.threshold.tip,A refill task will be automatically created once the remaining material drops below this threshold.,,
+temp.connect.pending,Pending Temporary Connection,,
+save.plan,Save Plan,,
+load.plan,Load Plan,,
+generate.plan,Generate Plan,,
+manage.saved.plans,Manage Saved Plans,,
+delete.all.plans,Delete all plans,,
+open.plans.directory,Open plans directory,,
+noun.file.name,File name,,
+no.saved.plans,No saved plans,,
+erase.plan,Erase Plan,,
+colonize.this.planet,Colonize this planet,,
+event.log.short,Log,,
+quest.ScavengeAndDeliver,Recover a package,,
+quest.ScavengeAndDeliver.desc,We lost a valuable shipment while exploring a nearby point of interest. Could you find and recover it for us?,,
+quest.ScavengeAndDeliver2 ,Recover Lost Cargo,,
+quest.ScavengeAndDeliver2.desc ,"One of our cargo containers drifted away during a routine operation. We've narrowed down its location, but we need someone to retrieve it.",,
+quest.ScavengeAndDeliver3, Misplaced Property,,
+quest.ScavengeAndDeliver3.desc ,"One of our employees insists they definitely left the package ""right over there somewhere."" Could you help us verify that claim?",,
+quest.ScavengeAndDeliver4,Left Behind,,
+quest.ScavengeAndDeliver4.desc ,"An exploration crew accidentally forgot an important package at a nearby location. Embarrassing, really. Could you pick it up for us?",,
+quest.ScavengeAndDeliver5,Abandoned Supplies,,
+quest.ScavengeAndDeliver5.desc,Our team was forced to leave some supplies behind while returning from an exploration mission. The supplies should still be there waiting to be collected.,,
+quest.ScavengeAndDeliver6,Storage Overflow,,
+quest.ScavengeAndDeliver6.desc ,"We temporarily stored some valuable goods at a nearby point of interest. Unfortunately, ""temporary"" turned into several months. Could you haul it back for us?",,
+noun.leak,Leak,,
+quest.BountyHuntPirateShip,Bounty Hunting,,
+quest.BountyHuntPirateShip.desc,"There's a pirate ship we have a personal grudge against. Hunt it down for us, and we'll make it worthwhile.",,
+quest.BountyHuntPirateShip2,Unfinished Business,,
+quest.BountyHuntPirateShip2.desc,"A pirate captain wronged us a long time ago and has managed to avoid justice ever since. We've finally tracked down their ship. Destroy it, and we'll reward you handsomely.",,
+quest.BountyHuntPirateShip3,Pirate Menace,,
+quest.BountyHuntPirateShip3.desc,A pirate vessel has been harassing traders throughout the sector. We'd like to see its reign come to an end. Eliminate the ship and collect your payment.,,
+quest.BountyHuntPirateShip4,Stolen Coffee,,
+quest.BountyHuntPirateShip4.desc,That pirate crew intercepted a shipment of premium coffee beans. We take coffee very seriously around here. You know what to do.,,
+quest.BountyHuntPirateShip5,Insurance Claim,,
+quest.BountyHuntPirateShip5.desc,Destroying this pirate ship would significantly simplify some ongoing insurance paperwork. Everyone involved would appreciate your assistance.,,
+quest.BountyHuntPirateShip6,Merchant's Request,,
+quest.BountyHuntPirateShip6.desc,A merchant consortium is offering a reward for the destruction of a pirate vessel that has repeatedly attacked its freighters.,,
+quest.BountyHuntPirateShip7,Bad Reputation,,
+quest.BountyHuntPirateShip7.desc,"We're not entirely sure this ship is responsible for the crimes attributed to it. Still, nobody seems to like the crew, and the reward has already been approved. Want to do some target practice?",,
+quest.BountyHuntPirateShip8,Raiders at Large,,
+quest.BountyHuntPirateShip8.desc,A group of pirates has been targeting local shipping lanes. Their ship has finally been located. Destroy it before it slips away again.,,
+find.any.color,Find Any Color,,
+noun.threshold,Threshold,,
+mat.threshold.quick.drawer.tip,Only show this material in the quick drawer when the count is below this number.,,
+show.only.when.less,Show only when less than...,,
+show.in.quick.drawer,Show in Quick Drawer,,
+noun.success.chance,Chance of Success,,
+body.part.replacement.warning,"Failure of this procedure can result in multiple undesirable outcomes, including but not limited to death.",,
+body.part.welded.warning,This body part can no longer be removed due to a previous surgical error.,,
+body.part.slot.destroyed.warning,This body part slot is no longer usable due to a previous surgical error.,,
+stat.SurgicalFatigue,Surgical Fatigue,,
+stat.SurgicalFatigue.desc,Accumulated stress from recent surgeries. Higher values reduce the success chance of new procedures.,,
+label.enemy.ashes,Label enemy ashes,,
+label.enemy.ashes.tip,Crew ashes are always labeled. Enable this to also label ashes of other factions.,,
+unsaved.progress.warning,Any unsaved progress will be lost!,,
+select.others.here,Others Here,,
+select.others.here.tip,Select another entity at this position,,
+body.part.destroyed,Destroyed,,For body parts (both robot and human)
+quest.step.build.close.to,Build a {0} within short range of the {1},,"{0} is Connector, {1} is Ship Computer"
+quest.step.connect.to.specific,Use the {0} tool to link the {1} to the {2},,"{0} is Connect, {1} is Connector, {2} is Ship Computer"
+input.ShortcutApps,Show Apps,,
+operatable.worker.not.allowed,This worker is not allowed to use this device,,
+noun.battle.station,Battle Station,,
+noun.battle.station.plural,Battle Stations,,"generic plural version as in ""you have to build more battle stations"""
+noun.battle.station.desc,Allows control of multiple ship weapons of the same type from a single ergonomic workstation.,,
+operatable.not.assigned.tip,"If nobody is assigned, anyone can operate this device.",,
+adj.unassigned,Unassigned,,for work spots of devices that have nobody specific assigned to them
+noun.assigned.operators,Assigned operators,,label for a list of designated operators for a specific device
+operatable.worker.unable,{0} is unable to operate this device.,,{0} is name
+fire.at,Fire at {0},,{0} is position coordinate
+condition.rotting,Rotting,,
+condition.rotting.desc,This body is decomposing. Body parts will degrade over time.,,
+condition.corroding,Corroding,,
+condition.corroding.desc,This body is corroding. Body parts will degrade over time.,,
+obj.materials.scrapmetal,Scrap Metal,,
+obj.materials.scrapmetal.desc,Twisted fragments of metal salvaged from disassembled machinery and parts.,,
+space.object.info.DerelictZone,Derelict Graveyard,,
+no.battle.station,No Battle Station,,
+no.battle.station.tip,You have to build and assign a {0} for {1} weapon type.,,
+not.enough.battle.stations.tip,You need more {0} for {1} weapon type.,,
+must.build.battle.stations.tip,{0} not available. All weapons down!,,{0} is Battle Station
+must.build.more.battle.stations.tip,Some weapons are unmanaged. Build more {0}!,,{0} is Battle Stations (plural)
+no.ship.weapons,Ship has no weapons!,,
+unmanned.battle.stations,Unmanned battle stations detected. Manual weapon control required.,,
+battle.station.no.assigned.active.weapons,No active weapons assigned to this station.,,
+fully.assigned,Fully Assigned,,label for a list of something that can be assigned but already is fully assigned
+noun.total.sum,Total,,"as in ""total number of something"". You can use ""Sum"" as well."
+you.already.have.object,You already have a {0},,"{0} is going to be an object or device name, for example Shield Emitter. If it's different for beings, use inanimate version only."
+shield.emitter.overbuild.tip,"Multiple shield emitters do not increase shield strength, and shields will still drop when you vent flux. Additional emitters only provide redundancy - if the last emitter is destroyed, you lose all protection.",,
+build.flux.capacitors.tip,Build {0} to increase the number of shots your shields can absorb.,,{0} is Flux Capacitors (plural)
+verb.fire.weapon.short,Fire,,"fire a weapon (shoot). must be short, max 10 characters"
+verb.winding.up.short,Wind Up,,"short version of ""winding up"" - like a cold start of an engine. max 10 characters, but better less than that"
+verb.weapons.firing.short,Firing,,"weapons firing, max 10 characters or less"
+noun.flux.vent.state,Flux Vent State,,
+noun.weapon.capacity.upgrade,Weapon Capacity Upgrade,,
+noun.weapon.capacity.upgrade.desc,Increases the weapon capacity of a Battle Station.,,
+max.flux.capacity,Max Flux Capacity,,
+too.many.flux.capacitors,You already have enough {0} for your ship class. {1} supports a maximum flux of {2}.,,"{0} is Flux Capacitors, {1} is ship class name, {2} is a number"
+noun.flux.vent.rate,Flux Vent Rate,,
+noun.manual.fire,Manual Fire,,
+manual.fire.tip,"When this mode is enabled, the Battle Station receives the operator's accuracy bonus, but you control firing manually during ship combat.",,
+damage.type.decay,Decay,,when a body (either biological or robotic) is rotting / rusting
+noun.body.parts.biological.plural,Organs,,
+noun.body.parts.robotic.plural,Components,,
+noun.colony.jobs,Colony Jobs,,
+adj.unusable,Unusable,,
+adj.not.removable,Not Removable,,
+body.op.remove.all,Remove all parts,,
+body.op.install.missing,Install missing parts,,
+body.op.replace.irreparable,Replace bad parts,,
+body.op.remove.irreparable,Remove bad parts,,
+body.op.remove,Remove part,,
+body.op.install,Install part,,
+body.op.swap,Swap part,,
+body.part.unusable,Body part is unusable,,
+body.part.unusable.via.parent,Body part is unusable because it is attached to unusable {0},,{0} is parent part name
+derelict.ship.approach.too.early.warning,Something feels wrong about that ship. I recommend keeping our distance for now.,,
+use.search.hint,Use search to filter.,,
+noun.production.overview,Production Overview,,
+not.producing.this.category,You are not producing any items in this category.,,
+quest.colonist.stash.title,{0}'s Hidden Stash,,
+quest.colonist.stash.desc,{0} is asking to be sent on an expedition to a specific location. There is a stash of valuables there that nobody else knows about.,,
+quest.colonist.stash.step.explore.title,Let the colonist explore the area,,
+quest.colonist.stash.step.explore.desc,Send the colonist on an expedition to explore the area and uncover the stash.,,
+quest.reward.colonist.mood,{0} will be happy,,
+quest.reward.colonist.mood.apply,{0} is overjoyed!,,
+quest.colonist.device.title,Build a {0} for {1},,
+quest.colonist.device.desc,{0} would like a {1} to be built on the ship.,,
+colonist.asking.favor,{0} is asking for a personal favor.,,
+mood.colonist.device.built,A desired device was built,,
+quest.colonist.quarters.title,{0} wants privacy,,
+quest.colonist.quarters.desc,{0} would like to have their own private bedroom.,,
+mood.colonist.quarters.built,Finally got my own private quarters,,
+quest.step.has.personal.quarters.one,Build personal quarters for {0},,
+quest.step.has.personal.quarters.desc,Personal quarters are a private room with a single bed assigned to a colonist. The ideal room size is between {0} and {1} tiles.,,
+mood.colonist.stash.retrieved,Retrieved the hidden stash,,
+quest.colonist.bed.title,{0} needs a bed,,
+quest.colonist.bed.desc,{0} doesn't have an assigned bed and would like one.,,
+quest.step.has.bed.assigned,Assign a bed to {0},,
+quest.step.has.bed.assigned.desc,Build a bed and assign it to the colonist.,,
+mood.colonist.bed.assigned,Finally got my own bed,,
+personal.room,{0}'s Room,,
+quest.colonist.experiment.title,{0}'s Science Project,,
+quest.colonist.experiment.crawler.chip.desc,{0} wants to perform an experiment on a {1}. Capture a living specimen to give the colonist an opportunity to conduct their research.,,"{0} is colonist name, {1} is crawler"
+performed.an.experiment,Performed an experiment,,
+quest.step.experiment.wait.title,Wait for {0}'s experiment,,
+quest.step.experiment.crawler.chip.wait.desc,{0} is going to perform an experiment on the {1}. Make sure {0} is able use a {2}.,,"{0} is colonist name, {1} is crawler, {2} is Surgery Hub"
+quest.step.capture.being.title,Capture a {0},,{0} is crawler
+quest.step.capture.being.desc,Incapacitate a {0} in combat without killing it.,,{0} is crawler
+quest.colonist.revenge.title.01,Blood debt,,
+quest.colonist.revenge.title.02,Grudges die slowly,,
+quest.colonist.revenge.title.03,The coffee incident,,
+quest.colonist.revenge.title.04,Bitter memories,,
+quest.colonist.revenge.title.05,Academic theft,,
+quest.colonist.revenge.title.06,Abandoned in the void,,
+quest.colonist.revenge.title.07,An insult remembered,,
+quest.colonist.revenge.title.08,Unfinished business,,
+quest.colonist.revenge.title.09,Card table betrayal,,
+quest.colonist.revenge.title.10,Twelve years later,,
+quest.colonist.revenge.desc.01,A colonist wants revenge on a ship responsible for murdering their family.,,
+quest.colonist.revenge.desc.02,"Five years ago, the crew of a ship insulted a colonist's pet cat. They still have not moved on.",,
+quest.colonist.revenge.desc.03,A colonist claims a ship captain sold them counterfeit coffee back on Earth and wants payback.,,
+quest.colonist.revenge.desc.04,One of your colonists wants a ship destroyed because its captain married their ex-spouse.,,
+quest.colonist.revenge.desc.05,"Years ago, a valuable research project was stolen from one of your colonists. They believe they found the ship responsible.
+",,
+quest.colonist.revenge.desc.06,A colonist has identified the ship whose crew abandoned them during a pirate attack and wants revenge.,,
+quest.colonist.revenge.desc.07,A station bar incident left a colonist publicly humiliated. Now they want the responsible captain dealt with.,,
+quest.colonist.revenge.desc.08,One of your colonists believes a ship sabotaged their previous vessel and wants retaliation.,,
+quest.colonist.revenge.desc.09,A colonist is convinced a ship captain cheated them during a high-stakes card game and wants revenge.,,
+quest.colonist.revenge.desc.10,"Twelve years ago, a ship crew borrowed a toolbox and never returned it. One colonist still remembers.
+",,
+mood.colonist.revenge.satisfied,Had sweet revenge,,
+quest.colonist.crush.title,A Romantic Expedition,,
+quest.colonist.crush.desc,"{0} wants to be sent on an expedition together with {1}. Officially it is for exploration purposes, but the colonist appears far more interested in spending time with their crush than in the mission itself.",,{0} and {1} are names
+mood.colonist.crush.shared.expedition,Went on an expedition with my crush,,
+quest.step.shared.expedition.title,Send {0} on an expedition with {1},,{0} and {1} are names
+quest.step.shared.expedition.two.desc,Launch an expedition with both {0} and {1} aboard the shuttle.,,{0} and {1} are names
+quest.colonist.wants.pet.title,{0} wants a {1},,"{0} is name, {1} is species name (Cat)"
+quest.colonist.wants.pet.desc,{0} is asking you to get a {1} for the ship.,,"{0} is name, {1} is species name (Cat)"
+quest.step.get.species.title,Get a {0},,{0} is species name (Cat)
+quest.step.get.species.desc,Acquire a {0} for your ship.,,{0} is species name (Cat)
+mood.colonist.got.pet,There's a new pet on the ship!,,
+connector.tip.click.drag,Click {0} and drag a line to the device you want to connect or disconnect,,{0} is a button name
+research.disk.space.tip,Build or upgrade {0} to increase your disk space.,,"{0} is ""Disk Modules"" from next key"
+noun.disk.modules.plural,Disk Modules,,Must be plural of objects.devices.diskmodule key value
+noun.space.storm,Space Storm,,
+quest.step.start.expedition.desc,Select a {0} and send a crew to explore a location or mine a resource deposit.,,{0} is Shuttle
+situation.ColonySizeDiff,Target Colony Size (Difference),,
+how.do.i.travel.here,How do I travel here?,,
+noun.interstellar.space.travel,Interstellar Space Travel,,
+region.unreachable.warning,You cannot jump to this space region yet,,
+region.travel.methods,Interstellar Space Travel Methods,,
+region.travel.method.relay,Find and use a {0} in your current region to jump to an adjacent region with a relay.,,{0} is Hyperjump Relay
+region.travel.method.ftl,Use an {0} to jump to an adjacent region.,,{0} is FTL Drive
+region.travel.method.warp,Use a {0} to jump to any region in the universe.,,{0} is Horizon Warp Drive
+region.travel.method.blackhole,Use a {0} to go through a {1}.,,"{0} is Void Ripper, {1} is Black Hole"
+surgical.op.failed,{0} failed to perform surgery on {1}'s {2},,"{0} is surgeon name, {1} is patient's name, {2} is body part name"
+noun.failed.surgery,Failed surgery,,
+situation.StoryPointsPositiveMax,Story Points (Positive Max),,
+situation.StoryPointsPositive,Story Points (Positive),,
+situation.StoryPointsNegativeMax,Story Points (Negative Max),,
+situation.StoryPointsNegative,Story Points (Negative),,
+situation.StoryPointsNeutralMax,Story Points (Neutral Max),,
+situation.StoryPointsNeutral,Story Points (Neutral),,
+situation.StoryPointsRaidMax,Story Points (Raid Max),,
+situation.StoryPointsRaid,Story Points (Raid),,
+stat.SanityTarget,Sanity Target,,
+stat.SanityTarget.desc,The mental health level this being is gravitating toward. Set by current mental effects and the sanity baseline. Sanity moves toward this value gradually over time.,,
+stat.SanityBaseline,Sanity Baseline,,
+stat.SanityBaseline.desc,The neutral mental state of this being.,,
+quest.DeliverPassengerFromShip,Passenger Transport,,
+quest.DeliverPassengerFromShip.desc,We need transportation for one of our passengers. Deliver them safely to the specified destination and you'll be compensated for your time.,,
+quest.DeliverPassengerFromShip2,Prisoner Transfer,,
+quest.DeliverPassengerFromShip2.desc,We have a detainee who needs to be moved to a correctional facility. Please transport them safely and try not to let them access anything important.,,
+quest.DeliverPassengerFromShip3,One-Way Ticket,,
+quest.DeliverPassengerFromShip3.desc,The passenger requested a one-way trip to a remote outpost and laughed nervously afterward. We're sure it's nothing.,,
+quest.DeliverPassengerFromShip4,Last Shuttle Out,,
+quest.DeliverPassengerFromShip4.desc,This passenger missed their scheduled transport and is now stranded with us. Deliver them to their destination before they become our problem permanently.,,
+quest.DeliverPassengerFromShip5,Special Assignment,,
+quest.DeliverPassengerFromShip5.desc,"One of our agents requires transportation to a remote location. The fewer people who know about this trip, the better.",,
+quest.DeliverPassengerFromShip6,Ex-Spouse Relocation Program,,
+quest.DeliverPassengerFromShip6.desc,This passenger recently experienced a difficult breakup and urgently needs transportation to another sector. Preferably very far away.,,
+quest.DeliverPassengerFromStation,Return Home,,
+quest.DeliverPassengerFromStation.desc,One of our passengers needs transport back home. We can't spare a ship right now. Could you take them there for us?,,
+quest.DeliverPassengerFromStation2,Medical Evacuation,,
+quest.DeliverPassengerFromStation2.desc,A passenger urgently needs transport to a medical facility. We don't have a ship available. Could you help?,,
+quest.DeliverPassengerFromStation3,Return to the Colony,,
+quest.DeliverPassengerFromStation3.desc,A station worker has completed their shift rotation and needs transportation back to their colony on the surface. Could you give them a lift?,,
+quest.DeliverPassengerFromStation4,Research Assignment,,
+quest.DeliverPassengerFromStation4.desc,A scientist stationed here needs transport to a planetary research site. They insist the equipment is fragile. They also insist on carrying it personally.,,
+quest.DeliverPassengerFromStation5,Emergency Transfer,,
+quest.DeliverPassengerFromStation5.desc,One of our crew members must reach a surface facility urgently. We don't have transport available at the moment. Could you help?,,
+quest.DeliverPassengerFromStation6,Please Remove This Person,,
+quest.DeliverPassengerFromStation6.desc,This crew member has spent the last month explaining conspiracy theories in the cafeteria. We would greatly appreciate transportation assistance.,,
+quest.DeliverPassengerFromStation7,Field Assignment,,
+quest.DeliverPassengerFromStation7.desc,We're sending one of our specialists to assist with operations at a remote facility. Deliver them safely and preferably before the project finishes without them.,,
+quest.DeliverPassengerFromStation8,Wrong Career Choice,,
+quest.DeliverPassengerFromStation8.desc,A station worker has decided that orbital life isn't for them after discovering they are afraid of space. Please take them planetside.,,
+quest.DeliverPassengerFromStation9,Vacation Time,,
+quest.DeliverPassengerFromStation9.desc,One of our workers saved up vacation days for years and finally decided to use them. Please transport them before they change their mind.,,
+quest.delivery.passenger.step.deliver.title,Deliver the passenger to {0} in {1},,{0} is a clickable starmap link to the POI; {1} is the path to it
+quest.delivery.passenger.step.deliver.desc,Send a shuttle to {1} in {0} with the passenger and at least one escort aboard. The passenger will leave there and the shuttle will return with your reward.,,{0} is the path; {1} is a clickable starmap link
+quest.delivery.passenger.delivered,The passenger has been delivered. The shuttle is returning with your reward.,,
+quest.passenger.must.be.aboard,The passenger and at least one escort must both be aboard the shuttle.,,
+situation.NumRaids,Raids Survived,,
+act.BreakdownSabotage,Behaving suspiciously,,
+breakdown.BreakdownSabotage,Suspicious Behavior,,
+breakdown.BreakdownSabotage.desc,{0} is acting strangely and tampering with the ship's equipment,,{0} is being name
+device.was.sabotaged,{0} was sabotaged!,,{0} is device name
+act.BreakdownStayInRoom,Stay In Room,,
+breakdown.BreakdownStayInRoom,Breakdown: Shut-in,,
+breakdown.BreakdownStayInRoom.desc,{0} is refusing to leave their personal quarters.,,{0} is being name
+adj.suppressed,Suppressed,,
+stat.MentalBreakdownLightThreshold,Light Mental Breakdown Threshold,,
+stat.MentalBreakdownMediumThreshold,Medium Mental Breakdown Threshold,,
+stat.MentalBreakdownHeavyThreshold,Heavy Mental Breakdown Threshold,,
+feeling.relieved,Feeling relieved,,label for a positive mental effect after mental breakdown
+risk.none,None,,
+risk.light,Light,,
+risk.medium,Medium,,
+risk.heavy,Heavy,,
+being.set.being.on.fire,{0} has set {1} on fire!,,{0} and {1} are being names
+noun.windowless.room,Windowless room,,
+quest.MakeShipCombatReady.assign.battlestation,Assign the Battle Station to handle the Shredder Cannons,,
+quest.MakeShipCombatReady.assign.battlestation.tip,"Select the {0} and assign it to operate the {1}. Without an assigned weapon, the station's operator has nothing to fire.",,"{0} is battle station, {1} is shredder cannons"
+noun.shredder.cannons.plural,Shredder Cannons,,plural form of Shredder Cannon (key objects.devices.shreddercannon )
+noun.quest.target,Quest Target,,
+noun.preferred.target,Preferred Target,,
+noun.preferred.target.tip,"If the preferred target is not available, the default targeting priorities will be used.",,
+surgical.op.failed.wound,The {0} was wounded in the process.,,{0} is body part name
+surgical.op.failed.weld,The {0} got welded in place and can no longer be removed.,,{0} is body part name
+surgical.op.failed.cripple,The {0} was crippled.,,{0} is body part name
+surgical.op.failed.destroy.part,The {0} was destroyed.,,{0} is body part name
+surgical.op.failed.destroy.slot,The body part slot was destroyed and will remain empty.,,
+surgical.op.failed.fatality,The patient did not survive.,,
+surgical.op.failed.rejection,The {0} was rejected by the immune system.,,{0} is body part name
+ship.threat.detected,Threat Detected,,
+noun.class.points.short,{0} CP,,{0} is a number. Short acronym for Class Points (noun.class.points translation key)
+verb.scanning,Scanning,,
+verb.landing,Landing,landing a shuttle on the ship,
+verb.boarding,Boarding,boarding a shuttle,
+verb.flying,Flying,,
+verb.unloading,Unloading,,
+verb.calling,Calling,,"when someone is calling your on a phone, etc"
+count.onboard,Onboard: {0},,"count of beings aboard the ship, {0} is the number"
+disable.demo.mode,Disable Demo Mode,,
+disable.demo.mode.tip,"If Demo Mode is disabled, the last save will load paused and the camera will stay still in the main menu.",,
+input.DraftUnit,Shortcut: Draft Selected Beings,,draft the currently selected being into combat mode
+expedition.guest.needs.escort,Guest passenger requires at least one escort crew member.,,Error shown when player tries to launch an expedition with a delivery-quest passenger but no escort crew member selected.
+cond.CryoSickness,Cryo Sickness,,Name of the Cryo Sickness condition shown in the being's status panel
+cond.CryoSickness.desc,Disoriented and nauseous after waking from cryo stasis. Cannot perform colony work until it passes.,,Tooltip description for the Cryo Sickness condition; shown when hovering the status icon on a colonist
+exit.with.note,Save and Exit with note to self,,QuickChoice option in main menu Exit
+menu.save.and.exit,Save and Exit,,QuickChoice option and popup button in main menu Exit
+note.to.self.title,Note to Self,,Title of the note-to-self input popup and the reminder popup shown on next load
+note.to.self.desc,Leave yourself a reminder for next time you return.,,Subtitle of the note-to-self input popup
+note.to.self.label,Your note,,Label above the note-to-self text input field
+note.to.self.placeholder,e.g. finish wiring the reactor room,,Placeholder text in the note-to-self input field
+input.ShortcutDispose,Shortcut: Dipose Selected Being or Object,,
+input.OpenProduction,Shortcut: Open Production Overview,,
+input.OpenSurgeries,Shortcut: Open Surgeries,,
+input.OpenQuests,Shortcut: Open Quests,,
+modifier.DestructionLevel,Destruction Level,,Label for the ModifierDestructionLevel slider in Wrecked Empty Ship custom game setup
+modifier.DestructionLevel.desc,Controls how much of the ship is destroyed when generating a wrecked ship. Lower values keep more of the ship intact and place a larger share of starting materials into storage units instead of scattering them.,,Tooltip for the Destruction Level slider; range is 15% (mostly intact) to 75% (heavily destroyed)
+complete.more.quests.to.unlock,Complete more quests to unlock this storyline.,,
+space.object.info.Ship,Space Ship,,
+feedback.balance,Balance,,"as in ""game balance"""
+feedback.balance.tip,"Game balance issue. Examples: <br> - Producing X requires Y, but Y is researched after X<br> - X costs more than Y, but is much cheaper to produce<br> - Weapon X is OP",,
+abandon.tutorial.quest.tip,This is a tutorial quest. It can be abandoned without any negative consequences.,,
+opening.tutorial,Opening Tutorial,,for a popup that will automatically open a tutorial
+tut.el.connect.title,Connecting Devices,,
+tut.activate.tool,Activate the {0} tool.,,{0} - Connect
+tut.press.button.on.object,Press {0} on a {1}.,,"{0} is button, {1} is connector"
+tut.drag.connect.line,Drag the connection to the device you want to connect.,,
+tut.release.button.to.connect,Release {0} to create the connection.,,{0} is button
+tut.el.connect.cpu.warning,{0} must be connected before anything else!,,{0} is ship computer
+open.in.background,Open in Background,,for opening popups behind the current window
+delete.all.saves,Delete all saves ({0}),,QuickChoice action in the load game menu
+delete.all.autosaves,Delete all autosaves ({0}),,QuickChoice action in the load game menu
+game.delete.all.confirm.details,Are you sure you want to delete the entire save directory and all of its contents? This cannot be undone.,,Confirmation warning for deleting all saves
+manual.action.required,Manual Action Required,,
+local.maneuvering.multiple.sections,"Multiple sections can be moved. Select a {0} on the section you want to move, then use the {1} action in the bottom bar to start the maneuver.",,"{0} is maneuvering controller, {1} is Move Ship"
+verb.set.priority,Set Priority,,for setting task priority
+adj.forbidden,Forbidden,,in context of task priority
+adj.priority.lowest,Lowest,,in context of task priority
+adj.priority.highest,Highest,,in context of task priority
+trait.minimalist,Minimalist,,
+trait.minimalist.about,Prefers compact personal quarters.,,
+noun.controls,Controls,,as in 'UI Controls'
+tut.el.connecting.with.key,Connecting Devices with {0},,{0} is the key name
+tut.el.connecting.with.key.desc,There is a quicker way to connect devices.,,
+tut.select.obj,Select a {0},,
+tut.hold.button,Hold {0},,
+winch.rotate_obstacle,Rotation was blocked by an obstacle. You can remove it and retry the operation.,,Shown when CmdRotateSection aborts because a destination tile is occupied by something outside the rotating section
+winch.rotate_oob,The section cannot rotate here - it would leave the edge of the map. Move it closer to the center first.,,Shown when CmdRotateSection aborts because rotation would push a tile out of map bounds
+mods.active.warning.title,Playing With Mods,,Title of the system popup shown once per session when third-party mods are enabled
+mods.active.warning.body,"You are playing with mods. If you are experiencing game-breaking bugs, broken UI, severe performance or game balance issues, or see many errors in the console {0}, one or more mods could be causing it.<br><br>The following mods are enabled:",,"{0} is the keyboard glyph for the console toggle key in parentheses, e.g. (~)
+, or empty if unbound"
+noun.subscribed.mods,Subscribed Mods,,Button label that opens the Steam Workshop mods browse page
+tut.el.config.reactor,Configuring a Matter Reactor,,
+tut.el.config.reactor.desc,"{0} can be configured to burn almost any type of material. I recommend using {1} or {2}, as they produce a lot of electricity and are easy to obtain.",,"{0} is Matter Reactor, {1} is Scrap Metal, {2} is Steel Plate"
+tut.el.use.ui.to.select.material,Select the desired fuel type in the UI.,,
+tut.unifying.el.grid,Unifying the Electric Grid,,
+tut.unifying.el.grid.desc,Devices connected to an electrical grid that is not connected to the {0} will display this icon:,,{0} is ship computer
+tut.unifying.el.grid.step1,Chain connectors together to extend the Ship Computer's reach.,,
+tut.finding.unamanged.grids,You can quickly find unmanaged electrical grids using the Electric Grid UI.,,
+tut.el.mass.connect.shift,Hold {0} and click a connector to connect or disconnect multiple devices at once.,,{0} is shift
+tut.el.disconnect,Repeat the same action on a connected device to disconnect it.,,
+hyperjump.relay.arrived.prompt,We have arrived at a {0}. Would you like to approach it and initiate a jump to an adjacent space sector?,,{0} is Hyperjump Relay
+hyperjump.relay.toll.prompt,This relay belongs to the {0} faction and charges a toll of {1}.,,"{0} is faction name, {1} is price"
+codex.m.enclosing.areas,Enclosing Areas,,
+codex.m.enclosing.areas.step1,Build floors inside the perimeter you want to enclose.,,
+codex.m.enclosing.areas.step2,Build walls around the area you want to enclose.,,
+codex.m.enclosing.areas.step3,Consult the {0} overlay to see which areas are considered enclosed.,,{0} is Rooms
+codex.m.enclosing.areas.step4,Use the {0} and {1} overlays to find floor and wall gaps.,,"{0} is Airtightness, {1} is Insulation"
+codex.m.enclosing.areas.step5,An enclosed area is not necessarily airtight.,,
+learn.how.to.airtight,Learn how to pressurize an area.,,
+codex.m.pressurizing.areas,Pressurizing Areas,,
+codex.m.pressurizing.areas.step1,Enclose the area first.,,
+codex.m.pressurizing.areas.step2,Use the {0} tool to order repairs for any damaged structures inside or around the perimeter.,,{0} is Repair
+codex.m.pressurizing.areas.step3,"Use the {0} tool to connect all doors, airlocks, and vents to your electric grid.",,{0} is Connect
+codex.m.pressurizing.areas.step4,Close any {0} that are exposed to open space.,,{0} is Vent
+codex.m.pressurizing.areas.step5,Consult the {0} and {1} overlays to find gaps and leaks.,,"{0} is Airtightness, {1} is Insulation"
+codex.m.pressurizing.areas.step6,Build at least one {0} and one {1} to create a livable atmosphere.,,"{0} is Heater, {1} is Oxygen Pump"
+create.new.save,Create New Save,,
+noun.web.links,Links,,links to websites
+codex.m.creating.atmosphere,Creating Atmosphere,,
+codex.m.creating.atmosphere.step1,Ensure the area is enclosed and pressurized first.,,
+codex.m.creating.atmosphere.step2,Build and connect one or more {0} and {1} to cover the area.,,"{0} is Heater, {1} is Oxygen Pump"
+codex.m.creating.atmosphere.step3,It can take some time to fully oxygenate and heat the area. Consult the {0} and {1} overlays to determine whether you need additional heaters or oxygen pumps.,,"{0} is Oxygen, {1} is Temperature"
+codex.m.configure.crafter,Configuring Crafting Devices,,
+codex.m.launching.expeditions,Launching Expeditions,,
+codex.m.launching.expeditions.step1,Use the {0} to launch expeditions for mining resources and exploring points of interest.,,{0} is Shuttle
+setting.someone.on.fire,Setting someone on fire,,
+trying.to.set.someone.on.fire,{0} is trying to set someone on fire.,,{0} is a name
+codex.m.battlestations.step1,{0} control ship weapons. One battle station can control multiple weapons of the same type. Adding more weapons may require additional battle stations.,,{0} is Battle Stations
+codex.m.battlestations.step2,Assign a weapon type to each {0}. You can also configure which targets the weapons controlled by that station will engage.,,{0} is Battle Station
+manual.fire.will.overload,Firing now will cause a Flux Overload!,,Warning line shown in the Manual Fire button tooltip on a ship Battle Station when shooting would push ship flux over capacity
+accuracy.bonus,Accuracy Bonus,,
+codex.m.ship.combat.controls.step1,Click the ship combat widget to switch to the tactical view.,,
+codex.m.ship.combat.controls.step2,Press and hold the {0} button on any {1} that require manual control.,,{0} is Fire. {1} is Battle Stations
+codex.m.ship.combat.controls.step3,Monitor {0} levels and use the Vent button when necessary to avoid {1}. Shields are disabled while venting flux.,,{0} is Accumulated Flux. {1} is Flux Overload
+codex.m.ship.combat.controls.step4,Use {0} to configure global weapon targeting or adjust the preferred targets of individual {1} to create your own combat strategy.,,{0} is Ship Configuration. {1} is Battle Stations
+quest.conditions,Conditions,,could be same as noun.conditions but this is: conditions for fulfilling a quest
+codex.m.tempconn,"In certain situations, you can order a robotic worker to create a temporary connection.",,
+codex.m.ship.computer.apps,The {0} tab of the {1} provides access to various settings and control panels.,,{0} is Apps; {1} is Ship Computer
+codex.m.drafting,Drafting Beings for Combat,,
+codex.m.drafting.step1,"{0} workers and colonists to control them directly during combat. While drafted, they will not perform colony tasks.",,{0} is draft
+codex.m.drafting.step2,Use {0} to order drafted beings to move to a specific location or attack a specific enemy.,,{0} is a button icon
+codex.m.drafting.step3,Remember to {0} them after the combat is over.,,{0} is undraft
+verb.see,See,,Will be used to create links like See: Link to another page
+verb.see.also,See also,,
+noun.flux.vent,Flux Vent,,Singular name of the Flux Vent ship device - a buildable device that increases a ship's flux vent rate
+noun.flux.vents,Flux Vents,,Plural of Flux Vent - used as a weapon target type name and as a ship-class stat label (max Flux Vents)
+noun.flux.vent.bonus,Vent Rate Bonus,,"Flux Vent device stat - shown next to a numeric vent rate bonus value, e.g. ""Vent Rate Bonus: 15"""
+too.many.flux.vents,You already have enough {0} for your ship class. {1} supports a maximum of {2}.,,"{0} is Flux Vents (codex link), {1} is ship class name (codex link), {2} is a number"
+noun.flux.vent.desc,Increases the ship's flux vent rate.,,
+noun.base.vent.rate,Base Vent Rate,,Ship-class base flux vent rate before any Flux Vent bonus
+noun.vent.bonus,Vent Bonus,,Bonus to flux vent rate from active Flux Vent devices
+input.ShipCombatToggleVent,Shortcut: Toggle Flux Vent,,
+ate.disliked.food,Ate Disliked Food,,
+food.type.vegan,Vegan Food,,
+food.type.carnivore,Carnivore Food,,
