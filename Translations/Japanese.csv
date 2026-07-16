@@ -7007,45 +7007,45 @@ quest.ShipRaceRecoverPOILoot5.desc,"極秘取引で事故が発生し、貨物�
 quest.step.respond.to.signal.title,{1}で{0}に応答する,,{0} is translation for Signal with a link to starmap; {1} is location like 'Some Region > Other Sector'
 quest.step.respond.to.signal.unknown,信号に応答する,,
 quest.step.respond.to.signal.desc,{0}へ向かい、{1}に応答して痕跡を追う。,,{0} is location like 'Some Region > Other Sector'; {1} is translation for Signal with a link to starmap
-quest.step.investigate.signal.title,{1}で{0}を調査する,,{0} is translation for Signal with a link to starmap; {1} is location like 'Some Region > Other Sector'
-quest.step.investigate.signal.unknown,信号を調査する,,
-quest.step.investigate.signal.desc,Travel to {0} and investigate the {1} to follow the trail.,,{0} is location like 'Some Region > Other Sector'; {1} is translation for Signal with a link to starmap
-quest.step.explore.poi.title,Explore the {0} at {1},,{0} is translation for Anomaly with a link to starmap; {1} is location like 'Some Region > Other Sector'
-quest.step.explore.poi.desc,Travel to {0} and launch an expedition to the {1}.,,{0} is location like 'Some Region > Other Sector'; {1} is translation for Anomaly with a link to starmap
-quest.step.mine.deposit.title,Extract {0} units of {1} at {2} using a {3} expedition,,"{0} is number, {1} is resource type name, {2} is deposit location, {3} is Shuttle"
-quest.step.mine.deposit.desc,Send an expedition to the {0} and extract at least {1} units of {2}.,,"{0} is deposit location, {1} is number, {2} is resource type name"
-quest.step.mine.deposit.unknown,Extract a resource from a deposit,,
-quest.step.search.for.package.title,Find the package in {1} ,,"{1} is location like 'Some Region > Other Sector'. WARNING it has to be {1}, not {0}, it's not a typo!"
-quest.step.search.for.package.desc,Send an expedition to the {1} at {0} and search for the package.,,{0} is location like 'Some Region > Other Sector'; {1} is translation for Anomaly or Unknown with a link to starmap
-quest.step.deliver.package.title,Deliver the package,,
-quest.step.deliver.package.desc,Deliver the package to {0},,{0} is the ship name or destination
-quest.step.deliver.item.title,Deliver {0},,{0} is the item
-quest.step.deliver.item.desc,Deliver {0} to {1},,"{0} is the item, {1} is ship name, or destination"
-quest.step.deliver.item.fail.msg,You don't have {0}!,,{0} is the item
-quest.step.deliver.item.success.msg,Item received. Thank you!,,
-quest.new.available.plural,{0} new Quests are available!,,{0} is a number
-quest.new.available.singular,New Quest is available!,,
+quest.step.investigate.signal.title,{1}で{0}を探査する,,{0} is translation for Signal with a link to starmap; {1} is location like 'Some Region > Other Sector'
+quest.step.investigate.signal.unknown,信号を探査,,
+quest.step.investigate.signal.desc,{0}へ移動し、痕跡を追うために{1}を探査する。,,{0} is location like 'Some Region > Other Sector'; {1} is translation for Signal with a link to starmap
+quest.step.explore.poi.title,{1}にある{0}を探査,,{0} is translation for Anomaly with a link to starmap; {1} is location like 'Some Region > Other Sector'
+quest.step.explore.poi.desc,{0}へ移動し、{1}への探査を開始する。,,{0} is location like 'Some Region > Other Sector'; {1} is translation for Anomaly with a link to starmap
+quest.step.mine.deposit.title,{2}で{3}を探査をし、{0}個の{1}を採掘する,,"{0} is number, {1} is resource type name, {2} is deposit location, {3} is Shuttle"
+quest.step.mine.deposit.desc,{0}へ探査チームを送り、{1}個以上の{2}を採掘する。,,"{0} is deposit location, {1} is number, {2} is resource type name"
+quest.step.mine.deposit.unknown,鉱床から資源を採取する,,
+quest.step.search.for.package.title,{1}でコンテナを探す,,"{1} is location like 'Some Region > Other Sector'. WARNING it has to be {1}, not {0}, it's not a typo!"
+quest.step.search.for.package.desc,{0}にある{1}へ探査チームを送り、コンテナを探す。,,{0} is location like 'Some Region > Other Sector'; {1} is translation for Anomaly or Unknown with a link to starmap
+quest.step.deliver.package.title,コンテナを届ける,,
+quest.step.deliver.package.desc,{0}にコンテナを届ける,,{0} is the ship name or destination
+quest.step.deliver.item.title,{0}を届ける,,{0} is the item
+quest.step.deliver.item.desc,{0}を{1}へ届ける,,"{0} is the item, {1} is ship name, or destination"
+quest.step.deliver.item.fail.msg,{0}を保有していません！,,{0} is the item
+quest.step.deliver.item.success.msg,アイテムを受け取った。感謝する！,,
+quest.new.available.plural,{0}件の新しいクエストが進行可能です！,,{0} is a number
+quest.new.available.singular,新しいクエストが進行可能！,,
 quest.new.label,新しいクエスト！,,
-quest.SignalTrail.msg.01,A cryptic transmission sends the coordinates.,,
-quest.SignalTrail.msg.02,"The signal flickers, hinting at another location nearby.",,
-quest.SignalTrail.msg.03,An encrypted burst of data reveals a partial route.,,
-quest.SignalTrail.msg.04,Sensors detect a weak echo matching the original signal pattern.,,
-quest.SignalTrail.msg.05,"A repeating pulse emerges from deep space, slightly off frequency.",,
-quest.SignalTrail.msg.06,The decoded fragment mentions an unknown beacon designation.,,
-quest.SignalTrail.msg.07,A distorted voice transmission aligns with the previous trace.,,
-quest.SignalTrail.msg.08,Anomalous energy readings coincide with the latest signal burst.,,
-quest.SignalTrail.msg.09,"The ping points toward an uncharted sector, then goes silent.",,
-quest.track.start,Track Quest,,
-quest.track.stop,Stop Tracking,,
-quest.no.tracked,No Tracked Quest,,
-quest.state.tracked,Tracked Quest,,
-quest.details.will.reveal.on.accept,More details will be provided once you accept this quest.,,
-quest.step.details.not.available.yet,More details will be provided when this task becomes available.,,
-verb.investigate,Investigate,,
-noun.start.time,Start Time,,
-deadline.none,No Deadline,,
-noun.deadline,Deadline,,
-quest.expedition.found.package,The expedition has recovered a package and will return soon.,,
+quest.SignalTrail.msg.01,,暗号通信で座標が送られてきた。,,
+quest.SignalTrail.msg.02,"信号がゆらぎ、別の目標が近くにあることを示唆している。",,
+quest.SignalTrail.msg.03,暗号化されたデータが一瞬だけ送信され、航路の一部が判明した。,,
+quest.SignalTrail.msg.04,元の信号パターンと一致する微弱な反応をセンサーが検出した。,,
+quest.SignalTrail.msg.05,"繰り返し発信されているパルスを深宇宙から検出した。だが、周波数はわずかにずれている。",,
+quest.SignalTrail.msg.06,解読された断片データには、未知のビーコン識別コードが記されていた。,,
+quest.SignalTrail.msg.07,ノイズ混じりの音声通信が、以前の痕跡と一致した。,,
+quest.SignalTrail.msg.08,最後の信号バーストと同時に、奇妙なエネルギー反応が観測された。,,
+quest.SignalTrail.msg.09,"微弱で短い信号が未調査セクターを指し示した後に途絶えてしまった。",,
+quest.track.start,クエストを追跡,,
+quest.track.stop,追跡解除,,
+quest.no.tracked,追跡中のクエストはありません,,
+quest.state.tracked,追跡中,,
+quest.details.will.reveal.on.accept,このクエストを開始すると、詳細が表示されます。,,
+quest.step.details.not.available.yet,このタスクが進行可能になると、詳細が表示されます。,,
+verb.investigate,調査,,
+noun.start.time,開始日時,,
+deadline.none,期限なし,,
+noun.deadline,期限,,
+quest.expedition.found.package,探査チームが貨物を発見しました。ただちに帰還します。,,
 quest.package.contained,Package contained,,
 noun.active.quests,Active Quests,,
 noun.active.quest,Active Quest,,
@@ -7189,85 +7189,85 @@ quest.main.enable.elysium.desc,"To join the Rogue AI ranks, we must install the 
 quest.step.colonize.planet.desc,Click the {0} planet in the {1} and use the {2} action to colonize the planet.,,"{0} is the planet, {1} is Starmap, {2} is ""Colonize Planet"""
 noun.quest.hub,Quest Hub,,
 ,,,
-group.Components,Components,,
-group.Plates,Plates,,
-group.Datoids,Datoids,,
-group.Ore,Ore,,
-group.Electronics,Electronics,,
-group.Plants,Plants,,
-group.Pigments,Pigments,,
-group.Ammo,Ammo,,
-group.FoodIngredients,Food Ingredients,,
-group.Hyperfuel,Hyperfuel,,
-group.Food,Food,,
-group.Upgrades,Upgrades,,
+group.Components,部品,,
+group.Plates,金属板,,
+group.Datoids,デートイド,,
+group.Ore,鉱石,,
+group.Electronics,電子部品,,
+group.Plants,植物,,
+group.Pigments,塗料,,
+group.Ammo,弾薬,,
+group.FoodIngredients,食材,,
+group.Hyperfuel,ハイパーフューエル,,
+group.Food,食料,,
+group.Upgrades,アップグレード,,
 adj.craftable,Craftable,,adjective describing an item that can be crafted
 noun.properties,Properties,,header before a list of object properties
 press.to.lock.tooltip,Press {0} to lock tooltip,,{0} is key binding (Shift)
-twitch.integration,Twitch Integration,,
-noun.performance,Performance,,
-noun.troubleshooting,Troubleshooting,,
-noun.preset,Preset,,
-noun.user.interface,User Interface,,
-noun.font.scale,Font Scale,,
-noun.theme,Theme,,
+twitch.integration,Twitch連携,,
+noun.performance,パフォーマンス,,
+noun.troubleshooting,トラブルシューティング,,
+noun.preset,プリセット,,
+noun.user.interface,ユーザーインターフェース,,
+noun.font.scale,フォントサイズ,,
+noun.theme,テーマ,,
 audio.silence.between.tracks,Silence Between Tracks,,
-verb.customize,Customize,,
+verb.customize,カスタマイズ,,
 setting.gamepad.dead.zone,Gamepad Dead Zone,,
-setting.ui.scroll.speed,UI Scroll Speed,,
-setting.zoom.sensitivity,Zoom Sensitivity,,
-setting.pan.sensitivity,Pan Sensitivity,,
+setting.ui.scroll.speed,UIスクロール速度,,
+setting.zoom.sensitivity,ズームの感度,,
+setting.pan.sensitivity,水平移動の感度,,
 setting.gamepad.pointer.sensitivity,Gamepad Pointer Sensitivity,,
 setting.gamepad.pointer.acceleration,Gamepad Pointer Acceleration,,
 setting.gamepad.pointer.max.speed,Gamepad Point Max Speed,,
 setting.edge.pan.speed,Edge Pan Speed,,
 setting.ignored.drag.dist,Ignored Drag Distance,,
-num.pixels,{0} pixels,,
-game.story.mode,Story Mode,,
-game.quick.start,Quick Start,,
-game.custom.start,Custom Start,,
-noun.game.rules,Game Rules,,
-noun.custom.rules,Custom Rules,,
-noun.ship.type,Ship Type,,
+num.pixels,{0}ピクセル,,
+game.story.mode,ストーリーモード,,
+game.quick.start,クイックスタート,,
+game.custom.start,カスタマイズ,,
+noun.game.rules,ゲームモード,,
+noun.custom.rules,カスタムルール,,
+noun.ship.type,船の種類,,
 game.load.last.save,Preload Last Save,,
 game.load.last.save.tip,Automatically load last played save file when the game starts.,,
-noun.system,System,,
+noun.system,システム,,
 modifiers.achievements.disabled.tip,Current game rules prevent achievements from being unlocked.,,
 unskilled.job.tip,This job doesn't have a skill level.,,
 isolated.region.tip,This is an isolated region without a {0}. An {1} is required to travel here.,,"{0} is Hyperjump Relay, {1} is FTL Drive"
 radar.deposits.tip,Radar scans can reveal additional deposits.,,
-game.custom.scenario,Custom Scenario,,
-open.saves.directory,Open Saves Directory,,
+game.custom.scenario,カスタムシナリオ,,
+open.saves.directory,セーブディレクトリを開く,,
 show.electricity.mini.chart,Show Electricity Mini Chart,,
 quick.search.empty,Search results will appear here.,,
-quick.search.no.results,No results found.,,
+quick.search.no.results,検索結果なし,,
 jump.to.position,Jump to position,,"As in ""make the camera jump to map position x:y"""
-noun.calculator,Calculator,,
-noun.checklist,Checklist,,
-research.node.locked,Research Locked,,
-noun.scan.result,Scan Result,,
+noun.calculator,電卓,,
+noun.checklist,チェックリスト,,
+research.node.locked,研究が未解放,,
+noun.scan.result,スキャン結果,,
 drag.to.reorder,Click here and drag to reorder,,
 verb.research.requires,Requires,,must be short or it won't look good
 verb.research.unlocks,Unlocks,,must be short or it won't look good
-noun.resources,Resources,,
+noun.resources,資源,,
 hyperspace.solar.warning,Solar panels do not work in hyperspace. Ensure you have enough reactors or batteries to meet the energy demand for the entire duration of the hyperjump.,,
 amt.modifier.key.tip,Hold {0} to change the value by {1},,"{0} is a modifier key like SHIFT, {1} is a number"
 recycled.by.disposing,Recycled by disposing of {0},,{0} is a list of objects
-adj.recyclable,Recyclable,,
+adj.recyclable,分解可能,,
 recycled.by.deconstructing,Recycled by deconstructing {0},,{0} is a list of objects
 found.in.space,"Found in natural deposits on asteroids, planets, and moons.",,
-adj.extractable,Extractable,,
-adj.harvestable,Harvestable,,
+adj.extractable,抽出可能,,
+adj.harvestable,収穫可能,,
 harvested.from,Harvested from {0},,{0} is list of plant names
 produced.in,Produced in {0},,{0} is list of devices
 copy.config.paste.tip,"Click {0} to paste on compatible devices, or click and drag to paste on multiple devices.",,{0} is mouse or controller button
 copy.config.copy.tip,Click {0} on a compatible device to copy the configuration.,,{0} is mouse or controller button
 hovering.compatible.object,Hovering compatible,,label before a list of objects that player is hovering with the cursor above them
 copy.config.copied,Copied configuration,,
-hyperjump.pause,Pause Hyperjump,,
-hyperjump.resume,Resume Hyperjump,,
-adj.paused,Paused,,
-hyperjump.cancel,Cancel Hyperjump,,
+hyperjump.pause,ハイパージャンプ中断,,
+hyperjump.resume,ハイパージャンプ続行,,
+adj.paused,ポーズ中,,
+hyperjump.cancel,ハイパージャンプ中止,,
 no.notifications.0,All quiet. For now.,,Random message to display when there are no alerts
 no.notifications.1,Nothing is on fire.,,Random message to display when there are no alerts
 no.notifications.2,Looks clear.,,Random message to display when there are no alerts. Quote from Pitch Black by Riddick right before bad stuff happens.
@@ -7279,32 +7279,32 @@ issues.need.attention.one,Issue needs attention,,the text will be prefixed with 
 issues.need.attention.two,Issues need attention,,the text will be prefixed with 2. Try to keep translation short.
 issues.need.attention.few,Issues need attention,,the text will be prefixed with 3 or 4. Try to keep translation short.
 issues.need.attention.many,Issues need attention!,,the text will be prefixed with 5 or larger number. Try to keep translation short. Note that there is an exclamation point after this!
-alerts.critical,Critical,,
-alerts.regular,Alert,,
-alerts.warning,Warning,,
-alerts.info,Informational,,
+alerts.critical,重大,,
+alerts.regular,注意,,
+alerts.warning,警告,,
+alerts.info,情報,,
 disable.steam.virtual.keyboard,Disable Virtual Keyboard,,
-action.cancel.flight,Cancel flight,,
+action.cancel.flight,航行中止,,
 noun.incident,Incident,,
 expedition.verb.mine,Mining {0},,"{0} is resource deposit name (coal, iron)"
 expedition.verb.collect,Collecting {0},,{0} is resource deposit name (plant fiber)
 expedition.verb.extract,Extracting {0},,{0} is resource deposit name (crude oil)
 add.crew.member,Add a crew member,,for shuttle expeditions
 expected.mine.rate,Expected mining rate,,
-rate.per.day,{0}/day,,{0} is a number
-verb.recall,Recall,,
+rate.per.day,1日あたり{0},,{0} is a number
+verb.recall,呼び戻す,,
 noun.mining.rate,Mining rate,,how fast is the mining happening (for mining resources on planets / asteroids)
-noun.alien.egg,Alien Egg,,
+noun.alien.egg,エイリアンの卵,,
 noun.alien.egg.desc,An unidentified object that looks like an egg. What could be inside?,,
 current.sanity.trend,Current sanity trend,,
 current.sanity.trend.tip,Current sanity trend shows the direction and speed at which sanity is changing. It is calculated by summing all ongoing sanity effects.,,
 view.social.interactions,View Social Interactions,,button label
 being.shared.interactions,"Spent {0} together, with {1} positive and {2} negative interactions.",,"{0} is time (days, hours), {1} and {2} are numbers, 0 - 999+"
 compatible.upgrades,Compatible Upgrades,,header for a list of upgrades
-no.compatible.upgrades,No compatible upgrades available,,
-noun.app,App,,"as in ""mobile app"""
-noun.app.plural,Apps,,"as in ""mobile apps"""
-verb.build,Build,,
+no.compatible.upgrades,互換性のあるアップグレードなし,,
+noun.app,アプリ,,"as in ""mobile app"""
+noun.app.plural,アプリ,,"as in ""mobile apps"""
+verb.build,建造,,
 disable.codex.popups,Disable automatic Codex pop-ups,,
 disable.codex.popups.tip,"When automatic pop-ups are disabled, you can still look up Codex entries in the Codex and Quick Search.",,
 adj.unremarkable,Unremarkable,,
@@ -7321,12 +7321,12 @@ space.stats.line,This universe consists of {0} sectors within {1} regions.,,
 storage.eject.all,Eject All,,button label for ejecting all items in storage
 select.similar.in.view,Select Similar,,"button label for selecting similar visible entities. Should ideally be no longer than english ""Select Similar"""
 select.similar.in.view.tip,Select similar objects currently in view,,
-auto.haul.forbid,Forbid Storing,,
-auto.haul.allow,Allow Storing,,
+auto.haul.forbid,搬入禁止,,
+auto.haul.allow,搬入許可,,
 min.quality,Minimum Quality,,
 max.quality,Maximum Quality,,
 adj.current,Current,,"tab name for something like ""Current Quests"" or ""Current Events"""
-noun.archive,Archive,,
+noun.archive,アーカイブ,,
 choose.response,Choose Response,,label before list of choices when player talks to another ship
 cancel.procedures,Cancel Procedures,,"button label, short version of ""cancel all pending surgical procedures""."
 verb.implant,Implant,,to implant a body part
@@ -7340,15 +7340,15 @@ are.you.sure,Are you sure?,,header for yes / no choice
 noun.draw.mode,Draw Mode,,
 tool.plan.pencil,Pencil,,
 tool.plan.rect,Rectangle,,
-noun.color,Color,,
-group.Terraforming,Terraforming,,
+noun.color,カラー,,
+group.Terraforming,テラフォーミング,,
 online.order.hyperjump.warning,Jumping to hyperspace will abandon online orders that have not been delivered yet.,,
 upgrade.ship.class,Upgrade Ship Class,,
 ship.config.short,Ship Config,,"short version of ""Ship Configuration"" for a button label"
 weapons.autofire,Autofire Weapons,,
 weapons.auto.target,Auto-Target Weapons,,
-flight.checklist,Flight Checklist,,
-verb.move.ship,Move Ship,,
+flight.checklist,航行チェックリスト,,
+verb.move.ship,船の移動,,
 expeditions.about,Send your shuttles on expeditions to explore the surroundings and mine or collect materials.,,
 terraforming.info,"Discover terraformable planets using the telescope, then track their location and terraforming progress here. Once terraforming is complete, you can colonize a planet.",,
 noun.consequences,Consequences,,
@@ -7374,17 +7374,17 @@ color.picker.tip,Click on already painted areas of the ship to sample a color.,,
 auto.refill.threshold,Auto Refill Threshold,,
 auto.refill.threshold.tip,A refill task will be automatically created once the remaining material drops below this threshold.,,
 temp.connect.pending,Pending Temporary Connection,,
-save.plan,Save Plan,,
-load.plan,Load Plan,,
-generate.plan,Generate Plan,,
-manage.saved.plans,Manage Saved Plans,,
-delete.all.plans,Delete all plans,,
-open.plans.directory,Open plans directory,,
-noun.file.name,File name,,
-no.saved.plans,No saved plans,,
-erase.plan,Erase Plan,,
-colonize.this.planet,Colonize this planet,,
-event.log.short,Log,,
+save.plan,設計をセーブ,,
+load.plan,設計をロード,,
+generate.plan,設計内容を生成,,
+manage.saved.plans,保存した設計の管理,,
+delete.all.plans,設計をすべて削除,,
+open.plans.directory,設計の保存先ディレクトリを開く,,
+noun.file.name,ファイル名,,
+no.saved.plans,保存されている設計はありません,,
+erase.plan,設計を削除,,
+colonize.this.planet,この惑星に入植,,
+event.log.short,ログ,,
 quest.ScavengeAndDeliver,Recover a package,,
 quest.ScavengeAndDeliver.desc,We lost a valuable shipment while exploring a nearby point of interest. Could you find and recover it for us?,,
 quest.ScavengeAndDeliver2 ,Recover Lost Cargo,,
@@ -7415,7 +7415,7 @@ quest.BountyHuntPirateShip7.desc,"We're not entirely sure this ship is responsib
 quest.BountyHuntPirateShip8,Raiders at Large,,
 quest.BountyHuntPirateShip8.desc,A group of pirates has been targeting local shipping lanes. Their ship has finally been located. Destroy it before it slips away again.,,
 find.any.color,Find Any Color,,
-noun.threshold,Threshold,,
+noun.threshold,しきい値,,
 mat.threshold.quick.drawer.tip,Only show this material in the quick drawer when the count is below this number.,,
 show.only.when.less,Show only when less than...,,
 show.in.quick.drawer,Show in Quick Drawer,,
@@ -7478,16 +7478,16 @@ damage.type.decay,Decay,,when a body (either biological or robotic) is rotting /
 noun.body.parts.biological.plural,Organs,,
 noun.body.parts.robotic.plural,Components,,
 noun.colony.jobs,Colony Jobs,,
-adj.unusable,Unusable,,
-adj.not.removable,Not Removable,,
-body.op.remove.all,Remove all parts,,
+adj.unusable,使用不能,,
+adj.not.removable,取り外し不能,,
+body.op.remove.all,すべて取り外し,,
 body.op.install.missing,Install missing parts,,
 body.op.replace.irreparable,Replace bad parts,,
 body.op.remove.irreparable,Remove bad parts,,
-body.op.remove,Remove part,,
-body.op.install,Install part,,
-body.op.swap,Swap part,,
-body.part.unusable,Body part is unusable,,
+body.op.remove,パーツ取り外し,,
+body.op.install,パーツ組み込み,,
+body.op.swap,パーツ置き換え,,
+body.part.unusable,身体パーツ使用不能,,
 body.part.unusable.via.parent,Body part is unusable because it is attached to unusable {0},,{0} is parent part name
 derelict.ship.approach.too.early.warning,Something feels wrong about that ship. I recommend keeping our distance for now.,,
 use.search.hint,Use search to filter.,,
@@ -7570,7 +7570,7 @@ region.travel.method.ftl,Use an {0} to jump to an adjacent region.,,{0} is FTL D
 region.travel.method.warp,Use a {0} to jump to any region in the universe.,,{0} is Horizon Warp Drive
 region.travel.method.blackhole,Use a {0} to go through a {1}.,,"{0} is Void Ripper, {1} is Black Hole"
 surgical.op.failed,{0} failed to perform surgery on {1}'s {2},,"{0} is surgeon name, {1} is patient's name, {2} is body part name"
-noun.failed.surgery,Failed surgery,,
+noun.failed.surgery,手術失敗,,
 situation.StoryPointsPositiveMax,Story Points (Positive Max),,
 situation.StoryPointsPositive,Story Points (Positive),,
 situation.StoryPointsNegativeMax,Story Points (Negative Max),,
@@ -7630,12 +7630,12 @@ stat.MentalBreakdownLightThreshold,Light Mental Breakdown Threshold,,
 stat.MentalBreakdownMediumThreshold,Medium Mental Breakdown Threshold,,
 stat.MentalBreakdownHeavyThreshold,Heavy Mental Breakdown Threshold,,
 feeling.relieved,Feeling relieved,,label for a positive mental effect after mental breakdown
-risk.none,None,,
-risk.light,Light,,
-risk.medium,Medium,,
-risk.heavy,Heavy,,
+risk.none,なし,,
+risk.light,わずか,,
+risk.medium,通常,,
+risk.heavy,重大,,
 being.set.being.on.fire,{0} has set {1} on fire!,,{0} and {1} are being names
-noun.windowless.room,Windowless room,,
+noun.windowless.room,窓のない区画,,
 quest.MakeShipCombatReady.assign.battlestation,Assign the Battle Station to handle the Shredder Cannons,,
 quest.MakeShipCombatReady.assign.battlestation.tip,"Select the {0} and assign it to operate the {1}. Without an assigned weapon, the station's operator has nothing to fire.",,"{0} is battle station, {1} is shredder cannons"
 noun.shredder.cannons.plural,Shredder Cannons,,plural form of Shredder Cannon (key objects.devices.shreddercannon )
@@ -7651,14 +7651,14 @@ surgical.op.failed.fatality,The patient did not survive.,,
 surgical.op.failed.rejection,The {0} was rejected by the immune system.,,{0} is body part name
 ship.threat.detected,Threat Detected,,
 noun.class.points.short,{0} CP,,{0} is a number. Short acronym for Class Points (noun.class.points translation key)
-verb.scanning,Scanning,,
-verb.landing,Landing,landing a shuttle on the ship,
-verb.boarding,Boarding,boarding a shuttle,
-verb.flying,Flying,,
-verb.unloading,Unloading,,
+verb.scanning,スキャン中,,
+verb.landing,Landing,シャトル着艦中,
+verb.boarding,Boarding,シャトルに搭乗中,
+verb.flying,航行中,,
+verb.unloading,荷下ろし中,,
 verb.calling,Calling,,"when someone is calling your on a phone, etc"
 count.onboard,Onboard: {0},,"count of beings aboard the ship, {0} is the number"
-disable.demo.mode,Disable Demo Mode,,
+disable.demo.mode,デモモードの無効化,,
 disable.demo.mode.tip,"If Demo Mode is disabled, the last save will load paused and the camera will stay still in the main menu.",,
 input.DraftUnit,Shortcut: Draft Selected Beings,,draft the currently selected being into combat mode
 expedition.guest.needs.escort,Guest passenger requires at least one escort crew member.,,Error shown when player tries to launch an expedition with a delivery-quest passenger but no escort crew member selected.
@@ -7772,6 +7772,6 @@ noun.flux.vent.desc,Increases the ship's flux vent rate.,,
 noun.base.vent.rate,Base Vent Rate,,Ship-class base flux vent rate before any Flux Vent bonus
 noun.vent.bonus,Vent Bonus,,Bonus to flux vent rate from active Flux Vent devices
 input.ShipCombatToggleVent,Shortcut: Toggle Flux Vent,,
-ate.disliked.food,Ate Disliked Food,,
-food.type.vegan,Vegan Food,,
-food.type.carnivore,Carnivore Food,,
+ate.disliked.food,嫌いなものを食べた,,
+food.type.vegan,ヴィーガン食,,
+food.type.carnivore,肉製品,,
