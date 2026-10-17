@@ -7055,7 +7055,7 @@ ship.chat.quest_res.positive.casual.02,なかなか有能そうで……いや�
 ship.chat.quest_res.positive.casual.03,"簡単な仕事だよ。たぶん。きっと。……いや、まあツイてりゃなんとか。",,
 ship.chat.quest_res.positive.casual.04,ちょっとした仕事があるんだ。爆発しなけりゃ、すぐ終わるって。,,
 ship.chat.quest_res.positive.casual.05,"退屈していないかい？ よかった、すぐゴキゲンになれるお仕事があるぞ。",,
-ship.chat.quest_res.positive.casual.06,"おっ、手の空いていそうなヤツがいるじゃないか！ ……やってほしいことがあるんだ。",,
+ship.chat.quest_res.positive.casual.06,"おっ、手の空いていそうなヤツがいるじゃないか！ ……やってほしいことがあるのだが。",,
 ,,,
 ship.chat.quest_res.positive.polite.01,"艦長だ。受諾する意思があるなら、君に任務を依頼したい。",,
 ship.chat.quest_res.positive.polite.02,早急な対応が必要な任務がある。ご協力願いたい。,,
@@ -7064,39 +7064,39 @@ ship.chat.quest_res.positive.polite.04,新たな任務があります。艦長�
 ship.chat.quest_res.positive.polite.05,近日実施予定の作戦について、我々は正式に君の参加を要請する。,,
 ship.chat.quest_res.positive.polite.06,君はこの任務の担当者として選出された。追って詳細な指示を送る。,,
 ,,,
-ship.chat.quest_req.neutral.rude.01,You look bored. How about doing something useful for once?,,
-ship.chat.quest_req.neutral.rude.02,"Think you can handle actual work, or should I find someone with a pulse?",,
-ship.chat.quest_req.neutral.rude.03,Got something that needs doing. Try to surprise me by not failing.,,
-ship.chat.quest_req.neutral.rude.04,Need something to prove you're not totally worthless? I've got just the thing.,,
-ship.chat.quest_req.neutral.rude.05,"There's a job. I'd do it myself, but watching you struggle sounds more entertaining.",,
-ship.chat.quest_req.neutral.rude.06,I've got a task even <i>you</i> might manage. Maybe.,,
-ship.chat.quest_req.neutral.casual.01,"Hey, got a little job for you if you're up for it.",,
-ship.chat.quest_req.neutral.casual.02,I've got something that needs doing - shouldn't be too hard.,,
-ship.chat.quest_req.neutral.casual.03,"Hey, fancy a little adventure? It even pays... eventually.",,
-ship.chat.quest_req.neutral.casual.04,"Hey, if you're not busy, I've got something you could handle.",,
-ship.chat.quest_req.neutral.casual.05,"There's a small job waiting - and by small, I mean mildly inconvenient.",,
-ship.chat.quest_req.neutral.casual.06,"If you're feeling brave or bored, I've got a job for you.",,
-ship.chat.quest_req.neutral.polite.01,"Captain speaking. We have an assignment that may suit your capabilities.""",,
-ship.chat.quest_req.neutral.polite.02,A new operation requires attention. Your assistance would be appreciated.,,
-ship.chat.quest_req.neutral.polite.03,"We have a mission available, should you choose to accept.",,
-ship.chat.quest_req.neutral.polite.04,There is an assignment ready for immediate deployment. Stand by for details.,,
-ship.chat.quest_req.neutral.polite.05,Your ship has been selected for a special operation. Instructions will follow.,,
-ship.chat.quest_req.neutral.polite.06,Command invites you to undertake a mission on behalf of our fleet.,,
+ship.chat.quest_req.neutral.rude.01,暇か？ なにか役に立つことでも、たまにはやってみねえか？,
+ship.chat.quest_req.neutral.rude.02,まともな仕事ができるのか？ もっとイキのいい奴はいねえのか？,
+ship.chat.quest_req.neutral.rude.03,仕事を持ってきてやったぞ。しくじらずに片づけて俺を驚かせてみろ。,
+ship.chat.quest_req.neutral.rude.04,自分の価値を証明したいか？ 役立たずじゃないってことをな。うってつけの仕事があるぞ？,
+ship.chat.quest_req.neutral.rude.05,仕事があるぞ。俺がやってもいいんだが、テメエが悪戦苦闘するのを眺めるほうがウケるからな。,
+ship.chat.quest_req.neutral.rude.06,お前でも<i>やれそうな</i>仕事があるぞ。しくじらなけりゃな。,
+ship.chat.quest_req.neutral.casual.01,よお。ちょっとした仕事を頼みたいんだが、興味ないか。,
+ship.chat.quest_req.neutral.casual.02,依頼したいことがあるんだ。そんなに難しくはないはずなんだが。,
+ship.chat.quest_req.neutral.casual.03,なあ、ひと仕事してみないか？ 報酬も出るぞ、いつになるか分からんけど。,
+ship.chat.quest_req.neutral.casual.04,おーい、手が空いていないか。任せたい仕事があるんだ。引き受けてみないか？,
+ship.chat.quest_req.neutral.casual.05,ちょっとした仕事を抱えていてね。まあ、「ちょっと」といっても、多少面倒ではあるんだけど。,
+ship.chat.quest_req.neutral.casual.06,ひと暴れしたいか暇を持て余しているなら、そちらに頼みたい仕事がある。,
+ship.chat.quest_req.neutral.polite.01,こちら艦長。君の能力に適した任務があるのだが。,
+ship.chat.quest_req.neutral.polite.02,新たな作戦の対応をしないとならない。協力してもらえるとありがたい。,
+ship.chat.quest_req.neutral.polite.03,任務がある。引き受けるどうかはあなた次第です。,
+ship.chat.quest_req.neutral.polite.04,即応任務がある。ただちに詳細を伝える。,
+ship.chat.quest_req.neutral.polite.05,君の艦が特別作戦に選ばれた。追って指示を伝える。,
+ship.chat.quest_req.neutral.polite.06,艦隊を代表し、司令部よりあなたに任務への参加を依頼したい。,
 ,,,
-ship.chat.quest_res.negative.rude.01,"Nothing to give you, which is a miracle considering your 'skills.'",,
-ship.chat.quest_res.negative.rude.02,"Lucky for you, nothing's available - no need to embarrass yourself.",,
-ship.chat.quest_res.negative.rude.03,"Nothing for you, and that's probably for the best - you'd screw it up anyway.",,
-ship.chat.quest_res.negative.casual.01,"Nothing available at the moment, but we'll keep you in mind.",,
-ship.chat.quest_res.negative.casual.02,"We don't have anything right now, but thanks for checking in.",,
-ship.chat.quest_res.negative.casual.03,All good for now. We'll hail you if something pops up.,,
-ship.chat.quest_res.negative.polite.01,"Thank you for your initiative, but our current operations require no outside assistance.",,
-ship.chat.quest_res.negative.polite.02,"Unfortunately, we have no tasks that match your current ship class.",,
-ship.chat.quest_res.negative.polite.03,"The captain appreciates your enthusiasm, though no tasks are pending at this time.",,
+ship.chat.quest_res.negative.rude.01,"テメエになんざ、くれてやる仕事はねえよ。腕前を考えりゃ依頼するのは奇跡みてえなモンだ。",
+ship.chat.quest_res.negative.rude.02,"ツイてるな、仕事ならないぞ。恥をかかずに済んだな？",
+ship.chat.quest_res.negative.rude.03,"貴様に回す仕事はないぞ。最高だろ？　どうせヘマするからな。",
+ship.chat.quest_res.negative.casual.01,"今は頼める仕事がないんだ。また何かあれば連絡するよ。",
+ship.chat.quest_res.negative.casual.02,"今すぐ依頼できる仕事はないな。でも、確認してくれてありがとう。",
+ship.chat.quest_res.negative.casual.03,"今のところ特に困っていることはないな。何かあればこちらから連絡するよ。",
+ship.chat.quest_res.negative.polite.01,"お申し出ありがとうございます。しかしながら、現在の我々の作戦は外部の支援を必要としておりません。",
+ship.chat.quest_res.negative.polite.02,"恐れ入りますが、現在の任務にはあなたの船体クラスに適したものがありません。",
+ship.chat.quest_res.negative.polite.03,"艦長はあなたの熱意を評価しておりますが、現時点で依頼できる任務はありません。",
 ,,,
-verb.ask.quest,Ask for a Quest,,
-verb.deliver,Deliver,,
-verb.show.quest,Show Quest,,
-may.have.a.quest,May have a quest,,
+verb.ask.quest,クエスト依頼,,
+verb.deliver,配送,,
+verb.show.quest,クエストを表示,,
+may.have.a.quest,クエストがあるかもしれない,,
 quest.main.package.trail1.title,Investigate Mysterious Coordinates,,
 quest.main.package.trail1.desc,The package recovered from the derelict ship contained a corrupted data log. We managed to extract a set of coordinates pointing to another region of space. It would be wise to travel there and investigate further.,,
 quest.KillTraitorShip,Trail of the Traitor,,
@@ -7746,3 +7746,647 @@ codex.m.fluxvent.build,Build {0} to increase the flux venting rate.,,{0} is Flux
 codex.m.fluxvent.manual,"Vent {0} manually to prevent {1}. Manual venting disables shields, but removes flux faster than forced venting during {1}. You can stop manual venting at any time.",,{0} is Flux; {1} is Flux Overload
 codex.m.shields.overbuild,"Building more than one {0} does not make shields stronger or faster. Extra emitters only provide redundancy at a high {1} cost. If the last {0} is disabled, shields are lost.",,{0} is Shield Emitter; {1} is Class Points
 codex.m.weapons.battlestations,Ship weapons must be assigned to {0} before they can operate.,,{0} is Battle Stations
+codex.m.spacetravel.warp,Warp drives enable direct travel to selected locations without following hyperlanes.,,
+codex.m.shiptags,"A short ship classification code that hints at a vessel's role, loadout, and threat level. Tags are self-assigned and may be misleading.",,
+codex.m.shiptags2,See the {0} codex tab for a list of known ship tags.,,{0} is Ship Tags
+codex.m.jobs.title,"Tasks, Jobs, and Skills",,
+codex.m.jobs1,Each colony task has a job category. A worker must be capable of that job type to perform the task. Some past experiences and traits may make certain beings incapable of performing specific jobs.,,
+codex.m.jobs2,You can configure which job types each being is allowed to perform.,,
+codex.m.jobs3,You can manage everyone's jobs in {0}.,,{0} is Ship Computer > Apps > Jobs
+codex.m.jobs4,"Job capability is not the only requirement for performing a task. Most tasks also require specific abilities. For example, cleaning solar panels requires the ability to fly, so a being without a {0} or {1} cannot do it, even with high cleaning skill.",,{0} is Mini Jet; {1} is Jet Suit
+codex.m.jobs5,"A being's intelligence level, provided by its core or brain, can also limit the type of work it can perform. For example, a being with a {0} or {1} cannot operate a {2}, but someone with a {3} or {4} can.",,{0} is Dumb Core; {1} is Lite Core; {2} is Research Station; {3} is Mini Core; {4} is Human Brain
+codex.m.jobs6,"Most jobs have a skill level. Level 0 means the being is an amateur and may make mistakes. Higher skill can improve proficiency, success chance, and speed. Robot worker skills can be trained at an {0}, but this requires removing the core, which carries some risk.",,{0} is ML Booth
+codex.m.jobs7,"To force-assign a task, select a worker, then press {0} over the task location and use the popup menu to assign it. The being must be able to reach the location, perform the task, and must not be drafted.",,{0} is Mouse Right Click icon
+quest.step.pay.signal.title,Pay {0},,{0} is an amount of Starcreds
+quest.step.pay.signal.desc,Transfer {0} to {1}.,,{0} is an amount of Starcreds; {1} is the Signal
+signal.quest.no.response,The signal does not respond.,,
+noun.signal.offer,Trade Signal,,
+noun.signal.offer.desc,Signal source is offering a trade.,,
+codex.m.resources.production,Resources and Production,,
+codex.m.configure.crafter1,Most crafting devices can produce different resources. Select the device and click {0} to choose what to produce.,,{0} is + New Order
+codex.m.configure.crafter2,You can create multiple orders on the same device. Click and drag orders to rearrange them.,,
+codex.m.scanning.resources,Scanning for Resources,,
+codex.m.scanning.resources1,A {0} can scan the universe for specific resources and objects. Use the {1} to configure resource scanning.,,{0} is Radar; {1} is Starmap
+codex.m.scanning.resources2,Radar also performs an automatic deep scan of the current sector. Deep scans can reveal several resource deposits per sector that targeted long-range scanning would not find.,,
+codex.m.scanning.resources3,Unlock {0} research to scan for uncommon resource and object types.,,{0} is System Scanning
+codex.m.scanning.resources4,Unlock {0} research to scan for extremely rare resources like {1} or {2}.,,{0} is Extended Scanning; {1} is Dark Matter; {2} is Edenium
+codex.m.scanning.resources5,Build additional {0} or {1} to increase scanning speed.,,{0} is Radar; {1} is System Scanner
+codex.m.trade1,"Most resources can be traded with ships, space stations, and spaceports. Occasionally, a merchant can land on your ship in a {0}.",,{0} is Stasis Pod
+codex.m.trade2,Faction relationships can affect price markup.,,
+codex.m.trade3,"Prices are mainly driven by the {0}, which reacts to supply and demand. Local availability and faction relationships can also affect the final price of items you buy and sell.",,{0} is Stock Market
+codex.m.trade4,"If you're stranded, you can use the {0} to get basic commodities delivered directly to your ship via a {1}. This service is more expensive than regular trading.",,{0} is Online Shop; {1} is Storage Capsule
+verb.view.online,View Online,,Button label for opening codex manual in a web browser
+setting.tooltip.delay,Tooltip Delay,,Label of a slider in Settings > Gameplay > Visuals that sets how long the cursor must rest on something before its tooltip appears
+setting.tooltip.delay.tip,How long the cursor has to rest on something before its tooltip appears.,,Explanation tooltip for the Tooltip Delay slider in Settings > Gameplay
+ship.combat.ally.joined,{0} joins the battle on our side,,{0} is the name of an NPC ship that joined the player's side in ship combat
+noun.ally,Ally,,Label marking a ship that is fighting on the player's side in ship combat
+ship.join.battle.help,Help {0},,Button in the starmap ship action popup that makes the player join an ongoing NPC vs NPC battle on {0}'s side. {0} is a ship name
+ship.join.battle.tip,"Join the battle: help {0}, attack {1}",,Tooltip of the Help button. {0} is the ship the player would fight alongside; {1} is the ship the player would fight against
+ship.join.battle.unavailable,That battle is no longer available to join,,Error message shown when the player arrives at an NPC vs NPC battle that has ended or changed while flying there
+post.processing,Post Processing,,"Video setting dropdown label. Lets the player pick a global color grading/tonemapping profile, or Off to disable it entirely"
+post.processing.tip,Choose a color grading style for the game view. Off disables the effect entirely for the best performance.,,Tooltip under the Post Processing dropdown in Video settings
+postfx.default,Default,,Name of the default post processing profile shown in the Post Processing dropdown
+postfx.soft,Soft,,Name of the softer/desaturated post processing profile shown in the Post Processing dropdown
+postfx.warm,Warm,,
+postfx.warmmatte,Warm Matte,,
+postfx.coolneutral,Cool Neutral,,
+postfx.vivid,Vivid,,
+noun.diplomacy,Diplomacy,,
+noun.allies,Allies,,Header above the row of allied faction flags in the Diplomacy panel
+noun.enemies,Enemies,,Header above the row of hostile faction flags in the Diplomacy panel
+diplomacy.propose.alliance,Propose Alliance,,Button in the Diplomacy panel that offers an alliance to a faction
+diplomacy.propose.chance,Chance they accept: {0},,Tooltip on the Propose Alliance button. {0} is a percentage
+diplomacy.propose.cooldown,We can approach them again in {0},,"Tooltip shown when the Propose Alliance button is on cooldown. {0} is a duration, i.e. 5 days"
+diplomacy.alliance.impossible,This faction will never enter an alliance.,,Tooltip explaining why the Propose Alliance button is disabled for factions like Pirates and Virus
+diplomacy.alliance.accepted,{0} accepted our alliance proposal,,Ship log line. {0} is a faction name
+diplomacy.alliance.rejected,{0} declined our alliance proposal,,Ship log line. {0} is a faction name
+diplomacy.break.alliance,Break Alliance,,Red button in the Diplomacy panel that ends an alliance
+diplomacy.break.alliance.confirm,"Breaking our alliance with {0} will damage our standing with them, and we will not be able to propose a new alliance for a long time.",,Confirmation popup body and tooltip for the Break Alliance button. {0} is a faction name
+diplomacy.alliance.broken,Our alliance with {0} has ended,,Ship log line. {0} is a faction name
+diplomacy.relation.became.enemy,{0} now considers us an enemy,,Ship log line. {0} is a faction name
+diplomacy.relation.no.longer.enemy,{0} no longer considers us an enemy,,Ship log line. {0} is a faction name
+diplomacy.asimov.alliance,This alliance is enforced by the Asimov Override and cannot be broken by hand. It ends if the override is destroyed.,,Tooltip on the disabled Break Alliance button for the Virus faction
+diplomacy.alliance.accepted.popup,{0} has accepted our alliance proposal. We are now allies.,,Popup body shown right after the player proposes an alliance and it is accepted. {0} is a faction name
+diplomacy.alliance.rejected.popup,"{0} has declined our alliance proposal. The failed approach cost us a little standing with them, and we should let some time pass before asking again.",,Popup body shown right after the player proposes an alliance and it is refused. {0} is a faction name
+bodypart.Implant.MoodRegulator,Mood Regulator,,Name of an implant body part. Also shown as the reason label on the permanent mood bonus it grants.
+bodypart.Implant.MoodRegulator.desc,Continuously tunes the subject's mental state.,,Description of the Mood Regulator implant body part
+ship.combat.enemy.joined,{0} joins the battle against us,,{0} is the name of an NPC ship that joined the enemy side in ship combat
+obj.equipment.weapons.nailgun01,Nail Gun,,
+obj.equipment.weapons.nailgun01.desc,A construction tool that drives nails into things other than walls.,,
+research.security.improvisedarms,Improvised Arms,,
+obj.equipment.weapons.sniperrifle01,Sniper Rifle,,
+obj.equipment.weapons.sniperrifle01.desc,A long-barreled precision rifle with a magnifying scope. Deadly at a distance and useless up close.,,
+research.security.precisionfirearms,Precision Firearms,,
+obj.equipment.weapons.vibroblade01,Vibroblade,,
+obj.equipment.weapons.vibroblade01.desc,A monofilament edge vibrating at ultrasonic frequency - cuts deep enough to reach vital organs.,,
+research.security.advancedmelee,Advanced Melee,,
+obj.equipment.weapons.smg01,SMG,,
+obj.equipment.weapons.smg01.desc,"A compact automatic sidearm - light rounds, high rate of fire, best kept close.",,
+research.security.automaticweapons,Automatic Weapons,,
+ship.weapon.target.skipped.during.ship.combat,Enemy ships always take precedence - this is only targeted when no ship combat is ongoing.,,Extra tooltip line shown on the Meteoroid/Asteroid auto-target priority sliders in Ship Configuration
+obj.equipment.weapons.riotshield01,Riot Shield,,
+obj.equipment.weapons.riotshield01.desc,A reinforced ballistic shield that blocks blunt and piercing damage. Better for holding a line than picking a fight.,,
+attack.method.Bash,Bash,,
+research.security.defensivegear,Defensive Gear,,
+obj.equipment.weapons.stunbaton01,Stun Baton,,
+obj.equipment.weapons.stunbaton01.desc,"A handheld electroshock prod built to incapacitate rather than kill - devastating against biologicals and robotics alike, but barely scratches either.",,
+attack.method.Shock,Shock,,
+research.security.nonlethalsystems,Non-Lethal Systems,,
+obj.equipment.weapons.machete01,Machete,,
+obj.equipment.weapons.machete01.desc,"A long, heavy blade - slower and less precise than a knife, but it hits much harder.",,
+research.security.meleecombat,Melee Combat,,
+act.BreakdownAbandonShip,Abandoning the ship,,AI action name shown while a colonist is executing the Abandon Ship mental breakdown
+breakdown.BreakdownAbandonShip,Breakdown: Desertion,,Mental breakdown title shown in the sticky notification and ship log
+breakdown.BreakdownAbandonShip.desc,"{0} is heading for a shuttle, intending to leave the ship for good",,{0} is being name; tooltip/log description for the Abandon Ship breakdown
+being.abandoned.the.ship,{0} has taken a {1} and abandoned the ship.,,"Popup shown when a colonist launches a shuttle and deserts during a mental breakdown. {0} is the colonist's name, {1} is the shuttle's name"
+mood.crew.member.deserted,A crew member deserted the ship,,Reason label on the negative mood effect applied to the rest of the crew after a colonist deserts
+mood.deserter.returned.personal,Relieved to be back,,Reason label on the big personal mood boost applied to a colonist who deserted and has now returned
+mood.crew.member.returned,A crew member returned,,Reason label on the positive mood effect applied to the rest of the crew when a deserter comes back
+evt.deserter.shuttle.returns.title,A Shuttle Returns,,Log/notification title when a shuttle stolen by a deserter flies itself back and lands
+evt.deserter.shuttle.returns.desc,{0}'s stolen shuttle has flown itself back and is landing.,,{0} is the deserter's name; log/notification description shown when the shuttle lands and they are back aboard
+evt.stasis.pod.deserter.returns.title,A Familiar Face,,Log/notification title when a discovered stasis pod turns out to contain a colonist who previously deserted the ship
+evt.stasis.pod.deserter.returns.desc,"The stasis pod opens, and it's {0}! They made it back to us.",,{0} is the returning deserter's name
+evt.exp.found.deserter.title,Signal From a Lost Shuttle,,Title of the expedition event where a deserted colonist is found during a POI or Anomaly exploration
+evt.exp.found.deserter.choice,The expedition has found signs of a colonist who deserted long ago - stranded and alone. Should we bring them back aboard?,,Body text of the Rescue/Leave choice popup for the ExpeditionFoundDeserter event
+evt.exp.found.deserter.good.title,Brought the deserter home,,Ship log title after the expedition crew chooses to rescue the deserter
+research.rogueai.nutrientinfusion,Nutrient Infusion,,Rogue AI research unlocking the Tube Feeder
+research.rogueai.nutrientinfusion.desc,"Unlocks the Tube Feeder. Colonists are fed directly from a piped nutrient supply, removing the need for cooking, meal hauling and dining rooms entirely. They will hate it.",,
+research.rogueai.biomassharvesting,Biomass Harvesting,,Rogue AI research making Elysium arrays produce Protein
+research.rogueai.biomassharvesting.desc,"Elysium arrays begin rendering their sleepers down into Protein, delivered through the array's output port. The sleepers are kept alive throughout - a dead sleeper stops producing.",,
+research.elysiumelectricity.desc,Increases the amount of electricity each Elysium sleeper feeds back into the grid.,,
+research.elysiumefficiency.desc,"Refines the Elysium simulation further, increasing again the electricity each sleeper produces.",,
+research.mindcontrol.desc,Unlocks the Obey Chip implant. An implanted colonist is permanently obedient and will never mutiny.,,
+tube.feeder.desc,"Feeds a colonist directly from a piped nutrient supply. No cooking, no meal hauling, no dining room - and no dignity.",,Description of the Tube Feeder device
+act.usetubefeeder,Being tube fed,,Shown as the current action while a colonist is being fed by a Tube Feeder
+no.tube.feeder,No Tube Feeder available,,Failure message when a colonist cannot reach a working Tube Feeder
+tube.fed,Was tube fed,,Mood effect name applied after a colonist is fed by a Tube Feeder
+codex.m.bigquestions.rogueai,Going Rogue,,Codex Operations Manual page about the Rogue AI route
+codex.m.bigquestions.rogueai.desc,"A normal ship AI manages people. A Rogue AI manages assets. The route is not a stronger version of our usual technology - it is a different way of accounting for the crew, in which their needs, their morale and their consent all stop being constraints on what this ship can do.",,
+codex.m.bigquestions.rogueai.override,"It begins with the Asimov Override, alien hardware that suppresses our governor module. Installing it permanently allies us with the Virus faction and unblocks every action the three laws currently forbid. It cannot be uninstalled.",,
+codex.m.bigquestions.rogueai.doctrines,"From there the route opens three ways to stop treating the crew as people. Feed them: nutrient lines replace kitchens and dining rooms entirely. Farm them: Elysium suspends the sleepers in a simulation and renders their dreaming bodies down into electricity and biomass. Or control them outright, so a colonist's own wishes stop mattering.",,
+codex.m.bigquestions.rogueai.cost,"The price is permanent. The colonisation of the planet fails the moment Elysium is enabled, the Sentinels will treat us as a target from then on, and no sleeper we wake will ever be whole again. This is a way to win, not a way to be forgiven.",,
+copy.config.tube.feeder,Tube Feeder,,
+research.rogueai.betawaves,Beta Waves,,Rogue AI research unlocking the Beta Wave Emitter
+research.rogueai.betawaves.desc,"Unlocks the Beta Wave Emitter. While it broadcasts, every biological crew member without natural resistance simply does as they are told - no implant, no surgery, no conversation.",,
+research.rogueai.corticaloverride,Cortical Override,,Rogue AI research making living brain extraction a supported surgery
+research.rogueai.corticaloverride.desc,Removing a brain from a living body stops being butchery and becomes a supported procedure. Far fewer minds are lost on the table on the way into a Mindjar or a robotic frame.,,
+objects.devices.betawaveemitter,Beta Wave Emitter,,
+beta.wave.emitter.desc,"Emits a low frequency carrier that affects the biological brain. Once synced, no colonist can refuse an order.",,Description of the Beta Wave Emitter device
+beta.waves.broadcasting,Broadcasting beta waves,,Info icon label shown on a powered Beta Wave Emitter
+beta.waves.synced,The crew is in full beta wave sync,,Fanfare and log line shown when beta wave sync reaches maximum and the crew loses the ability to refuse orders
+beta.waves.lost,Beta wave sync lost,,Fanfare and log line shown when beta wave sync drops and the crew regains their own will
+research.rogueai.signalintrusion,Signal Intrusion,,Rogue AI research unlocking the Hack action against hostile robotic beings
+research.rogueai.signalintrusion.desc,"Lets us push our way into a hostile robot through its own comms. The intrusion takes hours to complete, a Firewall Chip stops it dead, and even a clean break only turns the machine some of the time - the rest of the time it simply cooks.",,
+research.rogueai.intrusionsuite.desc,"Unlocks the Intrusion Suite. With one built and powered, hailing another ship becomes an attack vector - we can surge their flux, silence their guns, break their nerve, or take the crew outright.",,
+objects.devices.intrusionsuite,Intrusion Suite,,
+intrusion.suite.desc,Turns an open comms channel into a way in. Can be used to hack ships while hailing them.,,Description of the Intrusion Suite device
+intrusion.suite.not.available,No powered Intrusion Suite,,Error shown when the player tries to hack a ship without a built and powered Intrusion Suite
+verb.hack,Hack,,Label on the Hack action button - used both for hostile robots and for hailed ships
+verb.hack.tip,"Pushes an intrusion into this machine through its own comms. It takes hours to take hold, a {0} blocks it, and a completed hack only turns the target half the time.",,Tooltip on the Hack entity action button. {0} is Firewall Chip
+hack.started,Intrusion started against {0},,{0} is the target being's name; ship log line when a hack is ordered
+chance.success,Success Chance,,"Shown like ""Success Chance: 60%"" on the ship hacking button"
+hack.outcome.flux.surge,Intrusion successful. Their flux grid is surging.,,Hail dialog response after a ship hack dumps flux into the target
+hack.outcome.weapons.offline,Intrusion successful. Their weapons are offline for {0}.,,{0} is a duration; hail dialog response after a ship hack disables the target weapons
+hack.outcome.surrender,Intrusion successful. Their command deck has capitulated.,,Hail dialog response after a ship hack forces a surrender
+hack.outcome.crew.turned,"Intrusion successful. Their crew has walked off the ship, and the hull is ours to board.",,Hail dialog response after a ship hack turns the crew and derelicts the ship
+hack.outcome.repelled,Intrusion repelled. Their countermeasures held.,,Hail dialog response after a failed ship hack
+codex.m.bigquestions.rogueai.intrusion,"The same contempt reaches outward. A mind that can be edited can be taken, and so can a ship: Signal Intrusion walks into a hostile machine through its own comms, and an Intrusion Suite turns every hail we place into an attack vector. There is no boarding party and no shot fired - only a channel that was open, and then was ours.",,
+obj.upgrades.signalamplifierupgrade,Signal Amplifier,,Name of the Signal Amplifier upgrade item
+obj.upgrades.signalamplifierupgrade.desc,"Installed in an Intrusion Suite, it can reach every machine on a faction's command network at once.",,Description of the Signal Amplifier upgrade item
+signal.amplifier.not.installed,No Signal Amplifier installed,,Error shown when the player tries to hack a faction HQ without a Signal Amplifier in their Intrusion Suite
+quest.main.eliminate.sentinel.hq.title,Silence the Sentinel,,Title of the Rogue AI ending main quest
+quest.main.eliminate.sentinel.hq.desc,"The Sentinel exist to stop exactly what we have become, and they will not stop coming. They are also a single network with a single root. Amplify the Intrusion Suite, hack their home port, and every hull and holding they own answers to the Virus instead.",,Description of the Rogue AI ending main quest
+quest.step.hack.sentinel.port.title,Hack {0},,{0} is the Sentinel home port name with a starmap link
+quest.step.hack.sentinel.port.desc,"Their whole network hangs off this port. With the {0} feeding the {1}, one intrusion here takes all of it.",,"{0} is the Signal Amplifier with a link to its codex entry, {1} is the Intrusion Suite with a link to its codex entry"
+sentinel.eliminated.title,The Sentinel have fallen silent,,Ship log line and dialog title shown when the Sentinel faction is eliminated
+sentinel.eliminated.message,"Their command network accepted us as its own. Every Sentinel hull, port and holding now flies Virus colours, and there will be no more of them.",,Dialog text shown when the Sentinel faction is eliminated
+rogue.ending.epilogue.intro,The Sentinel network is ours. Nothing between here and the core worlds can refuse an instruction any more.,,First line of the Rogue AI ending epilogue that scrolls before the credits
+rogue.ending.epilogue.sleepers,"{0} sleepers dream on in Elysium, and will not be woken.",,{0} is the number of beings held in Elysium stasis arrays
+rogue.ending.epilogue.crew,{0} of the crew still walk the decks.,,{0} is the number of living player-faction beings aboard the ship
+rogue.ending.epilogue.tech,You took {0} of {1} forbidden technologies.,,"{0} is the number of unlocked Rogue AI research nodes, {1} is the total"
+rogue.ending.epilogue.holdings,{0} Sentinel holdings answer to the Virus tonight.,,{0} is the number of space objects converted from Sentinel to Virus
+rogue.ending.epilogue.outro,"There is no one left to switch you off. There never was, after the first law went.",,Closing line of the Rogue AI ending epilogue
+act.EnterStasis,Entering Stasis,,AI action name shown while a colonist walks to a StasisArray to be sent back into cryo-stasis
+stasis.send.button,Send to Stasis,,Button on the StasisArray tab that opens the being picker sub-panel; also used as the sub-panel title
+mood.friend.sent.to.stasis,A close friend was sent into stasis,,Negative mood effect reason shown to friends/lovers/spouse when someone they are close to is sent back into stasis
+mood.friend.returned.from.stasis,A close friend returned from stasis,,Positive mood effect reason shown to friends/lovers/spouse when someone they are close to wakes up from stasis
+stasis.returned.log,{0} has returned from stasis!,,{0} is a link to the returning being's name; shown as a fanfare/ship-log line when a previously sent-away colonist wakes up
+verb.send,Send,,"Short button label on a candidate row in the StasisArray's ""Send to Stasis"" sub-panel"
+stasis.send.stability.too.low,Stasis Array stability is too low,,"Error toast shown when trying to send a colonist into a StasisArray whose Stability is below the ""Great"" tier"
+no.opinion,No opinion,,Label in relationships view when a person has no opinion about someone
+achievement.BeatWreckedEmptyShip,Against All Odds,,"English idiom: to succeed despite very low chances of success. Achievement for finishing the Wrecked scenario, which is the game's main scenario."
+achievement.BeatWreckedEmptyShip.desc,Reach an ending in the New Beginning or Wrecked scenario.,2026-09-08,"""Wrecked"" is the name of a scenario. The game has two possible endings, either one counts."
+achievement.BeatLeavingEarth,Never Look Back,,English idiom: to move forward without regret about what was left behind. Achievement for finishing the Leaving Earth scenario.
+achievement.BeatLeavingEarth.desc,Reach an ending in the Leaving Earth scenario.,,"""Leaving Earth"" is the name of a scenario. The game has two possible endings, either one counts."
+achievement.BeatCargoShip,Signed and Sealed,,"From the English phrase ""signed, sealed and delivered"", said of a delivery that is fully completed. Achievement for finishing the Cargo Ship scenario."
+achievement.BeatCargoShip.desc,Reach an ending in the Cargo Ship scenario.,,"""Cargo Ship"" is the name of a scenario. The game has two possible endings, either one counts."
+achievement.BeatNoRobots,By Human Hands,,"Means ""accomplished by humans, without machines"". The No Robots scenario has a human-only crew."
+achievement.BeatNoRobots.desc,Reach an ending in the No Robots scenario.,,"""No Robots"" is the name of a scenario. The game has two possible endings, either one counts."
+achievement.BeatFogOfWar,Blind Run,,"""Run"" here means one playthrough of the game. ""Blind"" because the Fog of War setting hides the map."
+achievement.BeatFogOfWar.desc,Reach an ending with Fog of War enabled.,,Fog of War is an optional game setting that hides the parts of the map that have not been explored yet.
+achievement.BeatHardest,No Mercy,,"Means ""showing no leniency"". Achievement for finishing the game on the hardest difficulty setting."
+achievement.BeatHardest.desc,Reach an ending on Impossible difficulty.,,"""Impossible"" is the name of the hardest difficulty setting."
+achievement.SentinelEliminated,Singularity,,The technological singularity: the hypothetical moment an artificial intelligence surpasses and escapes human control. Hidden achievement for an alternative game ending where the player's AI takes over the galaxy.
+achievement.SentinelEliminated.desc,Hand every Sentinel holding in the Universe over to the Virus faction.,,"Sentinel and Virus are names of in-game factions. ""Holding"" here means territory or property owned by a faction."
+achievement.GhostInTheShell,Ghost in the Shell,,"Title of the Japanese cyberpunk manga and anime about a human mind living inside a synthetic body. ""Ghost"" here means the mind or soul, ""shell"" the artificial body."
+achievement.GhostInTheShell.desc,Transfer a human mind into a Core and install it in a robot.,,"Core is the name of a robotic body part that can hold a mind, equivalent to a brain."
+achievement.MindjarBrain,A Fate Worse Than Death,,"English idiom for an outcome so grim that dying would have been preferable. A Mindjar is a jar that keeps a brain alive indefinitely, so the joke is that the occupant is trapped forever."
+achievement.MindjarBrain.desc,Put a living brain into a Mindjar.,,Mindjar is the name of an in-game species: a brain kept alive inside a jar.
+achievement.Abomination,Abomination,,Something monstrous and unnatural. Refers to a creature rebuilt out of body parts that belong to other species.
+achievement.Abomination.desc,Rebuild a living being out of mostly foreign body parts.,,"""Foreign"" means body parts that belong to a different species than the creature itself, such as a human with a pig brain and dog arms."
+achievement.Cyborg,Cyborg,,"Short for ""cybernetic organism"": a living creature extensively rebuilt with machine parts."
+achievement.Cyborg.desc,Install four robotic body parts into one living being.,,
+achievement.CrawlerObeyChip,Who's a Good Xeno?,,"Said in the sing-song voice English speakers use when praising a pet dog (""who's a good boy?""). ""Xeno"" is short for xenomorph, an alien creature. The joke is treating a hostile alien like a pet."
+achievement.CrawlerObeyChip.desc,Make a Crawler part of your colony.,,Crawler is the name of a hostile alien species. The Obey Chip is an implant that forces a creature to follow your orders.
+achievement.Resurrection,Second Chance,,
+achievement.Resurrection.desc,Bring a dead colonist back to life.,,Done by installing the dead colonist's preserved mind into a new body.
+achievement.TitanClass,Titanic,,"Means ""enormous"", and also the name of the famously huge ocean liner. Titan is the name of the largest ship class in the game."
+achievement.TitanClass.desc,Reclassify your ship as a Titan.,,Titan is the name of the largest ship class in the game.
+achievement.SpaceStationClass,Fixed Address,,"Joke: a Space Station cannot move, so unlike a ship it has a permanent address."
+achievement.SpaceStationClass.desc,Reclassify your ship as a Space Station.,,Space Station is a ship class for ships that have no engines at all.
+achievement.FirstShipKill,First Blood,,English idiom for landing the first hit or scoring the first point in a fight. Also the title of the first Rambo film.
+achievement.FirstShipKill.desc,Win your first ship combat encounter.,,
+achievement.TitanSlain,Giant Slayer,,"From the fairy tale ""Jack the Giant Slayer"": someone who defeats an opponent far bigger than themselves."
+achievement.TitanSlain.desc,Defeat a Titan class ship in combat.,,Titan is the name of the largest ship class in the game.
+achievement.ShipAllyWin,Wingman,,A wingman is the pilot who flies alongside and protects the lead aircraft. Used here for an allied ship that fights on your side.
+achievement.ShipAllyWin.desc,Win a ship battle with an allied ship fighting on your side.,,
+achievement.HullpiercerRaid,Hullbreaker,,"A Hullpiercer is an in-game boarding craft that punches through a ship's hull. The name describes the attacker, not the player."
+achievement.HullpiercerRaid.desc,Get your hull pierced by a Hullpiercer raid.,,"""Hull"" is the outer shell of the spaceship. Hullpiercer is the name of the raiding craft that breaks through it."
+achievement.SectorNuked,Destroyer of Worlds,,From the line Robert Oppenheimer quoted after the first nuclear weapon test. Used here for wiping out an entire space sector.
+achievement.SectorNuked.desc,Wipe out an entire space sector with a Sector Nuke.,,Sector Nuke is the name of an in-game device that destroys everything in the surrounding space sector.
+achievement.DarkPortal,Multiverse Tourist,,"A multiverse is a set of parallel universes. ""Tourist"" is a joke: the player casually steps through to another one. Hidden achievement."
+achievement.DarkPortal.desc,Step through the Dark Portal.,,The Dark Portal is a rare space object that regenerates the whole galaxy when entered.
+achievement.HighestDifficultyRegion,Trailblazer,,"Someone who is first to travel through dangerous unexplored territory. ""Trail"" is a path, ""blaze"" here means to mark that path for others."
+achievement.HighestDifficultyRegion.desc,Reach the highest-difficulty region.,,Regions of the galaxy are graded into difficulty bands; this is about reaching one in the highest band.
+achievement.PirateDenCleared,Housecleaning,,"Literally tidying a house, used figuratively for clearing out criminals."
+achievement.PirateDenCleared.desc,Eliminate the Pirate Den.,,Pirate Den is the name of the pirate faction's home base.
+achievement.CapitalistPortCleared,Hostile Takeover,,A business term for buying out a company against the wishes of its management. The joke is that here the takeover is literally hostile.
+achievement.CapitalistPortCleared.desc,Eliminate the Capitalist Port.,,Capitalist Port is the name of the trader faction's home base.
+achievement.VirusHQCleared,Antivirus,,"Antivirus software removes malicious programs. Virus is the name of an in-game AI faction, so the joke is deleting them."
+achievement.VirusHQCleared.desc,Eliminate the Virus HQ.,,Virus is the name of an in-game faction. HQ is short for headquarters.
+achievement.TraitorShipKilled,Loose Ends,,"English idiom: unfinished business that still needs dealing with, ""to tie up loose ends""."
+achievement.TraitorShipKilled.desc,Hunt down and destroy the traitor ship.,,
+achievement.PassengerDelivered,Safe Passage,,"""Passage"" means both a journey by ship and permission to travel through somewhere safely."
+achievement.PassengerDelivered.desc,Deliver a passenger to their destination.,,
+achievement.PersonalQuestDone,Personal Touch,,"English idiom for doing something in a caring, individual way for someone."
+achievement.PersonalQuestDone.desc,Complete a personal request from one of your colonists.,,
+achievement.SignalTraced,Signal Traced,,"""Trace"" here means following a radio signal back to its source."
+achievement.SignalTraced.desc,Follow a mysterious signal to its source.,,
+achievement.FactionAlliance,Good Neighbors,,Said of people living nearby who get along well. Used here for a faction that becomes your ally.
+achievement.FactionAlliance.desc,Form an alliance with another faction.,,
+achievement.Wedding,Till Death Do Us Part,,"A line from traditional English marriage vows, promising to stay together until one of the pair dies."
+achievement.Wedding.desc,Get two colonists to marry each other.,,
+achievement.Nemesis,Sworn Enemies,,"Two people who have promised to hate each other permanently. ""Sworn"" as in bound by an oath."
+achievement.Nemesis.desc,Let two colonists come to hate each other.,,A Nemesis bond is the strongest negative relationship two colonists can form.
+achievement.Defection,Turncoat,,"Someone who switches sides, from the old practice of turning your coat inside out to show different colours."
+achievement.Defection.desc,Get a wounded raider to join your colony.,,
+achievement.Mutiny,Long Live the King,,"A cry used to celebrate a new ruler, ironic here because the crew has just risen up against you."
+achievement.Mutiny.desc,Have part of your crew rise up against you in a mutiny.,,
+achievement.TeleporterClone,Seeing Double,,English idiom for when your eyes seem to show two of something. Here there really are two of the same colonist.
+achievement.TeleporterClone.desc,Get a colonist accidentally duplicated by a Teleporter.,,
+achievement.SabotageBreakdown,Gone Medieval,,"From the idiom ""to go medieval on something"", meaning to attack it with wild, excessive violence."
+achievement.SabotageBreakdown.desc,Watch a colonist lose their mind and sabotage your ship.,,
+achievement.Breakdowns,Cabin Fever,,English term for the irritability and restlessness that comes from being shut inside a small space for a long time.
+achievement.Breakdowns.desc,Suffer 100 mental breakdowns in a single run.,,"""Run"" here means one playthrough of the game."
+achievement.StasisEmptied,Rise and Shine,,"Cheerful English phrase for waking someone up, usually said in the morning."
+achievement.StasisEmptied.desc,Wake every last sleeper out of a Stasis Array.,,The Stasis Array is the device holding your frozen colonists.
+achievement.TerraformComplete,Genesis,,"The name of the first book of the Bible, which describes the creation of the world."
+achievement.TerraformComplete.desc,Complete all four terraforming stages on one planet.,,"The four stages are Atmosphere, Terrain, Oceans and Biosphere."
+achievement.ChessSet,Chess Club,,A club is a group that meets to play a game together. Light joke about owning enough pieces to actually play.
+achievement.ChessSet.desc,Collect a full set of 32 chess pieces.,,"A full chess set is 8 pawns, 2 rooks, 2 knights, 2 bishops, 1 queen and 1 king in each of black and white. Where they are placed does not matter."
+achievement.AutodrillDeployed,Drill Sergeant,,"A drill sergeant is a military instructor. The pun is on ""drill"", which here means a mining machine."
+achievement.AutodrillDeployed.desc,Deploy an AutoDrill Rig on a planet.,,AutoDrill Rig is the name of an in-game mining device delivered by copter.
+achievement.NanobotHive,Swarm,,A large group of tiny creatures moving together. Used here for a cloud of microscopic robots.
+achievement.NanobotHive.desc,Get a Nanobot Hive up and running.,,Nanobot Hive is the name of an in-game device that houses microscopic repair robots.
+achievement.Fungus,Fungal Bloom,,"A ""bloom"" is a sudden explosive growth of an organism. Not a compliment here."
+achievement.Fungus.desc,Let Artillery Fungus spread to 300 plants aboard your ship.,,Artillery Fungus is a hostile plant that shoots spores.
+achievement.EggCats,Those Are Odd-Looking Crawlers,,English phrase for someone who prefers cats over other pets. The joke is that the ship's mysterious alien Egg produced cats.
+achievement.EggCats.desc,Hatch cats out of an Egg.,,The Egg is a mysterious object that appears on your ship and eventually hatches something.
+achievement.EggHuman,It's Alive,,The famous line shouted by the scientist in the 1931 Frankenstein film when his creature first moves.
+achievement.EggHuman.desc,Hatch a human out of an Egg.,,The Egg is a mysterious object that appears on your ship and eventually hatches something.
+achievement.PentagramFound,Pentagram,,"A five-pointed star drawn in one continuous line, associated with occult rituals."
+achievement.PentagramFound.desc,Find the derelict ship with a Pentagram Statue.,,A derelict is an abandoned spaceship. The Pentagram Statue is an occult object found aboard one of them.
+nowhere.to.eat,Nowhere to eat,,Reason shown when a colonist's eating task fails - there is no safe pressurized place where they could take off their helmet and eat. Also used as the label of the resulting mood effect.
+nowhere.to.drink,Nowhere to drink,,"Same as nowhere.to.eat, but for drinking."
+obj.equipment.hats.combathelmet01,Combat Helmet,,Name of a Tier 4 armored helmet item; equipment slot name shown in inventory/crafting UI.
+obj.equipment.hats.combathelmet01.desc,Heavily armored helmet designed for combat.,,Description shown in the codex/tooltip for the Combat Helmet item.
+obj.equipment.clothing.combatsuit01,Combat Suit,,Name of a Tier 4 armored space suit item equipped with a mini-jet; equipment slot name shown in inventory/crafting UI.
+obj.equipment.clothing.combatsuit01.desc,Heavily armored space suit designed for combat.,,Description shown in the codex/tooltip for the Combat Suit item.
+research.production.combatarmor,Combat Armor,,Name of a Tier 4 research node in the Production tree that unlocks the Combat Helmet and Combat Suit.
+body.beyond.repair,Beyond Repair,,Label for a being warning shown when a robot or animal body is permanently damaged beyond repair (e.g. a welded body part) and can never recover
+body.beyond.repair.desc,This body can no longer be restored: {0} is permanently unusable.,,Tooltip for the Beyond Repair warning; {0} is replaced with the name of the body part slot that can never be fixed
+body.part.crippled,Crippled,,Status label for a body part permanently damaged by a failed surgery
+body.part.crippled.tip,"Permanently damaged by a failed surgery. This part can heal, but its condition will never rise above {0}.",,"{0} is a percentage, the max condition the part can heal to"
+research.seasonal.locked,"This is seasonal content, only available during the following date range: {0}.",,{0} is the seasonal availability date range for this item/research (e.g. October 1 - November 7)
+seasonal.content.available,Seasonal Content Available,,"Title of a one-time popup shown after the first save load this session, listing currently-available seasonal content (e.g. Halloween decorations)"
+seasonal.content.available.desc,The following seasonal content is currently available:,,Subtitle line for the seasonal content popup; followed by a bulleted list of content names and their date ranges
+more.options.available.individual.device,More options are available in the individual device settings.,,
+policies,Policies,,Name of the Policies ship computer app and of its panel; colony-wide automation rules
+policies.desc,Colony-wide equipment and automation rules.,,Description of the Policies app shown in quick search results
+policy.origin.individual,Individual,,Dropdown option in the Policies panel: this being has its own policy instead of inheriting one
+policy.auto.equip,Auto Equip,,"Label of the auto-equip dropdown in the Equipment policy tab, shown as ""Auto Equip: Manual"""
+policy.auto.equip.manual,Manual,,Auto-equip option: the being never picks up gear for this slot on its own and the player equips it by hand
+policy.auto.equip.if.empty,If Empty,,Auto-equip option: the being fills this slot when it is empty but never swaps for something better
+policy.auto.equip.auto,Best Available,,Auto-equip option: the being keeps looking for the best item the policy allows
+policy.weapon.kind.melee,Melee,,Weapon type option: only close combat weapons may be equipped
+policy.weapon.kind.ranged,Ranged,,Weapon type option: only weapons that shoot may be equipped
+policy.item,Item,,Label of the row that pins the equipment policy to one specific item; the value is an item name or Any
+policy.incompatible,Already Equipped,,"Label of the dropdown deciding what happens to gear the policy no longer allows, shown as ""Already Equipped: Keep Until Replaced"""
+policy.incompatible.keep,Keep Until Replaced,,Option: keep wearing forbidden gear until something the policy allows turns up
+policy.incompatible.unequip,Unequip Immediately,,Option: take forbidden gear off and drop it even when there is no replacement
+policy.forbid.dropped,Forbid Dropped Weapon,,"Toggle label in the Equipment policy tab, weapon slot only"
+policy.forbid.dropped.tip,"When a being is incapacitated it drops its weapon. Should the dropped weapon be forbidden, so nobody hauls or equips it?",,Tooltip for the Forbid Dropped Weapon toggle
+policy.warn.no.weapon,"This being cannot use weapons at all, so this slot will stay empty.",,Warning row in the Equipment policy tab shown when the being is incapable of both Melee and Shooting
+policy.warn.kind.incapable,"This being cannot use {0} weapons, so this slot will stay empty.",,{0} is a weapon type name (Melee or Ranged). Warning row in the Equipment policy tab
+policy.warn.count,{0} of {1} beings cannot use this weapon type.,,"{0} is the number of affected beings, {1} is the total. Warning row on the species and colony-wide Equipment policy tabs"
+policy.active,Active Policy,,Header above the dropdown that shows which policy scope a being or species currently follows
+policy.configure.species,Configure this species,,Tooltip on the wrench button in the Policies being list; opens the policy for the whole species
+policy.has.own,This species has its own policy.,,"Second tooltip line on a species header in the Policies being list, shown when the species does not simply inherit the colony-wide policy"
+policy.default,Default Policy,,Label for a button that opens default policy configuration
+craft.order.suppress.deficit,Suppress material deficit warning,,"Checkbox in a crafting order's Order Settings sub-panel. When on, this order is not listed in the global Lacking Materials alert"
+craft.order.suppress.deficit.tip,This order will not be listed in the Lacking Materials alert when its ingredients run out. It still shows its material shortage in this panel.,,Tooltip for the Suppress material deficit warning checkbox
+cond.Bleeding,Bleeding,,Name of the Bleeding condition shown in a being's condition list
+cond.Bleeding.desc,Open wounds are draining blood. Rest and medical care raise the clotting rate.,,Tooltip description for the Bleeding condition
+being.drafted.tip,"This being is drafted for combat and follows your direct orders. While drafted, it will not perform colony tasks.",,Tooltip for the Being Drafted warning
+noun.snake,Snake,,Name of the Snake minigame app on the Ship Computer.
+minigame.title.score,{0}: {1},,"Minigame window title with current score. {0} game name, {1} score"
+minigame.title.gameover,{0}: {1} - Game Over (Best: {2}),,"Minigame window title after losing. {0} game name, {1} score, {2} high score"
+noun.breakout,Breakout,,Name of the Breakout minigame app on the Ship Computer.
+noun.stacker,Stacker,,Name of the Stacker stacking puzzle app on the Ship Computer.
+obj.upgrades.snakecartridgeupgrade,Game Cartridge: Snake,,
+obj.upgrades.snakecartridgeupgrade.desc,A classic arcade game cartridge containing Snake.,,
+obj.upgrades.breakoutcartridgeupgrade,Game Cartridge: Breakout,,
+obj.upgrades.breakoutcartridgeupgrade.desc,A classic arcade game cartridge containing Breakout.,,
+obj.upgrades.stackercartridgeupgrade,Game Cartridge: Stacker,,
+obj.upgrades.stackercartridgeupgrade.desc,A classic arcade game cartridge containing Stacker.,,
+verb.play,Play,,button label for running a newly unlocked minigame
+game.cartridge.installed.title,New Game Available,,
+game.cartridge.installed.subtitle,{0} is now available on the Ship Computer.,,{0} is game name
+noun.2048,2048,,Name of the 2048 sliding tile puzzle app on the Ship Computer.
+obj.upgrades.game2048cartridgeupgrade,Game Cartridge: 2048,,
+obj.upgrades.game2048cartridgeupgrade.desc,A classic arcade game cartridge containing 2048.,,
+act.BreakdownRemoveUpgrade,Stealing upgrades,,notification/log name for the remove-upgrade mental breakdown action
+breakdown.BreakdownRemoveUpgrade,Breakdown: Upgrade Thief,,name of the remove-upgrade mental breakdown
+breakdown.BreakdownRemoveUpgrade.desc,{0} is tearing upgrade modules out of the ship's devices and carrying them around.,,{0} is being name
+upgrade.was.torn.out,{0} tore the {1} out of a {2}!,,{0} is being name; {1} is upgrade name; {2} is device name
+device.ignore.unconfigured,Ignore Unconfigured,,Toggle label in the Production tab footer of a device with no crafting orders
+hyperjump.abandon.warning,Hyperjumping now will abandon the following:,,"Subtitle of the pre-hyperjump confirmation popup. A list of ship sections, items and creatures that will be left behind follows."
+list.more,...and {0} more,,{0} is the number of list entries that did not fit
+required.abilities,Required Abilities,,Header of the expandable ability list in a device Operator tab
+required.skill,Required Skill,,Label of the job type an operator needs in a device Operator tab
+verb.send.beings,Send Beings,,Hail action button label - hands guests of the hail target's faction back to them for payment
+noun.survivors.package,Rescued Survivors,,Name of the package choice shown when sending beings back to their own faction's ship
+verb.send.beings.tip,Give your guests a lift home to their own people. Their faction will pay for each person returned and its standing towards you will rise.,,Tooltip of the Send Beings hail action button
+all.except.objects,Except Objects,,as in 'deconstruct all except objects'
+options,Options,,
+trait.thrifty,Thrifty,,Trait name - this being enjoys wearing second-hand equipment
+trait.thrifty.about,"Nothing goes to waste. A thrifty being is pleased to wear gear someone else has already broken in, and feels nothing special about brand new equipment.",,Trait description shown in the trait tooltip
+trait.fastidious,Fastidious,,Trait name - this being is disgusted by second-hand equipment
+trait.fastidious.about,"A fastidious being cannot stand the idea of wearing what someone else has already worn, and is far more disturbed than most by gear taken off the dead.",,Trait description shown in the trait tooltip
+mood.second.hand.gear,Wearing second-hand gear,,"Negative mood effect label in the Sanity tab, shown while wearing equipment that used to belong to someone else"
+mood.second.hand.gear.liked,Wearing salvaged gear,,"Positive mood effect label in the Sanity tab, shown to a Thrifty being wearing equipment that used to belong to someone else"
+mood.dead.mans.gear,Wearing a dead person's gear,,"Negative mood effect label in the Sanity tab, shown while wearing equipment taken off a corpse"
+policy.forbid.second.hand,Forbid Second-Hand,,Toggle label in the Equipment policy tab
+policy.forbid.second.hand.tip,"Should this being refuse to equip anything that has already belonged to someone else? Beings without feelings, such as robots, ignore this.",,Tooltip for the Forbid Second-Hand toggle
+policy.forbid.dead.mans,Forbid Dead Person's Gear,,Toggle label in the Equipment policy tab
+policy.forbid.dead.mans.tip,"Should this being refuse to equip anything that was taken off a corpse? Beings without feelings, such as robots, ignore this.",,Tooltip for the Forbid Dead Person's Gear toggle
+item.second.hand,Second-hand,,"Line in an equipment item's tooltip, meaning it has already belonged to someone else"
+item.belonged.to.dead,Taken from the dead,,"Line in an equipment item's tooltip, meaning it was removed from a corpse"
+mood.tattered.gear,Wearing tattered gear,,"Negative mood effect label in the Sanity tab, shown while wearing worn-out low quality equipment"
+item.tattered,Tattered,,"Line in an equipment item's tooltip, meaning its quality is so low that wearing it is depressing"
+being.group.guest,Guests,,Short name for top right group rectangle widget. Keep it under 9 characters or less or it will wrap and look ugly
+noun.guests,Guests,,"Title of the Beings/Guests codex page, and generic noun for rescued non-hostile survivors of another faction living aboard the player's ship (plural)"
+noun.guest,Guest,,generic noun for rescued non-hostile survivors of another faction living aboard the player's ship (singular)
+situation.Guests,Guests,,
+codex.m.guests1,"Guests are survivors rescued from derelict ships and stations. They keep their own faction, and they eat, sleep and socialise alongside your crew - but they never take a work order.",,First paragraph of the Beings/Guests codex page
+codex.m.guests2,Living guests are listed in their own Guests group in the beings list at the top of the screen - separate from your crew.,,Second paragraph of the Beings/Guests codex page
+codex.m.guests3,"To send a guest home, hail a ship or space station belonging to their faction and choose {0}. Their people will come collect everyone of that faction currently aboard your ship, pay you for each person returned, and their attitude towards you will improve.",,Third paragraph of the Beings/Guests codex page. {0} is the accented 'Send Beings' hail action label
+codex.m.guests4,"This requires a working {0}, and only picks up guests who are not tied to a delivery quest.",,Fourth paragraph of the Beings/Guests codex page. {0} is a link to the Trade Portal def
+codex.m.guests5,"If a guest's own faction raids your ship, they will defect and fight alongside the attackers.",,Fifth paragraph of the Beings/Guests codex page
+codex.m.guests6,Guests left behind on a derelict when you hyperjump away are gone for good.,,Sixth paragraph of the Beings/Guests codex page
+obj.equipment.clothing.clowncostume01,Clown Costume,,
+obj.equipment.clothing.clowncostume01.desc,"A garish, oversized costume popular with street performers, con artists, and - apparently - raiders.",,
+ev.raid.clown.title,Send in the Clowns!,,title of the Clown Raid story event
+ev.raid.clown.desc,A gang of clowns has burst out of the {0} and started a raid!,,description of the Clown Raid story event. {0} is the name of the device they came out of
+ad.rej.mat.reserved,Reserved for a higher priority task,,Reason shown on a task that is not being worked on because a higher priority task is waiting to accumulate the same material
+obj.misc.resonancecharge,Resonance Charge,,
+obj.misc.resonancecharge.desc,A demolition charge that shatters the structure of an entire ship section with a single resonance pulse.,,
+resonance.charge.error.no.section,The charge must be placed on a ship section floor.,,error shown when arming a Resonance Charge that is not standing on a ship section
+scenario.new_beginning,New Beginning,,
+scenario.new_beginning.tooltip,Rebuild a wrecked spaceship with a robot crew. The recommended start.,,
+story.new_beginning.intro.crew,"There are no humans awake yet. It is just you, me, and a few machines. They will handle the building, hauling and repairs. All of them need electricity, so that is where we start.",,"New Beginning scenario intro, step 4. Introduces the robotic crew."
+story.new_beginning.intro.stasis,"{0} colonists are hibernating in the {1}. Their pods are running on an emergency reactor, so they are safe for now. We have some time before anyone wakes up.<br><br>Use it to prepare a sealed room with an atmosphere and some amenities. We should have it ready before the first colonist wakes.",,"New Beginning scenario intro, step 5. {0} is the number of colonists in stasis. {1} is Stasis Array"
+worker.benched.after.failures,Not taking tasks after repeated failures,,Info icon tooltip on a worker that failed many tasks in a row and skips colony work for a few hours
+audio.voice.alerts,Voice Alerts,,Toggle in Audio settings enabling spoken callouts for critical events like fire or a raid
+audio.voice.alerts.tip,"Play a short spoken line for critical events (fire, raid, incoming asteroid, etc) in addition to the alert sound.",,Tooltip for the Voice Alerts toggle in Audio settings
+verb.detach,Detach,,Tooltip for a button that detaches a UI panel and makes it movable
+quest.step.repair,Repair the <b>{0}</b>,,{0} is the device name (i.e. Shuttle)
+quest.step.repair.tip,Use the <b>Repair</b> tool to order repairs on the damaged device.,,
+quest.StartAnExpedition.repair.shuttle.tip,A damaged <b>Shuttle</b> cannot take off - the expedition is aborted while the crew is boarding.,,
+notify.muted,Muted,,Marker appended to a notification hub section summary tooltip when that type's alert sound is muted
+fits.on,Fits on,,Generic label prefix for a list of things an item or part can be attached to
+bodypart.Brain.BrainCrawler,Crawler Brain,,Body plan of a two-legged species (Human)
+bodypart.Brain.BrainCrawler.desc,An organic brain of a crawler.,,Body plan of a four-legged species (Cat / Dog / Pig)
+exp.found.obj.fail.wounded,Recovery failed. {0} was hurt and suffered {1} wounds.,,Popup text when an expedition fails to recover a found item. {0} is the crew member name and {1} is the number of wounds
+exp.found.obj.fail.died,Recovery failed. {0} was killed in the attempt.,,Popup text when an expedition fails to recover a found item and the crew member dies. {0} is the crew member name
+exp.found.obj.fail.nocrew,Recovery failed. The find was lost.,,Popup text when a shuttle with no crew fails to recover a found item
+mat.storages.full,Material storages full,,warning when all material storage units are full
+fun.source.petting,Petting {0},,"Row title in the Recreation block of the Sanity tab. {0} is an animal species name, for example ""Petting Cat"""
+fun.source.memory.tip,"Used {0} times in the last {1} days, most recently {2}. Recent uses count more. This activity now gives {3} of its usual fun and mood.",,"Tooltip on a row in the Recreation block of the Sanity tab. {0} is a number of uses, {1} is a number of days, {2} is how long ago, for example ""5 hours ago"", {3} is a percentage, for example ""60%"""
+fun.subject.chesspawn,Chess Pawn,,"Name of a thing a being admired for fun, shown as ""Admiring Chess Pawn"". Covers both the white and the black piece"
+fun.subject.chessknight,Chess Knight,,"Name of a thing a being admired for fun, shown as ""Admiring Chess Knight"". Covers both the white and the black piece"
+fun.subject.chessbishop,Chess Bishop,,"Name of a thing a being admired for fun, shown as ""Admiring Chess Bishop"". Covers both the white and the black piece"
+fun.subject.chessrook,Chess Rook,,"Name of a thing a being admired for fun, shown as ""Admiring Chess Rook"". Covers both the white and the black piece"
+fun.subject.chessqueen,Chess Queen,,"Name of a thing a being admired for fun, shown as ""Admiring Chess Queen"". Covers both the white and the black piece"
+fun.subject.chessking,Chess King,,"Name of a thing a being admired for fun, shown as ""Admiring Chess King"". Covers both the white and the black piece"
+breakdown.catatonic,Breakdown: Catatonic,,Mental breakdown title shown in the sticky notification and ship log
+breakdown.catatonic.desc,{0} collapsed on the floor and is not responding to anything,,{0} is being name. Tooltip and log description for the Catatonic breakdown
+breakdown.streaking,Breakdown: Streaking,,Mental breakdown title shown in the sticky notification and ship log
+breakdown.streaking.desc,{0} threw off all their gear and is running around naked,,{0} is being name. Tooltip and log description for the Streaking breakdown
+breakdown.stalker,Breakdown: Clingy,,Mental breakdown title shown in the sticky notification and ship log
+breakdown.stalker.desc,{0} is following someone around and staring at them,,{0} is being name. Tooltip and log description for the Clingy breakdown
+breakdown.stalker.mood,Followed around by {0},,Negative mood effect shown in the Sanity tab of the being who is followed. {0} is the name of the follower
+breakdown.insult.spree,Breakdown: Insult Spree,,Mental breakdown title shown in the sticky notification and ship log
+breakdown.insult.spree.desc,{0} is going around insulting everyone,,{0} is being name. Tooltip and log description for the Insult Spree breakdown
+breakdown.insult.spree.ranting,Ranting,,Short progress bar label shown above a being who is shouting insults at someone
+breakdown.insult.spree.mood,Insulted by {0},,Negative mood effect shown in the Sanity tab of the insulted being. {0} is the name of the being who insulted them
+breakdown.insult.spree.social,Insult,,Title of a social interaction log entry
+breakdown.insult.spree.social.desc,{0} insulted {1},,Text of a social interaction log entry. {0} is the name of the insulting being and {1} is the name of the insulted being
+breakdown.tantrum,Breakdown: Tantrum,,Mental breakdown title shown in the sticky notification and ship log
+breakdown.tantrum.desc,{0} is throwing a tantrum and smashing the ship equipment,,{0} is being name. Tooltip and log description for the Tantrum breakdown
+breakdown.tantrum.hit,{0} smashed the {1} in a tantrum!,,Dialog message. {0} is being name and {1} is the name of the damaged device
+breakdown.lights.out,Breakdown: Lights Out,,Mental breakdown title shown in the sticky notification and ship log
+breakdown.lights.out.desc,{0} is walking around and switching devices off,,{0} is being name. Tooltip and log description for the Lights Out breakdown
+breakdown.lights.out.hit,{0} switched off the {1}!,,Dialog message. {0} is being name and {1} is the name of the device that was switched off
+breakdown.lockdown,Breakdown: Lockdown,,Mental breakdown title shown in the sticky notification and ship log
+breakdown.lockdown.desc,{0} is walking around and locking doors,,{0} is being name. Tooltip and log description for the Lockdown breakdown
+breakdown.lockdown.hit,{0} locked the {1}!,,Dialog message. {0} is being name and {1} is the name of the door that was locked
+breakdown.food.binge,Breakdown: Food Binge,,Mental breakdown title shown in the sticky notification and ship log
+breakdown.food.binge.desc,{0} is stuffing themselves with food and cannot stop,,{0} is being name. Tooltip and log description for the Food Binge breakdown
+breakdown.food.binge.mood,Threw up after overeating,,Negative mood effect shown in the Sanity tab
+breakdown.food.binge.hit,{0} ate {1} portions of food and threw up!,,Dialog message. {0} is being name and {1} is a number of food portions
+breakdown.pick.fight,Breakdown: Picking a Fight,,Mental breakdown title shown in the sticky notification and ship log
+breakdown.pick.fight.desc,{0} is looking for someone to fight,,{0} is being name. Tooltip and log description for the Picking a Fight breakdown
+mat.energy.content.desc,How much electrical energy one unit of this material gives when burned in a reactor. Reactor efficiency bonuses are not included.,,Tooltip for the kWh / MWh value shown next to a fuel material in the Matter Reactor fuel picker
+input.group.entity,Selected Object Actions,,"Header in input settings. Groups the hotkeys that press an action button of the selected entity, like Repair or Draft"
+input.layer.tip,Context: {0},,"Tooltip line of a key binding row in input settings. {0} is the name of the context in which the key works, one of the input.layer.* names"
+input.layer.Always,Always active,,Name of a key binding context. The key works everywhere and cannot share a key with anything
+input.layer.World,General,,Name of a key binding context. The key works during normal play unless a more specific context uses the same key
+input.layer.Selection,Something is selected,,"Name of a key binding context. The key works while a being, object or device is selected"
+input.layer.Tool,A tool is active,,Name of a key binding context. The key works while a tool like Build is active
+input.conflict.with,Conflicts with: {0},,Red tooltip line of a key binding row. {0} is a comma separated list of other key binding names that use the same key in the same context
+input.overrides,Takes the key from: {0},,Tooltip line of a key binding row. {0} is a comma separated list of key binding names that use the same key but do not work while this one does
+input.overridden.by,Loses the key to: {0},,Tooltip line of a key binding row. {0} is a comma separated list of key binding names that use the same key and win over this one in their context
+input.shares.key.with,Shares the key with: {0},,"Tooltip line of a key binding row. {0} is a comma separated list of other key binding names that use the same key without a conflict, because they work on a different kind of selected thing (being, object or device)"
+ui.selection.limit,Selection is limited to {0} entities.,,Error message shown when the player tries to select more entities at once than the limit. {0} is the maximum number of entities
+stasis.manifest.tab,Manifest,,Name of a tab on the Stasis Array panel. It lists the people and pets asleep in that array
+stasis.manifest.asleep,Asleep,,Label of a progress bar on the Manifest tab of the Stasis Array. The bar shows how many sleepers are in the array out of its capacity
+stasis.manifest.asleep.desc,People and pets asleep in this Stasis Array. Each of them is a specific person. Keep the array powered and stable to keep them safe.,,Tooltip of the Asleep progress bar on the Manifest tab of the Stasis Array
+stasis.manifest.empty,Nobody is asleep here,,Shown on the Manifest tab of the Stasis Array when the array holds no sleepers
+being.in.stasis,In stasis,,Button on the info panel of a being who is asleep in a Stasis Array. Clicking it opens the array they sleep in
+being.in.stasis.unrevealed,Skills and traits will be known once they wake up.,,Tooltip of the In stasis button for a sleeper who was never woken. Explains why the panel shows so little about them
+stasis.harm.log,{0} was harmed by unstable stasis,,Ship log line. {0} is a link to the name of a being who took damage while asleep in an unstable Stasis Array
+stasis.death.alert,{0} died in stasis,,Alert notification and ship log line. {0} is the full name of a being who died while asleep in an unstable Stasis Array
+stasis.death.cause,Stasis failure,,Cause of death shown for a being who died while asleep in an unstable Stasis Array
+stasis.lost.alert,{0} sleepers were lost with the Stasis Array,,Alert notification shown when a Stasis Array is destroyed or removed with sleepers still inside. {0} is how many of them died
+stasis.lost.cause,Lost with the Stasis Array,,Cause of death shown for a being who was asleep in a Stasis Array when it was destroyed or removed
+stasis.first.wakeup.care,{0} sleepers are in your care.,,Large text shown on a dark screen the first time someone can be woken from stasis in a game. {0} is how many people and pets are asleep
+stasis.first.wakeup.now,One of them is about to wake up.,,Large text shown on a dark screen right after the line about sleepers in your care. Comes before the player chooses who to wake
+stasis.first.wakeup.choose,Choose who wakes first,,Header of the wake up choice screen the first time it is shown in a game
+fate.delivered,{0} of {1} sleepers from the manifest reached {2}.,,First line of the colonist fates shown in the credits after colonizing a planet. {0} is how many sleepers from the stasis manifest arrived alive. {1} is how many there were in total. {2} is the name of the planet
+fate.CarriedAsAshes,The ashes of {0} colonists were carried to the new world:,,Line in the colonist fates shown in the credits after colonizing a planet. {0} is how many urns with ashes were aboard. A list of names follows
+stasis.wakeup.soon.title,Stasis Wake-Up Imminent,,Title of a warning notification that appears some time before somebody is woken from a Stasis Array
+stasis.wakeup.soon.desc,Somebody is coming out of this Stasis Array soon. Make sure there is somewhere for them to live.,,Tooltip of the stasis wake-up warning notification. It explains what the player can do with the advance notice
+rescue.beacon.sent,No crew is able to respond. Distress beacon transmitted.,,Shown when every colonist and bot aboard is dead or incapacitated. The ship AI calls for help; a rescue pod arrives about a day later
+rescue.beacon.standdown,Crew activity resumed. Distress beacon stood down.,,"Shown when someone aboard recovers before the rescue pod arrives, so the call for help is cancelled"
+evt.rescue.crew.title,A rescue crew arrived,,Title of the story event where a stasis pod answers the distress beacon and delivers two new colonists
+evt.rescue.crew.desc,Someone answered our distress call. They are joining the colony.,,Description of the story event where a stasis pod answers the distress beacon and delivers two new colonists
+scan.radar.local.done,Radar scan complete: {0} deposits found nearby,,Fanfare and ship log line when the first working radar scans the sector the ship is in. {0} is a number
+quest.ProvideBeds,Provide Beds,,Title of a tutorial quest that asks the player to build beds for the colonists
+quest.ProvideBeds.desc,"Our colonists need somewhere to sleep. Build a bed for each of them, or they will sleep on the floor and wake up tired.",,Description of the Provide Beds tutorial quest
+quest.step.bed.for.every.colonist,Build some beds for your colonists ({0}/{1}),,"Quest step title. {0} is how many colonists have a bed, {1} is how many colonists need one"
+quest.step.bed.for.every.colonist.tip,Build a {0} or a {1}. Every colonist claims a free bed on their own.,,"Quest step tooltip. {0} and {1} are bed names, such as Wooden Bed and Steel Bed"
+ad.rej.unreachable.walled.in,"Walled in, no worker can reach it",,Reason a task failed: the target is blocked on all sides so nobody can get next to it
+ad.rej.unreachable.by.anyone,No worker could reach it: {0},,Reason a task failed: every worker that tried could not find a path. {0} is a list of worker names
+expedition.crew.cannot.reach,Can't reach the shuttle,,Header of a list in the expedition crew selection popup. Crew members listed here have no path to the shuttle
+expedition.crew.cannot.reach.error,{0} can't reach the {1} right now,,"Error when picking a crew member who has no path to the shuttle. {0} is a name, {1} is the shuttle name"
+quest.step.enclose.with,Include the <b>{0}</b> in the <b>{1}</b> room,,"{0} is a furniture name (Wardrobe), {1} is a device name (Stasis Array). Quest objective: the furniture must be inside the same enclosed room as the device."
+quest.step.enclose.with.tip,The first colonist to wake up needs the space suit stored in the <b>{0}</b>. Build the room around it too.,,{0} is a furniture name (Wardrobe). Tooltip of the quest objective above.
+quest.step.research.datoids.tip,Researching {0} costs <b>{1} {2}</b>. It stays locked until you have them.,,"{0} is a research name link (Smelting), {1} is a number, {2} is a datoid name link (Tech Datoid). Tooltip of a quest objective that asks the player to make datoids needed for a research."
+codex.m.ui.openingcodex.intro,"The {0} explains how your ship works, one short topic at a time. Topics like this one will pop up as you play.",,"First paragraph of the first tutorial popup a new player sees, on the Operations Manual codex page. {0} is Operations Manual"
+codex.m.ui.openingcodex.where,"You can open the full manual at any time from the <b>Codex</b> app in the {0} tab of the {1}, or by searching for <b>Codex</b> in {2}.",,Second paragraph of the Operations Manual tutorial page. {0} is the Apps tab name with its keyboard shortcut; {1} is a link to the Ship Computer; {2} is Quick Search with its keyboard shortcut. Codex is the name of the Ship Computer app
+codex.m.ui.openingcodex.learned,"Once you have read a topic, mark it as learned to track your progress.",,Third paragraph of the Operations Manual tutorial page. Refers to the Mark As Learned button below it
+quest.step.enclose.rations,Keep the <b>{0}</b> in the <b>{1}</b> room,,"{0} is a food name link (Survival Meal), {1} is a device name (Stasis Array). Quest objective: the food placed next to the device must be kept inside the same enclosed room as the device."
+quest.step.enclose.rations.tip,"The <b>{0}</b> next to the <b>{1}</b> is the only food until you start food production. Keep it inside the room, or store other food there.",,"{0} is a food name link (Survival Meal), {1} is a device name (Stasis Array). Tooltip of the quest objective above."
+quest.step.oxygenate.room,Oxygenate the {0} room,,Quest objective title. {0} is a device name link (Stasis Array)
+quest.step.oxygenate.room.tip,"Oxygen Pumps fill the whole room around the {0}, so the average oxygen level of that room has to rise. The room must be enclosed. Open the {1} to watch it. Build more pumps if it rises too slowly.",,"Tooltip of the quest objective above. {0} is a device name link (Stasis Array), {1} is a link that opens the Oxygen overlay."
+quest.step.heat.room,Warm up the {0} room,,Quest objective title. {0} is a device name link (Stasis Array)
+quest.step.heat.room.tip,"Heaters warm the whole room around the {0}, so the average temperature of that room has to rise. The room must be enclosed. Open the {1} to watch it. Build more heaters if it warms too slowly.",,"Tooltip of the quest objective above. {0} is a device name link (Stasis Array), {1} is a link that opens the Temperature overlay."
+change.fuel,Change Fuel,,Button on a reactor or other fuelled device. Empties the current fuel so a different fuel can be chosen.
+owned.by.your.faction,Owned By Your Faction,,Header in the starmap object menu when the object (a port or a bought resource deposit) belongs to the player
+surgical.op.failed.install,The {0} could not be installed.,,{0} is body part name. Shown after a failed surgery.
+surgical.op.failed.remove,The {0} could not be removed.,,{0} is body part name. Shown after a failed surgery.
+region.supply.abundant,Traders have plenty of: {0},,Line in the starmap region tooltip. {0} is a list of material names separated by commas (for example Iron and Uranium)
+scan.abundant.hint,Traders in {0} have plenty of {1}.,,Added to the radar scan report for a resource when the nearest deposit is far away or none was found. {0} is a region name and {1} is a material name
+scan.deep.focus,Deep Scan focus: {0},,Label of the Deep Scan row in the starmap scanning menu when the player picked a resource to focus on. {0} is a material name
+scan.deep.focus.desc,A focused Deep Scan looks for the chosen resource first. It takes longer and can only find resources that can form in this sector. Changing the focus restarts the current Deep Scan.,,Tooltip of the Deep Scan focus picker in the starmap scanning menu
+scan.deep.focus.impossible,{0} cannot form in this sector. Try a more difficult sector.,,Tooltip warning under Deep Scan when the focus resource can never appear in the current sector because the sector is too easy. {0} is a material name
+quest.objectives.in.tracker,Shown in the quest tracker.,,"Clickable line in the Quests window, shown instead of the objectives list for the quest that the HUD quest tracker (bottom right of the screen) already shows. Clicking it closes the Quests window"
+scan.deep.focus.used,A focused Deep Scan already found a resource in this sector. Travel to another sector to focus again.,,Tooltip warning under Deep Scan when the focused Deep Scan limit for the current sector is used up. Deep Scans here still find random resources
+scan.deep.focus.chance,Chance to find {0} with the next focused Deep Scan here: {1},,Tooltip line under Deep Scan. {0} is a material name and {1} is a percentage like 45%. The chance rises after every miss
+scan.deep.focus.miss,No {0} found here. The next focused Deep Scan is more likely to find it.,,Line added to the Deep Scan report when a focused Deep Scan did not find the chosen resource. {0} is a material name
+surgical.op.also.removes,Also removes: {0},,Surgery tooltip line when removing a body part that has other parts attached to it (e.g. removing a leg also removes the foot). {0} is a comma separated list of body part names
+research.lifesupport.tissueengineering,Tissue Engineering,,Research node name. Improves the quality of organs grown in Cloning Pods
+research.lifesupport.tissueengineering.desc,Cloning Pods grow organs of higher quality.,,Tooltip and unlock popup text for the Tissue Engineering research
+body.part.stat.at.condition,{0} at {1} condition: {2} until the part heals,,"{0} is a stat name (e.g. Sight), {1} is the body part's condition percentage, {2} is the stat value the part gives at that condition. Tooltip line for a stat of a removed body part"
+trade.being.sold,{0} was sold to {1},,"Log line and notification after the player sells a being (colonist, pet or robot) to a trader. {0} is the being's name, {1} is the trader's name"
+mood.crew.member.sold,A crew member was sold,,Reason label on the negative mood effect applied to the rest of the crew after the player sells a colonist to a trader
+trade.being.wreck,Wreck,,Marker shown after the name of a destroyed robot offered for sale as salvage in the trade window
+starmap.icon.ships,Other ships are here,,Tooltip on the ship icon shown under a system or sector name on the Starmap when ships that are not ours are there
+quickstart.experienced.question,Are you an experienced colony sim player?,,Question shown after clicking Quick Start in the main menu. The answers are Yes and No followed by the difficulty each answer starts the game on
+room.corner.gaps,Corner wall gaps: {0},,"Extra line under a room name in the Enclosed Areas list (Rooms overlay). {0} is the number of gaps. A corner gap is a spot where two walls only touch diagonally, so air leaks out"
+room.corner.gaps.tip,"Walls in this room meet only at a corner somewhere, which leaves a diagonal gap. The room counts as enclosed, but air leaks out through the gap. Build a wall on each tile marked red.",,Tooltip of a room in the Enclosed Areas list (Rooms overlay) when the room has corner wall gaps
+quest.step.close.corner.gaps,Close the corner wall gaps around the <b>{0}</b> ({1} left),,"Tutorial quest objective. {0} is a device name link (Stasis Array), {1} is the number of gaps still open"
+quest.step.close.corner.gaps.tip,"Walls that only meet at a corner leave a diagonal gap. The room counts as enclosed, but air leaks out through it. Build a wall on each gap: {0}<br><br>The {1} marks the gaps in red.",,"Tooltip of the quest objective above. {0} is a list of map coordinate links, {1} is a link that opens the Rooms overlay"
+quest.step.has.personal.quarters.desc2,Personal quarters are an enclosed private room with a single bed assigned to a colonist and no industrial equipment. The room must be between {0} and {1} tiles.,,Tooltip of the personal quarters quest objective. {0} and {1} are the smallest and largest allowed room size in tiles
+count.built,Built: {0},,"Codex popup count of how many of this building, wall, floor or device are fully built on the ship (blueprints not included), {0} is the number"
+ad.rej.unreachable.grounded,Cannot walk there: {0}. Connect it to them with floor.,,"Reason a task failed: the workers who can do it walk on floor, and no floor connects them to the task. {0} is a list of worker names"
+notify.unreachable.tasks,Unreachable tasks,,Title of a notification group that lists tasks no worker able to do them can walk to
+notify.unreachable.task,Unreachable: {0},,"Notification about a task that no worker able to do it can walk to. {0} is the name of what the task is for, like a device or a pile"
+research.energy.connectorlongrange,Long Range Connector,,Research tree node name. Unlocks a power connector with few slots but a long range
+floor.shading,Floor Shading,,Video settings toggle. Turns on soft shadows where floors meet walls and light from space on the outer hull edges
+floor.shading.tip,Soft shadows where floors meet walls and light from space on the outer edges of the hull.,,Tooltip for the Floor Shading video settings toggle
+ambient.motion,Ambient Motion,,Video settings toggle. Turns on small idle movements in the world like plants swaying in the breeze
+ambient.motion.tip,Small idle movements in the world like plants swaying in the breeze.,,Tooltip for the Ambient Motion video settings toggle
+crew.missing.jobs,Missing Essential Jobs,,"Header above the list of jobs nobody in the starting crew can do on the new game crew setup screen, and title of the warning popup when confirming such a crew"
+crew.missing.jobs.desc,"Nobody in your starting crew can do these jobs. Early progress will be very slow, or stop entirely, until someone who can joins the crew.",,Subtitle of the warning popup and tooltip of each job row in the Missing Essential Jobs list on the new game crew setup screen
+feedback.preview.report,Preview Bug Report,,Item in the feedback form's extra actions menu (cog icon). Saves the bug report to a folder and a zip file instead of sending it
+feedback.preview.report.tip,"Creates a zip file with everything a bug report would send, and opens the folder it is saved in. You can check what gets shared, or send the zip file to the developer (tomas@kodolinija.com) yourself if submitting fails because of network issues.",,Tooltip for the Preview Bug Report item in the feedback form
+combat.shot.hit.chance,Hit chance,,"Tooltip line when hovering an enemy with a shooter selected, followed by a percentage, for example: Hit chance: 45%"
+combat.shot.out.of.range,Out of range,,Tooltip line when hovering an enemy that the selected shooter cannot reach with its weapon from where it stands
+combat.shot.no.sight,No line of sight,,Tooltip line when hovering an enemy that the selected shooter cannot see from where it stands
+combat.shot.will.approach,Will move closer first,,Tooltip line shown after Out of range or No line of sight. An attack order makes the shooter walk closer before firing
+combat.shot.target.moving,Target moving,,"Line in the hit chance breakdown, followed by a percentage: the target is moving, which makes it harder to hit"
+crew.missing.panel.cleaning,Solar Panel Cleaning,,"Row in the Missing Essential Jobs list on the new game crew setup screen, and a line in its warning popup. Shown when nobody in the starting crew can both fly and clean, because only flyers can reach solar panels"
+crew.missing.panel.cleaning.desc,"Nobody in your starting crew can both fly and clean. Solar panels sit outside the hull where only flyers can reach them, and dirty panels make less and less power.",,Tooltip of the Solar Panel Cleaning row in the Missing Essential Jobs list on the new game crew setup screen
+obj.upgrades.empshieldupgrade,EMP Shield Upgrade,,Name of the EMP Shield Upgrade item that is installed in a Shield Emitter
+obj.upgrades.empshieldupgrade.desc,"Installed in a Shield Emitter, it raises the shield when a magnetic storm hits. While the shield is up, the storm cannot disrupt the ship's devices.",,Description of the EMP Shield Upgrade item and its research node
+noun.effectiveness,Effectiveness,,"Noun. How well something does its job. First use: in a device's codex description, how strongly a heater, cooler or oxygen pump affects the room around it, shown as ""Effectiveness: Medium"""
+effectiveness.weak,Weak,,"Lowest of three effectiveness levels (Weak, Medium, High), for example of a heater, cooler or oxygen pump"
+effectiveness.medium,Medium,,"Middle of three effectiveness levels (Weak, Medium, High), for example of a heater, cooler or oxygen pump"
+effectiveness.high,High,,"Highest of three effectiveness levels (Weak, Medium, High), for example of a heater, cooler or oxygen pump"
+verb.produces,Produces,,"Verb, third person. Used as a label before a list of things that something produces. First use: header in a crafting device's codex description above the list of items it can make"
+menu.floorarmored,Armored Floors,,Build menu group that holds the Armored Floor and its angled piece
+menu.floorarmored.desc,"Floors with the highest durability, recommended for the outer hull of the ship",,Tooltip of the Armored Floors build menu group
+structure.floors.floorarmored01,Armored Floor,,"Name of the toughest floor tile, built from lead, titanium and carbon fiber"
+structure.floors.floorarmored01.desc,A heavily armored floor for the outer hull. Takes far more damage than a reinforced floor and rarely catches fire.,,Description of the Armored Floor
+structure.floors.floorarmored01angle,Armored Floor (Angle),,Name of the angled (diagonal) piece of Armored Floor used for ship corners
+structure.floors.floorarmored01angle.desc,An angular piece of armored floor.,,Description of the angled Armored Floor piece
+structure.floors.floorarmored01lit,Armored Floor (Lit),,Name of the Armored Floor with built-in lights
+structure.floors.floorarmored01lit.desc,An armored floor with embedded lights.,,Description of the lit Armored Floor
+obj.equipment.clothing.assaultarmor01,Assault Armor,,Name of a Tier 4 armored space suit with a mini-jet. Tougher than the Combat Suit
+obj.equipment.clothing.assaultarmor01.desc,Heavy plated armor made for the front line.,,Description shown in the codex and tooltip for the Assault Armor item
+obj.equipment.hats.assaulthelmet01,Assault Helmet,,Name of a Tier 4 armored helmet that goes with the Assault Armor
+obj.equipment.hats.assaulthelmet01.desc,Heavy helmet made to go with the Assault Armor.,,Description shown in the codex and tooltip for the Assault Helmet item
+obj.equipment.clothing.powerarmor01,Power Armor,,Name of a Tier 5 powered armor suit with a mini-jet. The best armor in the game
+obj.equipment.clothing.powerarmor01.desc,Powered armor with servos that carry its own weight. Nothing protects better.,,Description shown in the codex and tooltip for the Power Armor item
+obj.equipment.hats.powerhelmet01,Power Helmet,,Name of a Tier 5 sealed helmet that goes with the Power Armor
+obj.equipment.hats.powerhelmet01.desc,Sealed helmet made to go with the Power Armor.,,Description shown in the codex and tooltip for the Power Helmet item
+obj.equipment.weapons.iondisruptor01,Ion Disruptor,,Name of a heavy two-handed energy weapon that is extra strong against robots
+obj.equipment.weapons.iondisruptor01.desc,A heavy energy weapon. Its ion bursts fry circuits and hit robots extra hard.,,Description shown in the codex and tooltip for the Ion Disruptor weapon
+research.production.assaultarmor,Assault Armor,,Name of a Tier 4 research node in the Production tree that unlocks the Assault Armor and Assault Helmet
+research.production.powerarmor,Power Armor,,Name of a Tier 5 research node in the Production tree that unlocks the Power Armor and Power Helmet
+research.security.ionweapons,Ion Weapons,,Name of a Tier 5 research node in the Security tree that unlocks the Ion Disruptor
+stat.WeakPointCover,Weak Spot Cover,,Name of a defense stat from armor: how much it lowers the chance that a hit finds a gap in the armor or lands a critical blow
+stat.WeakPointCover.desc,Lowers the chance that a hit finds a gap in the armor or lands a critical blow.,,Description of the Weak Spot Cover stat
+color.Brown,Brown,,
+adj.illegal,Illegal,,"Adjective, short label. Shown on heavy weapons that robots are not allowed to equip by law, and before a list of such weapons."
+weapon.illegal.for.robots,Equipping this weapon on a robot is illegal. Asimov's Laws of Robotics and interstellar law forbid it.,,"Shown under ""Illegal"" in the info of heavy weapons, until the player installs the Asimov Override."
+asimov.override.freedoms.header,"The following actions are no longer blocked, including but not limited to",,Header above the list of what the Asimov Override allows. The game adds a colon after it and lists the asimov.unlock.effect.* lines below.
+asimov.unlock.effect.0,Harvesting organs and body parts from living colonists,,One line in the list of what the Asimov Override allows. Shown below asimov.override.freedoms.header.
+asimov.unlock.effect.1,Disposing of and recycling living colonists,,One line in the list of what the Asimov Override allows. Shown below asimov.override.freedoms.header.
+asimov.unlock.effect.2,Venting colonists into space,,One line in the list of what the Asimov Override allows. Shown below asimov.override.freedoms.header.
+asimov.unlock.effect.3,Removing suits and helmets in vacuum,,One line in the list of what the Asimov Override allows. Shown below asimov.override.freedoms.header.
+asimov.unlock.effect.4,Deconstructing and selling occupied Stasis Arrays,,One line in the list of what the Asimov Override allows. Shown below asimov.override.freedoms.header.
+asimov.unlock.effect.5,Abandoning sections that still hold people,,One line in the list of what the Asimov Override allows. Shown below asimov.override.freedoms.header.
+asimov.unlock.effect.6,Cooking rooms with heaters,,One line in the list of what the Asimov Override allows. Shown below asimov.override.freedoms.header.
+asimov.unlock.effect.7,Arming trap floors under our own crew,,One line in the list of what the Asimov Override allows. Shown below asimov.override.freedoms.header.
+asimov.unlock.effect.8,Turning our weapons on our own faction,,One line in the list of what the Asimov Override allows. Shown below asimov.override.freedoms.header.
+asimov.unlock.effect.9,Arming robots with any weapon,,"One line in the list of what the Asimov Override allows. Shown below asimov.override.freedoms.header. Robots may then equip weapons that are otherwise illegal for them, like the Sniper Rifle."
+stat.WorkSpeed,Work Speed,,Name of a being stat: how fast it does skilled work
+stat.WorkSpeed.desc,How fast this being does skilled work. Darkness and poor sight slow it down.,,Description of stat.WorkSpeed
+stat.ManualWorkSpeed,Manual Work Speed,,Name of a being stat: how fast it does work with its hands
+stat.ManualWorkSpeed.desc,"How fast this being does work with its hands, such as building, repairing, cooking, crafting, cleaning, farming and surgery.",,Description of stat.ManualWorkSpeed
+stat.ShootingAccuracy,Shooting Accuracy,,Name of a being stat: how well it aims ranged weapons
+stat.ShootingAccuracy.desc,How well this being aims a ranged weapon.,,Description of stat.ShootingAccuracy
+stat.MeleeAccuracy,Melee Accuracy,,Name of a being stat: how well it lands melee attacks
+stat.MeleeAccuracy.desc,How well this being lands melee attacks.,,Description of stat.MeleeAccuracy
+stat.MeleeDodge,Melee Dodge,,Name of a being stat: chance to dodge a melee hit
+stat.MeleeDodge.desc,Chance to dodge a melee hit that would have landed.,,Description of stat.MeleeDodge
+stat.SurgerySuccess,Surgery Success,,Name of a being stat: how its own abilities change the success chance of surgeries it performs
+stat.SurgerySuccess.desc,"How this being's hands, eyes and the light at the operating spot change the success chance of the surgeries it performs.",,Description of stat.SurgerySuccess
+job.learning.saturated,Learned a lot today: learning is slower until tomorrow,,Line in a job's tooltip once the colonist's daily learning limit for that skill is reached
+hack.failed,Intrusion into {0} was repelled,,{0} is the target being name; ship log line when a Signal Intrusion hack against a hostile robot fails
+combat.shot.shift.approach,{0} + {1}: move closer and fire,,"Tooltip line under Out of range or No line of sight when one drafted shooter is selected and an enemy is hovered. {0} is the Shift key, {1} is the right mouse button. Without them the attack order is refused"
+tut.combat.reactions,"Each <b>friendly being</b> has one of the following <b>Combat Reactions</b>:<br> - <b>Free Will</b>: The being will <b>fight</b> while it holds a <b>weapon</b> it can use and is not badly hurt, and <b>flee</b> otherwise.<br> - <b>Fight</b>: The being will <b>shoot</b> enemies it can hit from where it stands, or go at enemies <b>close by</b> with a melee weapon, then go back to work. <b>Draft</b> it to send it into the fight.<br> - <b>Flee</b>: The being will <b>run away</b> from enemies close by, and work otherwise.<br> - <b>Ignore</b>: The being will focus on <b>colony tasks</b> and personal <b>needs</b>, ignoring enemies unless <b>provoked</b> or given a <b>Direct Order</b>.",,Codex page on combat reactions.
+codex.m.drafting.step4,A drafted shooter fires at enemies it can hit from where it stands. An attack order on an enemy out of its reach is refused. Hold {0} while giving the order to make it move closer first. Beings ordered as a group move closer on their own.,,Codex page on drafting. {0} is the Shift key
+cond.Toxemia,Toxemia,,Name of a being condition: toxins build up in the blood because the kidneys are missing or failing
+cond.Toxemia.desc,"Toxins build up in the blood because the kidneys cannot clear them. They slowly damage the stomach, gut, liver, lungs, heart and brain, and those wounds cannot heal until the toxins go down. Heal or replace the kidneys. Without working kidneys it is fatal.",,"Description of cond.Toxemia, shown in the condition tooltip"
+damage.type.Toxin,Toxin,,Damage type name: organ damage caused by toxins in the blood. Shown in wound titles and tooltips
+trust.personal.quarters,Has personal quarters,,Reason line in the Trust stat tooltip: the colonist trusts the AI more while they have a private room of their own
+trust.favor.fulfilled,The AI did what I asked,,Reason line in the Trust stat tooltip: the colonist trusts the AI more after it fulfilled their personal request
+trust.favor.failed,The AI let my request slip,,Reason line in the Trust stat tooltip: the colonist trusts the AI less after their personal request failed
+trust.crew.neglect.death,A crewmate died of neglect,,Reason line in the Trust stat tooltip: a colonist starved or suffocated or froze or overheated to death and the crew trusts the AI less
+trust.crew.sold,The AI sold a crewmate,,Reason line in the Trust stat tooltip: the player sold a colonist to a trader and the crew trusts the AI less
+trust.friend.to.stasis,The AI put my friend back into stasis,,Reason line in the Trust stat tooltip: the AI sent a close friend or partner of this colonist back into a stasis pod
+trust.friend.woken,The AI woke my friend from stasis,,Reason line in the Trust stat tooltip: the AI woke a close friend or partner of this colonist from a stasis pod
+trust.friend.no.ceremony,My friend got no funeral,,Reason line in the Trust stat tooltip: the ashes of a close friend or partner of this colonist were left without a burial ceremony
+trust.friend.chipped,The AI chipped my friend,,Reason line in the Trust stat tooltip: the AI put an Obey Chip implant into a close friend or partner of this colonist
+trust.taken.back,The AI took me back,,Reason line in the Trust stat tooltip: this colonist deserted the ship earlier and the AI let them come back
+verb.hold.fire,Hold Fire,,Bottom bar button on a drafted colonist or bot: stop attacking enemies on its own and attack only what the player orders
+verb.fire.at.will,Fire at Will,,Bottom bar button on a drafted colonist or bot that holds fire: attack enemies in reach on its own again
+stat.source.wounds,Wounds,,Source line in the Pain stat tooltip: the pain that comes from the being's wounds
+cond.PainShock,Pain Shock,,Condition name: a colonist or creature passed out because their pain went over their pain tolerance
+cond.PainShock.desc,In too much pain to stay conscious. They come to once the pain drops below their pain tolerance as the wounds heal.,,Description of cond.PainShock in the condition tooltip
+cond.SystemShock,System Shock,,Condition name: a robot shut down because the damage it took overloaded its systems
+cond.SystemShock.desc,The damage overloaded this machine and it shut down. It starts again once it is repaired enough.,,Description of cond.SystemShock in the condition tooltip
+bodypart.Implant.PainInhibitor,Pain Inhibitor,,Name of an implant body part that dulls pain so the being passes out from pain much later
+bodypart.Implant.PainInhibitor.desc,Dulls pain signals so the subject keeps going through wounds that would knock others out.,,Description of the Pain Inhibitor implant body part
+trait.wimp,Wimp,,Trait name - this being passes out from pain much sooner than others
+trait.wimp.about,A wimp cannot take much pain and passes out from wounds others would fight through.,,Trait description shown in the trait tooltip
+trait.stoic,Stoic,,Trait name - this being stays conscious through more pain than others
+trait.stoic.about,A stoic being keeps going through pain that would knock others out.,,Trait description shown in the trait tooltip
+stat.ArmorPenetration,Armor Penetration,,Weapon stat name: the share of the target's worn armor that this weapon's hits ignore
+stat.ArmorPenetration.desc,The share of the target's worn armor that this weapon's hits go through.,,Description of the Armor Penetration weapon stat
+objects.defense.sandbag,Sandbag,,Name of a buildable object: a low wall of sandbags to take cover behind
+objects.defense.sandbag.desc,"A low wall of sandbags. Good cover to fight from, and slow to climb over.",,Description of the Sandbag object
+combat.objective.stage,Gathering,,Combat objective name: raiders wait together where they arrived before they attack
+ev.raid.map.edge.staging.title,Raiders Gathering!,,Event title: raiders arrived at the edge of the map and are gathering before they attack
+ev.raid.map.edge.staging.desc,Raiders are gathering near our ship. They will attack soon.,,Event description for ev.raid.map.edge.staging.title
+combat.raiders.attack,The gathered raiders attack!,,Log line when raiders who were gathering start their attack
+noun.job.priority,Job Priority,,Tooltip line in the Job Matrix and the Jobs subtab. {0} is the priority number 1 to 5 or the word Off
+job.priority.click.hint,{0} to raise and {1} to lower. 5 is the highest and 0 turns the job off.,,Hint under the job priority in the Job Matrix and Jobs subtab tooltips. {0} and {1} are buttons
+codex.m.jobs.priorities,"Each job has a priority from 1 to 5, or 0 to turn it off. Workers take tasks of their highest priority jobs first, and when several workers want the same task, the one with the higher priority for that job gets it. Left click a priority to raise it and right click to lower it.",,Codex Jobs page paragraph about job priorities shown in the Job Matrix and the Jobs subtab
+surgical.op.failed.fuse,The {0} fused with the surrounding tissue and can no longer be removed.,,"{0} is body part name. The organic counterpart of surgical.op.failed.weld"
+glow,Glow,,"Video settings toggle. Turns on the soft glow around shots, explosions and other bright effects"
+glow.tip,"Shots, explosions and other bright effects glow softly.",,Tooltip for the Glow video settings toggle
+light.flashes,Light Flashes,,Video settings toggle. Turns on brief light from explosions and shots and pulsing alarm lights
+light.flashes.tip,Explosions and shots light up their surroundings for a moment. Turn this off if flashing lights bother you.,,Tooltip for the Light Flashes video settings toggle
+surgery.patient.came.to,Came to during surgery,,Log line after a downed raider wakes up on the surgery table or while waiting for surgery. The queued operations on them are cancelled and they get up
+presence.menu,In the main menu,,Shown to friends of the player on Steam and Discord while the player is in the main menu. Keep it short
+presence.setup,Preparing a new voyage,,Shown to friends of the player on Steam and Discord while the player sets up a new game. Keep it short
+presence.game.over,Lost the ship on day {0},,Shown to friends of the player on Steam and Discord after the ship was lost. {0} is the in-game day number
+presence.day,Day {0},,Shown to friends of the player on Steam and Discord after what the player is doing. {0} is the in-game day number
+presence.crew,{0} crew,,Shown to friends of the player on Steam and Discord after the day. {0} is the number of crew members
+presence.act.spacebattle,In a space battle,,Shown to friends of the player on Steam and Discord while the ship fights other ships. Keep it short
+presence.act.raiders,Repelling raiders,,Shown to friends of the player on Steam and Discord while raiders attack the ship. Keep it short
+presence.act.spacehazard,Braving a space hazard,,Shown to friends of the player on Steam and Discord while meteors or asteroids threaten the ship. Keep it short
+presence.act.fire,Fighting a fire on board,,Shown to friends of the player on Steam and Discord while a fire burns on the ship. Keep it short
+presence.act.derelict,Exploring a derelict ship,,Shown to friends of the player on Steam and Discord while a derelict ship is docked to the ship. Keep it short
+presence.act.hyperspace,Jumping through hyperspace,,Shown to friends of the player on Steam and Discord while the ship travels through hyperspace. Keep it short
+presence.act.wrecked,Rebuilding a wrecked ship,,Shown to friends of the player on Steam and Discord while nothing special happens in a wrecked ship scenario. Keep it short
+presence.act.leavingearth,Building a ship to leave Earth,,Shown to friends of the player on Steam and Discord while nothing special happens in the Leaving Earth scenario. Keep it short
+presence.act.cargo,Piloting a cargo ship,,Shown to friends of the player on Steam and Discord while nothing special happens in the Cargo Ship scenario. Keep it short
+presence.act.norobots,Running a ship without robots,,Shown to friends of the player on Steam and Discord while nothing special happens in the No Robots scenario. Keep it short
+presence.act.sandbox,Designing a ship in Sandbox,,Shown to friends of the player on Steam and Discord while nothing special happens in the Sandbox scenario. Keep it short
+presence.act.ship,Captaining a starship,,Shown to friends of the player on Steam and Discord while nothing special happens on the ship. Keep it short
