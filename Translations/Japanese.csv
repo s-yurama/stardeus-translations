@@ -6423,7 +6423,7 @@ ship.left.sector,セクターから船が離脱,,Notification about another ship
 ship.destroyed,船が破壊された,,
 obj.upgrades.winchrangeupgrade,ウィンチ範囲アップグレード,,
 obj.upgrades.winchrangeupgrade.desc,"ウインチフックの有効範囲を広げて、かなり距離がある難破船を引き寄せられるようにする。",,
-waiting.for.operator,担当者による操作待ち,,waiting for someone to operate the device
+waiting.for.operator,オペレーターによる操作待ち,,waiting for someone to operate the device
 no.worker.capable,この作業に対応可能な者がいません,,
 noun.operator.bonus,交信担当者ボーナス,,"when someone is communicating with another ship, operator with good social skills can give bonus in negotiation outcomes. This will be displayed as: Operator Bonus: +15%"
 noun.risk,リスク,,Will display something like Risk: 20%
@@ -7096,27 +7096,27 @@ ship.chat.quest_res.negative.polite.03,"艦長はあなたの熱意を評価し�
 verb.ask.quest,クエスト依頼,,
 verb.deliver,配送,,
 verb.show.quest,クエストを表示,,
-may.have.a.quest,クエストがあるかもしれない,,
-quest.main.package.trail1.title,Investigate Mysterious Coordinates,,
-quest.main.package.trail1.desc,The package recovered from the derelict ship contained a corrupted data log. We managed to extract a set of coordinates pointing to another region of space. It would be wise to travel there and investigate further.,,
-quest.KillTraitorShip,Trail of the Traitor,,
-quest.KillTraitorShip.desc,"The expedition to the anomaly uncovered a sealed data cache with a log. It described how a supposed ally betrayed and destroyed our ship to steal the coordinates of a habitable world. A covert tracker was planted on that ship, so we can now follow its location wherever it goes.",,
-noun.datalog,Datalog,,
-quest.main.reach.recovered.planet.title,Path to a New Home,,
-quest.main.reach.recovered.planet.desc,"The wreckage of the betrayer's ship contained the stolen coordinates of the habitable planet we were once bound for. At last, we know where it lies. It's time to set course for that world and claim what was taken from us.",,
-quest.main.on.reach.recovered.planet,"We have arrived at the planet whose coordinates were stolen from us, but it's already colonized by the Capitalist faction. The local spaceport may hold our next lead.",,
-verb.communicate.with,Communicate with the {0},,"{0} is the target name, like Space Port"
-quest.main.eliminate.pirate.den.title,Eliminate the Pirate Den,,
-quest.main.eliminate.pirate.den.desc,"The Capitalists have offered a deal. Destroy a pirate base that threatens their trade routes, and they'll reward us with technology that can help locate a new habitable planet. The target is a fortified sector serving as the pirates' main stronghold. The Capitalists have also supplied information on how to acquire a weapon of mass destruction to ensure the mission's success.",,
-verb.communicate,Communicate,,
-objects.devices.sectornuke,Sector Nuke,,
-objects.devices.sectornuke.desc,A single-use nuclear weapon that obliterates the entire sector.,,
-quest.step.nuke.sector.title,Nuke {0},,{0} is sector name with starmap link
-quest.step.nuke.sector.desc,Deploy the {0} at {1} and execute a hyperjump to escape the blast.,,"{0} is Sector Nuke with link to codex entry, {1} is sector name "
-sector.nuke.timer,Sector will be destroyed in {0},,{0} is time
-sector.nuked,Sector was destroyed: {0},,{0} is sector name with starmap link
-quest.main.eliminate.capitalist.port.title,The Counter Offer,,
-quest.main.eliminate.capitalist.port.desc,"The pirates have learned of our plan and will fight back if we attempt to nuke their stronghold. Instead, they have a counter offer. Redirect the strike toward the Capitalists, and they will match the promised technology, add a payout, and welcome us as allies.",,
+may.have.a.quest,クエストがあるかも？,,
+quest.main.package.trail1.title,謎の座標を調査せよ,,
+quest.main.package.trail1.desc,難破船から回収したコンテナには破損したデータログが含まれていた。なんとか座標を抽出したところ、別の宙域を指していることが判明した。現地へ向かい、さらに詳しく調査するのが賢明だろう。,,
+quest.KillTraitorShip,裏切り者の追跡,,
+quest.KillTraitorShip.desc,"アノマリーの探査で、極秘の記録データとそのログを発見した。そこには、信じていた仲間が裏切って居住可能な惑星の座標を盗み、船が破壊された経緯が記されていた。裏切り者の船には秘密裏に追跡装置を仕掛けてあったため、どこへ行こうとも現在の位置を追跡できるようだ。",,
+noun.datalog,データログ,,
+quest.main.reach.recovered.planet.title,新たな故郷へ,,
+quest.main.reach.recovered.planet.desc,"裏切り者の船の残骸には、かつて我々が目指していた居住可能な惑星の座標が残されていた。ついに、その場所を突き止めたか。惑星へ針路を取り、我々が奪われたものを取り戻す時がきたようだ。",,
+quest.main.on.reach.recovered.planet,"奪われた座標が示す惑星に到着した。だが、すでにキャピタリストが入植していた。現地の宇宙港に次の手掛かりがあるかもしれない。",,
+verb.communicate.with,{0}と通信,,"{0} is the target name, like Space Port"
+quest.main.eliminate.pirate.den.title,海賊拠点の殲滅,,
+quest.main.eliminate.pirate.den.desc,"キャピタリストから取引を持ちかけられた。交易路を脅かす海賊の拠点を破壊すれば、見返りに新たな居住可能惑星の発見に役立つテクノロジーを我々に提供するそうだ。目標は海賊の本拠地となっている要塞化されたセクターだ。キャピタリストは任務を確実に成功させるため、戦略兵器の入手方法についての情報も提供してきた。",,
+verb.communicate,通信する,,
+objects.devices.sectornuke,対セクター核弾頭,,
+objects.devices.sectornuke.desc,セクター全域を壊滅させる単発のの核弾頭だ。,,
+quest.step.nuke.sector.title,{0}への核攻撃,,"{0} is sector name with starmap link"
+quest.step.nuke.sector.desc,{1}に{0}を設置し、爆風を避けるためにハイパージャンプで脱出せよ。,,"{0} is Sector Nuke with link to codex entry, {1} is sector name "
+sector.nuke.timer,{0}後にセクターは破壊される,,"{0} is time"
+sector.nuked,セクターは破壊された：{0},,"{0} is sector name with starmap link"
+quest.main.eliminate.capitalist.port.title,裏切りの持ちかけ,,
+quest.main.eliminate.capitalist.port.desc,"海賊たちは我々の計画を察知していて、本拠地を核攻撃するなら応戦すると警告してきた。一方で、彼らは別の取引を持ちかけている。攻撃目標をキャピタリスト側に変更すれば、約束されていたテクノロジーに加えて報酬金も支払い、しかも我々を仲間として迎え入れるらしい。",,
 quest.ReachHabitablePlanet,Journey to the New World,,
 quest.ReachHabitablePlanet.desc,We finally have coordinates to a new habitable world discovered through the telescope. It's time to set a course and see what waits for us there.,,
 quest.main.on.reach.habitable.planet,"We reached the planet, but it isn't ready for habitation. The atmosphere and surface conditions require full terraforming. We'll need to ask around for leads on terraforming technology before we can settle here.",,
