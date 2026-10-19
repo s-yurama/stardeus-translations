@@ -7753,13 +7753,13 @@ post.processing,Post Processing,,"Video setting dropdown label. Lets the player 
 post.processing.tip,Choose a color grading style for the game view. Off disables the effect entirely for the best performance.,,Tooltip under the Post Processing dropdown in Video settings
 postfx.default,Default,,Name of the default post processing profile shown in the Post Processing dropdown
 postfx.soft,Soft,,Name of the softer/desaturated post processing profile shown in the Post Processing dropdown
-postfx.warm,Warm,,
-postfx.warmmatte,Warm Matte,,
-postfx.coolneutral,Cool Neutral,,
-postfx.vivid,Vivid,,
-noun.diplomacy,Diplomacy,,
-noun.allies,Allies,,Header above the row of allied faction flags in the Diplomacy panel
-noun.enemies,Enemies,,Header above the row of hostile faction flags in the Diplomacy panel
+postfx.warm,暖色,,
+postfx.warmmatte,暖色 低コンストラクト,,
+postfx.coolneutral,クール・ニュートラル,,
+postfx.vivid,鮮やか,,
+noun.diplomacy,交渉,,
+noun.allies,友好的,,Header above the row of allied faction flags in the Diplomacy panel
+noun.enemies,敵対的,,Header above the row of hostile faction flags in the Diplomacy panel
 diplomacy.propose.alliance,Propose Alliance,,Button in the Diplomacy panel that offers an alliance to a faction
 diplomacy.propose.chance,Chance they accept: {0},,Tooltip on the Propose Alliance button. {0} is a percentage
 diplomacy.propose.cooldown,We can approach them again in {0},,"Tooltip shown when the Propose Alliance button is on cooldown. {0} is a duration, i.e. 5 days"
@@ -7780,27 +7780,27 @@ ship.combat.enemy.joined,{0} joins the battle against us,,{0} is the name of an 
 obj.equipment.weapons.nailgun01,Nail Gun,,
 obj.equipment.weapons.nailgun01.desc,A construction tool that drives nails into things other than walls.,,
 research.security.improvisedarms,Improvised Arms,,
-obj.equipment.weapons.sniperrifle01,Sniper Rifle,,
-obj.equipment.weapons.sniperrifle01.desc,A long-barreled precision rifle with a magnifying scope. Deadly at a distance and useless up close.,,
-research.security.precisionfirearms,Precision Firearms,,
-obj.equipment.weapons.vibroblade01,Vibroblade,,
-obj.equipment.weapons.vibroblade01.desc,A monofilament edge vibrating at ultrasonic frequency - cuts deep enough to reach vital organs.,,
-research.security.advancedmelee,Advanced Melee,,
-obj.equipment.weapons.smg01,SMG,,
-obj.equipment.weapons.smg01.desc,"A compact automatic sidearm - light rounds, high rate of fire, best kept close.",,
-research.security.automaticweapons,Automatic Weapons,,
-ship.weapon.target.skipped.during.ship.combat,Enemy ships always take precedence - this is only targeted when no ship combat is ongoing.,,Extra tooltip line shown on the Meteoroid/Asteroid auto-target priority sliders in Ship Configuration
-obj.equipment.weapons.riotshield01,Riot Shield,,
-obj.equipment.weapons.riotshield01.desc,A reinforced ballistic shield that blocks blunt and piercing damage. Better for holding a line than picking a fight.,,
-attack.method.Bash,Bash,,
-research.security.defensivegear,Defensive Gear,,
-obj.equipment.weapons.stunbaton01,Stun Baton,,
-obj.equipment.weapons.stunbaton01.desc,"A handheld electroshock prod built to incapacitate rather than kill - devastating against biologicals and robotics alike, but barely scratches either.",,
-attack.method.Shock,Shock,,
-research.security.nonlethalsystems,Non-Lethal Systems,,
-obj.equipment.weapons.machete01,Machete,,
-obj.equipment.weapons.machete01.desc,"A long, heavy blade - slower and less precise than a knife, but it hits much harder.",,
-research.security.meleecombat,Melee Combat,,
+obj.equipment.weapons.sniperrifle01,スナイパーライフル,,
+obj.equipment.weapons.sniperrifle01.desc,長い銃身と倍率スコープを備えた命中精度の高いライフルだ。遠距離では脅威となる。近距離では使い物にならない。,,
+research.security.precisionfirearms,精密射撃,,
+obj.equipment.weapons.vibroblade01,ヴィブロ・ブレード,,
+obj.equipment.weapons.vibroblade01.desc,超音波振動するモノフィラメントを刃に用いた武器だ。深く切り裂き、内臓にまで達する。,,
+research.security.advancedmelee,高度な近接戦闘,,
+obj.equipment.weapons.smg01,サブマシンガン,,
+obj.equipment.weapons.smg01.desc,"小型で連射可能な携行火器だ。軽量弾、優れた連射速度、近距離戦闘に最適。",,
+research.security.automaticweapons,自動火器,,
+ship.weapon.target.skipped.during.ship.combat,敵艦への攻撃を最優先。艦船同士の戦闘が発生していない場合にのみ、これらを攻撃対象とする。,,Extra tooltip line shown on the Meteoroid/Asteroid auto-target priority sliders in Ship Configuration
+obj.equipment.weapons.riotshield01,暴動鎮圧用シールド,,
+obj.equipment.weapons.riotshield01.desc,補強された防御用の盾だ。打撃や刺突による攻撃を受け止める。積極的に戦うよりも、戦列を維持するのに適している。,,
+attack.method.Bash,バッシュ,,
+research.security.defensivegear,防御装備,,
+obj.equipment.weapons.stunbaton01,スタンバトン,,
+obj.equipment.weapons.stunbaton01.desc,"打突で電気ショックを加える警棒だ。殺傷ではなく無力化に用いる。有機生命体にもロボットにも非常に有効だが、どちらにもほとんど傷を負わせない。",,
+attack.method.Shock,電気ショック,,
+research.security.nonlethalsystems,非殺傷装備,,
+obj.equipment.weapons.machete01,マチェーテ,,
+obj.equipment.weapons.machete01.desc,"長くて重い刀身の武器だ。ナイフより振りが遅くて精度も劣る。だが、威力は格段に高い。",,
+research.security.meleecombat,近接戦闘,,
 act.BreakdownAbandonShip,Abandoning the ship,,AI action name shown while a colonist is executing the Abandon Ship mental breakdown
 breakdown.BreakdownAbandonShip,Breakdown: Desertion,,Mental breakdown title shown in the sticky notification and ship log
 breakdown.BreakdownAbandonShip.desc,"{0} is heading for a shuttle, intending to leave the ship for good",,{0} is being name; tooltip/log description for the Abandon Ship breakdown
