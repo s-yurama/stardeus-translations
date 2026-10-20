@@ -7130,9 +7130,9 @@ group.FoodIngredients,食材,,
 group.Hyperfuel,ハイパーフューエル,,
 group.Food,食料,,
 group.Upgrades,アップグレード,,
-adj.craftable,Craftable,,adjective describing an item that can be crafted
-noun.properties,Properties,,header before a list of object properties
-press.to.lock.tooltip,Press {0} to lock tooltip,,{0} is key binding (Shift)
+adj.craftable,製作可能,,adjective describing an item that can be crafted
+noun.properties,プロパティ,,header before a list of object properties
+press.to.lock.tooltip,{0}でツールチップを固定,,{0} is key binding (Shift)
 twitch.integration,Twitch連携,,
 noun.performance,パフォーマンス,,
 noun.troubleshooting,トラブルシューティング,,
@@ -7140,17 +7140,17 @@ noun.preset,プリセット,,
 noun.user.interface,ユーザーインターフェース,,
 noun.font.scale,フォントサイズ,,
 noun.theme,テーマ,,
-audio.silence.between.tracks,Silence Between Tracks,,
+audio.silence.between.tracks,BGMが切り替わる際の無音時間,,
 verb.customize,カスタマイズ,,
-setting.gamepad.dead.zone,Gamepad Dead Zone,,
+setting.gamepad.dead.zone,ゲームパッドの入力無効範囲,,
 setting.ui.scroll.speed,UIスクロール速度,,
 setting.zoom.sensitivity,ズームの感度,,
 setting.pan.sensitivity,水平移動の感度,,
-setting.gamepad.pointer.sensitivity,Gamepad Pointer Sensitivity,,
-setting.gamepad.pointer.acceleration,Gamepad Pointer Acceleration,,
-setting.gamepad.pointer.max.speed,Gamepad Point Max Speed,,
-setting.edge.pan.speed,Edge Pan Speed,,
-setting.ignored.drag.dist,Ignored Drag Distance,,
+setting.gamepad.pointer.sensitivity,ゲームパッドのポインター感度,,
+setting.gamepad.pointer.acceleration,ゲームパッドのポインター加速度,,
+setting.gamepad.pointer.max.speed,ゲームパッドのポインター最高速度,,
+setting.edge.pan.speed,画面端スクロール速度,,
+setting.ignored.drag.dist,ドラッグ判定を無視するカーソル移動距離,,
 num.pixels,{0}ピクセル,,
 game.story.mode,ストーリーモード,,
 game.quick.start,クイックスタート,,
@@ -7158,30 +7158,30 @@ game.custom.start,カスタマイズ,,
 noun.game.rules,ゲームモード,,
 noun.custom.rules,カスタムルール,,
 noun.ship.type,船の種類,,
-game.load.last.save,Preload Last Save,,
-game.load.last.save.tip,Automatically load last played save file when the game starts.,,
+game.load.last.save,前回のセーブデータを事前読み込み,,
+game.load.last.save.tip,前回プレイしたセーブデータのファイルをゲーム起動時に自動的に読み込みます。,,
 noun.system,システム,,
-modifiers.achievements.disabled.tip,Current game rules prevent achievements from being unlocked.,,
-unskilled.job.tip,This job doesn't have a skill level.,,
-isolated.region.tip,This is an isolated region without a {0}. An {1} is required to travel here.,,"{0} is Hyperjump Relay, {1} is FTL Drive"
-radar.deposits.tip,Radar scans can reveal additional deposits.,,
+modifiers.achievements.disabled.tip,現在のゲームルールでは実績を解除できません。,,
+unskilled.job.tip,この作業にはスキルレベルがありません。,,
+isolated.region.tip,この宙域は隔絶されていて、{0}が存在しない。移動するには{1}が必要だ。,,"{0} is Hyperjump Relay, {1} is FTL Drive"
+radar.deposits.tip,レーダーによるスキャンで、追加の資源を発見できる。,,
 game.custom.scenario,カスタムシナリオ,,
 open.saves.directory,セーブディレクトリを開く,,
-show.electricity.mini.chart,Show Electricity Mini Chart,,
-quick.search.empty,Search results will appear here.,,
+show.electricity.mini.chart,電力ミニグラフを表示,,
+quick.search.empty,検索結果がここに表示されます。,,
 quick.search.no.results,検索結果なし,,
-jump.to.position,Jump to position,,"As in ""make the camera jump to map position x:y"""
+jump.to.position,指定位置に移動,,"As in ""make the camera jump to map position x:y"""
 noun.calculator,電卓,,
 noun.checklist,チェックリスト,,
 research.node.locked,研究が未解放,,
 noun.scan.result,スキャン結果,,
-drag.to.reorder,Click here and drag to reorder,,
-verb.research.requires,Requires,,must be short or it won't look good
-verb.research.unlocks,Unlocks,,must be short or it won't look good
+drag.to.reorder,ここをクリックし、ドラッグして並べ替え,,
+verb.research.requires,必要,,must be short or it won't look good
+verb.research.unlocks,アンロック,,must be short or it won't look good
 noun.resources,資源,,
-hyperspace.solar.warning,Solar panels do not work in hyperspace. Ensure you have enough reactors or batteries to meet the energy demand for the entire duration of the hyperjump.,,
-amt.modifier.key.tip,Hold {0} to change the value by {1},,"{0} is a modifier key like SHIFT, {1} is a number"
-recycled.by.disposing,Recycled by disposing of {0},,{0} is a list of objects
+hyperspace.solar.warning,ハイパースペース内ではソーラーパネルが機能しません。ハイパージャンプ中に必要な電力を維持できるよう、リアクターやバッテリーを十分に確保してください。,,
+amt.modifier.key.tip,{0}キーを押しながら操作すると数値が{1}ずつ変化します,,"{0} is a modifier key like SHIFT, {1} is a number"
+recycled.by.disposing,{0}をリサイクル処分,,{0} is a list of objects
 adj.recyclable,分解可能,,
 recycled.by.deconstructing,Recycled by deconstructing {0},,{0} is a list of objects
 found.in.space,"Found in natural deposits on asteroids, planets, and moons.",,
@@ -8356,3 +8356,8 @@ presence.act.cargo,Piloting a cargo ship,,Shown to friends of the player on Stea
 presence.act.norobots,Running a ship without robots,,Shown to friends of the player on Steam and Discord while nothing special happens in the No Robots scenario. Keep it short
 presence.act.sandbox,Designing a ship in Sandbox,,Shown to friends of the player on Steam and Discord while nothing special happens in the Sandbox scenario. Keep it short
 presence.act.ship,Captaining a starship,,Shown to friends of the player on Steam and Discord while nothing special happens on the ship. Keep it short
+item.forbidden.tip,"Forbidden. Nobody will store, use or eat it until you allow it.",,Tooltip of the small red sign shown on a forbidden item or material pile
+quest.step.allow.items,Allow the {0},,"{0} is a linked item name (Survival Meal, Scrap Metal). Tutorial quest objective: the starting supplies are forbidden and the player must allow them"
+quest.step.allow.items.tip,"The {0} is forbidden, so nobody eats, uses or stores it. Select it and press Allow.",,"{0} is a linked item name (Survival Meal, Scrap Metal). Tooltip of the quest objective above. Allow is the button name"
+work.radius,Work Radius,,Header of the bot dock setting that keeps the dock's bot working near the dock
+work.radius.tip,The assigned bot only takes tasks within this distance of its dock. At the lowest setting it works anywhere.,,Tooltip of the Work Radius slider on the bot dock panel
