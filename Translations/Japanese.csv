@@ -7234,75 +7234,75 @@ no.compatible.upgrades,互換性のあるアップグレードなし,,
 noun.app,アプリ,,"as in ""mobile app"""
 noun.app.plural,アプリ,,"as in ""mobile apps"""
 verb.build,建造,,
-disable.codex.popups,Disable automatic Codex pop-ups,,
-disable.codex.popups.tip,"When automatic pop-ups are disabled, you can still look up Codex entries in the Codex and Quick Search.",,
-adj.unremarkable,Unremarkable,,
-being.unremarkable.info,This being is completely unremarkable and has no unique traits.,,
-el.device.disconnected,Disconnected,,
-el.device.disconnected.desc,This device is not connected to the electric grid.,,
-compatible.upgrade.types,Compatible Upgrade Types,,
-available.upgrades,Available Upgrades,,
-verb.draft,Draft,,as in draft into an army
-verb.undraft,Undraft,,as in realease from the army
-adj.drafted,Drafted,,as in drafted into an army
-noun.universe.size,Universe Size,,
-space.stats.line,This universe consists of {0} sectors within {1} regions.,,
-storage.eject.all,Eject All,,button label for ejecting all items in storage
-select.similar.in.view,Select Similar,,"button label for selecting similar visible entities. Should ideally be no longer than english ""Select Similar"""
-select.similar.in.view.tip,Select similar objects currently in view,,
+disable.codex.popups,Codexの自動ポップアップ表示を無効化,,
+disable.codex.popups.tip,"自動ポップアップを無効にしても、コーデックスやクイック検索から項目を調べることができます。",,
+adj.unremarkable,平凡,,
+being.unremarkable.info,この生命体はごく平凡な存在で、ユニークな特性はありません。,,
+el.device.disconnected,未接続,,
+el.device.disconnected.desc,この機器はパワーグリッドに接続されていません。,,
+compatible.upgrade.types,互換性のあるアップグレード,,
+available.upgrades,利用可能なアップグレード,,
+verb.draft,編成,,as in draft into an army
+verb.undraft,編成解除,,as in realease from the army
+adj.drafted,編成中,,as in drafted into an army
+noun.universe.size,宇宙のサイズ,,
+space.stats.line,この宇宙は{0}個のセクターと、それらを含む{1}個の宙域で構成されています。,,
+storage.eject.all,全て取り出す,,button label for ejecting all items in storage
+select.similar.in.view,同じものを選択,,"button label for selecting similar visible entities. Should ideally be no longer than english ""Select Similar"""
+select.similar.in.view.tip,現在表示されている同じ種類のオブジェクトを選択します,,
 auto.haul.forbid,搬入禁止,,
 auto.haul.allow,搬入許可,,
-min.quality,Minimum Quality,,
-max.quality,Maximum Quality,,
-adj.current,Current,,"tab name for something like ""Current Quests"" or ""Current Events"""
+min.quality,最小値,,
+max.quality,最大値,,
+adj.current,進行中,,"tab name for something like ""Current Quests"" or ""Current Events"""
 noun.archive,アーカイブ,,
-choose.response,Choose Response,,label before list of choices when player talks to another ship
-cancel.procedures,Cancel Procedures,,"button label, short version of ""cancel all pending surgical procedures""."
-verb.implant,Implant,,to implant a body part
-bots.without.dock,Bots Without Dock,,
-bots.with.dock,Bots With Dock,,
-beings.without.bed,Beings Without Bed,,
-beings.with.bed,Beings With Bed,,
-choose.a.package,Choose a Package,,
-copy.config.short,Copy Config,,
-are.you.sure,Are you sure?,,header for yes / no choice
-noun.draw.mode,Draw Mode,,
-tool.plan.pencil,Pencil,,
-tool.plan.rect,Rectangle,,
+choose.response,応答内容を選択,,label before list of choices when player talks to another ship
+cancel.procedures,作業中止,,"button label, short version of ""cancel all pending surgical procedures""."
+verb.implant,移植,,to implant a body part
+bots.without.dock,ドッキングしていないロボット,,
+bots.with.dock,ドッキング中のロボット,,
+beings.without.bed,ベッドがない生命体,,
+beings.with.bed,ベッドのある生命体,,
+choose.a.package,コンテナを選択,,
+copy.config.short,設定をコピー,,
+are.you.sure,よろしいですか？,,header for yes / no choice
+noun.draw.mode,描画モード,,
+tool.plan.pencil,ペン,,
+tool.plan.rect,長方形,,
 noun.color,カラー,,
 group.Terraforming,テラフォーミング,,
-online.order.hyperjump.warning,Jumping to hyperspace will abandon online orders that have not been delivered yet.,,
-upgrade.ship.class,Upgrade Ship Class,,
-ship.config.short,Ship Config,,"short version of ""Ship Configuration"" for a button label"
-weapons.autofire,Autofire Weapons,,
-weapons.auto.target,Auto-Target Weapons,,
+online.order.hyperjump.warning,ハイパースペースに突入すると、未配達のオンライン注文が放棄されます。,,
+upgrade.ship.class,船体クラスをアップグレード,,
+ship.config.short,船の設定,,"short version of ""Ship Configuration"" for a button label"
+weapons.autofire,兵装の自働射撃,,
+weapons.auto.target,兵装の自動照準,,
 flight.checklist,航行チェックリスト,,
 verb.move.ship,船の移動,,
-expeditions.about,Send your shuttles on expeditions to explore the surroundings and mine or collect materials.,,
-terraforming.info,"Discover terraformable planets using the telescope, then track their location and terraforming progress here. Once terraforming is complete, you can colonize a planet.",,
-noun.consequences,Consequences,,
-cancel.transaction,Cancel Transaction,,
-visible.heat.distortion,Visible Heat Distortion,,
-visible.heat.distortion.tip,Hot areas of your ship will have a heat distortion effect.,,
-compress.values,Compress Values,,show compressed version of the chart
-recent.reports,Recent reports,,
-noun.slot,Slot,,a place some object can occupy. usually for beings
-adj.automated,Automated,,
-noun.operator,Operator,,
-keep.operator,Keep Operator,,
-keep.operator.tip,"An operator will always remain at the post, even when not actively needed.",,
-noun.target.temperature,Target Temperature,,label for heater / cooler adjustment slider
-select.anchor,Select Anchor,,"when we click a winch hook, we have to select an anchor we want to reel in"
-select.hook,Select Hook,,"when we click a winch anchor, we have to select a hook we want to reel in"
-noun.advanced.life.support,Advanced Life Support,,label for a toggle that switches stasis array life support mode to advanced
-noun.objects.on.ship,Objects On Ship,,"objects that exist on our ship (material piles, etc)"
-noun.devices.on.ship,Devices On Ship,,"devices that exist on our ship (built devices, etc)"
-downloaded.ships,Downloaded Ships,,ships downloaded from steam workshop
-noun.color.picker,Color Picker,,
-color.picker.tip,Click on already painted areas of the ship to sample a color.,,
-auto.refill.threshold,Auto Refill Threshold,,
-auto.refill.threshold.tip,A refill task will be automatically created once the remaining material drops below this threshold.,,
-temp.connect.pending,Pending Temporary Connection,,
+expeditions.about,シャトルを探査に送り出し、周辺を探検したり、資源の採掘や収集ができます。,,
+terraforming.info,"テラフォーミング可能な惑星をテレスコープで発見すれば、位置やテラフォーミングの進捗をこちらで確認できます。テラフォーミングが完了すると、その惑星に入植できます。",,
+noun.consequences,結果,,
+cancel.transaction,取引をキャンセル,,
+visible.heat.distortion,熱による陽炎を表示,,
+visible.heat.distortion.tip,高温になっている船体エリアに、かげろうのような揺らめきを表示します。,,
+compress.values,グラフの目盛り調整,,show compressed version of the chart
+recent.reports,最新レポート,,
+noun.slot,スロット,,a place some object can occupy. usually for beings
+adj.automated,自動化済み,,
+noun.operator,作業担当者,,
+keep.operator,作業担当者を常駐,,
+keep.operator.tip,"作業が発生していなくても担当者を持ち場に常駐させます。",,
+noun.target.temperature,目標温度,,label for heater / cooler adjustment slider
+select.anchor,アンカーを選択,,"when we click a winch hook, we have to select an anchor we want to reel in"
+select.hook,フックを選択,,"when we click a winch anchor, we have to select a hook we want to reel in"
+noun.advanced.life.support,高性能モード,,label for a toggle that switches stasis array life support mode to advanced
+noun.objects.on.ship,船内のオブジェクト,,"objects that exist on our ship (material piles, etc)"
+noun.devices.on.ship,船内の機器,,"devices that exist on our ship (built devices, etc)"
+downloaded.ships,ダウンロードした船,,ships downloaded from steam workshop
+noun.color.picker,カラーピッカー,,
+color.picker.tip,塗装されている船体のタイルをクリックすると、その色を取得できます。,,
+auto.refill.threshold,自動補充のしきい値,,
+auto.refill.threshold.tip,残りの資材がこのしきい値を下回ると、自動的に補充タスクが作成されます。,,
+temp.connect.pending,,一時的な接続を中断中,,
 save.plan,設計をセーブ,,
 load.plan,設計をロード,,
 generate.plan,設計内容を生成,,
