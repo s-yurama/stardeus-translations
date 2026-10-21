@@ -7183,53 +7183,53 @@ hyperspace.solar.warning,ハイパースペース内ではソーラーパネル�
 amt.modifier.key.tip,{0}キーを押しながら操作すると数値が{1}ずつ変化します,,"{0} is a modifier key like SHIFT, {1} is a number"
 recycled.by.disposing,{0}をリサイクル処分,,{0} is a list of objects
 adj.recyclable,分解可能,,
-recycled.by.deconstructing,Recycled by deconstructing {0},,{0} is a list of objects
-found.in.space,"Found in natural deposits on asteroids, planets, and moons.",,
+recycled.by.deconstructing,解体時に{0}をリサイクル処分,,{0} is a list of objects
+found.in.space,"小惑星・惑星・衛星の天然鉱床として存在",,
 adj.extractable,抽出可能,,
 adj.harvestable,収穫可能,,
-harvested.from,Harvested from {0},,{0} is list of plant names
-produced.in,Produced in {0},,{0} is list of devices
-copy.config.paste.tip,"Click {0} to paste on compatible devices, or click and drag to paste on multiple devices.",,{0} is mouse or controller button
-copy.config.copy.tip,Click {0} on a compatible device to copy the configuration.,,{0} is mouse or controller button
-hovering.compatible.object,Hovering compatible,,label before a list of objects that player is hovering with the cursor above them
-copy.config.copied,Copied configuration,,
+harvested.from,{0}から収穫,,{0} is list of plant names
+produced.in,{0}で生産,,{0} is list of devices
+copy.config.paste.tip,"{0}をクリックし、互換性のある機器に設定を貼り付け。複数の機器に貼り付けるには、クリックしたままドラッグ。",,{0} is mouse or controller button
+copy.config.copy.tip,互換性のある機器で{0}をクリックして設定をコピー。,,{0} is mouse or controller button
+hovering.compatible.object,互換性のある対象物,,label before a list of objects that player is hovering with the cursor above them
+copy.config.copied,コピーされた設定内容,,
 hyperjump.pause,ハイパージャンプ中断,,
 hyperjump.resume,ハイパージャンプ続行,,
 adj.paused,ポーズ中,,
 hyperjump.cancel,ハイパージャンプ中止,,
-no.notifications.0,All quiet. For now.,,Random message to display when there are no alerts
-no.notifications.1,Nothing is on fire.,,Random message to display when there are no alerts
-no.notifications.2,Looks clear.,,Random message to display when there are no alerts. Quote from Pitch Black by Riddick right before bad stuff happens.
-no.notifications.3,No problems detected. Yet.,,Random message to display when there are no alerts
-no.notifications.4,Everything is suspiciously fine.,,Random message to display when there are no alerts
-no.notifications.5,No emergencies. Enjoy it.,,Random message to display when there are no alerts
-no.notifications.6,No alerts. That's new.,,Random message to display when there are no alerts
-issues.need.attention.one,Issue needs attention,,the text will be prefixed with 1. Try to keep translation short.
-issues.need.attention.two,Issues need attention,,the text will be prefixed with 2. Try to keep translation short.
-issues.need.attention.few,Issues need attention,,the text will be prefixed with 3 or 4. Try to keep translation short.
-issues.need.attention.many,Issues need attention!,,the text will be prefixed with 5 or larger number. Try to keep translation short. Note that there is an exclamation point after this!
+no.notifications.0,異常なし。今のところは。,,Random message to display when there are no alerts
+no.notifications.1,なにも燃えてはいない。,,Random message to display when there are no alerts
+no.notifications.2,問題なさそうだ。,,Random message to display when there are no alerts. Quote from Pitch Black by Riddick right before bad stuff happens.
+no.notifications.3,大丈夫だ。問題ない。,,Random message to display when there are no alerts
+no.notifications.4,奇妙なまでに順調だ。,,Random message to display when there are no alerts
+no.notifications.5,緊急事態なし。楽しもう。,,Random message to display when there are no alerts
+no.notifications.6,警告なし。新鮮だ。,,Random message to display when there are no alerts
+issues.need.attention.one,要対応,,the text will be prefixed with 1. Try to keep translation short.
+issues.need.attention.two,要対応,,the text will be prefixed with 2. Try to keep translation short.
+issues.need.attention.few,要対応,,the text will be prefixed with 3 or 4. Try to keep translation short.
+issues.need.attention.many,要対応!,,the text will be prefixed with 5 or larger number. Try to keep translation short. Note that there is an exclamation point after this!
 alerts.critical,重大,,
-alerts.regular,注意,,
+a無効化lerts.regular,注意,,
 alerts.warning,警告,,
 alerts.info,情報,,
-disable.steam.virtual.keyboard,Disable Virtual Keyboard,,
+disable.steam.virtual.keyboard,仮想キーボードを無効化,,
 action.cancel.flight,航行中止,,
 noun.incident,Incident,,
-expedition.verb.mine,Mining {0},,"{0} is resource deposit name (coal, iron)"
-expedition.verb.collect,Collecting {0},,{0} is resource deposit name (plant fiber)
-expedition.verb.extract,Extracting {0},,{0} is resource deposit name (crude oil)
-add.crew.member,Add a crew member,,for shuttle expeditions
-expected.mine.rate,Expected mining rate,,
+expedition.verb.mine,{0}を採掘中,,"{0} is resource deposit name (coal, iron)"
+expedition.verb.collect,{0}を採集中,,{0} is resource deposit name (plant fiber)
+expedition.verb.extract,{0}を抽出中,,{0} is resource deposit name (crude oil)
+add.crew.member,乗員追加,,for shuttle expeditions
+expected.mine.rate,推定採掘速度,,
 rate.per.day,1日あたり{0},,{0} is a number
 verb.recall,呼び戻す,,
-noun.mining.rate,Mining rate,,how fast is the mining happening (for mining resources on planets / asteroids)
+noun.mining.rate,採掘速度,,how fast is the mining happening (for mining resources on planets / asteroids)
 noun.alien.egg,エイリアンの卵,,
-noun.alien.egg.desc,An unidentified object that looks like an egg. What could be inside?,,
-current.sanity.trend,Current sanity trend,,
-current.sanity.trend.tip,Current sanity trend shows the direction and speed at which sanity is changing. It is calculated by summing all ongoing sanity effects.,,
-view.social.interactions,View Social Interactions,,button label
-being.shared.interactions,"Spent {0} together, with {1} positive and {2} negative interactions.",,"{0} is time (days, hours), {1} and {2} are numbers, 0 - 999+"
-compatible.upgrades,Compatible Upgrades,,header for a list of upgrades
+noun.alien.egg.desc,正体不明の物体。卵のような形をしている。中には何が入っているのだろう？,,
+current.sanity.trend,現在の機嫌の推移,,
+current.sanity.trend.tip,機嫌の推移は、機嫌が変化する方向と速度を示す。継続中の機嫌への影響をすべて合算して算出される。,,
+view.social.interactions,交流履歴を参照,,button label
+being.shared.interactions,"一緒に過ごした時間：{0}（友好的交流：{1}回、敵対的交流：{2}回）",,"{0} is time (days, hours), {1} and {2} are numbers, 0 - 999+"
+compatible.upgrades,互換性のあるアップグレード,,header for a list of upgrades
 no.compatible.upgrades,互換性のあるアップグレードなし,,
 noun.app,アプリ,,"as in ""mobile app"""
 noun.app.plural,アプリ,,"as in ""mobile apps"""
