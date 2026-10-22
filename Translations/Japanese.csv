@@ -7340,7 +7340,7 @@ quest.BountyHuntPirateShip5.desc,この海賊船を沈めてしまえば、進�
 quest.BountyHuntPirateShip6,商人の依頼,,
 quest.BountyHuntPirateShip6.desc,商人連合が海賊船の撃沈に懸賞金をかけている。海賊船は商人連合の貨物船をこれまで何度も襲撃している。,,
 quest.BountyHuntPirateShip7,悪いうわさ,,
-quest.BountyHuntPirateShip7.desc,"実は、この船が噂の事件に関わっていた確証はない。だが、乗ってるのは嫌われ者だし、賞金もすでに掛かっている。射撃の的にしたくないか？",,
+quest.BountyHuntPirateShip7.desc,"実は、この船が噂の事件に関わっていたか確証はない。だが、乗ってるのは嫌われ者だし、賞金もすでに掛かっている。射撃の的にしたくないか？",,
 quest.BountyHuntPirateShip8,野放しの略奪者,,
 quest.BountyHuntPirateShip8.desc,海賊団が周辺の航路を狙っている。奴らの船の位置をやっと捉えた。また逃がしてしまう前に撃沈してくれ。,,
 find.any.color,全色で検索,,
@@ -7410,9 +7410,9 @@ noun.colony.jobs,Colony Jobs,,
 adj.unusable,使用不能,,
 adj.not.removable,取り外し不能,,
 body.op.remove.all,すべて取り外し,,
-body.op.install.missing,Install missing parts,,
-body.op.replace.irreparable,Replace bad parts,,
-body.op.remove.irreparable,Remove bad parts,,
+body.op.install.missing,不足パーツを取付,,
+body.op.replace.irreparable,故障パーツを交換,,
+body.op.remove.irreparable,故障パーツを除去,,
 body.op.remove,パーツ取り外し,,
 body.op.install,パーツ組み込み,,
 body.op.swap,パーツ置き換え,,
@@ -7563,7 +7563,7 @@ risk.none,なし,,
 risk.light,わずか,,
 risk.medium,通常,,
 risk.heavy,重大,,
-being.set.being.on.fire,{0} has set {1} on fire!,,{0} and {1} are being names
+being.set.being.on.fire,{0}が{1}に放火！,,{0} and {1} are being names
 noun.windowless.room,窓のない区画,,
 quest.MakeShipCombatReady.assign.battlestation,Assign the Battle Station to handle the Shredder Cannons,,
 quest.MakeShipCombatReady.assign.battlestation.tip,"Select the {0} and assign it to operate the {1}. Without an assigned weapon, the station's operator has nothing to fire.",,"{0} is battle station, {1} is shredder cannons"
@@ -7585,8 +7585,8 @@ verb.landing,Landing,シャトル着艦中,
 verb.boarding,Boarding,シャトルに搭乗中,
 verb.flying,航行中,,
 verb.unloading,荷下ろし中,,
-verb.calling,Calling,,"when someone is calling your on a phone, etc"
-count.onboard,Onboard: {0},,"count of beings aboard the ship, {0} is the number"
+verb.calling,呼び出し中,,"when someone is calling your on a phone, etc"
+count.onboard,乗船人数: {0},,"count of beings aboard the ship, {0} is the number"
 disable.demo.mode,デモモードの無効化,,
 disable.demo.mode.tip,"If Demo Mode is disabled, the last save will load paused and the camera will stay still in the main menu.",,
 input.DraftUnit,Shortcut: Draft Selected Beings,,draft the currently selected being into combat mode
@@ -7644,9 +7644,9 @@ tut.el.config.reactor,Configuring a Matter Reactor,,
 tut.el.config.reactor.desc,"{0} can be configured to burn almost any type of material. I recommend using {1} or {2}, as they produce a lot of electricity and are easy to obtain.",,"{0} is Matter Reactor, {1} is Scrap Metal, {2} is Steel Plate"
 tut.el.use.ui.to.select.material,Select the desired fuel type in the UI.,,
 tut.unifying.el.grid,Unifying the Electric Grid,,
-tut.unifying.el.grid.desc,Devices connected to an electrical grid that is not connected to the {0} will display this icon:,,{0} is ship computer
+tut.unifying.el.grid.desc,Devices connected to an electric grid that is not connected to the {0} will display this icon:,,{0} is ship computer
 tut.unifying.el.grid.step1,Chain connectors together to extend the Ship Computer's reach.,,
-tut.finding.unamanged.grids,You can quickly find unmanaged electrical grids using the Electric Grid UI.,,
+tut.finding.unamanged.grids,You can quickly find unmanaged electric grids using the Electric Grid UI.,,
 tut.el.mass.connect.shift,Hold {0} and click a connector to connect or disconnect multiple devices at once.,,{0} is shift
 tut.el.disconnect,Repeat the same action on a connected device to disconnect it.,,
 hyperjump.relay.arrived.prompt,We have arrived at a {0}. Would you like to approach it and initiate a jump to an adjacent space sector?,,{0} is Hyperjump Relay
@@ -7662,7 +7662,7 @@ codex.m.pressurizing.areas,Pressurizing Areas,,
 codex.m.pressurizing.areas.step1,Enclose the area first.,,
 codex.m.pressurizing.areas.step2,Use the {0} tool to order repairs for any damaged structures inside or around the perimeter.,,{0} is Repair
 codex.m.pressurizing.areas.step3,"Use the {0} tool to connect all doors, airlocks, and vents to your electric grid.",,{0} is Connect
-codex.m.pressurizing.areas.step4,Close any {0} that are exposed to open space.,,{0} is Vent
+codex.m.pressurizing.areas.step4,Close any {0} that is exposed to open space.,,{0} is Vent
 codex.m.pressurizing.areas.step5,Consult the {0} and {1} overlays to find gaps and leaks.,,"{0} is Airtightness, {1} is Insulation"
 codex.m.pressurizing.areas.step6,Build at least one {0} and one {1} to create a livable atmosphere.,,"{0} is Heater, {1} is Oxygen Pump"
 create.new.save,Create New Save,,
