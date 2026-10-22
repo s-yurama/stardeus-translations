@@ -7345,46 +7345,46 @@ quest.BountyHuntPirateShip8,野放しの略奪者,,
 quest.BountyHuntPirateShip8.desc,海賊団が周辺の航路を狙っている。奴らの船の位置をやっと捉えた。また逃がしてしまう前に撃沈してくれ。,,
 find.any.color,全色で検索,,
 noun.threshold,しきい値,,
-mat.threshold.quick.drawer.tip,Only show this material in the quick drawer when the count is below this number.,,
-show.only.when.less,Show only when less than...,,
-show.in.quick.drawer,Show in Quick Drawer,,
-noun.success.chance,Chance of Success,,
-body.part.replacement.warning,"Failure of this procedure can result in multiple undesirable outcomes, including but not limited to death.",,
-body.part.welded.warning,This body part can no longer be removed due to a previous surgical error.,,
-body.part.slot.destroyed.warning,This body part slot is no longer usable due to a previous surgical error.,,
-stat.SurgicalFatigue,Surgical Fatigue,,
-stat.SurgicalFatigue.desc,Accumulated stress from recent surgeries. Higher values reduce the success chance of new procedures.,,
-label.enemy.ashes,Label enemy ashes,,
-label.enemy.ashes.tip,Crew ashes are always labeled. Enable this to also label ashes of other factions.,,
-unsaved.progress.warning,Any unsaved progress will be lost!,,
-select.others.here,Others Here,,
-select.others.here.tip,Select another entity at this position,,
-body.part.destroyed,Destroyed,,For body parts (both robot and human)
-quest.step.build.close.to,Build a {0} within short range of the {1},,"{0} is Connector, {1} is Ship Computer"
-quest.step.connect.to.specific,Use the {0} tool to link the {1} to the {2},,"{0} is Connect, {1} is Connector, {2} is Ship Computer"
-input.ShortcutApps,Show Apps,,
-operatable.worker.not.allowed,This worker is not allowed to use this device,,
-noun.battle.station,Battle Station,,
-noun.battle.station.plural,Battle Stations,,"generic plural version as in ""you have to build more battle stations"""
-noun.battle.station.desc,Allows control of multiple ship weapons of the same type from a single ergonomic workstation.,,
-operatable.not.assigned.tip,"If nobody is assigned, anyone can operate this device.",,
-adj.unassigned,Unassigned,,for work spots of devices that have nobody specific assigned to them
-noun.assigned.operators,Assigned operators,,label for a list of designated operators for a specific device
-operatable.worker.unable,{0} is unable to operate this device.,,{0} is name
-fire.at,Fire at {0},,{0} is position coordinate
-condition.rotting,Rotting,,
-condition.rotting.desc,This body is decomposing. Body parts will degrade over time.,,
-condition.corroding,Corroding,,
-condition.corroding.desc,This body is corroding. Body parts will degrade over time.,,
-obj.materials.scrapmetal,Scrap Metal,,
-obj.materials.scrapmetal.desc,Twisted fragments of metal salvaged from disassembled machinery and parts.,,
-space.object.info.DerelictZone,Derelict Graveyard,,
-no.battle.station,No Battle Station,,
-no.battle.station.tip,You have to build and assign a {0} for {1} weapon type.,,
-not.enough.battle.stations.tip,You need more {0} for {1} weapon type.,,
-must.build.battle.stations.tip,{0} not available. All weapons down!,,{0} is Battle Station
-must.build.more.battle.stations.tip,Some weapons are unmanaged. Build more {0}!,,{0} is Battle Stations (plural)
-no.ship.weapons,Ship has no weapons!,,
+mat.threshold.quick.drawer.tip,素材の所持数が、この数未満の場合にクイックドロワーに表示されます。,,
+show.only.when.less,指定数数未満の場合のみ表示...,,
+show.in.quick.drawer,クイックドロワーで表示,,
+noun.success.chance,成功率,,
+body.part.replacement.warning,"この処置に失敗すると、死亡をはじめとする様々な不幸な結果を招くおそれがあります。",,
+body.part.welded.warning,この身体パーツは過去の手術失敗が原因で取り外せなくなっています。,,
+body.part.slot.destroyed.warning,この身体パーツは過去の手術失敗が原因で使用できません。,,
+stat.SurgicalFatigue,手術での体力消耗,,
+stat.SurgicalFatigue.desc,直近の手術による体力の消耗度合い。値が高いほど、新たな処置の成功率が低下します。,,
+label.enemy.ashes,敵の遺灰,,
+label.enemy.ashes.tip,乗組員の遺灰には常にラベルが表示されます。この設定を有効にすると他勢力の遺灰にもラベルが表示されます。,,
+unsaved.progress.warning,セーブしていないゲームの進行状況は失われます！,,
+select.others.here,他の対象を選択,,
+select.others.here.tip,この位置にある別の対象物を選択します,,
+body.part.destroyed,損壊,,For body parts (both robot and human)
+quest.step.build.close.to,{0}を{1}の近くに建造する,,"{0} is Connector, {1} is Ship Computer"
+quest.step.connect.to.specific,{0}を使用し、{1}を{2}に接続する,,"{0} is Connect, {1} is Connector, {2} is Ship Computer"
+input.ShortcutApps,アプリを表示,,
+operatable.worker.not.allowed,この作業員はこの装置の使用を許可されていません,,
+noun.battle.station,武器管制システム,,
+noun.battle.station.plural,武器管制システム,,"generic plural version as in ""you have to build more battle stations"""
+noun.battle.station.desc,人間工学に基づいて設計された操作席だ。同種の艦載兵器を複数制御できる。,,
+operatable.not.assigned.tip,"作業担当者が指定されていない場合、誰でもこの装置を操作できます。",,
+adj.unassigned,未割り当て,,for work spots of devices that have nobody specific assigned to them
+noun.assigned.operators,割当中の担当者,,label for a list of designated operators for a specific device
+operatable.worker.unable,{0}はこの装置を操作できません。,,{0} is name
+fire.at,{0}へ発射,,{0} is position coordinate
+condition.rotting,腐敗進行中,,
+condition.rotting.desc,この遺体は腐敗が進みつつあります。身体パーツは時間の経過とともに劣化します。,,
+condition.corroding,腐食進行中,,
+condition.corroding.desc,この遺体は腐食が進みつつあります。身体パーツは時間の経過とともに劣化します。,,
+obj.materials.scrapmetal,金属スクラップ,,
+obj.materials.scrapmetal.desc,ねじ曲がった金属片だ。解体した機械や部品から回収されたようだ。,,
+space.object.info.DerelictZone,難破船の墓場,,
+no.battle.station,武器管制システムなし,,
+no.battle.station.tip,{1}タイプの兵器に割り当てる{0}を建造する必要があります。,,
+not.enough.battle.stations.tip,{1}タイプの兵装には、{0}の数が足りていません。,,
+must.build.battle.stations.tip,{0}なし。全兵装が使用不能！,,{0} is Battle Station
+must.build.more.battle.stations.tip,制御下にない兵装があります。{0}を増設してください！,,{0} is Battle Stations (plural)
+no.ship.weapons,艦載兵装なし！,,
 unmanned.battle.stations,Unmanned battle stations detected. Manual weapon control required.,,
 battle.station.no.assigned.active.weapons,No active weapons assigned to this station.,,
 fully.assigned,Fully Assigned,,label for a list of something that can be assigned but already is fully assigned
