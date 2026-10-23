@@ -7565,20 +7565,20 @@ risk.medium,通常,,
 risk.heavy,重大,,
 being.set.being.on.fire,{0}が{1}に放火！,,{0} and {1} are being names
 noun.windowless.room,窓のない区画,,
-quest.MakeShipCombatReady.assign.battlestation,Assign the Battle Station to handle the Shredder Cannons,,
-quest.MakeShipCombatReady.assign.battlestation.tip,"Select the {0} and assign it to operate the {1}. Without an assigned weapon, the station's operator has nothing to fire.",,"{0} is battle station, {1} is shredder cannons"
-noun.shredder.cannons.plural,Shredder Cannons,,plural form of Shredder Cannon (key objects.devices.shreddercannon )
-noun.quest.target,Quest Target,,
-noun.preferred.target,Preferred Target,,
-noun.preferred.target.tip,"If the preferred target is not available, the default targeting priorities will be used.",,
-surgical.op.failed.wound,The {0} was wounded in the process.,,{0} is body part name
-surgical.op.failed.weld,The {0} got welded in place and can no longer be removed.,,{0} is body part name
-surgical.op.failed.cripple,The {0} was crippled.,,{0} is body part name
-surgical.op.failed.destroy.part,The {0} was destroyed.,,{0} is body part name
-surgical.op.failed.destroy.slot,The body part slot was destroyed and will remain empty.,,
-surgical.op.failed.fatality,The patient did not survive.,,
-surgical.op.failed.rejection,The {0} was rejected by the immune system.,,{0} is body part name
-ship.threat.detected,Threat Detected,,
+quest.MakeShipCombatReady.assign.battlestation,シュレッダーキャノンを操作するため、武器管制システムに割り当てる,,
+quest.MakeShipCombatReady.assign.battlestation.tip,"{0}を選択し、{1}を操作するために割り当てましょう。兵装を割り当てないと、武器管制システムのオペレーターは何も撃てません。",,"{0} is battle station, {1} is shredder cannons"
+noun.shredder.cannons.plural,Shredder Cannons,シュレッダーキャノン,plural form of Shredder Cannon (key objects.devices.shreddercannon )
+noun.quest.target,クエスト目標,,
+noun.preferred.target,優先目標,,
+noun.preferred.target.tip,"優先目標が存在しない場合は、通常の優先順位を使用して目標を決定します。",,
+surgical.op.failed.wound,処置中に{0}を傷つけてしまった。,,{0} is body part name
+surgical.op.failed.weld,{0}がくっついてしまい、取り外せなくなった。,,{0} is body part name
+surgical.op.failed.cripple,{0}は使い物にならなくなった。,,{0} is body part name
+surgical.op.failed.destroy.part,{0}を駄目にしてしまった。,,{0} is body part name
+surgical.op.failed.destroy.slot,身体パーツのスロットが破壊され、空白のままになった。,,
+surgical.op.failed.fatality,患者は助からなかった。.,,
+surgical.op.failed.rejection,{0}が免疫系に拒絶された。,,{0} is body part name
+ship.threat.detected,脅威を検知,,
 noun.class.points.short,{0} CP,,{0} is a number. Short acronym for Class Points (noun.class.points translation key)
 verb.scanning,スキャン中,,
 verb.landing,Landing,シャトル着艦中,
@@ -7704,10 +7704,10 @@ input.ShipCombatToggleVent,Shortcut: Toggle Flux Vent,,
 ate.disliked.food,嫌いなものを食べた,,
 food.type.vegan,ヴィーガン食,,
 food.type.carnivore,肉製品,,
-noun.ship.shield,Ship Shield,,
-noun.ship.engine,Ship Engine,,
-stat.firing.time,Firing Time,,Duration of a ship weapon's firing state before it needs to recharge
-verb.upgrade,Upgrade,,
+noun.ship.shield,船のシールド,,
+noun.ship.engine,船のエンジン,,
+stat.firing.time,射撃間隔,,Duration of a ship weapon's firing state before it needs to recharge
+verb.upgrade,アップグレード,,
 codex.m.fluxvent.build,Build {0} to increase the flux venting rate.,,{0} is Flux Vents
 codex.m.fluxvent.manual,"Vent {0} manually to prevent {1}. Manual venting disables shields, but removes flux faster than forced venting during {1}. You can stop manual venting at any time.",,{0} is Flux; {1} is Flux Overload
 codex.m.shields.overbuild,"Building more than one {0} does not make shields stronger or faster. Extra emitters only provide redundancy at a high {1} cost. If the last {0} is disabled, shields are lost.",,{0} is Shield Emitter; {1} is Class Points
