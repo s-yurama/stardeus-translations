@@ -6206,7 +6206,7 @@ ship.chat.too.far.negative.rude.03,"エンジンがねえんだ。そっちが�
 space.object.ShipHyperTrail,ハイパージャンプ痕跡,,
 space.object.info.ShipHyperTrail,"船がハイパースペースに突入すると、時間がたつと徐々に消えていく痕跡が残ります。この痕跡から、船がどこへジャンプしたのかを知ることができます。",,
 ship.hypertrail.hot,船はハイパースペースに突入したが、まだこのセクターから離脱していないようだ。,,
-objects.devices.shieldemitter,シールド エミッター,,
+objects.devices.shieldemitter,シールドエミッター,,
 objects.devices.shieldemitter.desc,力場を展開し、エネルギー兵器や実体弾による攻撃を中和したり逸らしてくれる。,,
 ,,,
 overlay.tip.ShipCombat,対艦戦闘制御,,
@@ -7384,29 +7384,29 @@ no.battle.station.tip,{1}タイプの兵器に割り当てる{0}を建造する�
 not.enough.battle.stations.tip,{1}タイプの兵装には、{0}の数が足りていません。,,
 must.build.battle.stations.tip,{0}なし。全兵装が使用不能！,,{0} is Battle Station
 must.build.more.battle.stations.tip,制御下にない兵装があります。{0}を増設してください！,,{0} is Battle Stations (plural)
-no.ship.weapons,艦載兵装なし！,,
-unmanned.battle.stations,Unmanned battle stations detected. Manual weapon control required.,,
-battle.station.no.assigned.active.weapons,No active weapons assigned to this station.,,
-fully.assigned,Fully Assigned,,label for a list of something that can be assigned but already is fully assigned
-noun.total.sum,Total,,"as in ""total number of something"". You can use ""Sum"" as well."
-you.already.have.object,You already have a {0},,"{0} is going to be an object or device name, for example Shield Emitter. If it's different for beings, use inanimate version only."
-shield.emitter.overbuild.tip,"Multiple shield emitters do not increase shield strength, and shields will still drop when you vent flux. Additional emitters only provide redundancy - if the last emitter is destroyed, you lose all protection.",,
-build.flux.capacitors.tip,Build {0} to increase the number of shots your shields can absorb.,,{0} is Flux Capacitors (plural)
-verb.fire.weapon.short,Fire,,"fire a weapon (shoot). must be short, max 10 characters"
-verb.winding.up.short,Wind Up,,"short version of ""winding up"" - like a cold start of an engine. max 10 characters, but better less than that"
-verb.weapons.firing.short,Firing,,"weapons firing, max 10 characters or less"
-noun.flux.vent.state,Flux Vent State,,
-noun.weapon.capacity.upgrade,Weapon Capacity Upgrade,,
-noun.weapon.capacity.upgrade.desc,Increases the weapon capacity of a Battle Station.,,
-max.flux.capacity,Max Flux Capacity,,
-too.many.flux.capacitors,You already have enough {0} for your ship class. {1} supports a maximum flux of {2}.,,"{0} is Flux Capacitors, {1} is ship class name, {2} is a number"
-noun.flux.vent.rate,Flux Vent Rate,,
-noun.manual.fire,Manual Fire,,
-manual.fire.tip,"When this mode is enabled, the Battle Station receives the operator's accuracy bonus, but you control firing manually during ship combat.",,
-damage.type.decay,Decay,,when a body (either biological or robotic) is rotting / rusting
-noun.body.parts.biological.plural,Organs,,
-noun.body.parts.robotic.plural,Components,,
-noun.colony.jobs,Colony Jobs,,
+no.ship.weapons,艦載兵装なし,,
+unmanned.battle.stations,オペレーターがいない武器管制システムを検出しました。兵装は手動での制御が必要です。,,
+battle.station.no.assigned.active.weapons,この武器管制システムは、作動中の兵装が割り当てられていません。,,
+fully.assigned,全て割当済み,,label for a list of something that can be assigned but already is fully assigned
+noun.total.sum,合計,,"as in ""total number of something"". You can use ""Sum"" as well."
+you.already.have.object,すでに{0}を保有しています。,,"{0} is going to be an object or device name, for example Shield Emitter. If it's different for beings, use inanimate version only."
+shield.emitter.overbuild.tip,"シールドエミッターを複数設置してもシールドの強度は上がりません。また、フラックス放出中はシールドは解除されます。追加のエミッターは予備として機能するだけであり、最後のエミッターが破壊されるとシールドによる防御を失います。",,
+build.flux.capacitors.tip,{0}を建造すると、シールドで攻撃を吸収できる回数が増加します。,,{0} is Flux Capacitors (plural)
+verb.fire.weapon.short,発射,,"fire a weapon (shoot). must be short, max 10 characters"
+verb.winding.up.short,起動,,"short version of ""winding up"" - like a cold start of an engine. max 10 characters, but better less than that"
+verb.weapons.firing.short,射撃中,,"weapons firing, max 10 characters or less"
+noun.flux.vent.state,フラックス放出状況,,
+noun.weapon.capacity.upgrade,兵装制御数アップグレード,,
+noun.weapon.capacity.upgrade.desc,武器管制システムの兵装の制御可能数が増加します。,,
+max.flux.capacity,最大フラックス容量,,
+too.many.flux.capacitors,現在の船体クラスにおける十分な{0}が確保されています。{1}で維持できる最大フラックス容量は{2}です。,,"{0} is Flux Capacitors, {1} is ship class name, {2} is a number"
+noun.flux.vent.rate,フラックス放出速度,,
+noun.manual.fire,手動射撃,,
+manual.fire.tip,"このモードの有効中は、武器管制システムがオペレーターによる命中精度ボーナスを得ます。ただし、対艦戦闘中の射撃をあなた自身が操作しなければなりません。",,
+damage.type.decay,経時劣化,,when a body (either biological or robotic) is rotting / rusting
+noun.body.parts.biological.plural,臓器,,
+noun.body.parts.robotic.plural,部品,,
+noun.colony.jobs,コロニー内作業,,
 adj.unusable,使用不能,,
 adj.not.removable,取り外し不能,,
 body.op.remove.all,すべて取り外し,,
@@ -7417,11 +7417,11 @@ body.op.remove,パーツ取り外し,,
 body.op.install,パーツ組み込み,,
 body.op.swap,パーツ置き換え,,
 body.part.unusable,身体パーツ使用不能,,
-body.part.unusable.via.parent,Body part is unusable because it is attached to unusable {0},,{0} is parent part name
-derelict.ship.approach.too.early.warning,Something feels wrong about that ship. I recommend keeping our distance for now.,,
-use.search.hint,Use search to filter.,,
-noun.production.overview,Production Overview,,
-not.producing.this.category,You are not producing any items in this category.,,
+body.part.unusable.via.parent,この身体パーツは機能しません。接続先の{0}が機能していないためです。,,{0} is parent part name
+derelict.ship.approach.too.early.warning,あの船は何か嫌な予感がする。今は近づかない方がいい。,,
+use.search.hint,検索して絞り込めます。,,
+noun.production.overview,生産状況,,
+not.producing.this.category,このカテゴリで生産中のアイテムはありません。,,
 quest.colonist.stash.title,{0}'s Hidden Stash,,
 quest.colonist.stash.desc,{0} is asking to be sent on an expedition to a specific location. There is a stash of valuables there that nobody else knows about.,,
 quest.colonist.stash.step.explore.title,Let the colonist explore the area,,
