@@ -7473,32 +7473,32 @@ quest.colonist.revenge.desc.08,あなたの船の入植者の1人は以前乗っ
 quest.colonist.revenge.desc.09,入植者の1人がカードゲームで大金を賭けていたとき、船長にイカサマをされたと確信をしているようだ。しかも、復讐する気でいる。,,
 quest.colonist.revenge.desc.10,"12年前、ある船のクルーが工具箱を借りたまま返さなかった。入植者の1人は今でもそのことを根に持っている。
 ",,
-mood.colonist.revenge.satisfied,Had sweet revenge,,
-quest.colonist.crush.title,A Romantic Expedition,,
-quest.colonist.crush.desc,"{0} wants to be sent on an expedition together with {1}. Officially it is for exploration purposes, but the colonist appears far more interested in spending time with their crush than in the mission itself.",,{0} and {1} are names
-mood.colonist.crush.shared.expedition,Went on an expedition with my crush,,
-quest.step.shared.expedition.title,Send {0} on an expedition with {1},,{0} and {1} are names
-quest.step.shared.expedition.two.desc,Launch an expedition with both {0} and {1} aboard the shuttle.,,{0} and {1} are names
-quest.colonist.wants.pet.title,{0} wants a {1},,"{0} is name, {1} is species name (Cat)"
-quest.colonist.wants.pet.desc,{0} is asking you to get a {1} for the ship.,,"{0} is name, {1} is species name (Cat)"
-quest.step.get.species.title,Get a {0},,{0} is species name (Cat)
-quest.step.get.species.desc,Acquire a {0} for your ship.,,{0} is species name (Cat)
-mood.colonist.got.pet,There's a new pet on the ship!,,
-connector.tip.click.drag,Click {0} and drag a line to the device you want to connect or disconnect,,{0} is a button name
-research.disk.space.tip,Build or upgrade {0} to increase your disk space.,,"{0} is ""Disk Modules"" from next key"
-noun.disk.modules.plural,Disk Modules,,Must be plural of objects.devices.diskmodule key value
-noun.space.storm,Space Storm,,
-quest.step.start.expedition.desc,Select a {0} and send a crew to explore a location or mine a resource deposit.,,{0} is Shuttle
-situation.ColonySizeDiff,Target Colony Size (Difference),,
-how.do.i.travel.here,How do I travel here?,,
-noun.interstellar.space.travel,Interstellar Space Travel,,
-region.unreachable.warning,You cannot jump to this space region yet,,
-region.travel.methods,Interstellar Space Travel Methods,,
-region.travel.method.relay,Find and use a {0} in your current region to jump to an adjacent region with a relay.,,{0} is Hyperjump Relay
-region.travel.method.ftl,Use an {0} to jump to an adjacent region.,,{0} is FTL Drive
-region.travel.method.warp,Use a {0} to jump to any region in the universe.,,{0} is Horizon Warp Drive
-region.travel.method.blackhole,Use a {0} to go through a {1}.,,"{0} is Void Ripper, {1} is Black Hole"
-surgical.op.failed,{0} failed to perform surgery on {1}'s {2},,"{0} is surgeon name, {1} is patient's name, {2} is body part name"
+mood.colonist.revenge.satisfied,念願の復讐を果たした,,
+quest.colonist.crush.title,ロマンチックな探査,,
+quest.colonist.crush.desc,"{0}は{1}と一緒に探査に出たいと考えている。表向きは調査が目的だが、本人は任務そのものよりも気になる相手と一緒に過ごすことのほうに興味があるようだ。",,{0} and {1} are names
+mood.colonist.crush.shared.expedition,気になるあの人と一緒に探査,,
+quest.step.shared.expedition.title,{0}と{1}を一緒に探査に行かせる,,{0} and {1} are names
+quest.step.shared.expedition.two.desc,{0}と{1}の両方を同じシャトルに乗せて探査に出発させる。,,{0} and {1} are names
+quest.colonist.wants.pet.title,{0}は{1}を飼いたがっている,,"{0} is name, {1} is species name (Cat)"
+quest.colonist.wants.pet.desc,{0}が船に{1}を迎えてほしいとあなたにお願いしている。,,"{0} is name, {1} is species name (Cat)"
+quest.step.get.species.title,{0}を手に入れる,,{0} is species name (Cat)
+quest.step.get.species.desc,船に{0}を迎える。,,{0} is species name (Cat)
+mood.colonist.got.pet,新しいペットが船にやってきた！,,
+connector.tip.click.drag,{0}をクリックしてドラッグし、接続や切断をしたい機器まで線を繋いでください。,,{0} is a button name
+research.disk.space.tip,{0}を建造またはアップグレードすると、ディスク容量が増加します。,,"{0} is ""Disk Modules"" from next key"
+noun.disk.modules.plural,ディスクモジュール,,Must be plural of objects.devices.diskmodule key value
+noun.space.storm,宇宙嵐,,
+quest.step.start.expedition.desc,{0}を選択してクルーを目標地点に送り込むことで、資源鉱床を採掘します。,,{0} is Shuttle
+situation.ColonySizeDiff,目標コロニー規模（差分）,,
+how.do.i.travel.here,ここへは移動するには？,,
+noun.interstellar.space.travel,恒星間宇宙航行,,
+region.unreachable.warning,まだこの宙域にはジャンプできません,,
+region.travel.methods,恒星間宇宙航行のやり方,,
+region.travel.method.relay,現在の宙域にある{0}を使って、リレーのある隣接宙域へジャンプします。,,{0} is Hyperjump Relay
+region.travel.method.ftl,{0}を使って隣接宙域へジャンプします。,,{0} is FTL Drive
+region.travel.method.warp,{0}を使うと、宇宙のあらゆる宙域にジャンプすることができます。,,{0} is Horizon Warp Drive
+region.travel.method.blackhole,{0}を使って{1}を通り抜けます。,,"{0} is Void Ripper, {1} is Black Hole"
+surgical.op.failed,{0}は{1}の{2}の手術に失敗した,,"{0} is surgeon name, {1} is patient's name, {2} is body part name"
 noun.failed.surgery,手術失敗,,
 situation.StoryPointsPositiveMax,Story Points (Positive Max),,
 situation.StoryPointsPositive,Story Points (Positive),,
