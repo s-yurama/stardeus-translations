@@ -7197,13 +7197,13 @@ hyperjump.pause,ハイパージャンプ中断,,
 hyperjump.resume,ハイパージャンプ続行,,
 adj.paused,ポーズ中,,
 hyperjump.cancel,ハイパージャンプ中止,,
-no.notifications.0,異常なし。今のところは。,,Random message to display when there are no alerts
-no.notifications.1,なにも燃えてはいない。,,Random message to display when there are no alerts
-no.notifications.2,問題なさそうだ。,,Random message to display when there are no alerts. Quote from Pitch Black by Riddick right before bad stuff happens.
-no.notifications.3,大丈夫だ。問題ない。,,Random message to display when there are no alerts
-no.notifications.4,奇妙なまでに順調だ。,,Random message to display when there are no alerts
-no.notifications.5,緊急事態なし。楽しもう。,,Random message to display when there are no alerts
-no.notifications.6,警告なし。新鮮だ。,,Random message to display when there are no alerts
+no.notifications.0,現在は異常なし,,Random message to display when there are no alerts
+no.notifications.1,なにも燃えてない,,Random message to display when there are no alerts
+no.notifications.2,問題なさそうだ,,Random message to display when there are no alerts. Quote from Pitch Black by Riddick right before bad stuff happens.
+no.notifications.3,大丈夫だ。問題ない,,Random message to display when there are no alerts
+no.notifications.4,奇妙なまでに順調,,Random message to display when there are no alerts
+no.notifications.5,緊急事態なし。お楽しみタイムだ,,Random message to display when there are no alerts
+no.notifications.6,警告なし。なんて、めずらしい。,,Random message to display when there are no alerts
 issues.need.attention.one,要対応,,the text will be prefixed with 1. Try to keep translation short.
 issues.need.attention.two,要対応,,the text will be prefixed with 2. Try to keep translation short.
 issues.need.attention.few,要対応,,the text will be prefixed with 3 or 4. Try to keep translation short.
@@ -7422,56 +7422,56 @@ derelict.ship.approach.too.early.warning,あの船は何か嫌な予感がする
 use.search.hint,検索して絞り込めます。,,
 noun.production.overview,生産状況,,
 not.producing.this.category,このカテゴリで生産中のアイテムはありません。,,
-quest.colonist.stash.title,{0}'s Hidden Stash,,
-quest.colonist.stash.desc,{0} is asking to be sent on an expedition to a specific location. There is a stash of valuables there that nobody else knows about.,,
-quest.colonist.stash.step.explore.title,Let the colonist explore the area,,
-quest.colonist.stash.step.explore.desc,Send the colonist on an expedition to explore the area and uncover the stash.,,
-quest.reward.colonist.mood,{0} will be happy,,
-quest.reward.colonist.mood.apply,{0} is overjoyed!,,
-quest.colonist.device.title,Build a {0} for {1},,
-quest.colonist.device.desc,{0} would like a {1} to be built on the ship.,,
-colonist.asking.favor,{0} is asking for a personal favor.,,
-mood.colonist.device.built,A desired device was built,,
-quest.colonist.quarters.title,{0} wants privacy,,
-quest.colonist.quarters.desc,{0} would like to have their own private bedroom.,,
-mood.colonist.quarters.built,Finally got my own private quarters,,
-quest.step.has.personal.quarters.one,Build personal quarters for {0},,
-quest.step.has.personal.quarters.desc,Personal quarters are a private room with a single bed assigned to a colonist. The ideal room size is between {0} and {1} tiles.,,
-mood.colonist.stash.retrieved,Retrieved the hidden stash,,
-quest.colonist.bed.title,{0} needs a bed,,
-quest.colonist.bed.desc,{0} doesn't have an assigned bed and would like one.,,
-quest.step.has.bed.assigned,Assign a bed to {0},,
-quest.step.has.bed.assigned.desc,Build a bed and assign it to the colonist.,,
-mood.colonist.bed.assigned,Finally got my own bed,,
-personal.room,{0}'s Room,,
-quest.colonist.experiment.title,{0}'s Science Project,,
-quest.colonist.experiment.crawler.chip.desc,{0} wants to perform an experiment on a {1}. Capture a living specimen to give the colonist an opportunity to conduct their research.,,"{0} is colonist name, {1} is crawler"
-performed.an.experiment,Performed an experiment,,
-quest.step.experiment.wait.title,Wait for {0}'s experiment,,
-quest.step.experiment.crawler.chip.wait.desc,{0} is going to perform an experiment on the {1}. Make sure {0} is able use a {2}.,,"{0} is colonist name, {1} is crawler, {2} is Surgery Hub"
-quest.step.capture.being.title,Capture a {0},,{0} is crawler
-quest.step.capture.being.desc,Incapacitate a {0} in combat without killing it.,,{0} is crawler
-quest.colonist.revenge.title.01,Blood debt,,
-quest.colonist.revenge.title.02,Grudges die slowly,,
-quest.colonist.revenge.title.03,The coffee incident,,
-quest.colonist.revenge.title.04,Bitter memories,,
-quest.colonist.revenge.title.05,Academic theft,,
-quest.colonist.revenge.title.06,Abandoned in the void,,
-quest.colonist.revenge.title.07,An insult remembered,,
-quest.colonist.revenge.title.08,Unfinished business,,
-quest.colonist.revenge.title.09,Card table betrayal,,
-quest.colonist.revenge.title.10,Twelve years later,,
-quest.colonist.revenge.desc.01,A colonist wants revenge on a ship responsible for murdering their family.,,
-quest.colonist.revenge.desc.02,"Five years ago, the crew of a ship insulted a colonist's pet cat. They still have not moved on.",,
-quest.colonist.revenge.desc.03,A colonist claims a ship captain sold them counterfeit coffee back on Earth and wants payback.,,
-quest.colonist.revenge.desc.04,One of your colonists wants a ship destroyed because its captain married their ex-spouse.,,
-quest.colonist.revenge.desc.05,"Years ago, a valuable research project was stolen from one of your colonists. They believe they found the ship responsible.
+quest.colonist.stash.title,{0}の秘蔵品,,
+quest.colonist.stash.desc,{0}が特定地点への探査に行かせてほしいと希望している。そこには誰にも知られていない貴重なアイテムの隠し場所があるらしい。,,
+quest.colonist.stash.step.explore.title,入植者に周辺を探査させる,,
+quest.colonist.stash.step.explore.desc,入植者を探査に送り出し、周辺を調査して秘蔵品を見つけさせる,,
+quest.reward.colonist.mood,{0}が喜ぶ,,
+quest.reward.colonist.mood.apply,{0}は大喜びだ！,,
+quest.colonist.device.title,{1}のために{0}を建造,,
+quest.colonist.device.desc,{0}が船に{1}の建造を希望している。,,
+colonist.asking.favor,{0}が個人的な頼み事をしている。,,
+mood.colonist.device.built,頼まれていた機器が建造された。,,
+quest.colonist.quarters.title,{0}のプライバシー,,
+quest.colonist.quarters.desc,{0}は個室を欲しがっている。,,
+mood.colonist.quarters.built,やっと専用の部屋が完成した,,
+quest.step.has.personal.quarters.one,{0}専用の部屋を用意する,,
+quest.step.has.personal.quarters.desc,個室は入植者1人が割り当てられたベッド1台を備える専用の部屋です。理想的な広さは{0}から{1}タイルです。,,
+mood.colonist.stash.retrieved,秘蔵品を回収した,,
+quest.colonist.bed.title,{0}はベッドを必要としている,,
+quest.colonist.bed.desc,{0}には割り当てられたベッドがないため、ベッドを欲しがっています。,,
+quest.step.has.bed.assigned,{0}にベッドを割り当てる,,
+quest.step.has.bed.assigned.desc,ベッドを建造し、入植者に割り当ててください。,,
+mood.colonist.bed.assigned,やっと自分だけのベッドを手に入れた,,
+personal.room,{0}の部屋,,
+quest.colonist.experiment.title,{0}の科学プロジェクト,,
+quest.colonist.experiment.crawler.chip.desc,{0}は{1}を使う実験をしたいようだ。生きた個体を捕獲して研究を進められるよう手助けしてあげよう。,,"{0} is colonist name, {1} is crawler"
+performed.an.experiment,実験を実施した,,
+quest.step.experiment.wait.title,{0}の実験完了を待つ,,
+quest.step.experiment.crawler.chip.wait.desc,{0}が{1}を使って実験を行う予定だ。{0}が{2}を使えるようにしよう。,,"{0} is colonist name, {1} is crawler, {2} is Surgery Hub"
+quest.step.capture.being.title,{0}の捕獲,,{0} is crawler
+quest.step.capture.being.desc,戦闘中に{0}を殺さずに無力化しよう。,,{0} is crawler
+quest.colonist.revenge.title.01,血の報い,,
+quest.colonist.revenge.title.02,長年の恨み,,
+quest.colonist.revenge.title.03,コーヒー事件,,
+quest.colonist.revenge.title.04,苦い記憶,,
+quest.colonist.revenge.title.05,研究成果の盗用,,
+quest.colonist.revenge.title.06,虚空の忘れ物,,
+quest.colonist.revenge.title.07,忘れられぬ侮辱,,
+quest.colonist.revenge.title.08,まだ終わっていない,,
+quest.colonist.revenge.title.09,カード卓での裏切り,,
+quest.colonist.revenge.title.10,12年後,,
+quest.colonist.revenge.desc.01,家族を虐殺した船への復讐を考えている入植者がいるようだ。,,
+quest.colonist.revenge.desc.02,5年前、ある船のクルーが入植者の飼い猫を馬鹿にした。本人はいまだにそのことを根に持っているらしい。,,
+quest.colonist.revenge.desc.03,ある入植者の主張によると、地球にいた頃の船長に偽物のコーヒーをつかまされたらしい。その仕返しを望んでいるようだ。,,
+quest.colonist.revenge.desc.04,とある入植者は、別れた相手と結婚した船長の船を沈めたがっているようだ。,,
+quest.colonist.revenge.desc.05,"何年も前、入植者の1人が大切な研究プロジェクトを盗まれてしまった。その犯人の船を突き止めたらしい。
 ",,
-quest.colonist.revenge.desc.06,A colonist has identified the ship whose crew abandoned them during a pirate attack and wants revenge.,,
-quest.colonist.revenge.desc.07,A station bar incident left a colonist publicly humiliated. Now they want the responsible captain dealt with.,,
-quest.colonist.revenge.desc.08,One of your colonists believes a ship sabotaged their previous vessel and wants retaliation.,,
-quest.colonist.revenge.desc.09,A colonist is convinced a ship captain cheated them during a high-stakes card game and wants revenge.,,
-quest.colonist.revenge.desc.10,"Twelve years ago, a ship crew borrowed a toolbox and never returned it. One colonist still remembers.
+quest.colonist.revenge.desc.06,海賊に襲撃された際に置き去りにされたことのある入植者がいる。置き去りにしたクルーの船を突き止めたらしい。仕返しをしたいそうだ。,,
+quest.colonist.revenge.desc.07,ステーションの酒場で起きた騒ぎで入植者の1人が大勢の前で恥をかかされた。騒ぎの発端となった船長に落とし前をつけさせるつもりだ。,,
+quest.colonist.revenge.desc.08,あなたの船の入植者の1人は以前乗っていた船に破壊工作を仕掛けた船があると考えている。報復をしたいようだ。,,
+quest.colonist.revenge.desc.09,入植者の1人がカードゲームで大金を賭けていたとき、船長にイカサマをされたと確信をしているようだ。しかも、復讐する気でいる。,,
+quest.colonist.revenge.desc.10,"12年前、ある船のクルーが工具箱を借りたまま返さなかった。入植者の1人は今でもそのことを根に持っている。
 ",,
 mood.colonist.revenge.satisfied,Had sweet revenge,,
 quest.colonist.crush.title,A Romantic Expedition,,
