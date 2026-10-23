@@ -8057,13 +8057,13 @@ policy.forbid.second.hand.tip,"Should this being refuse to equip anything that h
 policy.forbid.dead.mans,Forbid Dead Person's Gear,,Toggle label in the Equipment policy tab
 policy.forbid.dead.mans.tip,"Should this being refuse to equip anything that was taken off a corpse? Beings without feelings, such as robots, ignore this.",,Tooltip for the Forbid Dead Person's Gear toggle
 item.second.hand,Second-hand,,"Line in an equipment item's tooltip, meaning it has already belonged to someone else"
-item.belonged.to.dead,Taken from the dead,,"Line in an equipment item's tooltip, meaning it was removed from a corpse"
-mood.tattered.gear,Wearing tattered gear,,"Negative mood effect label in the Sanity tab, shown while wearing worn-out low quality equipment"
-item.tattered,Tattered,,"Line in an equipment item's tooltip, meaning its quality is so low that wearing it is depressing"
-being.group.guest,Guests,,Short name for top right group rectangle widget. Keep it under 9 characters or less or it will wrap and look ugly
-noun.guests,Guests,,"Title of the Beings/Guests codex page, and generic noun for rescued non-hostile survivors of another faction living aboard the player's ship (plural)"
-noun.guest,Guest,,generic noun for rescued non-hostile survivors of another faction living aboard the player's ship (singular)
-situation.Guests,Guests,,
+item.belonged.to.dead,死体から剥ぎ取られた,,"Line in an equipment item's tooltip, meaning it was removed from a corpse"
+mood.tattered.gear,ボロボロの装備を着用,,"Negative mood effect label in the Sanity tab, shown while wearing worn-out low quality equipment"
+item.tattered,ボロボロ,,"Line in an equipment item's tooltip, meaning its quality is so low that wearing it is depressing"
+being.group.guest,ゲスト,,Short name for top right group rectangle widget. Keep it under 9 characters or less or it will wrap and look ugly
+noun.guests,ゲスト,,"Title of the Beings/Guests codex page, and generic noun for rescued non-hostile survivors of another faction living aboard the player's ship (plural)"
+noun.guest,ゲスト,,generic noun for rescued non-hostile survivors of another faction living aboard the player's ship (singular)
+situation.Guests,ゲスト,,
 codex.m.guests1,"Guests are survivors rescued from derelict ships and stations. They keep their own faction, and they eat, sleep and socialise alongside your crew - but they never take a work order.",,First paragraph of the Beings/Guests codex page
 codex.m.guests2,Living guests are listed in their own Guests group in the beings list at the top of the screen - separate from your crew.,,Second paragraph of the Beings/Guests codex page
 codex.m.guests3,"To send a guest home, hail a ship or space station belonging to their faction and choose {0}. Their people will come collect everyone of that faction currently aboard your ship, pay you for each person returned, and their attitude towards you will improve.",,Third paragraph of the Beings/Guests codex page. {0} is the accented 'Send Beings' hail action label
@@ -8075,10 +8075,10 @@ obj.equipment.clothing.clowncostume01.desc,"A garish, oversized costume popular 
 ev.raid.clown.title,Send in the Clowns!,,title of the Clown Raid story event
 ev.raid.clown.desc,A gang of clowns has burst out of the {0} and started a raid!,,description of the Clown Raid story event. {0} is the name of the device they came out of
 ad.rej.mat.reserved,Reserved for a higher priority task,,Reason shown on a task that is not being worked on because a higher priority task is waiting to accumulate the same material
-obj.misc.resonancecharge,Resonance Charge,,
-obj.misc.resonancecharge.desc,A demolition charge that shatters the structure of an entire ship section with a single resonance pulse.,,
-resonance.charge.error.no.section,The charge must be placed on a ship section floor.,,error shown when arming a Resonance Charge that is not standing on a ship section
-scenario.new_beginning,New Beginning,,
+obj.misc.resonancecharge,共振爆薬,,
+obj.misc.resonancecharge.desc,船のセクションを一発の共振パルスで丸ごと破壊する解体用爆薬だ。,,
+resonance.charge.error.no.section,爆薬を船のセクションの床に設置する必要があります。,,error shown when arming a Resonance Charge that is not standing on a ship section
+scenario.new_beginning,新たな始まり,,
 scenario.new_beginning.tooltip,Rebuild a wrecked spaceship with a robot crew. The recommended start.,,
 story.new_beginning.intro.crew,"There are no humans awake yet. It is just you, me, and a few machines. They will handle the building, hauling and repairs. All of them need electricity, so that is where we start.",,"New Beginning scenario intro, step 4. Introduces the robotic crew."
 story.new_beginning.intro.stasis,"{0} colonists are hibernating in the {1}. Their pods are running on an emergency reactor, so they are safe for now. We have some time before anyone wakes up.<br><br>Use it to prepare a sealed room with an atmosphere and some amenities. We should have it ready before the first colonist wakes.",,"New Beginning scenario intro, step 5. {0} is the number of colonists in stasis. {1} is Stasis Array"
