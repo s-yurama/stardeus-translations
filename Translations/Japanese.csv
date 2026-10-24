@@ -7760,26 +7760,26 @@ postfx.vivid,鮮やか,,
 noun.diplomacy,交渉,,
 noun.allies,友好的,,Header above the row of allied faction flags in the Diplomacy panel
 noun.enemies,敵対的,,Header above the row of hostile faction flags in the Diplomacy panel
-diplomacy.propose.alliance,Propose Alliance,,Button in the Diplomacy panel that offers an alliance to a faction
-diplomacy.propose.chance,Chance they accept: {0},,Tooltip on the Propose Alliance button. {0} is a percentage
-diplomacy.propose.cooldown,We can approach them again in {0},,"Tooltip shown when the Propose Alliance button is on cooldown. {0} is a duration, i.e. 5 days"
-diplomacy.alliance.impossible,This faction will never enter an alliance.,,Tooltip explaining why the Propose Alliance button is disabled for factions like Pirates and Virus
-diplomacy.alliance.accepted,{0} accepted our alliance proposal,,Ship log line. {0} is a faction name
-diplomacy.alliance.rejected,{0} declined our alliance proposal,,Ship log line. {0} is a faction name
-diplomacy.break.alliance,Break Alliance,,Red button in the Diplomacy panel that ends an alliance
-diplomacy.break.alliance.confirm,"Breaking our alliance with {0} will damage our standing with them, and we will not be able to propose a new alliance for a long time.",,Confirmation popup body and tooltip for the Break Alliance button. {0} is a faction name
-diplomacy.alliance.broken,Our alliance with {0} has ended,,Ship log line. {0} is a faction name
-diplomacy.relation.became.enemy,{0} now considers us an enemy,,Ship log line. {0} is a faction name
-diplomacy.relation.no.longer.enemy,{0} no longer considers us an enemy,,Ship log line. {0} is a faction name
-diplomacy.asimov.alliance,This alliance is enforced by the Asimov Override and cannot be broken by hand. It ends if the override is destroyed.,,Tooltip on the disabled Break Alliance button for the Virus faction
-diplomacy.alliance.accepted.popup,{0} has accepted our alliance proposal. We are now allies.,,Popup body shown right after the player proposes an alliance and it is accepted. {0} is a faction name
-diplomacy.alliance.rejected.popup,"{0} has declined our alliance proposal. The failed approach cost us a little standing with them, and we should let some time pass before asking again.",,Popup body shown right after the player proposes an alliance and it is refused. {0} is a faction name
-bodypart.Implant.MoodRegulator,Mood Regulator,,Name of an implant body part. Also shown as the reason label on the permanent mood bonus it grants.
-bodypart.Implant.MoodRegulator.desc,Continuously tunes the subject's mental state.,,Description of the Mood Regulator implant body part
-ship.combat.enemy.joined,{0} joins the battle against us,,{0} is the name of an NPC ship that joined the enemy side in ship combat
-obj.equipment.weapons.nailgun01,Nail Gun,,
-obj.equipment.weapons.nailgun01.desc,A construction tool that drives nails into things other than walls.,,
-research.security.improvisedarms,Improvised Arms,,
+diplomacy.propose.alliance,同盟締結の提案,,Button in the Diplomacy panel that offers an alliance to a faction
+diplomacy.propose.chance,受諾される確率: {0},,Tooltip on the Propose Alliance button. {0} is a percentage
+diplomacy.propose.cooldown,あと{0}で再び交渉可能。,,"Tooltip shown when the Propose Alliance button is on cooldown. {0} is a duration, i.e. 5 days"
+diplomacy.alliance.impossible,この勢力とは同盟を結べるようにはならない。,,Tooltip explaining why the Propose Alliance button is disabled for factions like Pirates and Virus
+diplomacy.alliance.accepted,{0}が同盟締結の提案を受け入れました,,Ship log line. {0} is a faction name
+diplomacy.alliance.rejected,{0}が同盟締結の提案を拒否しました,,Ship log line. {0} is a faction name
+diplomacy.break.alliance,同盟破棄,,Red button in the Diplomacy panel that ends an alliance
+diplomacy.break.alliance.confirm,"{0}との同盟を破棄すると、相手との関係が悪化する。さらに、長期間にわたって同盟締結の提案ができなくなる。",,Confirmation popup body and tooltip for the Break Alliance button. {0} is a faction name
+diplomacy.alliance.broken,{0}との同盟関係が終了した,,Ship log line. {0} is a faction name
+diplomacy.relation.became.enemy,{0}は今や我々を敵とみなしている,,Ship log line. {0} is a faction name
+diplomacy.relation.no.longer.enemy,{0}はもう我々を敵とみなしてはいない,,Ship log line. {0} is a faction name
+diplomacy.asimov.alliance,この同盟関係はアシモフ・オーバーライドによって強制されており、手動で破棄できない。オーバーライドが破壊されると同盟関係が終了する。,,Tooltip on the disabled Break Alliance button for the Virus faction
+diplomacy.alliance.accepted.popup,{0}が同盟締結の提案を受け入れた。我々は同盟関係となった。,,Popup body shown right after the player proposes an alliance and it is accepted. {0} is a faction name
+diplomacy.alliance.rejected.popup,"{0}は同盟締結の提案を拒否した。交渉が失敗したことで相手との関係が少し悪化した。再び提案するには少し時間を置いた方がよさそうだ。",,Popup body shown right after the player proposes an alliance and it is refused. {0} is a faction name
+bodypart.Implant.MoodRegulator,気分調整インプラント,,Name of an implant body part. Also shown as the reason label on the permanent mood bonus it grants.
+bodypart.Implant.MoodRegulator.desc,被験者の精神状態を継続的に調整する。,,Description of the Mood Regulator implant body part
+ship.combat.enemy.joined,{0}が敵側で戦闘に参加,,{0} is the name of an NPC ship that joined the enemy side in ship combat
+obj.equipment.weapons.nailgun01,ネイルガン,,
+obj.equipment.weapons.nailgun01.desc,建設用の工具だ。壁以外のものに釘を打ち込むため。,,
+research.security.improvisedarms,即席武器,,
 obj.equipment.weapons.sniperrifle01,スナイパーライフル,,
 obj.equipment.weapons.sniperrifle01.desc,長い銃身と倍率スコープを備えた命中精度の高いライフルだ。遠距離では脅威となる。近距離では使い物にならない。,,
 research.security.precisionfirearms,精密射撃,,
