@@ -1223,7 +1223,7 @@ hauling.item,アイテムを運搬中,,
 hauling.to.processing,加工のため搬送中,,
 hauling.to.storage,収納庫へ搬送,,
 heading,目的地座標,,
-health,HP,,
+health,健康状態,,
 health.bar.info,HP: {0}/{1},,
 health.percent,HP: {0:0}%,,
 heat.at,{0}での温度: {1},,
@@ -7611,29 +7611,29 @@ feedback.balance,ゲームバランス,,"as in ""game balance"""
 feedback.balance.tip,"ゲームバランスの問題。例：<br> - Xの生産にYが必要だが、Yの研究はXより後に解放される<br> - XはYより高価だが、生産コストは大幅に安い<br> - 武器Xが強すぎる"",,
 abandon.tutorial.quest.tip,これはチュートリアル用クエストです。放棄しても不利益はありません。,,
 opening.tutorial,チュートリアル開始,,for a popup that will automatically open a tutorial
-tut.el.connect.title,Connecting Devices,,
-tut.activate.tool,Activate the {0} tool.,,{0} - Connect
-tut.press.button.on.object,Press {0} on a {1}.,,"{0} is button, {1} is connector"
-tut.drag.connect.line,Drag the connection to the device you want to connect.,,
-tut.release.button.to.connect,Release {0} to create the connection.,,{0} is button
-tut.el.connect.cpu.warning,{0} must be connected before anything else!,,{0} is ship computer
-open.in.background,Open in Background,,for opening popups behind the current window
-delete.all.saves,Delete all saves ({0}),,QuickChoice action in the load game menu
-delete.all.autosaves,Delete all autosaves ({0}),,QuickChoice action in the load game menu
-game.delete.all.confirm.details,Are you sure you want to delete the entire save directory and all of its contents? This cannot be undone.,,Confirmation warning for deleting all saves
-manual.action.required,Manual Action Required,,
-local.maneuvering.multiple.sections,"Multiple sections can be moved. Select a {0} on the section you want to move, then use the {1} action in the bottom bar to start the maneuver.",,"{0} is maneuvering controller, {1} is Move Ship"
-verb.set.priority,Set Priority,,for setting task priority
-adj.forbidden,Forbidden,,in context of task priority
-adj.priority.lowest,Lowest,,in context of task priority
-adj.priority.highest,Highest,,in context of task priority
-trait.minimalist,Minimalist,,
-trait.minimalist.about,Prefers compact personal quarters.,,
-noun.controls,Controls,,as in 'UI Controls'
-tut.el.connecting.with.key,Connecting Devices with {0},,{0} is the key name
-tut.el.connecting.with.key.desc,There is a quicker way to connect devices.,,
-tut.select.obj,Select a {0},,
-tut.hold.button,Hold {0},,
+tut.el.connect.title,機器の接続,,
+tut.activate.tool,{0}ツールを有効にしましょう。,,{0} - Connect
+tut.press.button.on.object,{1}で{0}を押してください。,,"{0} is button, {1} is connector"
+tut.drag.connect.line,接続したい機器まで、ドラッグして線を繋いでください。,,
+tut.release.button.to.connect,{0}を離すと接続が作成されます。,,{0} is button
+tut.el.connect.cpu.warning,まず最初に、{0}を接続しましょう！,,{0} is ship computer
+open.in.background,背面で開く,,for opening popups behind the current window
+delete.all.saves,すべてのセーブを削除({0}個),,QuickChoice action in the load game menu
+delete.all.autosaves,すべてのオートセーブを削除({0}個),,QuickChoice action in the load game menu
+game.delete.all.confirm.details,セーブデータの保存ディレクトリと、その中の全てのファイルを削除してもよろしいですか？ この操作は取り消せません。,,Confirmation warning for deleting all saves
+manual.action.required,手動操作が必要,,
+local.maneuvering.multiple.sections,"複数のセクションを移動できます。移動したいセクションに設置してある{0}を選び、画面下部の{1}アクションを使用して航行を開始しましょう。",,"{0} is maneuvering controller, {1} is Move Ship"
+verb.set.priority,優先度を設定,,for setting task priority
+adj.forbidden,禁止,,in context of task priority
+adj.priority.lowest,最低,,in context of task priority
+adj.priority.highest,最高,,in context of task priority
+trait.minimalist,ミニマリスト,,
+trait.minimalist.about,狭い個室が好き,,
+noun.controls,コントロール,,as in 'UI Controls'
+tut.el.connecting.with.key,{0}キーで機器を接続,,{0} is the key name
+tut.el.connecting.with.key.desc,デバイスをもっと素早く接続する方法があります。,,
+tut.select.obj,{0}を選択,,
+tut.hold.button,{0}を長押し,,
 winch.rotate_obstacle,Rotation was blocked by an obstacle. You can remove it and retry the operation.,,Shown when CmdRotateSection aborts because a destination tile is occupied by something outside the rotating section
 winch.rotate_oob,The section cannot rotate here - it would leave the edge of the map. Move it closer to the center first.,,Shown when CmdRotateSection aborts because rotation would push a tile out of map bounds
 mods.active.warning.title,Playing With Mods,,Title of the system popup shown once per session when third-party mods are enabled
