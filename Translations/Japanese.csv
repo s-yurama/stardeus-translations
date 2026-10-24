@@ -7242,9 +7242,9 @@ el.device.disconnected,未接続,,
 el.device.disconnected.desc,この機器はパワーグリッドに接続されていません。,,
 compatible.upgrade.types,互換性のあるアップグレード,,
 available.upgrades,利用可能なアップグレード,,
-verb.draft,編成,,as in draft into an army
-verb.undraft,編成解除,,as in realease from the army
-adj.drafted,編成中,,as in drafted into an army
+verb.draft,戦闘態勢,,as in draft into an army
+verb.undraft,戦闘解除,,as in realease from the army
+adj.drafted,戦闘態勢中,,as in drafted into an army
 noun.universe.size,宇宙のサイズ,,
 space.stats.line,この宇宙は{0}個のセクターと、それらを含む{1}個の宙域で構成されています。,,
 storage.eject.all,全て取り出す,,button label for ejecting all items in storage
@@ -7588,29 +7588,29 @@ verb.unloading,荷下ろし中,,
 verb.calling,呼び出し中,,"when someone is calling your on a phone, etc"
 count.onboard,乗船人数: {0},,"count of beings aboard the ship, {0} is the number"
 disable.demo.mode,デモモードの無効化,,
-disable.demo.mode.tip,"If Demo Mode is disabled, the last save will load paused and the camera will stay still in the main menu.",,
-input.DraftUnit,Shortcut: Draft Selected Beings,,draft the currently selected being into combat mode
-expedition.guest.needs.escort,Guest passenger requires at least one escort crew member.,,Error shown when player tries to launch an expedition with a delivery-quest passenger but no escort crew member selected.
-cond.CryoSickness,Cryo Sickness,,Name of the Cryo Sickness condition shown in the being's status panel
-cond.CryoSickness.desc,Disoriented and nauseous after waking from cryo stasis. Cannot perform colony work until it passes.,,Tooltip description for the Cryo Sickness condition; shown when hovering the status icon on a colonist
-exit.with.note,Save and Exit with note to self,,QuickChoice option in main menu Exit
-menu.save.and.exit,Save and Exit,,QuickChoice option and popup button in main menu Exit
-note.to.self.title,Note to Self,,Title of the note-to-self input popup and the reminder popup shown on next load
-note.to.self.desc,Leave yourself a reminder for next time you return.,,Subtitle of the note-to-self input popup
-note.to.self.label,Your note,,Label above the note-to-self text input field
-note.to.self.placeholder,e.g. finish wiring the reactor room,,Placeholder text in the note-to-self input field
-input.ShortcutDispose,Shortcut: Dipose Selected Being or Object,,
-input.OpenProduction,Shortcut: Open Production Overview,,
-input.OpenSurgeries,Shortcut: Open Surgeries,,
-input.OpenQuests,Shortcut: Open Quests,,
-modifier.DestructionLevel,Destruction Level,,Label for the ModifierDestructionLevel slider in Wrecked Empty Ship custom game setup
-modifier.DestructionLevel.desc,Controls how much of the ship is destroyed when generating a wrecked ship. Lower values keep more of the ship intact and place a larger share of starting materials into storage units instead of scattering them.,,Tooltip for the Destruction Level slider; range is 15% (mostly intact) to 75% (heavily destroyed)
-complete.more.quests.to.unlock,Complete more quests to unlock this storyline.,,
-space.object.info.Ship,Space Ship,,
-feedback.balance,Balance,,"as in ""game balance"""
-feedback.balance.tip,"Game balance issue. Examples: <br> - Producing X requires Y, but Y is researched after X<br> - X costs more than Y, but is much cheaper to produce<br> - Weapon X is OP",,
-abandon.tutorial.quest.tip,This is a tutorial quest. It can be abandoned without any negative consequences.,,
-opening.tutorial,Opening Tutorial,,for a popup that will automatically open a tutorial
+disable.demo.mode.tip,"デモモードを無効にすると前回のセーブデータが一時停止状態で読み込まれ、メインメニューではカメラが移動しなくなります。",,
+input.DraftUnit,ショートカット：選択中の生命体を戦闘態勢にする,,draft the currently selected being into combat mode
+expedition.guest.needs.escort,乗客を護衛するためのクルーが最低1人必要です。,,Error shown when player tries to launch an expedition with a delivery-quest passenger but no escort crew member selected.
+cond.CryoSickness,冷凍睡眠酔い,,Name of the Cryo Sickness condition shown in the being's status panel
+cond.CryoSickness.desc,冷凍睡眠から目覚めた後のため、平衡感覚乱れて吐き気を感じています。この症状が治まるまで作業ができません。,,Tooltip description for the Cryo Sickness condition; shown when hovering the status icon on a colonist
+exit.with.note,セーブして終了、メモを残す,,QuickChoice option in main menu Exit
+menu.save.and.exit,セーブして終了,,QuickChoice option and popup button in main menu Exit
+note.to.self.title,自分用メモ,,Title of the note-to-self input popup and the reminder popup shown on next load
+note.to.self.desc,次に戻ってきたときのために、忘れないようメモを残そう。,,Subtitle of the note-to-self input popup
+note.to.self.label,メモ,,Label above the note-to-self text input field
+note.to.self.placeholder,例：リアクター区画で配線をする,,Placeholder text in the note-to-self input field
+input.ShortcutDispose,ショートカット：選択中の生命体またはオブジェクトを処分,,
+input.OpenProduction,ショートカット：生産状況を開く,,
+input.OpenSurgeries,ショートカット：手術一覧を開く,,
+input.OpenQuests,ショートカット：クエストを一覧を開く,,
+modifier.DestructionLevel,損傷の度合い,,Label for the ModifierDestructionLevel slider in Wrecked Empty Ship custom game setup
+modifier.DestructionLevel.desc,難破船を生成する際の船の損傷度合いを設定します。値が低いほど船の損傷が無傷に近くなります。また、アイテムの多くが散乱せずに保管庫に収納されます。,,Tooltip for the Destruction Level slider; range is 15% (mostly intact) to 75% (heavily destroyed)
+complete.more.quests.to.unlock,このストーリーを解放するには、クエストをもっとクリアしてください。,,
+space.object.info.Ship,宇宙船,,
+feedback.balance,ゲームバランス,,"as in ""game balance"""
+feedback.balance.tip,"ゲームバランスの問題。例：<br> - Xの生産にYが必要だが、Yの研究はXより後に解放される<br> - XはYより高価だが、生産コストは大幅に安い<br> - 武器Xが強すぎる"",,
+abandon.tutorial.quest.tip,これはチュートリアル用クエストです。放棄しても不利益はありません。,,
+opening.tutorial,チュートリアル開始,,for a popup that will automatically open a tutorial
 tut.el.connect.title,Connecting Devices,,
 tut.activate.tool,Activate the {0} tool.,,{0} - Connect
 tut.press.button.on.object,Press {0} on a {1}.,,"{0} is button, {1} is connector"
